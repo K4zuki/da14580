@@ -6,5 +6,5 @@
 (define-layer! 2 (cons 'filename "MurataBLE.GTS")(cons 'visible #t)(cons 'color #(30069 62194 26471)))
 (define-layer! 1 (cons 'filename "MurataBLE.GTO")(cons 'visible #t)(cons 'color #(49601 0 57568)))
 (define-layer! 0 (cons 'filename "MurataBLE.GML")(cons 'visible #t)(cons 'color #(29555 29555 57054)))
-(define-layer! -1 (cons 'filename "H:/common/GitHub/da14580/MurataBLE")(cons 'visible #f)(cons 'color #(0 0 0)))
+(define-layer! -1 (cons 'filename "W:/Tokyo/Home/kyamamot/common/GitHub/da14580/MurataBLE")(cons 'visible #f)(cons 'color #(0 0 0)))
 (set-render-type! 2)

@@ -199,7 +199,7 @@
 <wire x1="13.9" y1="21.9" x2="13.1" y2="21.9" width="0.15" layer="41"/>
 <wire x1="13.9" y1="18.3" x2="13.9" y2="17.5" width="0.15" layer="41"/>
 <wire x1="13.9" y1="21.9" x2="13.9" y2="21.1" width="0.15" layer="41"/>
-<text x="25" y="10.5" size="1" layer="25" font="vector" ratio="20" align="center">muRata LBCA2HNZYZ evaluation board</text>
+<text x="25.1" y="38.2" size="1" layer="25" font="vector" ratio="20" align="center">muRata LBCA2HNZYZ BLE module breakout</text>
 <text x="0.6" y="17" size="1" layer="1" font="vector" ratio="20">rev 0.1
 @_K4ZUKI_</text>
 </plain>
