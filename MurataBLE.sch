@@ -261,11 +261,13 @@ DIN A4, landscape with location and doc. field</description>
 <text x="0.2" y="7.7" size="1.27" layer="27" ratio="16">&gt;VALUE</text>
 </package>
 <package name="CR_1608">
-<wire x1="0" y1="0.635" x2="0" y2="-0.635" width="0.2" layer="21"/>
-<smd name="1" x="-0.9" y="0" dx="1" dy="1" layer="1"/>
-<smd name="2" x="0.9" y="0" dx="1" dy="1" layer="1"/>
-<text x="-0.6" y="0.9" size="1.27" layer="25" font="vector" ratio="15">&gt;NAME</text>
-<text x="-0.6" y="-2.2" size="1.27" layer="27" font="vector" ratio="15">&gt;VALUE</text>
+<wire x1="0" y1="0.6" x2="0" y2="-0.6" width="0.2" layer="21"/>
+<smd name="1" x="-0.9" y="0" dx="1" dy="1" layer="1" stop="no"/>
+<smd name="2" x="0.9" y="0" dx="1" dy="1" layer="1" stop="no"/>
+<text x="0" y="1.5" size="1.27" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+<text x="-0.1" y="-1.5" size="1.27" layer="27" font="vector" ratio="15" align="center">&gt;VALUE</text>
+<rectangle x1="-1.45" y1="-0.55" x2="-0.35" y2="0.55" layer="29"/>
+<rectangle x1="0.35" y1="-0.55" x2="1.45" y2="0.55" layer="29"/>
 </package>
 <package name="CR_2125">
 <wire x1="-0.3175" y1="0.635" x2="-0.3175" y2="0" width="0.127" layer="21"/>
@@ -292,15 +294,17 @@ chip</description>
 <wire x1="0.3175" y1="0" x2="0.3175" y2="0.635" width="0.127" layer="51"/>
 <wire x1="-0.3175" y1="0" x2="-0.9525" y2="0" width="0.127" layer="51"/>
 <wire x1="0.3175" y1="0" x2="0.9525" y2="0" width="0.127" layer="51"/>
-<wire x1="-2.2" y1="1.2" x2="2.2" y2="1.2" width="0.2" layer="21"/>
-<wire x1="2.2" y1="1.2" x2="2.2" y2="-1.2" width="0.2" layer="21"/>
-<wire x1="2.2" y1="-1.2" x2="-2.2" y2="-1.2" width="0.2" layer="21"/>
-<wire x1="-2.2" y1="-1.2" x2="-2.2" y2="1.2" width="0.2" layer="21"/>
-<smd name="1" x="-1.3" y="0" dx="1.3" dy="1.8" layer="1"/>
-<smd name="2" x="1.3" y="0" dx="1.3" dy="1.8" layer="1"/>
-<text x="-1.27" y="1.4605" size="1.27" layer="25" font="vector" ratio="16">&gt;NAME</text>
-<text x="-1.27" y="-2.7305" size="1.27" layer="27" font="vector" ratio="16">&gt;VALUE</text>
+<wire x1="-2.2" y1="1.1" x2="2.2" y2="1.1" width="0.2" layer="21"/>
+<wire x1="2.2" y1="1.1" x2="2.2" y2="-1.1" width="0.2" layer="21"/>
+<wire x1="2.2" y1="-1.1" x2="-2.2" y2="-1.1" width="0.2" layer="21"/>
+<wire x1="-2.2" y1="-1.1" x2="-2.2" y2="1.1" width="0.2" layer="21"/>
+<smd name="1" x="-1.3" y="0" dx="1.3" dy="1.8" layer="1" stop="no"/>
+<smd name="2" x="1.3" y="0" dx="1.3" dy="1.8" layer="1" stop="no"/>
+<text x="0" y="2" size="1.27" layer="25" font="vector" ratio="16" align="center">&gt;NAME</text>
+<text x="-0.1" y="-2" size="1.27" layer="27" font="vector" ratio="16" align="center">&gt;VALUE</text>
 <rectangle x1="-0.3" y1="-0.5001" x2="0.3" y2="0.5001" layer="35"/>
+<rectangle x1="-2" y1="-0.95" x2="-0.6" y2="0.95" layer="29"/>
+<rectangle x1="0.6" y1="-0.95" x2="2" y2="0.95" layer="29"/>
 </package>
 <package name="C0402">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
@@ -497,10 +501,10 @@ Source: http://www.cypressindustries.com/pdf/85-32004-00x.pdf</description>
 <pad name="GND" x="0" y="-1.6" drill="0.5"/>
 <pad name="ID" x="-1.2" y="-0.8" drill="0.5" rot="R180"/>
 <pad name="D-" x="-1.2" y="0.8" drill="0.5" rot="R180"/>
-<pad name="G@3" x="-0.8" y="-3.7" drill="0.8" shape="long" rot="R180"/>
-<pad name="G@2" x="-0.8" y="3.7" drill="0.8" shape="long"/>
-<pad name="G" x="-5.6" y="-3.7" drill="0.8" shape="long"/>
-<pad name="G@1" x="-5.6" y="3.7" drill="0.8" shape="long"/>
+<pad name="GND@3" x="-0.8" y="-3.7" drill="0.8" shape="long" rot="R180"/>
+<pad name="GND@2" x="-0.8" y="3.7" drill="0.8" shape="long"/>
+<pad name="GND@4" x="-5.6" y="-3.7" drill="0.8" shape="long"/>
+<pad name="GND@1" x="-5.6" y="3.7" drill="0.8" shape="long"/>
 <wire x1="-5" y1="-3.3" x2="-4.6" y2="-3.7" width="0.02" layer="46" curve="-90"/>
 <wire x1="-4.6" y1="-3.7" x2="-5" y2="-4.1" width="0.02" layer="46" curve="-90"/>
 <wire x1="-6.2" y1="-4.1" x2="-6.6" y2="-3.7" width="0.02" layer="46" curve="-90"/>
@@ -653,6 +657,7 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/TDA988
 <rectangle x1="2.025" y1="-1.925" x2="3.275" y2="-1.575" layer="29" rot="R180"/>
 <rectangle x1="2.025" y1="1.575" x2="3.275" y2="1.925" layer="29" rot="R180"/>
 <rectangle x1="1.125" y1="2.475" x2="2.375" y2="2.825" layer="29" rot="R270"/>
+<rectangle x1="-2.4" y1="-2.4" x2="2.4" y2="2.4" layer="41"/>
 </package>
 <package name="IC_05_0.95_50MIL">
 <description>&lt;b&gt;Small Outline Transistor&lt;/b&gt;&lt;p&gt;
@@ -667,19 +672,24 @@ SOT23-5&lt;br&gt;</description>
 <wire x1="-1.1" y1="-0.2" x2="-1.1" y2="0.2" width="0.2" layer="21"/>
 <wire x1="-1.1" y1="0.2" x2="-1.27" y2="0.37" width="0.2" layer="21"/>
 <wire x1="-1.27" y1="0.37" x2="-1.27" y2="0.65" width="0.2" layer="21"/>
-<smd name="1" x="-0.95" y="-1.59" dx="0.6" dy="1.2" layer="1"/>
-<smd name="2" x="0" y="-1.59" dx="0.6" dy="1.2" layer="1"/>
-<smd name="3" x="0.95" y="-1.59" dx="0.6" dy="1.2" layer="1"/>
-<smd name="4" x="0.95" y="1.6" dx="0.6" dy="1.2" layer="1"/>
-<smd name="5" x="-0.95" y="1.6" dx="0.6" dy="1.2" layer="1"/>
-<text x="-2.5" y="2.5" size="1.27" layer="25" font="vector" ratio="16">&gt;NAME</text>
-<text x="-2.5" y="-3.8" size="1.27" layer="27" font="vector" ratio="16">&gt;VALUE</text>
+<smd name="1" x="-0.95" y="-1.6" dx="0.6" dy="1.2" layer="1" stop="no"/>
+<smd name="2" x="0" y="-1.6" dx="0.6" dy="1.2" layer="1" stop="no"/>
+<smd name="3" x="0.95" y="-1.6" dx="0.6" dy="1.2" layer="1" stop="no"/>
+<smd name="4" x="0.95" y="1.6" dx="0.6" dy="1.2" layer="1" stop="no"/>
+<smd name="5" x="-0.95" y="1.6" dx="0.6" dy="1.2" layer="1" stop="no"/>
+<text x="0" y="3.2" size="1.27" layer="25" font="vector" ratio="16" align="center">&gt;NAME</text>
+<text x="-0.1" y="-3.2" size="1.27" layer="27" font="vector" ratio="16" align="center">&gt;VALUE</text>
 <rectangle x1="-1.11" y1="0.68" x2="-0.78" y2="1.43" layer="51"/>
 <rectangle x1="0.79" y1="0.67" x2="1.12" y2="1.42" layer="51"/>
 <rectangle x1="-1.11" y1="-1.42" x2="-0.78" y2="-0.67" layer="51"/>
 <rectangle x1="-0.16" y1="-1.42" x2="0.17" y2="-0.67" layer="51"/>
 <rectangle x1="0.79" y1="-1.42" x2="1.12" y2="-0.67" layer="51"/>
 <wire x1="-1.67" y1="-1.96" x2="-1.67" y2="-1.05" width="0.2" layer="21"/>
+<rectangle x1="-1.3" y1="0.95" x2="-0.6" y2="2.25" layer="29"/>
+<rectangle x1="0.6" y1="0.95" x2="1.3" y2="2.25" layer="29"/>
+<rectangle x1="-1.3" y1="-2.25" x2="-0.6" y2="-0.95" layer="29"/>
+<rectangle x1="0.6" y1="-2.25" x2="1.3" y2="-0.95" layer="29"/>
+<rectangle x1="-0.35" y1="-2.25" x2="0.35" y2="-0.95" layer="29"/>
 </package>
 <package name="SOT65P220X135-3N">
 <smd name="1" x="-0.65" y="-1.15" dx="0.7" dy="1.1" layer="1" stop="no"/>
@@ -1102,7 +1112,7 @@ SOT23-5&lt;br&gt;</description>
 <connect gate="G$1" pin="D+" pad="D+"/>
 <connect gate="G$1" pin="D-" pad="D-"/>
 <connect gate="G$1" pin="GND" pad="GND"/>
-<connect gate="G$1" pin="SHLD" pad="G G@1 G@2 G@3"/>
+<connect gate="G$1" pin="SHLD" pad="GND@1 GND@2 GND@3 GND@4"/>
 <connect gate="G$1" pin="VCC" pad="VBUS"/>
 </connects>
 <technologies>
