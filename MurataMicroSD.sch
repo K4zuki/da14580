@@ -1449,21 +1449,21 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <plain>
 <circle x="223.52" y="38.1" radius="12.7" width="0.1524" layer="91"/>
 <text x="218.44" y="27.94" size="1.778" layer="91">FIDUCIAL</text>
-<text x="152.4" y="111.76" size="1.778" layer="94">P0_0/TXD/MISO -&gt;</text>
-<text x="152.4" y="109.22" size="1.778" layer="94">P0_1/DAT1</text>
-<text x="152.4" y="101.6" size="1.778" layer="94">P0_4/RXD/MOSI &lt;-</text>
-<text x="152.4" y="99.06" size="1.778" layer="94">P0_5/SCK</text>
-<text x="152.4" y="96.52" size="1.778" layer="94">P0_6/DAT2</text>
-<text x="71.12" y="83.82" size="1.778" layer="94" rot="MR0">P0_6/DAT2</text>
+<text x="154.94" y="111.76" size="1.778" layer="94">P0_0/!CS!</text>
+<text x="154.94" y="109.22" size="1.778" layer="94">P0_1/DAT2</text>
+<text x="154.94" y="101.6" size="1.778" layer="94">P0_4/RXD/MOSI &lt;-</text>
+<text x="154.94" y="99.06" size="1.778" layer="94">P0_5/SCK</text>
+<text x="154.94" y="96.52" size="1.778" layer="94">P0_6/DAT1</text>
+<text x="71.12" y="83.82" size="1.778" layer="94" rot="MR0">P0_1/DAT2</text>
 <text x="71.12" y="104.14" size="1.778" layer="94" rot="MR0">P0_5/SCK</text>
 <text x="71.12" y="93.98" size="1.778" layer="94" rot="MR0">-&gt; P0_4/RXD/MOSI</text>
 <wire x1="99.06" y1="76.2" x2="193.04" y2="76.2" width="0.254" layer="94"/>
 <wire x1="193.04" y1="76.2" x2="193.04" y2="127" width="0.254" layer="94"/>
 <wire x1="193.04" y1="127" x2="99.06" y2="127" width="0.254" layer="94"/>
-<text x="71.12" y="114.3" size="1.778" layer="94" align="bottom-right">&lt;- P0_0/TXD/MISO</text>
-<text x="71.12" y="119.38" size="1.778" layer="94" rot="MR0">P0_1/DAT1</text>
-<text x="152.4" y="93.98" size="1.778" layer="94">P0_7/!CS!</text>
-<text x="71.12" y="88.9" size="1.778" layer="94" rot="MR0">P0_7/!CS!</text>
+<text x="71.12" y="114.3" size="1.778" layer="94" align="bottom-right">&lt;- P0_7/TXD/MISO</text>
+<text x="71.12" y="119.38" size="1.778" layer="94" rot="MR0">P0_6/DAT1</text>
+<text x="154.94" y="93.98" size="1.778" layer="94">P0_7/TXD/MISO-&gt;</text>
+<text x="71.12" y="88.9" size="1.778" layer="94" rot="MR0">P0_0/!CS!</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
@@ -1530,52 +1530,52 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </net>
 <net name="MISO" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="P0_0"/>
-<wire x1="144.78" y1="111.76" x2="152.4" y2="111.76" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <wire x1="81.28" y1="114.3" x2="71.12" y2="114.3" width="0.1524" layer="91"/>
 <pinref part="C100" gate="G$1" pin="7"/>
+</segment>
+<segment>
+<wire x1="154.94" y1="93.98" x2="144.78" y2="93.98" width="0.1524" layer="91"/>
+<pinref part="U1" gate="G$1" pin="P0_7"/>
 </segment>
 </net>
 <net name="DAT1" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="P0_1"/>
-<wire x1="144.78" y1="109.22" x2="152.4" y2="109.22" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <wire x1="81.28" y1="119.38" x2="71.12" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="C100" gate="G$1" pin="8"/>
+</segment>
+<segment>
+<wire x1="154.94" y1="96.52" x2="144.78" y2="96.52" width="0.1524" layer="91"/>
+<pinref part="U1" gate="G$1" pin="P0_6"/>
 </segment>
 </net>
 <net name="RXD_MOSI" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="P0_4"/>
-<wire x1="144.78" y1="101.6" x2="152.4" y2="101.6" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <wire x1="81.28" y1="93.98" x2="71.12" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="C100" gate="G$1" pin="3"/>
+</segment>
+<segment>
+<wire x1="154.94" y1="101.6" x2="144.78" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="U1" gate="G$1" pin="P0_4"/>
 </segment>
 </net>
 <net name="!CS!" class="0">
 <segment>
-<wire x1="144.78" y1="93.98" x2="152.4" y2="93.98" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="P0_7"/>
-</segment>
-<segment>
 <wire x1="81.28" y1="88.9" x2="71.12" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="C100" gate="G$1" pin="2"/>
+</segment>
+<segment>
+<wire x1="154.94" y1="111.76" x2="144.78" y2="111.76" width="0.1524" layer="91"/>
+<pinref part="U1" gate="G$1" pin="P0_0"/>
 </segment>
 </net>
 <net name="DAT2" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="P0_6"/>
-<wire x1="144.78" y1="96.52" x2="152.4" y2="96.52" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <wire x1="81.28" y1="83.82" x2="71.12" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="C100" gate="G$1" pin="1"/>
+</segment>
+<segment>
+<wire x1="154.94" y1="109.22" x2="144.78" y2="109.22" width="0.1524" layer="91"/>
+<pinref part="U1" gate="G$1" pin="P0_1"/>
 </segment>
 </net>
 <net name="P0_3" class="0">
@@ -1583,17 +1583,17 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pinref part="U1" gate="G$1" pin="P0_3"/>
 <pinref part="TP7" gate="G$1" pin="TP"/>
 <wire x1="144.78" y1="104.14" x2="182.88" y2="104.14" width="0.1524" layer="91"/>
-<label x="152.4" y="104.14" size="1.778" layer="95"/>
+<label x="154.94" y="104.14" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SCK" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="P0_5"/>
-<wire x1="144.78" y1="99.06" x2="152.4" y2="99.06" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <wire x1="81.28" y1="104.14" x2="71.12" y2="104.14" width="0.1524" layer="91"/>
 <pinref part="C100" gate="G$1" pin="5"/>
+</segment>
+<segment>
+<wire x1="154.94" y1="99.06" x2="144.78" y2="99.06" width="0.1524" layer="91"/>
+<pinref part="U1" gate="G$1" pin="P0_5"/>
 </segment>
 </net>
 <net name="SWCLK" class="0">
@@ -1624,7 +1624,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pinref part="TP8" gate="G$1" pin="TP"/>
 <pinref part="U1" gate="G$1" pin="P0_2"/>
 <wire x1="182.88" y1="106.68" x2="144.78" y2="106.68" width="0.1524" layer="91"/>
-<label x="152.4" y="106.68" size="1.778" layer="95"/>
+<label x="154.94" y="106.68" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
