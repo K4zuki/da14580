@@ -40,7 +40,7 @@
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
@@ -128,22 +128,24 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="0" x2="50" y2="0" width="0" layer="22"/>
-<wire x1="50" y1="0" x2="50" y2="5" width="0" layer="22"/>
+<wire x1="0" y1="-5" x2="50" y2="-5" width="0" layer="22"/>
+<wire x1="50" y1="-5" x2="50" y2="5" width="0" layer="22"/>
 <wire x1="50" y1="5" x2="50" y2="16" width="0" layer="22"/>
 <wire x1="50" y1="16" x2="50" y2="20" width="0" layer="22"/>
 <wire x1="50" y1="20" x2="50" y2="31" width="0" layer="22"/>
 <wire x1="50" y1="31" x2="50" y2="35" width="0" layer="22"/>
-<wire x1="50" y1="35" x2="50" y2="50" width="0" layer="22"/>
-<wire x1="50" y1="50" x2="0" y2="50" width="0" layer="22"/>
-<wire x1="0" y1="50" x2="0" y2="35" width="0" layer="22"/>
+<wire x1="50" y1="35" x2="50" y2="46" width="0" layer="22"/>
+<wire x1="50" y1="46" x2="50" y2="55" width="0" layer="22"/>
+<wire x1="50" y1="55" x2="0" y2="55" width="0" layer="22"/>
+<wire x1="0" y1="55" x2="0" y2="46" width="0" layer="22"/>
+<wire x1="0" y1="46" x2="0" y2="35" width="0" layer="22"/>
 <wire x1="0" y1="35" x2="0" y2="31" width="0" layer="22"/>
 <wire x1="0" y1="31" x2="0" y2="20" width="0" layer="22"/>
 <wire x1="0" y1="20" x2="0" y2="16" width="0" layer="22"/>
 <wire x1="0" y1="16" x2="0" y2="5" width="0" layer="22"/>
-<wire x1="0" y1="5" x2="0" y2="0" width="0" layer="22"/>
-<dimension x1="0" y1="0" x2="50" y2="0" x3="25" y3="-5.4" textsize="1.778" layer="47" precision="4" visible="yes"/>
-<dimension x1="0" y1="50" x2="0" y2="0" x3="-7.5" y3="25" textsize="1.778" layer="47" precision="4" visible="yes"/>
+<wire x1="0" y1="5" x2="0" y2="-5" width="0" layer="22"/>
+<dimension x1="-5" y1="-5" x2="55" y2="-5" x3="25" y3="-10.399996875" textsize="1.778" layer="47" precision="4" visible="yes"/>
+<dimension x1="-5" y1="55" x2="-5" y2="-5" x3="-12.5" y3="25" textsize="1.778" layer="47" precision="4" visible="yes"/>
 <wire x1="0" y1="5" x2="50" y2="5" width="0" layer="22"/>
 <wire x1="0" y1="20" x2="50" y2="20" width="0" layer="22"/>
 <wire x1="50" y1="16" x2="0" y2="16" width="0" layer="22"/>
@@ -271,6 +273,34 @@
 <text x="39.4" y="8.000009375" size="0.999996875" layer="125" ratio="20">C1</text>
 <text x="39.4" y="12.9" size="0.999996875" layer="125" ratio="20">R1</text>
 <text x="48.20000625" y="14.199996875" size="0.999996875" layer="125" ratio="20">U1</text>
+<wire x1="0" y1="55" x2="-5" y2="55" width="0" layer="22"/>
+<wire x1="-5" y1="55" x2="-5" y2="46" width="0" layer="22"/>
+<wire x1="-5" y1="46" x2="-5" y2="31" width="0" layer="22"/>
+<wire x1="-5" y1="31" x2="-5" y2="20" width="0" layer="22"/>
+<wire x1="-5" y1="20" x2="-5" y2="16" width="0" layer="22"/>
+<wire x1="-5" y1="16" x2="-5" y2="5" width="0" layer="22"/>
+<wire x1="-5" y1="5" x2="-5" y2="-5" width="0" layer="22"/>
+<wire x1="-5" y1="-5" x2="0" y2="-5" width="0" layer="22"/>
+<wire x1="50" y1="55" x2="55" y2="55" width="0" layer="22"/>
+<wire x1="55" y1="55" x2="55" y2="46" width="0" layer="22"/>
+<wire x1="55" y1="46" x2="55" y2="35" width="0" layer="22"/>
+<wire x1="55" y1="35" x2="55" y2="31" width="0" layer="22"/>
+<wire x1="55" y1="31" x2="55" y2="20" width="0" layer="22"/>
+<wire x1="55" y1="20" x2="55" y2="16" width="0" layer="22"/>
+<wire x1="55" y1="16" x2="55" y2="5" width="0" layer="22"/>
+<wire x1="55" y1="5" x2="55" y2="-5" width="0" layer="22"/>
+<wire x1="55" y1="-5" x2="50" y2="-5" width="0" layer="22"/>
+<wire x1="0" y1="46" x2="-5" y2="46" width="0" layer="22"/>
+<wire x1="50" y1="46" x2="55" y2="46" width="0" layer="22"/>
+<wire x1="50" y1="35" x2="55" y2="35" width="0" layer="22"/>
+<wire x1="50" y1="31" x2="55" y2="31" width="0" layer="22"/>
+<wire x1="50" y1="20" x2="55" y2="20" width="0" layer="22"/>
+<wire x1="50" y1="16" x2="55" y2="16" width="0" layer="22"/>
+<wire x1="50" y1="5" x2="55" y2="5" width="0" layer="22"/>
+<wire x1="0" y1="31" x2="-5" y2="31" width="0" layer="22"/>
+<wire x1="0" y1="20" x2="-5" y2="20" width="0" layer="22"/>
+<wire x1="-5" y1="16" x2="0" y2="16" width="0" layer="22"/>
+<wire x1="-5" y1="5" x2="0" y2="5" width="0" layer="22"/>
 </plain>
 <libraries>
 <library name="mylib">
