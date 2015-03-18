@@ -823,7 +823,7 @@ SOT23-5&lt;br&gt;</description>
 <vertex x="25" y="-11.5" curve="-90"/>
 <vertex x="21" y="-15.5"/>
 </polygon>
-<circle x="0" y="0" radius="1.27" width="0.127" layer="49"/>
+<circle x="0" y="0" radius="1.27" width="0.127" layer="52"/>
 </package>
 </packages>
 </library>
