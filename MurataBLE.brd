@@ -391,10 +391,11 @@
 <wire x1="-2.2225" y1="-1.27" x2="2.2225" y2="-1.27" width="0.127" layer="21"/>
 <wire x1="2.2225" y1="-1.27" x2="2.2225" y2="1.27" width="0.127" layer="21"/>
 <wire x1="2.2225" y1="1.27" x2="-2.2225" y2="1.27" width="0.127" layer="21"/>
-<smd name="1" x="-1.27" y="0" dx="1.27" dy="1.778" layer="1"/>
-<smd name="2" x="1.27" y="0" dx="1.27" dy="1.778" layer="1"/>
+<smd name="1" x="-1.4" y="0" dx="1.2" dy="1.8" layer="1"/>
+<smd name="2" x="1.4" y="0" dx="1.2" dy="1.8" layer="1"/>
 <text x="-1.27" y="1.4605" size="1" layer="25" ratio="20">&gt;NAME</text>
 <text x="-1.27" y="-2.7305" size="1" layer="27" ratio="20">&gt;VALUE</text>
+<rectangle x1="-0.7" y1="-1" x2="0.7" y2="1" layer="41"/>
 </package>
 <package name="C0402">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
@@ -1139,7 +1140,7 @@ design rules under a new name.</description>
 <element name="U1" library="mylib" package="IC_MURATA_LBCA2HNZYZ-711" value="IC_BLE_LBCA2HNZYZ-711" x="47.5" y="31" smashed="yes" rot="R270">
 <attribute name="NAME" x="50.1" y="31.7" size="1" layer="21" ratio="20" align="center"/>
 </element>
-<element name="Q1" library="mylib" package="CRYSTAL_FC-135" value="P7195" x="47.3" y="22.3" smashed="yes">
+<element name="Q1" library="mylib" package="CRYSTAL_FC-135" value="FC-135 32.7680KA-AG3" x="47.3" y="22.3" smashed="yes">
 <attribute name="NAME" x="47.3" y="20.4" size="1" layer="25" font="vector" ratio="20" align="center"/>
 <attribute name="VALUE" x="46.03" y="19.5695" size="1.27" layer="27" font="vector" ratio="16"/>
 </element>
@@ -1403,18 +1404,18 @@ design rules under a new name.</description>
 <signal name="N$2">
 <contactref element="U1" pad="9"/>
 <contactref element="Q1" pad="1"/>
-<wire x1="46.03" y1="22.3" x2="46.4" y2="22.3" width="0.25" layer="1"/>
-<wire x1="46.4" y1="22.3" x2="47.7" y2="23.6" width="0.25" layer="1"/>
-<wire x1="47.7" y1="23.6" x2="48.1" y2="23.6" width="0.25" layer="1"/>
 <wire x1="48.725" y1="24.6" x2="48.725" y2="24.225" width="0.25" layer="1"/>
 <wire x1="48.725" y1="24.225" x2="48.1" y2="23.6" width="0.25" layer="1"/>
+<wire x1="45.9" y1="22.3" x2="45.9" y2="23.2" width="0.25" layer="1"/>
+<wire x1="45.9" y1="23.2" x2="46.3" y2="23.6" width="0.25" layer="1"/>
+<wire x1="46.3" y1="23.6" x2="48.1" y2="23.6" width="0.25" layer="1"/>
 </signal>
 <signal name="N$3">
 <contactref element="U1" pad="10"/>
 <contactref element="Q1" pad="2"/>
-<wire x1="48.57" y1="22.3" x2="48.6" y2="23.4" width="0.25" layer="1"/>
-<wire x1="49.375" y1="24.6" x2="49.375" y2="24.175" width="0.25" layer="1"/>
-<wire x1="49.375" y1="24.175" x2="48.6" y2="23.4" width="0.25" layer="1"/>
+<wire x1="49.375" y1="24.6" x2="49.375" y2="24.075" width="0.25" layer="1"/>
+<wire x1="48.7" y1="22.3" x2="48.7" y2="23.4" width="0.25" layer="1"/>
+<wire x1="48.7" y1="23.4" x2="49.375" y2="24.075" width="0.25" layer="1"/>
 </signal>
 <signal name="3.3V">
 <contactref element="U1" pad="7"/>
