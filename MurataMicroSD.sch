@@ -177,7 +177,7 @@ DIN A4, landscape with location and doc. field</description>
 <library name="mylib">
 <packages>
 <package name="BOARD_MICROSD">
-<wire x1="0.8" y1="11" x2="23.2" y2="11" width="0" layer="20"/>
+<wire x1="0.8" y1="11" x2="24" y2="11" width="0" layer="20"/>
 <wire x1="14.2" y1="11" x2="15" y2="10.2" width="0" layer="52" curve="-90"/>
 <wire x1="15" y1="10.2" x2="15" y2="0.8" width="0" layer="52"/>
 <wire x1="15" y1="0.8" x2="14.2" y2="0" width="0" layer="52" curve="-90"/>
@@ -205,10 +205,9 @@ DIN A4, landscape with location and doc. field</description>
 <smd name="7_MISO" x="2.55" y="8.9" dx="2.9" dy="0.8" layer="1" stop="no" cream="no"/>
 <smd name="8_DAT1" x="2.55" y="10" dx="2.9" dy="0.8" layer="1" stop="no" cream="no"/>
 <dimension x1="0" y1="0.8" x2="15" y2="0.8" x3="7.5" y3="-3.9" textsize="1.27" layer="47" precision="5" visible="yes"/>
-<dimension x1="0.8" y1="0" x2="0.8" y2="9.7" x3="-1.7" y3="4.85" textsize="1.27" layer="47" precision="5" visible="yes"/>
+<dimension x1="0.8" y1="1.3" x2="0.8" y2="11" x3="-1.7" y3="6.15" textsize="1.27" layer="47" precision="5" visible="yes"/>
 <dimension x1="14.2" y1="0" x2="14.2" y2="11" x3="17.5" y3="5.5" textsize="1.27" layer="47" precision="5" visible="yes"/>
-<wire x1="10" y1="0" x2="10" y2="-1" width="0" layer="46" curve="-180"/>
-<wire x1="10" y1="0" x2="9.88284375" y2="0" width="0" layer="46"/>
+<wire x1="24" y1="0" x2="9.88284375" y2="0" width="0" layer="46"/>
 <wire x1="9.88284375" y1="0" x2="9.741421875" y2="0.058578125" width="0" layer="46" curve="-45"/>
 <wire x1="9.741421875" y1="0.058578125" x2="9.158578125" y2="0.641421875" width="0" layer="46"/>
 <wire x1="9.158578125" y1="0.641421875" x2="9.01715625" y2="0.7" width="0" layer="46" curve="45"/>
@@ -223,10 +222,8 @@ DIN A4, landscape with location and doc. field</description>
 <wire x1="5.334315625" y1="1.065684375" x2="4.768628125" y2="1.3" width="0" layer="46" curve="45.000224"/>
 <wire x1="0" y1="2.1" x2="0.8" y2="1.3" width="0" layer="46" curve="90"/>
 <wire x1="0.8" y1="1.3" x2="4.768628125" y2="1.3" width="0" layer="46"/>
-<wire x1="10" y1="-1" x2="0.2" y2="-1" width="0" layer="46"/>
-<wire x1="0.2" y1="-1" x2="-0.8" y2="0" width="0" layer="46" curve="-90"/>
-<wire x1="-0.8" y1="0" x2="-0.8" y2="2.5" width="0" layer="46"/>
-<wire x1="0" y1="2.5" x2="0" y2="2.1" width="0" layer="46"/>
+<wire x1="24" y1="-0.8" x2="0.2" y2="-0.8" width="0" layer="46"/>
+<wire x1="0.2" y1="-0.8" x2="-0.8" y2="0.2" width="0" layer="46" curve="-90"/>
 <rectangle x1="1.1" y1="9.6" x2="4" y2="10.4" layer="29"/>
 <rectangle x1="1.1" y1="8.5" x2="4" y2="9.3" layer="29"/>
 <rectangle x1="0.8" y1="7.4" x2="4" y2="8.2" layer="29"/>
@@ -235,37 +232,24 @@ DIN A4, landscape with location and doc. field</description>
 <rectangle x1="1.1" y1="4.1" x2="4" y2="4.9" layer="29"/>
 <rectangle x1="1.1" y1="3" x2="4" y2="3.8" layer="29"/>
 <rectangle x1="1.1" y1="1.9" x2="4" y2="2.7" layer="29"/>
-<wire x1="23.2" y1="11" x2="24" y2="10.2" width="0" layer="20" curve="-90"/>
-<wire x1="9.88284375" y1="0" x2="23.2" y2="0" width="0" layer="20"/>
-<wire x1="23.2" y1="0" x2="24" y2="0.8" width="0" layer="20" curve="90"/>
-<wire x1="24" y1="0.8" x2="24" y2="10.2" width="0" layer="20"/>
+<wire x1="9.88284375" y1="0" x2="24" y2="0" width="0" layer="20"/>
+<wire x1="24" y1="0" x2="24" y2="11" width="0" layer="20"/>
 <rectangle x1="0" y1="0" x2="15" y2="11" layer="39"/>
 <rectangle x1="0" y1="0" x2="15" y2="11" layer="40"/>
-<wire x1="0" y1="2.5" x2="-0.8" y2="2.5" width="0" layer="46" curve="180"/>
-<wire x1="1.2" y1="11" x2="1.2" y2="11.8" width="0" layer="46" curve="180"/>
-<wire x1="-0.8" y1="9.7" x2="0" y2="9.7" width="0" layer="46" curve="180"/>
-<wire x1="1.2" y1="11.8" x2="0" y2="11.8" width="0" layer="46"/>
+<wire x1="24" y1="11.8" x2="0" y2="11.8" width="0" layer="46"/>
 <wire x1="0" y1="11.8" x2="-0.8" y2="11" width="0" layer="46" curve="90"/>
-<wire x1="-0.8" y1="11" x2="-0.8" y2="9.7" width="0" layer="46"/>
-<wire x1="22.6" y1="11.8" x2="22.6" y2="11" width="0" layer="46" curve="180"/>
+<wire x1="-0.8" y1="11" x2="-0.8" y2="0.2" width="0" layer="46"/>
 <wire x1="24" y1="9.7" x2="24.8" y2="9.7" width="0" layer="46" curve="180"/>
-<wire x1="0" y1="9.7" x2="0" y2="10.2" width="0" layer="46"/>
+<wire x1="0" y1="2.1" x2="0" y2="10.2" width="0" layer="46"/>
 <wire x1="0" y1="10.2" x2="0.8" y2="11" width="0" layer="46" curve="-90"/>
-<wire x1="0.8" y1="11" x2="1.3" y2="11" width="0" layer="46"/>
-<wire x1="24" y1="9.7" x2="24" y2="10.2" width="0" layer="46"/>
-<wire x1="24" y1="10.2" x2="23.2" y2="11" width="0" layer="46" curve="90"/>
-<wire x1="23.2" y1="11" x2="22.6" y2="11" width="0" layer="46"/>
+<wire x1="24" y1="9.7" x2="24" y2="11" width="0" layer="46"/>
 <wire x1="24.8" y1="9.7" x2="24.8" y2="11" width="0" layer="46"/>
 <wire x1="24.8" y1="11" x2="24" y2="11.8" width="0" layer="46" curve="90"/>
-<wire x1="24" y1="11.8" x2="22.6" y2="11.8" width="0" layer="46"/>
 <wire x1="24.8" y1="1.3" x2="24" y2="1.3" width="0" layer="46" curve="180"/>
-<wire x1="22.6" y1="0" x2="22.6" y2="-0.8" width="0" layer="46" curve="180"/>
-<wire x1="24" y1="1.3" x2="24" y2="0.8" width="0" layer="46"/>
-<wire x1="24" y1="0.8" x2="23.2" y2="0" width="0" layer="46" curve="-90"/>
-<wire x1="23.2" y1="0" x2="22.6" y2="0" width="0" layer="46"/>
+<wire x1="24" y1="1.3" x2="24" y2="0" width="0" layer="46"/>
 <wire x1="24.8" y1="1.3" x2="24.8" y2="0" width="0" layer="46"/>
 <wire x1="24.8" y1="0" x2="24" y2="-0.8" width="0" layer="46" curve="-90"/>
-<wire x1="24" y1="-0.8" x2="22.6" y2="-0.8" width="0" layer="46"/>
+<wire x1="0.8" y1="11" x2="24" y2="11" width="0" layer="46"/>
 </package>
 <package name="IC_MURATA_LBCA2HNZYZ-711">
 <smd name="1" x="1.55" y="0.6" dx="0.6" dy="0.3" layer="1" rot="R270" stop="no" cream="no"/>
@@ -278,10 +262,6 @@ DIN A4, landscape with location and doc. field</description>
 <smd name="7" x="5.45" y="0.6" dx="0.6" dy="0.3" layer="1" rot="R270" stop="no" cream="no"/>
 <smd name="31" x="5.35" y="2.525" dx="0.3" dy="0.3" layer="1" stop="no" cream="no"/>
 <smd name="35" x="1.55" y="2.525" dx="0.3" dy="0.3" layer="1" stop="no" cream="no"/>
-<wire x1="0" y1="7.5" x2="7" y2="7.5" width="0.2" layer="21"/>
-<wire x1="0" y1="0" x2="0" y2="7.5" width="0.2" layer="21"/>
-<wire x1="7" y1="0" x2="7" y2="7.5" width="0.2" layer="21"/>
-<wire x1="0" y1="0" x2="7" y2="0" width="0.2" layer="21"/>
 <circle x="-0.5" y="-0.5" radius="0.4" width="0.2" layer="21"/>
 <smd name="8" x="6.4" y="0.575" dx="0.6" dy="0.3" layer="1" stop="no" cream="no"/>
 <smd name="9" x="6.4" y="1.225" dx="0.6" dy="0.3" layer="1" stop="no" cream="no"/>
@@ -310,8 +290,8 @@ DIN A4, landscape with location and doc. field</description>
 <smd name="20" x="1.55" y="3.8" dx="0.6" dy="0.3" layer="1" rot="R90" stop="no" cream="no"/>
 <smd name="36" x="6.4" y="6.95" dx="0.6" dy="0.3" layer="1" rot="R180" stop="no" cream="no"/>
 <smd name="37" x="0.6" y="6.95" dx="0.6" dy="0.3" layer="1" rot="R180" stop="no" cream="no"/>
-<text x="0.7" y="-1.5" size="1.27" layer="25" ratio="16">&gt;NAME</text>
-<text x="0.2" y="7.7" size="1.27" layer="27" ratio="16">&gt;VALUE</text>
+<text x="0.7" y="-1.9" size="1.27" layer="25" ratio="16">&gt;NAME</text>
+<text x="0.2" y="8.1" size="1.27" layer="27" ratio="16">&gt;VALUE</text>
 <rectangle x1="1.4" y1="3.5" x2="1.7" y2="4.1" layer="29"/>
 <rectangle x1="2.05" y1="3.5" x2="2.35" y2="4.1" layer="29"/>
 <rectangle x1="2.7" y1="3.5" x2="3" y2="4.1" layer="29"/>
@@ -387,6 +367,10 @@ DIN A4, landscape with location and doc. field</description>
 <rectangle x1="1.425" y1="2.4" x2="1.675" y2="2.65" layer="31"/>
 <rectangle x1="5.225" y1="2.4" x2="5.475" y2="2.65" layer="31"/>
 <rectangle x1="5.225" y1="1.75" x2="5.475" y2="2" layer="31"/>
+<wire x1="-0.2" y1="-0.2" x2="-0.2" y2="7.7" width="0.2" layer="21"/>
+<wire x1="-0.2" y1="-0.2" x2="7.2" y2="-0.2" width="0.2" layer="21"/>
+<wire x1="7.2" y1="-0.2" x2="7.2" y2="7.7" width="0.2" layer="21"/>
+<wire x1="-0.2" y1="7.7" x2="7.2" y2="7.7" width="0.2" layer="21"/>
 </package>
 <package name="CR_1608">
 <wire x1="0" y1="0.6" x2="0" y2="-0.6" width="0.2" layer="21"/>
@@ -544,8 +528,8 @@ chip</description>
 <wire x1="12.7" y1="20.32" x2="12.7" y2="-22.86" width="0.254" layer="94"/>
 <wire x1="12.7" y1="-22.86" x2="-15.24" y2="-22.86" width="0.254" layer="94"/>
 <wire x1="-15.24" y1="-22.86" x2="-15.24" y2="20.32" width="0.254" layer="94"/>
-<text x="-15.24" y="20.32" size="1.27" layer="95">&gt;NAME</text>
-<text x="-15.24" y="-25.4" size="1.27" layer="96">&gt;VALUE</text>
+<text x="-15.24" y="21.59" size="1.778" layer="95">&gt;NAME</text>
+<text x="-15.24" y="-24.13" size="1.016" layer="96">&gt;VALUE</text>
 </symbol>
 <symbol name="REF_GND">
 <wire x1="-1.27" y1="1.27" x2="0" y2="1.27" width="0.254" layer="94"/>
@@ -564,7 +548,7 @@ chip</description>
 <wire x1="0" y1="2.54" x2="0" y2="0.635" width="0.1524" layer="94"/>
 <wire x1="0" y1="-0.635" x2="0" y2="-2.54" width="0.1524" layer="94"/>
 <text x="2.54" y="2.54" size="1.778" layer="95" rot="R90">&gt;NAME</text>
-<text x="0.762" y="-2.54" size="1.778" layer="96" rot="R270">&gt;VALUE</text>
+<text x="0.762" y="-2.54" size="1.016" layer="96" rot="R270">&gt;VALUE</text>
 <rectangle x1="-0.3175" y1="2.2225" x2="0.3175" y2="2.8575" layer="94"/>
 <rectangle x1="-0.3175" y1="-2.8575" x2="0.3175" y2="-2.2225" layer="94"/>
 <pin name="1" x="0" y="2.54" visible="off" length="point" direction="pas" swaplevel="1" rot="R270"/>
@@ -581,7 +565,7 @@ chip</description>
 <wire x1="-1.905" y1="0" x2="-2.54" y2="0" width="0.1524" layer="94"/>
 <wire x1="1.905" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
 <text x="-2.54" y="-0.254" size="1.778" layer="95" rot="R180">&gt;NAME</text>
-<text x="2.54" y="-2.032" size="1.778" layer="96">&gt;VALUE</text>
+<text x="2.54" y="-2.032" size="1.016" layer="96">&gt;VALUE</text>
 <rectangle x1="-2.8575" y1="-0.3175" x2="-2.2225" y2="0.3175" layer="94"/>
 <rectangle x1="2.2225" y1="-0.3175" x2="2.8575" y2="0.3175" layer="94"/>
 <pin name="2" x="2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1" rot="R180"/>
