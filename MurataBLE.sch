@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="mm" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -187,10 +187,6 @@ DIN A4, landscape with location and doc. field</description>
 <smd name="7" x="5.45" y="0.6" dx="0.6" dy="0.3" layer="1" rot="R270" stop="no" cream="no"/>
 <smd name="31" x="5.35" y="2.525" dx="0.3" dy="0.3" layer="1" stop="no" cream="no"/>
 <smd name="35" x="1.55" y="2.525" dx="0.3" dy="0.3" layer="1" stop="no" cream="no"/>
-<wire x1="0" y1="7.5" x2="7" y2="7.5" width="0.2" layer="21"/>
-<wire x1="0" y1="0" x2="0" y2="7.5" width="0.2" layer="21"/>
-<wire x1="7" y1="0" x2="7" y2="7.5" width="0.2" layer="21"/>
-<wire x1="0" y1="0" x2="7" y2="0" width="0.2" layer="21"/>
 <circle x="-0.5" y="-0.5" radius="0.4" width="0.2" layer="21"/>
 <smd name="8" x="6.4" y="0.575" dx="0.6" dy="0.3" layer="1" stop="no" cream="no"/>
 <smd name="9" x="6.4" y="1.225" dx="0.6" dy="0.3" layer="1" stop="no" cream="no"/>
@@ -219,8 +215,8 @@ DIN A4, landscape with location and doc. field</description>
 <smd name="20" x="1.55" y="3.8" dx="0.6" dy="0.3" layer="1" rot="R90" stop="no" cream="no"/>
 <smd name="36" x="6.4" y="6.95" dx="0.6" dy="0.3" layer="1" rot="R180" stop="no" cream="no"/>
 <smd name="37" x="0.6" y="6.95" dx="0.6" dy="0.3" layer="1" rot="R180" stop="no" cream="no"/>
-<text x="0.7" y="-1.5" size="1.27" layer="25" ratio="16">&gt;NAME</text>
-<text x="0.2" y="7.7" size="1.27" layer="27" ratio="16">&gt;VALUE</text>
+<text x="0.7" y="-1.9" size="1.27" layer="25" ratio="16">&gt;NAME</text>
+<text x="0.2" y="8.1" size="1.27" layer="27" ratio="16">&gt;VALUE</text>
 <rectangle x1="1.4" y1="3.5" x2="1.7" y2="4.1" layer="29"/>
 <rectangle x1="2.05" y1="3.5" x2="2.35" y2="4.1" layer="29"/>
 <rectangle x1="2.7" y1="3.5" x2="3" y2="4.1" layer="29"/>
@@ -296,6 +292,10 @@ DIN A4, landscape with location and doc. field</description>
 <rectangle x1="1.425" y1="2.4" x2="1.675" y2="2.65" layer="31"/>
 <rectangle x1="5.225" y1="2.4" x2="5.475" y2="2.65" layer="31"/>
 <rectangle x1="5.225" y1="1.75" x2="5.475" y2="2" layer="31"/>
+<wire x1="-0.2" y1="-0.2" x2="-0.2" y2="7.7" width="0.2" layer="21"/>
+<wire x1="-0.2" y1="-0.2" x2="7.2" y2="-0.2" width="0.2" layer="21"/>
+<wire x1="7.2" y1="-0.2" x2="7.2" y2="7.7" width="0.2" layer="21"/>
+<wire x1="-0.2" y1="7.7" x2="7.2" y2="7.7" width="0.2" layer="21"/>
 </package>
 <package name="CR_1608">
 <wire x1="0" y1="0.6" x2="0" y2="-0.6" width="0.2" layer="21"/>
@@ -323,10 +323,10 @@ DIN A4, landscape with location and doc. field</description>
 <text x="-0.635" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 <package name="CRYSTAL_FC-135">
-<wire x1="-2.2225" y1="1.27" x2="-2.2225" y2="-1.27" width="0.127" layer="21"/>
-<wire x1="-2.2225" y1="-1.27" x2="2.2225" y2="-1.27" width="0.127" layer="21"/>
-<wire x1="2.2225" y1="-1.27" x2="2.2225" y2="1.27" width="0.127" layer="21"/>
-<wire x1="2.2225" y1="1.27" x2="-2.2225" y2="1.27" width="0.127" layer="21"/>
+<wire x1="-2.3" y1="1.2" x2="-2.3" y2="-1.2" width="0.2" layer="21"/>
+<wire x1="-2.3" y1="-1.2" x2="2.3" y2="-1.2" width="0.2" layer="21"/>
+<wire x1="2.3" y1="-1.2" x2="2.3" y2="1.2" width="0.2" layer="21"/>
+<wire x1="2.3" y1="1.2" x2="-2.3" y2="1.2" width="0.2" layer="21"/>
 <smd name="1" x="-1.4" y="0" dx="1.2" dy="1.8" layer="1"/>
 <smd name="2" x="1.4" y="0" dx="1.2" dy="1.8" layer="1"/>
 <text x="-1.27" y="1.4605" size="1" layer="25" ratio="20">&gt;NAME</text>
