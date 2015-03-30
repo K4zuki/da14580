@@ -629,38 +629,38 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/TDA988
 <wire x1="2.45" y1="-2.45" x2="2.45" y2="-2.1" width="0.2" layer="21"/>
 <wire x1="2.45" y1="-2" x2="2.45" y2="2" width="0.127" layer="51"/>
 <rectangle x1="-1.75" y1="-1.75" x2="1.75" y2="1.75" layer="29"/>
-<smd name="1" x="-2.65" y="1.75" dx="1.2" dy="0.3" layer="1" roundness="50" stop="no"/>
+<smd name="1" x="-2.65" y="1.75" dx="1.2" dy="0.3" layer="1" stop="no"/>
 <smd name="2" x="-2.65" y="1.25" dx="1.2" dy="0.3" layer="1" stop="no"/>
 <smd name="3" x="-2.65" y="0.75" dx="1.2" dy="0.3" layer="1" stop="no"/>
 <smd name="4" x="-2.65" y="0.25" dx="1.2" dy="0.3" layer="1" stop="no"/>
 <smd name="5" x="-2.65" y="-0.25" dx="1.2" dy="0.3" layer="1" stop="no"/>
 <smd name="6" x="-2.65" y="-0.75" dx="1.2" dy="0.3" layer="1" stop="no"/>
 <smd name="7" x="-2.65" y="-1.25" dx="1.2" dy="0.3" layer="1" stop="no"/>
-<smd name="8" x="-2.65" y="-1.75" dx="1.2" dy="0.3" layer="1" roundness="50" stop="no"/>
-<smd name="9" x="-1.75" y="-2.65" dx="1.2" dy="0.3" layer="1" roundness="50" rot="R90" stop="no"/>
+<smd name="8" x="-2.65" y="-1.75" dx="1.2" dy="0.3" layer="1" stop="no"/>
+<smd name="9" x="-1.75" y="-2.65" dx="1.2" dy="0.3" layer="1" rot="R90" stop="no"/>
 <smd name="10" x="-1.25" y="-2.65" dx="1.2" dy="0.3" layer="1" rot="R90" stop="no"/>
 <smd name="11" x="-0.75" y="-2.65" dx="1.2" dy="0.3" layer="1" rot="R90" stop="no"/>
 <smd name="12" x="-0.25" y="-2.65" dx="1.2" dy="0.3" layer="1" rot="R90" stop="no"/>
 <smd name="13" x="0.25" y="-2.65" dx="1.2" dy="0.3" layer="1" rot="R90" stop="no"/>
 <smd name="14" x="0.75" y="-2.65" dx="1.2" dy="0.3" layer="1" rot="R90" stop="no"/>
 <smd name="15" x="1.25" y="-2.65" dx="1.2" dy="0.3" layer="1" rot="R90" stop="no"/>
-<smd name="16" x="1.75" y="-2.65" dx="1.2" dy="0.3" layer="1" roundness="50" rot="R90" stop="no"/>
-<smd name="17" x="2.65" y="-1.75" dx="1.2" dy="0.3" layer="1" roundness="50" stop="no"/>
+<smd name="16" x="1.75" y="-2.65" dx="1.2" dy="0.3" layer="1" rot="R90" stop="no"/>
+<smd name="17" x="2.65" y="-1.75" dx="1.2" dy="0.3" layer="1" stop="no"/>
 <smd name="18" x="2.65" y="-1.25" dx="1.2" dy="0.3" layer="1" stop="no"/>
 <smd name="19" x="2.65" y="-0.75" dx="1.2" dy="0.3" layer="1" stop="no"/>
 <smd name="20" x="2.65" y="-0.25" dx="1.2" dy="0.3" layer="1" stop="no"/>
 <smd name="21" x="2.65" y="0.25" dx="1.2" dy="0.3" layer="1" stop="no"/>
 <smd name="22" x="2.65" y="0.75" dx="1.2" dy="0.3" layer="1" stop="no"/>
 <smd name="23" x="2.65" y="1.25" dx="1.2" dy="0.3" layer="1" stop="no"/>
-<smd name="24" x="2.65" y="1.75" dx="1.2" dy="0.3" layer="1" roundness="50" stop="no"/>
-<smd name="25" x="1.75" y="2.65" dx="1.2" dy="0.3" layer="1" roundness="50" rot="R90" stop="no"/>
+<smd name="24" x="2.65" y="1.75" dx="1.2" dy="0.3" layer="1" stop="no"/>
+<smd name="25" x="1.75" y="2.65" dx="1.2" dy="0.3" layer="1" rot="R90" stop="no"/>
 <smd name="26" x="1.25" y="2.65" dx="1.2" dy="0.3" layer="1" rot="R90" stop="no"/>
 <smd name="27" x="0.75" y="2.65" dx="1.2" dy="0.3" layer="1" rot="R90" stop="no"/>
 <smd name="28" x="0.25" y="2.65" dx="1.2" dy="0.3" layer="1" rot="R90" stop="no"/>
 <smd name="29" x="-0.25" y="2.65" dx="1.2" dy="0.3" layer="1" rot="R90" stop="no"/>
 <smd name="30" x="-0.75" y="2.65" dx="1.2" dy="0.3" layer="1" rot="R90" stop="no"/>
 <smd name="31" x="-1.25" y="2.65" dx="1.2" dy="0.3" layer="1" rot="R90" stop="no"/>
-<smd name="32" x="-1.75" y="2.65" dx="1.2" dy="0.3" layer="1" roundness="50" rot="R90" stop="no"/>
+<smd name="32" x="-1.75" y="2.65" dx="1.2" dy="0.3" layer="1" rot="R90" stop="no"/>
 <smd name="EXP" x="0" y="0" dx="3.5" dy="3.5" layer="1" stop="no"/>
 <text x="-2.5" y="3.4" size="1.27" layer="25" ratio="16">&gt;NAME</text>
 <text x="-2.5" y="-4.6" size="1.27" layer="27" ratio="16">&gt;VALUE</text>
