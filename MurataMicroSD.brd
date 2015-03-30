@@ -255,10 +255,6 @@
 <dimension x1="0.8" y1="1.3" x2="0.8" y2="11" x3="-1.7" y3="6.15" textsize="1.27" layer="47" precision="5" visible="yes"/>
 <dimension x1="14.2" y1="0" x2="14.2" y2="11" x3="17.5" y3="5.5" textsize="1.27" layer="47" precision="5" visible="yes"/>
 <wire x1="6.731371875" y1="0" x2="6.7" y2="0" width="0" layer="46"/>
-<wire x1="6.165684375" y1="0.234315625" x2="6.731371875" y2="0" width="0" layer="46" curve="45.000224"/>
-<wire x1="6.165684375" y1="0.234315625" x2="5.334315625" y2="1.065684375" width="0" layer="46"/>
-<wire x1="0" y1="2.1" x2="0.8" y2="1.3" width="0" layer="46" curve="90"/>
-<wire x1="0.8" y1="1.3" x2="4.768628125" y2="1.3" width="0" layer="46"/>
 <rectangle x1="1.1" y1="9.6" x2="4" y2="10.4" layer="29"/>
 <rectangle x1="1.1" y1="8.5" x2="4" y2="9.3" layer="29"/>
 <rectangle x1="0.8" y1="7.4" x2="4" y2="8.2" layer="29"/>
@@ -269,8 +265,6 @@
 <rectangle x1="1.1" y1="1.9" x2="4" y2="2.7" layer="29"/>
 <rectangle x1="0" y1="0" x2="15" y2="11" layer="39"/>
 <rectangle x1="0" y1="0" x2="15" y2="11" layer="40"/>
-<wire x1="0" y1="2.1" x2="0" y2="10.2" width="0" layer="46"/>
-<wire x1="0.8" y1="11" x2="24" y2="11" width="0" layer="46"/>
 <wire x1="24" y1="9.7" x2="24" y2="1.3" width="0" layer="20"/>
 <polygon width="0.2" layer="46">
 <vertex x="24.1" y="11.7"/>
