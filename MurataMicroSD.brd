@@ -188,7 +188,7 @@
 <text x="17.2" y="4.6" size="0.999996875" layer="16" ratio="20" rot="MR0">@_K4ZUKI_</text>
 <text x="9.3" y="10.9" size="1" layer="21" font="vector" ratio="20" rot="R180" align="bottom-right">LBCA2HNZYZ
 -uSD</text>
-<text x="13.9" y="4.6" size="1" layer="1" ratio="20">r02</text>
+<text x="13.9" y="4.6" size="1" layer="1" ratio="20">r03</text>
 <wire x1="0" y1="4" x2="0" y2="0" width="0" layer="20"/>
 <wire x1="4" y1="0" x2="0" y2="0" width="0" layer="20"/>
 <wire x1="0" y1="60" x2="0" y2="56" width="0" layer="20"/>
