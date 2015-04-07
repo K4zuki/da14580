@@ -202,7 +202,7 @@ DIN A4, landscape with location and doc. field</description>
 <rectangle x1="1.1" y1="1.9" x2="4" y2="2.7" layer="29"/>
 <rectangle x1="0" y1="0" x2="15" y2="11" layer="39"/>
 <rectangle x1="0" y1="0" x2="15" y2="11" layer="40"/>
-<wire x1="24" y1="9.7" x2="24" y2="1.3" width="0" layer="20"/>
+<wire x1="24" y1="11" x2="24" y2="0" width="0" layer="20"/>
 <polygon width="0.2" layer="46">
 <vertex x="24.1" y="11.7"/>
 <vertex x="0" y="11.7" curve="90"/>
@@ -236,6 +236,23 @@ DIN A4, landscape with location and doc. field</description>
 <vertex x="24.7" y="9.7"/>
 <vertex x="24.7" y="11" curve="81.202506"/>
 </polygon>
+<wire x1="24" y1="11" x2="0.8" y2="11" width="0" layer="20"/>
+<wire x1="0.8" y1="11" x2="0" y2="10.2" width="0" layer="20" curve="90"/>
+<wire x1="0" y1="10.2" x2="0" y2="2.1" width="0" layer="20"/>
+<wire x1="0" y1="2.1" x2="0.8" y2="1.3" width="0" layer="20" curve="90"/>
+<wire x1="0.8" y1="1.3" x2="4.6857875" y2="1.3" width="0" layer="20"/>
+<wire x1="4.6857875" y1="1.3" x2="5.39289375" y2="1.00710625" width="0" layer="20" curve="-45"/>
+<wire x1="5.39289375" y1="1.00710625" x2="6.18786875" y2="0.21213125" width="0" layer="20"/>
+<wire x1="6.18786875" y1="0.21213125" x2="6.7" y2="0" width="0" layer="20" curve="45"/>
+<wire x1="6.7" y1="0" x2="7.7" y2="0" width="0" layer="20"/>
+<wire x1="7.7" y1="0" x2="7.9" y2="0.2" width="0" layer="20" curve="90"/>
+<wire x1="7.9" y1="0.2" x2="7.9" y2="0.5" width="0" layer="20"/>
+<wire x1="7.9" y1="0.5" x2="8.1" y2="0.7" width="0" layer="20" curve="-90"/>
+<wire x1="8.1" y1="0.7" x2="9.01715625" y2="0.7" width="0" layer="20"/>
+<wire x1="9.01715625" y1="0.7" x2="9.158578125" y2="0.641421875" width="0" layer="20" curve="-45"/>
+<wire x1="9.158578125" y1="0.641421875" x2="9.741421875" y2="0.058578125" width="0" layer="20"/>
+<wire x1="9.741421875" y1="0.058578125" x2="9.88284375" y2="0" width="0" layer="20" curve="45"/>
+<wire x1="9.88284375" y1="0" x2="24" y2="0" width="0" layer="20"/>
 </package>
 <package name="IC_MURATA_LBCA2HNZYZ-711">
 <smd name="1" x="1.55" y="0.6" dx="0.6" dy="0.3" layer="1" rot="R270" stop="no" cream="no"/>
@@ -1449,6 +1466,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="TP6" library="testpad_local" deviceset="TP" device="TP08R"/>
 <part name="TP7" library="testpad_local" deviceset="TP" device="TP08R"/>
 <part name="TP8" library="testpad_local" deviceset="TP" device="TP08R"/>
+<part name="TP9" library="testpad_local" deviceset="TP" device="TP08R"/>
 </parts>
 <sheets>
 <sheet>
@@ -1456,19 +1474,18 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <circle x="223.52" y="38.1" radius="12.7" width="0.1524" layer="91"/>
 <text x="218.44" y="27.94" size="1.778" layer="91">FIDUCIAL</text>
 <text x="154.94" y="111.76" size="1.778" layer="94">P0_0/!CS!</text>
-<text x="154.94" y="109.22" size="1.778" layer="94">P0_1/DAT2</text>
-<text x="154.94" y="101.6" size="1.778" layer="94">P0_4/RXD/MOSI &lt;-</text>
-<text x="154.94" y="99.06" size="1.778" layer="94">P0_5/SCK</text>
+<text x="154.94" y="101.6" size="1.778" layer="94">P0_4/TXD/MOSI -&gt;</text>
+<text x="154.94" y="99.06" size="1.778" layer="94">P0_5/RXD/SCK &lt;-</text>
 <text x="154.94" y="96.52" size="1.778" layer="94">P0_6/DAT1</text>
-<text x="71.12" y="119.38" size="1.778" layer="94" rot="MR0">P0_1/DAT2</text>
-<text x="71.12" y="99.06" size="1.778" layer="94" rot="MR0">P0_5/SCK</text>
-<text x="71.12" y="109.22" size="1.778" layer="94" rot="MR0">-&gt; P0_4/RXD/MOSI</text>
+<text x="71.12" y="119.38" size="1.778" layer="94" rot="MR0">RESET</text>
+<text x="71.12" y="99.06" size="1.778" layer="94" rot="MR0">-&gt; P0_5/RXD/SCK</text>
+<text x="71.12" y="109.22" size="1.778" layer="94" rot="MR0">&lt;- P0_4/TXD/MOSI</text>
 <wire x1="99.06" y1="76.2" x2="193.04" y2="76.2" width="0.254" layer="94"/>
 <wire x1="193.04" y1="76.2" x2="193.04" y2="127" width="0.254" layer="94"/>
 <wire x1="193.04" y1="127" x2="99.06" y2="127" width="0.254" layer="94"/>
-<text x="71.12" y="88.9" size="1.778" layer="94" align="bottom-right">&lt;- P0_7/TXD/MISO</text>
+<text x="71.12" y="88.9" size="1.778" layer="94" align="bottom-right">P0_7/MISO</text>
 <text x="71.12" y="83.82" size="1.778" layer="94" rot="MR0">P0_6/DAT1</text>
-<text x="154.94" y="93.98" size="1.778" layer="94">P0_7/TXD/MISO-&gt;</text>
+<text x="154.94" y="93.98" size="1.778" layer="94">P0_7/MISO</text>
 <text x="71.12" y="114.3" size="1.778" layer="94" rot="MR0">P0_0/!CS!</text>
 </plain>
 <instances>
@@ -1488,6 +1505,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <instance part="TP6" gate="G$1" x="99.06" y="119.38" rot="R90"/>
 <instance part="TP7" gate="G$1" x="185.42" y="104.14" rot="R270"/>
 <instance part="TP8" gate="G$1" x="185.42" y="106.68" rot="R270"/>
+<instance part="TP9" gate="G$1" x="185.42" y="109.22" rot="R270"/>
 </instances>
 <busses>
 </busses>
@@ -1533,6 +1551,10 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pinref part="R1" gate="G$1" pin="2"/>
 <wire x1="109.22" y1="114.3" x2="111.76" y2="114.3" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<wire x1="71.12" y1="119.38" x2="81.28" y2="119.38" width="0.1524" layer="91"/>
+<pinref part="C100" gate="G$1" pin="1"/>
+</segment>
 </net>
 <net name="MISO" class="0">
 <segment>
@@ -1572,16 +1594,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <segment>
 <wire x1="154.94" y1="111.76" x2="144.78" y2="111.76" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="P0_0"/>
-</segment>
-</net>
-<net name="DAT2" class="0">
-<segment>
-<wire x1="81.28" y1="119.38" x2="71.12" y2="119.38" width="0.1524" layer="91"/>
-<pinref part="C100" gate="G$1" pin="1"/>
-</segment>
-<segment>
-<wire x1="154.94" y1="109.22" x2="144.78" y2="109.22" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="P0_1"/>
 </segment>
 </net>
 <net name="P0_3" class="0">
@@ -1631,6 +1643,14 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pinref part="U1" gate="G$1" pin="P0_2"/>
 <wire x1="182.88" y1="106.68" x2="144.78" y2="106.68" width="0.1524" layer="91"/>
 <label x="154.94" y="106.68" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="P0_1" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="P0_1"/>
+<pinref part="TP9" gate="G$1" pin="TP"/>
+<wire x1="144.78" y1="109.22" x2="182.88" y2="109.22" width="0.1524" layer="91"/>
+<label x="154.94" y="109.22" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
