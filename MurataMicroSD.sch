@@ -1477,16 +1477,16 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <text x="154.94" y="101.6" size="1.778" layer="94">P0_4/TXD/MOSI -&gt;</text>
 <text x="154.94" y="99.06" size="1.778" layer="94">P0_5/RXD/SCK &lt;-</text>
 <text x="154.94" y="96.52" size="1.778" layer="94">P0_6/DAT1</text>
-<text x="71.12" y="119.38" size="1.778" layer="94" rot="MR0">RESET</text>
-<text x="71.12" y="99.06" size="1.778" layer="94" rot="MR0">-&gt; P0_5/RXD/SCK</text>
-<text x="71.12" y="109.22" size="1.778" layer="94" rot="MR0">&lt;- P0_4/TXD/MOSI</text>
+<text x="71.12" y="119.38" size="1.778" layer="94" rot="MR0" align="center-left">RESET</text>
+<text x="71.12" y="99.06" size="1.778" layer="94" rot="MR0" align="center-left">-&gt; P0_5/RXD/SCK</text>
+<text x="71.12" y="109.22" size="1.778" layer="94" rot="MR0" align="center-left">&lt;- P0_4/TXD/MOSI</text>
 <wire x1="99.06" y1="76.2" x2="193.04" y2="76.2" width="0.254" layer="94"/>
 <wire x1="193.04" y1="76.2" x2="193.04" y2="127" width="0.254" layer="94"/>
 <wire x1="193.04" y1="127" x2="99.06" y2="127" width="0.254" layer="94"/>
-<text x="71.12" y="88.9" size="1.778" layer="94" align="bottom-right">P0_7/MISO</text>
-<text x="71.12" y="83.82" size="1.778" layer="94" rot="MR0">P0_6/DAT1</text>
+<text x="71.12" y="88.9" size="1.778" layer="94" rot="MR0" align="center-left">P0_7/MISO</text>
+<text x="71.12" y="83.82" size="1.778" layer="94" rot="MR0" align="center-left">P0_6/DAT1</text>
 <text x="154.94" y="93.98" size="1.778" layer="94">P0_7/MISO</text>
-<text x="71.12" y="114.3" size="1.778" layer="94" rot="MR0">P0_0/!CS!</text>
+<text x="71.12" y="114.3" size="1.778" layer="94" rot="MR0" align="center-left">P0_0/!CS!</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
