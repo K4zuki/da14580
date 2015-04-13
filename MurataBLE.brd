@@ -8,7 +8,7 @@
 </settings>
 <grid distance="0.1" unitdist="mm" unit="mm" style="dots" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="0" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="0" visible="no" active="yes"/>
 <layer number="16" name="Bottom" color="9" fill="0" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
@@ -1648,9 +1648,9 @@ design rules under a new name.</description>
 <wire x1="36.5" y1="26" x2="37.9" y2="26" width="1.6" layer="16"/>
 <wire x1="37.9" y1="26" x2="39.3" y2="26" width="1.6" layer="16"/>
 <wire x1="39.3" y1="26" x2="39.3" y2="22.2" width="1.6" layer="16"/>
-<wire x1="39.3" y1="22.2" x2="51.4" y2="22.1" width="1.6" layer="16"/>
-<wire x1="51.8" y1="22.3" x2="51.8" y2="22.1" width="0.8" layer="16"/>
-<wire x1="51.8" y1="22.1" x2="51.4" y2="22.1" width="0.8" layer="16"/>
+<wire x1="39.3" y1="22.2" x2="51.4" y2="22.2" width="1.6" layer="16"/>
+<wire x1="51.8" y1="22.3" x2="51.8" y2="22.2" width="0.8" layer="16"/>
+<wire x1="51.8" y1="22.2" x2="51.4" y2="22.2" width="0.8" layer="16"/>
 <wire x1="39.3" y1="21.5" x2="39.3" y2="22.2" width="0.6" layer="1"/>
 <wire x1="34.25" y1="24.25" x2="34.25" y2="25.35" width="0.25" layer="1"/>
 <wire x1="34.25" y1="25.35" x2="34.2" y2="25.4" width="0.25" layer="1"/>
