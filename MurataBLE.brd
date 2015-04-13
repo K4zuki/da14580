@@ -1991,8 +1991,8 @@ design rules under a new name.</description>
 <wire x1="39.3" y1="28" x2="38.6" y2="27.3" width="0.25" layer="1"/>
 <wire x1="38.6" y1="27.3" x2="38.6" y2="24.7" width="0.25" layer="1"/>
 <wire x1="38.6" y1="24.7" x2="38.2" y2="24.3" width="0.25" layer="1"/>
-<wire x1="39.3" y1="28" x2="40.125" y2="27.8" width="0.25" layer="1"/>
-<wire x1="40.125" y1="27.8" x2="41.825" y2="29.5" width="0.25" layer="1"/>
+<wire x1="39.3" y1="28" x2="40.325" y2="28" width="0.25" layer="1"/>
+<wire x1="40.325" y1="28" x2="41.825" y2="29.5" width="0.25" layer="1"/>
 </signal>
 <signal name="FB_ISP">
 <contactref element="IC2" pad="3"/>
