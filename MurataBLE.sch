@@ -2845,27 +2845,31 @@ Vf@5mA:
 <description>&lt;b&gt;Samtec Connectors&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
-<package name="TSW-112-02-S-S">
+<package name="TSW-114-02-S-S">
 <description>&lt;b&gt;THROUGH-HOLE .025" SQ POST HEADER&lt;/b&gt;&lt;p&gt;
 Source: Samtec TSW.pdf</description>
-<wire x1="-15.369" y1="1.155" x2="15.369" y2="1.155" width="0.2" layer="21"/>
-<wire x1="15.369" y1="1.155" x2="15.369" y2="-1.155" width="0.2" layer="21"/>
-<wire x1="15.369" y1="-1.155" x2="-15.369" y2="-1.155" width="0.2" layer="21"/>
-<wire x1="-15.369" y1="-1.155" x2="-15.369" y2="1.155" width="0.2" layer="21"/>
-<pad name="1" x="13.97" y="0" drill="1" diameter="1.5" shape="octagon" rot="R180"/>
-<pad name="2" x="11.43" y="0" drill="1" diameter="1.5" shape="octagon" rot="R180"/>
-<pad name="3" x="8.89" y="0" drill="1" diameter="1.5" shape="octagon" rot="R180"/>
-<pad name="4" x="6.35" y="0" drill="1" diameter="1.5" shape="octagon" rot="R180"/>
-<pad name="5" x="3.81" y="0" drill="1" diameter="1.5" shape="octagon" rot="R180"/>
-<pad name="6" x="1.27" y="0" drill="1" diameter="1.5" shape="octagon" rot="R180"/>
-<pad name="7" x="-1.27" y="0" drill="1" diameter="1.5" shape="octagon" rot="R180"/>
-<pad name="8" x="-3.81" y="0" drill="1" diameter="1.5" shape="octagon" rot="R180"/>
-<pad name="9" x="-6.35" y="0" drill="1" diameter="1.5" shape="octagon" rot="R180"/>
-<pad name="10" x="-8.89" y="0" drill="1" diameter="1.5" shape="octagon" rot="R180"/>
-<pad name="11" x="-11.43" y="0" drill="1" diameter="1.5" shape="octagon" rot="R180"/>
-<pad name="12" x="-13.97" y="0" drill="1" diameter="1.5" shape="octagon" rot="R180"/>
-<text x="-15.875" y="-1.27" size="1" layer="25" font="vector" ratio="20" rot="R90">&gt;NAME</text>
-<text x="17.145" y="-1.27" size="1" layer="27" font="vector" ratio="20" rot="R90">&gt;VALUE</text>
+<wire x1="-17.909" y1="1.155" x2="17.909" y2="1.155" width="0.2032" layer="21"/>
+<wire x1="17.909" y1="1.155" x2="17.909" y2="-1.155" width="0.2032" layer="21"/>
+<wire x1="17.909" y1="-1.155" x2="-17.909" y2="-1.155" width="0.2032" layer="21"/>
+<wire x1="-17.909" y1="-1.155" x2="-17.909" y2="1.155" width="0.2032" layer="21"/>
+<pad name="1" x="16.51" y="0" drill="1" diameter="1.5" shape="octagon" rot="R180"/>
+<pad name="2" x="13.97" y="0" drill="1" diameter="1.5" shape="octagon" rot="R180"/>
+<pad name="3" x="11.43" y="0" drill="1" diameter="1.5" shape="octagon" rot="R180"/>
+<pad name="4" x="8.89" y="0" drill="1" diameter="1.5" shape="octagon" rot="R180"/>
+<pad name="5" x="6.35" y="0" drill="1" diameter="1.5" shape="octagon" rot="R180"/>
+<pad name="6" x="3.81" y="0" drill="1" diameter="1.5" shape="octagon" rot="R180"/>
+<pad name="7" x="1.27" y="0" drill="1" diameter="1.5" shape="octagon" rot="R180"/>
+<pad name="8" x="-1.27" y="0" drill="1" diameter="1.5" shape="octagon" rot="R180"/>
+<pad name="9" x="-3.81" y="0" drill="1" diameter="1.5" shape="octagon" rot="R180"/>
+<pad name="10" x="-6.35" y="0" drill="1" diameter="1.5" shape="octagon" rot="R180"/>
+<pad name="11" x="-8.89" y="0" drill="1" diameter="1.5" shape="octagon" rot="R180"/>
+<pad name="12" x="-11.43" y="0" drill="1" diameter="1.5" shape="octagon" rot="R180"/>
+<pad name="13" x="-13.97" y="0" drill="1" diameter="1.5" shape="octagon" rot="R180"/>
+<pad name="14" x="-16.51" y="0" drill="1" diameter="1.5" shape="octagon" rot="R180"/>
+<text x="16.252" y="-2.498" size="1.1" layer="21" font="vector" rot="SR0">1</text>
+<text x="-18.415" y="-1.27" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="19.685" y="-1.27" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<rectangle x1="-16.86" y1="-0.35" x2="-16.16" y2="0.35" layer="51"/>
 <rectangle x1="-14.32" y1="-0.35" x2="-13.62" y2="0.35" layer="51"/>
 <rectangle x1="-11.78" y1="-0.35" x2="-11.08" y2="0.35" layer="51"/>
 <rectangle x1="-9.24" y1="-0.35" x2="-8.54" y2="0.35" layer="51"/>
@@ -2878,34 +2882,33 @@ Source: Samtec TSW.pdf</description>
 <rectangle x1="8.54" y1="-0.35" x2="9.24" y2="0.35" layer="51"/>
 <rectangle x1="11.08" y1="-0.35" x2="11.78" y2="0.35" layer="51"/>
 <rectangle x1="13.62" y1="-0.35" x2="14.32" y2="0.35" layer="51"/>
-<polygon width="0.2" layer="21">
-<vertex x="15.3" y="0.5"/>
-<vertex x="14.7" y="1.1"/>
-<vertex x="15.3" y="1.1"/>
-</polygon>
+<rectangle x1="16.16" y1="-0.35" x2="16.86" y2="0.35" layer="51"/>
 </package>
-<package name="TSW-112-02-S-S-RA">
+<package name="TSW-114-02-S-S-RA">
 <description>&lt;b&gt;THROUGH-HOLE .025" SQ POST HEADER&lt;/b&gt;&lt;p&gt;
 Source: Samtec TSW.pdf</description>
-<wire x1="-15.369" y1="-2.046" x2="15.369" y2="-2.046" width="0.2032" layer="21"/>
-<wire x1="15.369" y1="-2.046" x2="15.369" y2="-0.106" width="0.2032" layer="21"/>
-<wire x1="15.369" y1="-0.106" x2="-15.369" y2="-0.106" width="0.2032" layer="21"/>
-<wire x1="-15.369" y1="-0.106" x2="-15.369" y2="-2.046" width="0.2032" layer="21"/>
-<pad name="1" x="13.97" y="1.524" drill="1" diameter="1.5" shape="octagon" rot="R180"/>
-<pad name="2" x="11.43" y="1.524" drill="1" diameter="1.5" shape="octagon" rot="R180"/>
-<pad name="3" x="8.89" y="1.524" drill="1" diameter="1.5" shape="octagon" rot="R180"/>
-<pad name="4" x="6.35" y="1.524" drill="1" diameter="1.5" shape="octagon" rot="R180"/>
-<pad name="5" x="3.81" y="1.524" drill="1" diameter="1.5" shape="octagon" rot="R180"/>
-<pad name="6" x="1.27" y="1.524" drill="1" diameter="1.5" shape="octagon" rot="R180"/>
-<pad name="7" x="-1.27" y="1.524" drill="1" diameter="1.5" shape="octagon" rot="R180"/>
-<pad name="8" x="-3.81" y="1.524" drill="1" diameter="1.5" shape="octagon" rot="R180"/>
-<pad name="9" x="-6.35" y="1.524" drill="1" diameter="1.5" shape="octagon" rot="R180"/>
-<pad name="10" x="-8.89" y="1.524" drill="1" diameter="1.5" shape="octagon" rot="R180"/>
-<pad name="11" x="-11.43" y="1.524" drill="1" diameter="1.5" shape="octagon" rot="R180"/>
-<pad name="12" x="-13.97" y="1.524" drill="1" diameter="1.5" shape="octagon" rot="R180"/>
-<text x="-15.875" y="-7.62" size="1.27" layer="25" rot="R90">&gt;NAME</text>
-<text x="17.145" y="-7.62" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
-<text x="15.252" y="1.152" size="1.1" layer="21" font="vector" rot="SR0">1</text>
+<wire x1="-17.909" y1="-2.046" x2="17.909" y2="-2.046" width="0.2032" layer="21"/>
+<wire x1="17.909" y1="-2.046" x2="17.909" y2="-0.106" width="0.2032" layer="21"/>
+<wire x1="17.909" y1="-0.106" x2="-17.909" y2="-0.106" width="0.2032" layer="21"/>
+<wire x1="-17.909" y1="-0.106" x2="-17.909" y2="-2.046" width="0.2032" layer="21"/>
+<pad name="1" x="16.51" y="1.524" drill="1" diameter="1.5" shape="octagon" rot="R180"/>
+<pad name="2" x="13.97" y="1.524" drill="1" diameter="1.5" shape="octagon" rot="R180"/>
+<pad name="3" x="11.43" y="1.524" drill="1" diameter="1.5" shape="octagon" rot="R180"/>
+<pad name="4" x="8.89" y="1.524" drill="1" diameter="1.5" shape="octagon" rot="R180"/>
+<pad name="5" x="6.35" y="1.524" drill="1" diameter="1.5" shape="octagon" rot="R180"/>
+<pad name="6" x="3.81" y="1.524" drill="1" diameter="1.5" shape="octagon" rot="R180"/>
+<pad name="7" x="1.27" y="1.524" drill="1" diameter="1.5" shape="octagon" rot="R180"/>
+<pad name="8" x="-1.27" y="1.524" drill="1" diameter="1.5" shape="octagon" rot="R180"/>
+<pad name="9" x="-3.81" y="1.524" drill="1" diameter="1.5" shape="octagon" rot="R180"/>
+<pad name="10" x="-6.35" y="1.524" drill="1" diameter="1.5" shape="octagon" rot="R180"/>
+<pad name="11" x="-8.89" y="1.524" drill="1" diameter="1.5" shape="octagon" rot="R180"/>
+<pad name="12" x="-11.43" y="1.524" drill="1" diameter="1.5" shape="octagon" rot="R180"/>
+<pad name="13" x="-13.97" y="1.524" drill="1" diameter="1.5" shape="octagon" rot="R180"/>
+<pad name="14" x="-16.51" y="1.524" drill="1" diameter="1.5" shape="octagon" rot="R180"/>
+<text x="-18.415" y="-7.62" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="19.685" y="-7.62" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<text x="17.792" y="1.152" size="1.1" layer="21" font="vector" rot="SR0">1</text>
+<rectangle x1="-16.764" y1="0" x2="-16.256" y2="1.778" layer="51"/>
 <rectangle x1="-14.224" y1="0" x2="-13.716" y2="1.778" layer="51"/>
 <rectangle x1="-11.684" y1="0" x2="-11.176" y2="1.778" layer="51"/>
 <rectangle x1="-9.144" y1="0" x2="-8.636" y2="1.778" layer="51"/>
@@ -2918,6 +2921,8 @@ Source: Samtec TSW.pdf</description>
 <rectangle x1="8.636" y1="0" x2="9.144" y2="1.778" layer="51"/>
 <rectangle x1="11.176" y1="0" x2="11.684" y2="1.778" layer="51"/>
 <rectangle x1="13.716" y1="0" x2="14.224" y2="1.778" layer="51"/>
+<rectangle x1="16.256" y1="0" x2="16.764" y2="1.778" layer="51"/>
+<rectangle x1="-16.764" y1="-7.89" x2="-16.256" y2="-2.04" layer="21"/>
 <rectangle x1="-14.224" y1="-7.89" x2="-13.716" y2="-2.04" layer="21"/>
 <rectangle x1="-11.684" y1="-7.89" x2="-11.176" y2="-2.04" layer="21"/>
 <rectangle x1="-9.144" y1="-7.89" x2="-8.636" y2="-2.04" layer="21"/>
@@ -2930,6 +2935,7 @@ Source: Samtec TSW.pdf</description>
 <rectangle x1="8.636" y1="-7.89" x2="9.144" y2="-2.04" layer="21"/>
 <rectangle x1="11.176" y1="-7.89" x2="11.684" y2="-2.04" layer="21"/>
 <rectangle x1="13.716" y1="-7.89" x2="14.224" y2="-2.04" layer="21"/>
+<rectangle x1="16.256" y1="-7.89" x2="16.764" y2="-2.04" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -2946,30 +2952,34 @@ Source: Samtec TSW.pdf</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="TSW-112-02-S-S" prefix="X">
+<deviceset name="TSW-114-02-S-S" prefix="X">
 <description>&lt;b&gt;THROUGH-HOLE .025" SQ POST HEADER&lt;/b&gt;&lt;p&gt;
 Source: Samtec TSW.pdf</description>
 <gates>
-<gate name="-1" symbol="MPINV" x="0" y="12.7" addlevel="always"/>
-<gate name="-2" symbol="MPIN" x="0" y="10.16" addlevel="always"/>
-<gate name="-3" symbol="MPIN" x="0" y="7.62" addlevel="always"/>
-<gate name="-4" symbol="MPIN" x="0" y="5.08" addlevel="always"/>
-<gate name="-5" symbol="MPIN" x="0" y="2.54" addlevel="always"/>
-<gate name="-6" symbol="MPIN" x="0" y="0" addlevel="always"/>
-<gate name="-7" symbol="MPIN" x="0" y="-2.54" addlevel="always"/>
-<gate name="-8" symbol="MPIN" x="0" y="-5.08" addlevel="always"/>
-<gate name="-9" symbol="MPIN" x="0" y="-7.62" addlevel="always"/>
-<gate name="-10" symbol="MPIN" x="0" y="-10.16" addlevel="always"/>
-<gate name="-11" symbol="MPIN" x="0" y="-12.7" addlevel="always"/>
-<gate name="-12" symbol="MPIN" x="0" y="-15.24" addlevel="always"/>
+<gate name="-1" symbol="MPINV" x="-1.27" y="15.24" addlevel="always"/>
+<gate name="-2" symbol="MPIN" x="-1.27" y="12.7" addlevel="always"/>
+<gate name="-3" symbol="MPIN" x="-1.27" y="10.16" addlevel="always"/>
+<gate name="-4" symbol="MPIN" x="-1.27" y="7.62" addlevel="always"/>
+<gate name="-5" symbol="MPIN" x="-1.27" y="5.08" addlevel="always"/>
+<gate name="-6" symbol="MPIN" x="-1.27" y="2.54" addlevel="always"/>
+<gate name="-7" symbol="MPIN" x="-1.27" y="0" addlevel="always"/>
+<gate name="-8" symbol="MPIN" x="-1.27" y="-2.54" addlevel="always"/>
+<gate name="-9" symbol="MPIN" x="-1.27" y="-5.08" addlevel="always"/>
+<gate name="-10" symbol="MPIN" x="-1.27" y="-7.62" addlevel="always"/>
+<gate name="-11" symbol="MPIN" x="-1.27" y="-10.16" addlevel="always"/>
+<gate name="-12" symbol="MPIN" x="-1.27" y="-12.7" addlevel="always"/>
+<gate name="-13" symbol="MPIN" x="-1.27" y="-15.24" addlevel="always"/>
+<gate name="-14" symbol="MPIN" x="-1.27" y="-17.78" addlevel="always"/>
 </gates>
 <devices>
-<device name="" package="TSW-112-02-S-S">
+<device name="" package="TSW-114-02-S-S">
 <connects>
 <connect gate="-1" pin="1" pad="1"/>
 <connect gate="-10" pin="1" pad="10"/>
 <connect gate="-11" pin="1" pad="11"/>
 <connect gate="-12" pin="1" pad="12"/>
+<connect gate="-13" pin="1" pad="13"/>
+<connect gate="-14" pin="1" pad="14"/>
 <connect gate="-2" pin="1" pad="2"/>
 <connect gate="-3" pin="1" pad="3"/>
 <connect gate="-4" pin="1" pad="4"/>
@@ -2988,12 +2998,14 @@ Source: Samtec TSW.pdf</description>
 </technology>
 </technologies>
 </device>
-<device name="-RA" package="TSW-112-02-S-S-RA">
+<device name="-RA" package="TSW-114-02-S-S-RA">
 <connects>
 <connect gate="-1" pin="1" pad="1"/>
 <connect gate="-10" pin="1" pad="10"/>
 <connect gate="-11" pin="1" pad="11"/>
 <connect gate="-12" pin="1" pad="12"/>
+<connect gate="-13" pin="1" pad="13"/>
+<connect gate="-14" pin="1" pad="14"/>
 <connect gate="-2" pin="1" pad="2"/>
 <connect gate="-3" pin="1" pad="3"/>
 <connect gate="-4" pin="1" pad="4"/>
@@ -3976,7 +3988,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="SUPPLY11" library="mylib" deviceset="GND" device=""/>
 <part name="SUPPLY12" library="mylib" deviceset="GND" device=""/>
 <part name="SUPPLY13" library="mylib" deviceset="GND" device=""/>
-<part name="X1" library="con-samtec.local" deviceset="TSW-112-02-S-S" device=""/>
 <part name="C7" library="mylib" deviceset="C_PAD_PAD_" device="1005" value="18p/1005"/>
 <part name="C10" library="mylib" deviceset="C_PAD_PAD_" device="1005" value="18p/1005"/>
 <part name="SUPPLY14" library="mylib" deviceset="GND" device=""/>
@@ -3997,6 +4008,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="TP6" library="testpad_local" deviceset="TP" device="TP06R" value="TPTP06R"/>
 <part name="TP7" library="testpad_local" deviceset="TP" device="TP06R" value="TPTP06R"/>
 <part name="TP8" library="testpad_local" deviceset="TP" device="TP06R" value="TPTP06R"/>
+<part name="X1" library="con-samtec.local" deviceset="TSW-114-02-S-S" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -4055,18 +4067,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <instance part="SUPPLY11" gate="GND" x="91.44" y="66.04"/>
 <instance part="SUPPLY12" gate="GND" x="86.36" y="66.04"/>
 <instance part="SUPPLY13" gate="GND" x="248.92" y="63.5"/>
-<instance part="X1" gate="-1" x="228.6" y="91.44" rot="MR0"/>
-<instance part="X1" gate="-2" x="228.6" y="88.9" rot="MR0"/>
-<instance part="X1" gate="-3" x="228.6" y="86.36" rot="MR0"/>
-<instance part="X1" gate="-4" x="228.6" y="83.82" rot="MR0"/>
-<instance part="X1" gate="-5" x="228.6" y="81.28" rot="MR0"/>
-<instance part="X1" gate="-6" x="228.6" y="78.74" rot="MR0"/>
-<instance part="X1" gate="-7" x="228.6" y="76.2" rot="MR0"/>
-<instance part="X1" gate="-8" x="228.6" y="73.66" rot="MR0"/>
-<instance part="X1" gate="-9" x="228.6" y="71.12" rot="MR0"/>
-<instance part="X1" gate="-10" x="228.6" y="68.58" rot="MR0"/>
-<instance part="X1" gate="-11" x="228.6" y="66.04" rot="MR0"/>
-<instance part="X1" gate="-12" x="228.6" y="63.5" rot="MR0"/>
 <instance part="C7" gate="G$1" x="66.04" y="83.82" rot="MR0"/>
 <instance part="C10" gate="G$1" x="71.12" y="83.82" rot="MR0"/>
 <instance part="SUPPLY14" gate="GND" x="71.12" y="71.12"/>
@@ -4093,6 +4093,20 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <instance part="TP6" gate="G$1" x="172.72" y="66.04" rot="R180"/>
 <instance part="TP7" gate="G$1" x="185.42" y="66.04" rot="R180"/>
 <instance part="TP8" gate="G$1" x="185.42" y="73.66"/>
+<instance part="X1" gate="-1" x="220.98" y="93.98" rot="MR0"/>
+<instance part="X1" gate="-2" x="220.98" y="91.44" rot="MR0"/>
+<instance part="X1" gate="-3" x="220.98" y="88.9" rot="MR0"/>
+<instance part="X1" gate="-4" x="220.98" y="86.36" rot="MR0"/>
+<instance part="X1" gate="-5" x="220.98" y="83.82" rot="MR0"/>
+<instance part="X1" gate="-6" x="220.98" y="81.28" rot="MR0"/>
+<instance part="X1" gate="-7" x="220.98" y="78.74" rot="MR0"/>
+<instance part="X1" gate="-8" x="220.98" y="76.2" rot="MR0"/>
+<instance part="X1" gate="-9" x="220.98" y="73.66" rot="MR0"/>
+<instance part="X1" gate="-10" x="220.98" y="71.12" rot="MR0"/>
+<instance part="X1" gate="-11" x="220.98" y="68.58" rot="MR0"/>
+<instance part="X1" gate="-12" x="220.98" y="66.04" rot="MR0"/>
+<instance part="X1" gate="-13" x="220.98" y="63.5" rot="MR0"/>
+<instance part="X1" gate="-14" x="220.98" y="60.96" rot="MR0"/>
 </instances>
 <busses>
 </busses>
@@ -4179,8 +4193,10 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </segment>
 <segment>
 <pinref part="SUPPLY13" gate="GND" pin="GND"/>
-<wire x1="231.14" y1="66.04" x2="248.92" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="X1" gate="-11" pin="1"/>
+<wire x1="236.22" y1="66.04" x2="248.92" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="63.5" x2="236.22" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="236.22" y1="63.5" x2="236.22" y2="66.04" width="0.1524" layer="91"/>
+<pinref part="X1" gate="-13" pin="1"/>
 </segment>
 <segment>
 <pinref part="C10" gate="G$1" pin="2"/>
@@ -4313,9 +4329,9 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <label x="233.68" y="129.54" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="241.3" y1="78.74" x2="231.14" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="241.3" y1="78.74" x2="223.52" y2="78.74" width="0.1524" layer="91"/>
 <label x="241.3" y="78.74" size="1.778" layer="95"/>
-<pinref part="X1" gate="-6" pin="1"/>
+<pinref part="X1" gate="-7" pin="1"/>
 </segment>
 </net>
 <net name="P0_6" class="0">
@@ -4325,9 +4341,9 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <label x="233.68" y="127" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="241.3" y1="73.66" x2="231.14" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="241.3" y1="73.66" x2="223.52" y2="73.66" width="0.1524" layer="91"/>
 <label x="241.3" y="73.66" size="1.778" layer="95"/>
-<pinref part="X1" gate="-8" pin="1"/>
+<pinref part="X1" gate="-9" pin="1"/>
 </segment>
 </net>
 <net name="P0_7" class="0">
@@ -4337,9 +4353,9 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <label x="233.68" y="124.46" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="231.14" y1="76.2" x2="241.3" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="76.2" x2="241.3" y2="76.2" width="0.1524" layer="91"/>
 <label x="241.3" y="76.2" size="1.778" layer="95"/>
-<pinref part="X1" gate="-7" pin="1"/>
+<pinref part="X1" gate="-8" pin="1"/>
 </segment>
 </net>
 <net name="P0_0" class="0">
@@ -4349,9 +4365,9 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <label x="233.68" y="142.24" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="231.14" y1="83.82" x2="241.3" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="83.82" x2="241.3" y2="83.82" width="0.1524" layer="91"/>
 <label x="241.3" y="83.82" size="1.778" layer="95"/>
-<pinref part="X1" gate="-4" pin="1"/>
+<pinref part="X1" gate="-5" pin="1"/>
 </segment>
 <segment>
 <wire x1="193.04" y1="71.12" x2="185.42" y2="71.12" width="0.1524" layer="91"/>
@@ -4368,9 +4384,9 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <label x="233.68" y="139.7" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="231.14" y1="86.36" x2="241.3" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="86.36" x2="241.3" y2="86.36" width="0.1524" layer="91"/>
 <label x="241.3" y="86.36" size="1.778" layer="95"/>
-<pinref part="X1" gate="-3" pin="1"/>
+<pinref part="X1" gate="-4" pin="1"/>
 </segment>
 <segment>
 <wire x1="193.04" y1="68.58" x2="185.42" y2="68.58" width="0.1524" layer="91"/>
@@ -4387,9 +4403,9 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <label x="233.68" y="137.16" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="231.14" y1="68.58" x2="241.3" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="68.58" x2="241.3" y2="68.58" width="0.1524" layer="91"/>
 <label x="241.3" y="68.58" size="1.778" layer="95"/>
-<pinref part="X1" gate="-10" pin="1"/>
+<pinref part="X1" gate="-11" pin="1"/>
 </segment>
 </net>
 <net name="P0_3" class="0">
@@ -4399,9 +4415,9 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <label x="233.68" y="134.62" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="231.14" y1="71.12" x2="241.3" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="71.12" x2="241.3" y2="71.12" width="0.1524" layer="91"/>
 <label x="241.3" y="71.12" size="1.778" layer="95"/>
-<pinref part="X1" gate="-9" pin="1"/>
+<pinref part="X1" gate="-10" pin="1"/>
 </segment>
 </net>
 <net name="P0_4" class="0">
@@ -4411,9 +4427,9 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <label x="233.68" y="132.08" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="231.14" y1="81.28" x2="241.3" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="81.28" x2="241.3" y2="81.28" width="0.1524" layer="91"/>
 <label x="241.3" y="81.28" size="1.778" layer="95"/>
-<pinref part="X1" gate="-5" pin="1"/>
+<pinref part="X1" gate="-6" pin="1"/>
 </segment>
 </net>
 <net name="P1_0" class="0">
@@ -4422,12 +4438,20 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <wire x1="228.6" y1="119.38" x2="241.3" y2="119.38" width="0.1524" layer="91"/>
 <label x="233.68" y="119.38" size="1.778" layer="95"/>
 </segment>
+<segment>
+<wire x1="223.52" y1="88.9" x2="226.06" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="X1" gate="-3" pin="1"/>
+</segment>
 </net>
 <net name="P1_1" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="P1_1"/>
 <wire x1="241.3" y1="116.84" x2="228.6" y2="116.84" width="0.1524" layer="91"/>
 <label x="233.68" y="116.84" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="226.06" y1="66.04" x2="223.52" y2="66.04" width="0.1524" layer="91"/>
+<pinref part="X1" gate="-12" pin="1"/>
 </segment>
 </net>
 <net name="SWCLK" class="0">
@@ -4442,9 +4466,11 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <label x="167.64" y="96.52" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="231.14" y1="91.44" x2="241.3" y2="91.44" width="0.1524" layer="91"/>
-<pinref part="X1" gate="-1" pin="1"/>
 <label x="241.3" y="91.44" size="1.778" layer="95"/>
+<wire x1="238.76" y1="91.44" x2="241.3" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="93.98" x2="238.76" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="238.76" y1="93.98" x2="238.76" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="X1" gate="-1" pin="1"/>
 </segment>
 </net>
 <net name="N$18" class="0">
@@ -4596,9 +4622,11 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <label x="180.34" y="116.84" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="241.3" y1="88.9" x2="231.14" y2="88.9" width="0.1524" layer="91"/>
-<pinref part="X1" gate="-2" pin="1"/>
+<wire x1="241.3" y1="88.9" x2="236.22" y2="88.9" width="0.1524" layer="91"/>
 <label x="241.3" y="88.9" size="1.778" layer="95"/>
+<wire x1="223.52" y1="91.44" x2="236.22" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="236.22" y1="91.44" x2="236.22" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="X1" gate="-2" pin="1"/>
 </segment>
 </net>
 <net name="TGT_TX" class="0">
@@ -4642,9 +4670,11 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <label x="182.88" y="149.86" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="241.3" y1="63.5" x2="231.14" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="241.3" y1="63.5" x2="238.76" y2="63.5" width="0.1524" layer="91"/>
 <label x="241.3" y="63.5" size="1.778" layer="95"/>
-<pinref part="X1" gate="-12" pin="1"/>
+<wire x1="223.52" y1="60.96" x2="238.76" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="238.76" y1="60.96" x2="238.76" y2="63.5" width="0.1524" layer="91"/>
+<pinref part="X1" gate="-14" pin="1"/>
 </segment>
 </net>
 <net name="N$6" class="0">
