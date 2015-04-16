@@ -341,6 +341,7 @@
 <wire x1="21.5" y1="27.6" x2="23.2" y2="27.6" width="0.15" layer="41"/>
 <wire x1="23.2" y1="28.8" x2="24.1" y2="28.8" width="0.15" layer="41"/>
 <wire x1="23.2" y1="27.6" x2="24.1" y2="27.6" width="0.15" layer="41"/>
+<text x="52.6" y="39.4" size="1" layer="16" ratio="20" rot="MR0">CC-BY-SA Licensed</text>
 </plain>
 <libraries>
 <library name="mylib">
@@ -1108,11 +1109,18 @@ Cream on SMD OFF.&lt;br&gt;
 new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
-<package name="TP07SQ">
+<package name="TP06R">
 <description>&lt;b&gt;TEST PAD&lt;/b&gt;</description>
-<smd name="TP" x="0" y="0" dx="0.7" dy="0.7" layer="1" cream="no"/>
+<smd name="TP" x="0" y="0" dx="0.6" dy="0.6" layer="1" roundness="100" cream="no"/>
 <text x="-0.3" y="0.4001" size="1.27" layer="25">&gt;NAME</text>
-<text x="-0.381" y="-0.381" size="0.0254" layer="27">&gt;VALUE</text>
+<text x="-0.254" y="-0.381" size="0.0254" layer="27">&gt;VALUE</text>
+<text x="0" y="-1.905" size="1" layer="37">&gt;TP_SIGNAL_NAME</text>
+</package>
+<package name="TP06SQ">
+<description>&lt;b&gt;TEST PAD&lt;/b&gt;</description>
+<smd name="TP" x="0" y="0" dx="0.5996" dy="0.5996" layer="1" cream="no"/>
+<text x="-0.3" y="0.4001" size="1.27" layer="25">&gt;NAME</text>
+<text x="-0.254" y="-0.381" size="0.0254" layer="27">&gt;VALUE</text>
 <text x="0" y="-1.905" size="1" layer="37">&gt;TP_SIGNAL_NAME</text>
 </package>
 </packages>
@@ -1427,21 +1435,21 @@ design rules under a new name.</description>
 <attribute name="NAME" x="29.7" y="31.1" size="1" layer="25" ratio="20" align="center"/>
 <attribute name="VALUE" x="29.9" y="28.7" size="1" layer="27" ratio="20"/>
 </element>
-<element name="TP1" library="testpad_local" package="TP07SQ" value="TPTP07SQ" x="41.9" y="25.4" smashed="yes">
-<attribute name="TP_SIGNAL_NAME" value="" x="41.9" y="23.495" size="1" layer="37"/>
-<attribute name="VALUE" x="41.519" y="25.019" size="0.0254" layer="27"/>
+<element name="TP1" library="testpad_local" package="TP06SQ" value="TPTP06SQ" x="42.2" y="25.4" smashed="yes">
+<attribute name="TP_SIGNAL_NAME" value="" x="42.2" y="23.495" size="1" layer="37"/>
+<attribute name="VALUE" x="41.819" y="25.019" size="0.0254" layer="27"/>
 </element>
-<element name="TP2" library="testpad_local" package="TP07SQ" value="TPTP07SQ" x="42.8" y="25.4" smashed="yes">
-<attribute name="TP_SIGNAL_NAME" value="" x="42.8" y="23.495" size="1" layer="37"/>
-<attribute name="VALUE" x="42.419" y="25.019" size="0.0254" layer="27"/>
+<element name="TP2" library="testpad_local" package="TP06SQ" value="TPTP06SQ" x="43" y="25.4" smashed="yes">
+<attribute name="TP_SIGNAL_NAME" value="" x="43" y="23.495" size="1" layer="37"/>
+<attribute name="VALUE" x="42.619" y="25.019" size="0.0254" layer="27"/>
 </element>
-<element name="TP3" library="testpad_local" package="TP07SQ" value="TPTP07SQ" x="41.9" y="26.7" smashed="yes">
-<attribute name="TP_SIGNAL_NAME" value="" x="41.9" y="24.795" size="1" layer="37"/>
-<attribute name="VALUE" x="41.519" y="26.319" size="0.0254" layer="27"/>
+<element name="TP3" library="testpad_local" package="TP06SQ" value="TPTP06SQ" x="42.2" y="26.7" smashed="yes">
+<attribute name="TP_SIGNAL_NAME" value="" x="42.2" y="24.795" size="1" layer="37"/>
+<attribute name="VALUE" x="41.819" y="26.319" size="0.0254" layer="27"/>
 </element>
-<element name="TP4" library="testpad_local" package="TP07SQ" value="TPTP07SQ" x="42.8" y="26.7" smashed="yes">
-<attribute name="TP_SIGNAL_NAME" value="" x="42.8" y="24.795" size="1" layer="37"/>
-<attribute name="VALUE" x="42.419" y="26.319" size="0.0254" layer="27"/>
+<element name="TP4" library="testpad_local" package="TP06SQ" value="TPTP06SQ" x="43" y="26.7" smashed="yes">
+<attribute name="TP_SIGNAL_NAME" value="" x="43" y="24.795" size="1" layer="37"/>
+<attribute name="VALUE" x="42.619" y="26.319" size="0.0254" layer="27"/>
 </element>
 <element name="R4" library="mylib" package="C0402" value="270/1005" x="32" y="27.3" smashed="yes" rot="R90">
 <attribute name="NAME" x="33.5" y="26.5" size="1" layer="25" font="vector" ratio="20" rot="R90"/>
@@ -1457,6 +1465,22 @@ design rules under a new name.</description>
 </element>
 <element name="LED1" library="mylib" package="LED_3SEG_SMD" value="LED_3SEG" x="22.4" y="35.8" smashed="yes">
 <attribute name="NAME" x="25.3" y="35.3" size="1" layer="25" ratio="20"/>
+</element>
+<element name="TP5" library="testpad_local" package="TP06R" value="TPTP06R" x="41.9" y="25.4" smashed="yes">
+<attribute name="TP_SIGNAL_NAME" value="" x="41.9" y="23.495" size="1" layer="37"/>
+<attribute name="VALUE" x="41.646" y="24.892" size="0.0254" layer="27"/>
+</element>
+<element name="TP6" library="testpad_local" package="TP06R" value="TPTP06R" x="41.9" y="26.7" smashed="yes">
+<attribute name="TP_SIGNAL_NAME" value="" x="41.9" y="24.795" size="1" layer="37"/>
+<attribute name="VALUE" x="41.646" y="26.192" size="0.0254" layer="27"/>
+</element>
+<element name="TP7" library="testpad_local" package="TP06R" value="TPTP06R" x="43.3" y="26.7" smashed="yes">
+<attribute name="TP_SIGNAL_NAME" value="" x="43.3" y="24.795" size="1" layer="37"/>
+<attribute name="VALUE" x="43.046" y="26.192" size="0.0254" layer="27"/>
+</element>
+<element name="TP8" library="testpad_local" package="TP06R" value="TPTP06R" x="43.3" y="25.4" smashed="yes">
+<attribute name="TP_SIGNAL_NAME" value="" x="43.3" y="23.495" size="1" layer="37"/>
+<attribute name="VALUE" x="43.046" y="24.892" size="0.0254" layer="27"/>
 </element>
 </elements>
 <signals>
@@ -1758,8 +1782,8 @@ design rules under a new name.</description>
 <wire x1="50.9" y1="28.6" x2="52.9" y2="30.6" width="0.25" layer="1"/>
 <wire x1="48.7" y1="26" x2="48.7" y2="25.7" width="0.25" layer="1"/>
 <wire x1="48.7" y1="25.7" x2="45.8" y2="22.8" width="0.25" layer="1"/>
-<wire x1="43.7" y1="25.4" x2="44.3" y2="26" width="0.25" layer="1"/>
-<wire x1="44.3" y1="26" x2="48.7" y2="26" width="0.25" layer="1"/>
+<wire x1="44" y1="25.4" x2="44.6" y2="26" width="0.25" layer="1"/>
+<wire x1="44.6" y1="26" x2="48.7" y2="26" width="0.25" layer="1"/>
 <wire x1="45.8" y1="22.8" x2="45.8" y2="22.2" width="0.25" layer="1"/>
 <wire x1="33" y1="15.6" x2="39.2" y2="15.6" width="0.25" layer="1"/>
 <wire x1="39.2" y1="15.6" x2="45.8" y2="22.2" width="0.25" layer="1"/>
@@ -1770,7 +1794,9 @@ design rules under a new name.</description>
 <wire x1="29.95" y1="14.3" x2="31.7" y2="14.3" width="0.25" layer="1"/>
 <wire x1="31.7" y1="14.3" x2="33" y2="15.6" width="0.25" layer="1"/>
 <contactref element="TP2" pad="TP"/>
-<wire x1="42.8" y1="25.4" x2="43.7" y2="25.4" width="0.25" layer="1"/>
+<contactref element="TP8" pad="TP"/>
+<wire x1="43" y1="25.4" x2="43.3" y2="25.4" width="0.25" layer="1"/>
+<wire x1="44" y1="25.4" x2="43.3" y2="25.4" width="0.25" layer="1"/>
 </signal>
 <signal name="P0_1">
 <contactref element="U1" pad="22"/>
@@ -1795,7 +1821,9 @@ design rules under a new name.</description>
 <wire x1="27.91" y1="14.8" x2="31.4" y2="14.8" width="0.25" layer="1"/>
 <wire x1="31.4" y1="14.8" x2="32.7" y2="16.1" width="0.25" layer="1"/>
 <contactref element="TP4" pad="TP"/>
-<wire x1="48.7" y1="26.7" x2="42.8" y2="26.7" width="0.25" layer="1"/>
+<wire x1="48.7" y1="26.7" x2="43.3" y2="26.7" width="0.25" layer="1"/>
+<contactref element="TP7" pad="TP"/>
+<wire x1="43.3" y1="26.7" x2="43" y2="26.7" width="0.25" layer="1"/>
 </signal>
 <signal name="P0_2">
 <contactref element="U1" pad="12"/>
@@ -2043,7 +2071,9 @@ design rules under a new name.</description>
 <wire x1="40.55" y1="22.85" x2="41.4" y2="23.7" width="0.25" layer="1"/>
 <wire x1="41.4" y1="23.7" x2="41.4" y2="24.9" width="0.25" layer="1"/>
 <contactref element="TP1" pad="TP"/>
-<wire x1="41.9" y1="25.4" x2="41.4" y2="24.9" width="0.25" layer="1"/>
+<contactref element="TP5" pad="TP"/>
+<wire x1="42.2" y1="25.4" x2="41.9" y2="25.4" width="0.25" layer="1"/>
+<wire x1="41.4" y1="24.9" x2="41.9" y2="25.4" width="0.25" layer="1"/>
 </signal>
 <signal name="TGT_RX">
 <contactref element="IC2" pad="32"/>
@@ -2051,7 +2081,9 @@ design rules under a new name.</description>
 <wire x1="37.65" y1="23.35" x2="40.25" y2="23.35" width="0.25" layer="1"/>
 <wire x1="40.25" y1="23.35" x2="40.9" y2="24" width="0.25" layer="1"/>
 <contactref element="TP3" pad="TP"/>
-<wire x1="41.9" y1="26.7" x2="40.9" y2="25.7" width="0.25" layer="1"/>
+<contactref element="TP6" pad="TP"/>
+<wire x1="42.2" y1="26.7" x2="41.9" y2="26.7" width="0.25" layer="1"/>
+<wire x1="40.9" y1="25.7" x2="41.9" y2="26.7" width="0.25" layer="1"/>
 </signal>
 <signal name="N$4">
 <contactref element="R6" pad="2"/>
