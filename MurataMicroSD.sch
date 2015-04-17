@@ -1467,6 +1467,8 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="TP7" library="testpad_local" deviceset="TP" device="TP08R"/>
 <part name="TP8" library="testpad_local" deviceset="TP" device="TP08R"/>
 <part name="TP9" library="testpad_local" deviceset="TP" device="TP08R"/>
+<part name="TP10" library="testpad_local" deviceset="TP" device="TP08R"/>
+<part name="TP11" library="testpad_local" deviceset="TP" device="TP08R"/>
 </parts>
 <sheets>
 <sheet>
@@ -1506,6 +1508,8 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <instance part="TP7" gate="G$1" x="185.42" y="104.14" rot="R270"/>
 <instance part="TP8" gate="G$1" x="185.42" y="106.68" rot="R270"/>
 <instance part="TP9" gate="G$1" x="185.42" y="109.22" rot="R270"/>
+<instance part="TP10" gate="G$1" x="185.42" y="88.9" rot="R270"/>
+<instance part="TP11" gate="G$1" x="185.42" y="86.36" rot="R270"/>
 </instances>
 <busses>
 </busses>
@@ -1651,6 +1655,22 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pinref part="TP9" gate="G$1" pin="TP"/>
 <wire x1="144.78" y1="109.22" x2="182.88" y2="109.22" width="0.1524" layer="91"/>
 <label x="154.94" y="109.22" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="P1_0" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="P1_0"/>
+<wire x1="144.78" y1="88.9" x2="182.88" y2="88.9" width="0.1524" layer="91"/>
+<label x="154.94" y="88.9" size="1.778" layer="95"/>
+<pinref part="TP10" gate="G$1" pin="TP"/>
+</segment>
+</net>
+<net name="P1_1" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="P1_1"/>
+<wire x1="144.78" y1="86.36" x2="182.88" y2="86.36" width="0.1524" layer="91"/>
+<label x="154.94" y="86.36" size="1.778" layer="95"/>
+<pinref part="TP11" gate="G$1" pin="TP"/>
 </segment>
 </net>
 </nets>
