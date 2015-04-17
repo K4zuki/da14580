@@ -39,7 +39,7 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="0" visible="yes" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
@@ -242,6 +242,8 @@
 <hole x="53.5" y="3" drill="2.2"/>
 <hole x="6.5" y="65" drill="2.2"/>
 <hole x="53.5" y="65" drill="2.2"/>
+<text x="13.8" y="13.4" size="0.8" layer="16" ratio="25" rot="SMR0" align="center">CC-BY-SA
+Licensed</text>
 </plain>
 <libraries>
 <library name="mylib">
@@ -663,8 +665,8 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="C100" library="mylib" package="BOARD_MICROSD" value="BOARD_MICROSD" x="4" y="17" rot="MR180"/>
-<element name="U1" library="mylib" package="IC_MURATA_LBCA2HNZYZ-711" value="IC_BLE_LBCA2HNZYZ-711" x="20.5" y="15" smashed="yes" rot="R270">
+<element name="C100" library="mylib" package="BOARD_MICROSD" value="BOARD_MICROSD" x="4" y="17" locked="yes" rot="MR180"/>
+<element name="U1" library="mylib" package="IC_MURATA_LBCA2HNZYZ-711" value="IC_BLE_LBCA2HNZYZ-711" x="20.5" y="15" locked="yes" smashed="yes" rot="R270">
 <attribute name="NAME" x="26.2" y="15.2" size="1" layer="25" ratio="20"/>
 <attribute name="VALUE" x="28.2" y="14.8" size="1.27" layer="27" ratio="16" rot="R270"/>
 </element>
@@ -760,7 +762,7 @@ design rules under a new name.</description>
 <vertex x="28" y="6"/>
 <vertex x="4" y="6"/>
 </polygon>
-<via x="21.8" y="10.3" extent="1-16" drill="0.3"/>
+<via x="21.9" y="10.3" extent="1-16" drill="0.3"/>
 <via x="22.7" y="11" extent="1-16" drill="0.3"/>
 <via x="22.7" y="12" extent="1-16" drill="0.3"/>
 <polygon width="0.25" layer="1" thermals="no">
@@ -774,9 +776,9 @@ design rules under a new name.</description>
 <wire x1="19.2" y1="8.4" x2="18.9" y2="8.4" width="0.8" layer="1"/>
 <via x="21.9" y="12.7" extent="1-16" drill="0.3"/>
 <via x="23.5" y="12.7" extent="1-16" drill="0.3"/>
-<via x="23.5" y="12" extent="1-16" drill="0.3"/>
-<via x="23.5" y="11" extent="1-16" drill="0.3"/>
-<via x="23.6" y="10.3" extent="1-16" drill="0.3"/>
+<via x="23.5" y="11.9" extent="1-16" drill="0.3"/>
+<via x="23.5" y="11.1" extent="1-16" drill="0.3"/>
+<via x="23.5" y="10.3" extent="1-16" drill="0.3"/>
 <contactref element="R1" pad="1"/>
 <via x="18.9" y="13.3" extent="1-16" drill="0.3"/>
 <wire x1="18.9" y1="13.3" x2="19.2" y2="13.3" width="0.8" layer="1"/>
@@ -791,8 +793,8 @@ design rules under a new name.</description>
 <via x="24.1" y="7.2" extent="1-16" drill="0.3"/>
 <via x="24.6" y="6.7" extent="1-16" drill="0.3"/>
 <via x="20.7" y="8.6" extent="1-16" drill="0.3"/>
-<via x="21.9" y="12" extent="1-16" drill="0.3"/>
-<via x="21.9" y="11" extent="1-16" drill="0.3"/>
+<via x="21.9" y="11.9" extent="1-16" drill="0.3"/>
+<via x="21.9" y="11.1" extent="1-16" drill="0.3"/>
 <wire x1="6.4" y1="9.2" x2="8.8" y2="9.2" width="0.8" layer="16"/>
 <wire x1="10.2" y1="9.2" x2="8.8" y2="9.2" width="1.2" layer="16"/>
 </signal>
