@@ -4010,7 +4010,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 (R) = 1.9V
 (G) = 2.9V
 (B) = 2.8V</text>
-<text x="195.58" y="68.58" size="1.778" layer="94">TGT_TX &lt;- P0_0
+<text x="185.42" y="68.58" size="1.778" layer="94">TGT_TX &lt;- P0_0
 TGT_RX -&gt; P0_1</text>
 <text x="233.68" y="139.7" size="1.778" layer="94">P0_0 -&gt; TGT_TX
 P0_1 &lt;- TGT_RX</text>
@@ -4079,10 +4079,10 @@ P0_1 &lt;- TGT_RX</text>
 <instance part="LED1" gate="R" x="172.72" y="106.68" rot="R90"/>
 <instance part="LED1" gate="G" x="175.26" y="104.14" rot="R90"/>
 <instance part="LED1" gate="B" x="177.8" y="101.6" rot="R90"/>
-<instance part="TP5" gate="G$1" x="172.72" y="73.66"/>
-<instance part="TP6" gate="G$1" x="172.72" y="66.04" rot="R180"/>
-<instance part="TP7" gate="G$1" x="193.04" y="66.04" rot="R180"/>
-<instance part="TP8" gate="G$1" x="193.04" y="73.66"/>
+<instance part="TP5" gate="G$1" x="162.56" y="73.66"/>
+<instance part="TP6" gate="G$1" x="162.56" y="66.04" rot="R180"/>
+<instance part="TP7" gate="G$1" x="182.88" y="66.04" rot="R180"/>
+<instance part="TP8" gate="G$1" x="182.88" y="73.66"/>
 <instance part="X1" gate="-1" x="231.14" y="93.98" rot="MR0"/>
 <instance part="X1" gate="-2" x="231.14" y="91.44" rot="MR0"/>
 <instance part="X1" gate="-3" x="231.14" y="88.9" rot="MR0"/>
@@ -4097,10 +4097,10 @@ P0_1 &lt;- TGT_RX</text>
 <instance part="X1" gate="-12" x="231.14" y="66.04" rot="MR0"/>
 <instance part="X1" gate="-13" x="231.14" y="63.5" rot="MR0"/>
 <instance part="X1" gate="-14" x="231.14" y="60.96" rot="MR0"/>
-<instance part="TP1" gate="1" x="175.26" y="71.12"/>
-<instance part="TP2" gate="1" x="175.26" y="68.58"/>
-<instance part="TP3" gate="1" x="190.5" y="71.12" rot="R180"/>
-<instance part="TP4" gate="1" x="190.5" y="68.58" rot="R180"/>
+<instance part="TP1" gate="1" x="165.1" y="71.12"/>
+<instance part="TP2" gate="1" x="165.1" y="68.58"/>
+<instance part="TP3" gate="1" x="180.34" y="71.12" rot="R180"/>
+<instance part="TP4" gate="1" x="180.34" y="68.58" rot="R180"/>
 <instance part="TP9" gate="G$1" x="177.8" y="43.18"/>
 <instance part="TP10" gate="G$1" x="182.88" y="43.18"/>
 <instance part="TP11" gate="G$1" x="190.5" y="43.18"/>
@@ -4609,18 +4609,17 @@ P0_1 &lt;- TGT_RX</text>
 <net name="TGT_TX" class="0">
 <segment>
 <pinref part="IC2" gate="G$1" pin="TGT_TX"/>
-<label x="160.02" y="71.12" size="1.778" layer="95"/>
-<wire x1="172.72" y1="71.12" x2="157.48" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="71.12" x2="157.48" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="TP5" gate="G$1" pin="TP"/>
-<junction x="172.72" y="71.12"/>
+<junction x="162.56" y="71.12"/>
 <pinref part="TP1" gate="1" pin="1"/>
-<wire x1="200.66" y1="71.12" x2="193.04" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="71.12" x2="182.88" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="TP8" gate="G$1" pin="TP"/>
-<junction x="193.04" y="71.12"/>
+<junction x="182.88" y="71.12"/>
 <pinref part="TP3" gate="1" pin="1"/>
-<wire x1="172.72" y1="71.12" x2="175.26" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="175.26" y1="73.66" x2="190.5" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="190.5" y1="73.66" x2="193.04" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="71.12" x2="165.1" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="73.66" x2="180.34" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="73.66" x2="182.88" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -4709,19 +4708,18 @@ P0_1 &lt;- TGT_RX</text>
 </net>
 <net name="TGT_RX" class="0">
 <segment>
-<wire x1="200.66" y1="68.58" x2="193.04" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="68.58" x2="182.88" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="TP7" gate="G$1" pin="TP"/>
-<junction x="193.04" y="68.58"/>
+<junction x="182.88" y="68.58"/>
 <pinref part="TP4" gate="1" pin="1"/>
 <pinref part="IC2" gate="G$1" pin="TGT_RX"/>
-<label x="160.02" y="68.58" size="1.778" layer="95"/>
-<wire x1="172.72" y1="68.58" x2="157.48" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="68.58" x2="157.48" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="TP6" gate="G$1" pin="TP"/>
-<junction x="172.72" y="68.58"/>
+<junction x="162.56" y="68.58"/>
 <pinref part="TP2" gate="1" pin="1"/>
-<wire x1="193.04" y1="68.58" x2="190.5" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="190.5" y1="66.04" x2="175.26" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="175.26" y1="66.04" x2="172.72" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="68.58" x2="180.34" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="66.04" x2="165.1" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="66.04" x2="162.56" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
