@@ -3998,6 +3998,9 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="TP2" library="mylib" deviceset="TESTPAD" device=""/>
 <part name="TP3" library="mylib" deviceset="TESTPAD" device=""/>
 <part name="TP4" library="mylib" deviceset="TESTPAD" device=""/>
+<part name="TP9" library="testpad_local" deviceset="TP" device="TP08R" value="TPTP08R"/>
+<part name="TP10" library="testpad_local" deviceset="TP" device="TP08R" value="TPTP08R"/>
+<part name="TP11" library="testpad_local" deviceset="TP" device="TP08R" value="TPTP08R"/>
 </parts>
 <sheets>
 <sheet>
@@ -4012,6 +4015,8 @@ TGT_RX -&gt; P0_1</text>
 <text x="233.68" y="139.7" size="1.778" layer="94">P0_0 -&gt; TGT_TX
 P0_1 &lt;- TGT_RX</text>
 <text x="226.06" y="20.32" size="2.54" layer="94">CC-BY-SA</text>
+<text x="177.8" y="38.1" size="1.778" layer="91">FIDUCIALS</text>
+<circle x="185.42" y="43.18" radius="11.359225" width="0.1524" layer="91"/>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
@@ -4096,6 +4101,9 @@ P0_1 &lt;- TGT_RX</text>
 <instance part="TP2" gate="1" x="175.26" y="68.58"/>
 <instance part="TP3" gate="1" x="190.5" y="71.12" rot="R180"/>
 <instance part="TP4" gate="1" x="190.5" y="68.58" rot="R180"/>
+<instance part="TP9" gate="G$1" x="177.8" y="43.18"/>
+<instance part="TP10" gate="G$1" x="182.88" y="43.18"/>
+<instance part="TP11" gate="G$1" x="190.5" y="43.18"/>
 </instances>
 <busses>
 </busses>
