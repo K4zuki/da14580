@@ -244,6 +244,24 @@
 <hole x="53.5" y="65" drill="2.2"/>
 <text x="13.8" y="13.4" size="0.8" layer="16" ratio="25" rot="SMR0" align="center">CC-BY-SA
 Licensed</text>
+<polygon width="0.25" layer="29">
+<vertex x="9.4" y="65" curve="-90"/>
+<vertex x="10" y="65.6" curve="-90"/>
+<vertex x="10.6" y="65" curve="-90"/>
+<vertex x="10" y="64.4" curve="-90"/>
+</polygon>
+<polygon width="0.25" layer="29">
+<vertex x="49.4" y="65" curve="-90"/>
+<vertex x="50" y="65.6" curve="-90"/>
+<vertex x="50.6" y="65" curve="-90"/>
+<vertex x="50" y="64.4" curve="-90"/>
+</polygon>
+<polygon width="0.25" layer="29">
+<vertex x="44.4" y="3" curve="-90"/>
+<vertex x="45" y="3.6" curve="-90"/>
+<vertex x="45.6" y="3" curve="-90"/>
+<vertex x="45" y="2.4" curve="-90"/>
+</polygon>
 </plain>
 <libraries>
 <library name="mylib">
