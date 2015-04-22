@@ -4353,28 +4353,6 @@ P0_1 &lt;- TGT_RX</text>
 <pinref part="X1" gate="-8" pin="1"/>
 </segment>
 </net>
-<net name="P0_0" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="P0_0"/>
-<wire x1="241.3" y1="142.24" x2="228.6" y2="142.24" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<wire x1="233.68" y1="83.82" x2="241.3" y2="83.82" width="0.1524" layer="91"/>
-<label x="241.3" y="83.82" size="1.778" layer="95"/>
-<pinref part="X1" gate="-5" pin="1"/>
-</segment>
-</net>
-<net name="P0_1" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="P0_1"/>
-<wire x1="241.3" y1="139.7" x2="228.6" y2="139.7" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<wire x1="233.68" y1="86.36" x2="241.3" y2="86.36" width="0.1524" layer="91"/>
-<label x="241.3" y="86.36" size="1.778" layer="95"/>
-<pinref part="X1" gate="-4" pin="1"/>
-</segment>
-</net>
 <net name="P0_2" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="P0_2"/>
@@ -4621,6 +4599,15 @@ P0_1 &lt;- TGT_RX</text>
 <wire x1="165.1" y1="73.66" x2="180.34" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="180.34" y1="73.66" x2="182.88" y2="71.12" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="P0_0"/>
+<wire x1="241.3" y1="142.24" x2="228.6" y2="142.24" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<wire x1="233.68" y1="83.82" x2="241.3" y2="83.82" width="0.1524" layer="91"/>
+<label x="241.3" y="83.82" size="1.778" layer="95"/>
+<pinref part="X1" gate="-5" pin="1"/>
+</segment>
 </net>
 <net name="N$4" class="0">
 <segment>
@@ -4720,6 +4707,15 @@ P0_1 &lt;- TGT_RX</text>
 <wire x1="182.88" y1="68.58" x2="180.34" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="180.34" y1="66.04" x2="165.1" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="165.1" y1="66.04" x2="162.56" y2="68.58" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="P0_1"/>
+<wire x1="241.3" y1="139.7" x2="228.6" y2="139.7" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<wire x1="233.68" y1="86.36" x2="241.3" y2="86.36" width="0.1524" layer="91"/>
+<label x="241.3" y="86.36" size="1.778" layer="95"/>
+<pinref part="X1" gate="-4" pin="1"/>
 </segment>
 </net>
 </nets>
