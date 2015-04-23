@@ -350,8 +350,8 @@
 <wire x1="36.6" y1="51.5" x2="36.3" y2="51.8" width="0.2" layer="21"/>
 <polygon width="0.2" layer="21">
 <vertex x="35.1" y="39.9"/>
-<vertex x="32.6" y="39.9"/>
-<vertex x="32.6" y="49.5"/>
+<vertex x="30.8" y="39.9"/>
+<vertex x="30.8" y="49.5"/>
 <vertex x="35.1" y="49.5"/>
 </polygon>
 <circle x="20" y="65" radius="0.9" width="0.25" layer="1"/>
@@ -1358,11 +1358,11 @@ design rules under a new name.</description>
 <attribute name="NAME" x="21.3" y="55.1" size="1" layer="21" ratio="20" rot="R90" align="center"/>
 </element>
 <element name="Q1" library="mylib" package="CRYSTAL_FC-135" value="FC-135 32.7680KA-AG3" x="31.6" y="52.3" smashed="yes" rot="R90">
-<attribute name="NAME" x="31.6" y="49" size="1" layer="25" font="vector" ratio="20" rot="R90" align="center"/>
+<attribute name="NAME" x="33.5" y="54" size="1" layer="25" font="vector" ratio="20" rot="R90" align="center"/>
 <attribute name="VALUE" x="34.3305" y="51.03" size="1.27" layer="27" font="vector" ratio="16" rot="R90"/>
 </element>
 <element name="C2" library="mylib" package="C0402" value="0.1u/1005" x="28.5" y="51.6" smashed="yes">
-<attribute name="NAME" x="28.4" y="47.4" size="1" layer="25" font="vector" ratio="20" rot="R90" align="center"/>
+<attribute name="NAME" x="26.8" y="51.4" size="1" layer="25" font="vector" ratio="20" rot="R90" align="center"/>
 <attribute name="VALUE" x="27.9" y="49.7" size="1" layer="27" font="vector" ratio="20"/>
 </element>
 <element name="SW1" library="mylib" package="SW_TACTSW_P8073" value="P8073" x="19.1" y="22.4" smashed="yes" rot="R90">
