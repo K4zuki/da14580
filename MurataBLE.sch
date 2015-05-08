@@ -553,30 +553,6 @@ Source: http://www.cypressindustries.com/pdf/85-32004-00x.pdf</description>
 <pad name="GND@2" x="-0.8" y="3.7" drill="0.8" shape="long"/>
 <pad name="GND@4" x="-5.6" y="-3.7" drill="0.8" shape="long"/>
 <pad name="GND@1" x="-5.6" y="3.7" drill="0.8" shape="long"/>
-<wire x1="-5" y1="-3.3" x2="-4.6" y2="-3.7" width="0.02" layer="46" curve="-90"/>
-<wire x1="-4.6" y1="-3.7" x2="-5" y2="-4.1" width="0.02" layer="46" curve="-90"/>
-<wire x1="-6.2" y1="-4.1" x2="-6.6" y2="-3.7" width="0.02" layer="46" curve="-90"/>
-<wire x1="-6.6" y1="-3.7" x2="-6.2" y2="-3.3" width="0.02" layer="46" curve="-90"/>
-<wire x1="-6.2" y1="-3.3" x2="-5" y2="-3.3" width="0.02" layer="46"/>
-<wire x1="-5" y1="-4.1" x2="-6.2" y2="-4.1" width="0.02" layer="46"/>
-<wire x1="-0.2" y1="-3.3" x2="0.2" y2="-3.7" width="0.02" layer="46" curve="-90"/>
-<wire x1="0.2" y1="-3.7" x2="-0.2" y2="-4.1" width="0.02" layer="46" curve="-90"/>
-<wire x1="-1.4" y1="-4.1" x2="-1.8" y2="-3.7" width="0.02" layer="46" curve="-90"/>
-<wire x1="-1.8" y1="-3.7" x2="-1.4" y2="-3.3" width="0.02" layer="46" curve="-90"/>
-<wire x1="-1.4" y1="-3.3" x2="-0.2" y2="-3.3" width="0.02" layer="46"/>
-<wire x1="-0.2" y1="-4.1" x2="-1.4" y2="-4.1" width="0.02" layer="46"/>
-<wire x1="-5" y1="4.1" x2="-4.6" y2="3.7" width="0.02" layer="46" curve="-90"/>
-<wire x1="-4.6" y1="3.7" x2="-5" y2="3.3" width="0.02" layer="46" curve="-90"/>
-<wire x1="-6.2" y1="3.3" x2="-6.6" y2="3.7" width="0.02" layer="46" curve="-90"/>
-<wire x1="-6.6" y1="3.7" x2="-6.2" y2="4.1" width="0.02" layer="46" curve="-90"/>
-<wire x1="-6.2" y1="4.1" x2="-5" y2="4.1" width="0.02" layer="46"/>
-<wire x1="-5" y1="3.3" x2="-6.2" y2="3.3" width="0.02" layer="46"/>
-<wire x1="-0.2" y1="4.1" x2="0.2" y2="3.7" width="0.02" layer="46" curve="-90"/>
-<wire x1="0.2" y1="3.7" x2="-0.2" y2="3.3" width="0.02" layer="46" curve="-90"/>
-<wire x1="-1.4" y1="3.3" x2="-1.8" y2="3.7" width="0.02" layer="46" curve="-90"/>
-<wire x1="-1.8" y1="3.7" x2="-1.4" y2="4.1" width="0.02" layer="46" curve="-90"/>
-<wire x1="-1.4" y1="4.1" x2="-0.2" y2="4.1" width="0.02" layer="46"/>
-<wire x1="-0.2" y1="3.3" x2="-1.4" y2="3.3" width="0.02" layer="46"/>
 <wire x1="0" y1="-3.9" x2="-2.3" y2="-3.9" width="0.1" layer="51"/>
 <wire x1="-2.3" y1="-3.9" x2="-4.1" y2="-3.9" width="0.2" layer="21"/>
 <wire x1="-4.1" y1="-3.9" x2="-7.1" y2="-3.9" width="0.1" layer="51"/>
@@ -593,6 +569,22 @@ Source: http://www.cypressindustries.com/pdf/85-32004-00x.pdf</description>
 <wire x1="0" y1="-2.8" x2="0" y2="-3.9" width="0.1" layer="51"/>
 <text x="-6.3" y="5" size="1.27" layer="25" font="vector" ratio="16">&gt;NAME</text>
 <text x="-6.3" y="-6.3" size="1.27" layer="27" font="vector" ratio="16">&gt;VALUE</text>
+<wire x1="-5" y1="3.85" x2="-6.2" y2="3.85" width="0.5" layer="46"/>
+<wire x1="-6.2" y1="3.55" x2="-5" y2="3.55" width="0.5" layer="46"/>
+<wire x1="-0.2" y1="3.85" x2="-1.4" y2="3.85" width="0.5" layer="46"/>
+<wire x1="-0.2" y1="3.55" x2="-1.4" y2="3.55" width="0.5" layer="46"/>
+<wire x1="-0.2" y1="-3.55" x2="-1.4" y2="-3.55" width="0.5" layer="46"/>
+<wire x1="-0.2" y1="-3.85" x2="-1.4" y2="-3.85" width="0.5" layer="46"/>
+<wire x1="-1.4" y1="-3.55" x2="-1.4" y2="-3.85" width="0.5" layer="46" curve="180"/>
+<wire x1="-0.2" y1="-3.85" x2="-0.2" y2="-3.55" width="0.5" layer="46" curve="180"/>
+<wire x1="-5" y1="-3.85" x2="-5" y2="-3.55" width="0.5" layer="46" curve="180"/>
+<wire x1="-6.2" y1="-3.55" x2="-6.2" y2="-3.85" width="0.5" layer="46" curve="180"/>
+<wire x1="-5" y1="-3.55" x2="-6.2" y2="-3.55" width="0.5" layer="46"/>
+<wire x1="-5" y1="-3.85" x2="-6.2" y2="-3.85" width="0.5" layer="46"/>
+<wire x1="-6.2" y1="3.85" x2="-6.2" y2="3.55" width="0.5" layer="46" curve="180"/>
+<wire x1="-5" y1="3.55" x2="-5" y2="3.85" width="0.5" layer="46" curve="180"/>
+<wire x1="-1.4" y1="3.85" x2="-1.4" y2="3.55" width="0.5" layer="46" curve="180"/>
+<wire x1="-0.2" y1="3.55" x2="-0.2" y2="3.85" width="0.5" layer="46" curve="180"/>
 </package>
 <package name="CON_USB_A_SHIELD">
 <description>&lt;b&gt;USB connector&lt;/b&gt; with shield&lt;p&gt;</description>
