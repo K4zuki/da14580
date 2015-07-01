@@ -1489,6 +1489,9 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <text x="71.12" y="83.82" size="1.778" layer="94" rot="MR0" align="center-left">P0_6/DAT1</text>
 <text x="154.94" y="93.98" size="1.778" layer="94">P0_7/MISO</text>
 <text x="71.12" y="114.3" size="1.778" layer="94" rot="MR0" align="center-left">P0_0/!CS!</text>
+<text x="162.56" y="15.24" size="6.4516" layer="94">r03</text>
+<text x="162.56" y="5.08" size="6.4516" layer="94">CC-BY-SA</text>
+<text x="99.06" y="116.84" size="1.778" layer="94" rot="MR0" align="center-left">RESET</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
@@ -1554,6 +1557,8 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pinref part="U1" gate="G$1" pin="RESET"/>
 <pinref part="R1" gate="G$1" pin="2"/>
 <wire x1="109.22" y1="114.3" x2="111.76" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="114.3" x2="109.22" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="116.84" x2="99.06" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="71.12" y1="119.38" x2="81.28" y2="119.38" width="0.1524" layer="91"/>
