@@ -9,6 +9,10 @@
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
@@ -90,6 +94,8 @@
 <layer number="131" name="tAdjust" color="7" fill="1" visible="no" active="yes"/>
 <layer number="132" name="bAdjust" color="7" fill="1" visible="no" active="yes"/>
 <layer number="144" name="Drill_legend" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="145" name="DrillLegend_01-16" color="2" fill="9" visible="no" active="yes"/>
+<layer number="146" name="DrillLegend_01-20" color="3" fill="9" visible="no" active="yes"/>
 <layer number="151" name="HeatSink" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="152" name="_bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="199" name="Contour" color="7" fill="1" visible="yes" active="yes"/>
@@ -486,6 +492,21 @@ chip</description>
 <text x="-1.27" y="1.4605" size="1.27" layer="25">&gt;NAME</text>
 <text x="-1.27" y="-2.7305" size="1.27" layer="27">&gt;VALUE</text>
 </package>
+<package name="CON_TC2030-IDC-NL">
+<smd name="1" x="-1.27" y="-0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100" cream="no"/>
+<smd name="2" x="-1.27" y="0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100" cream="no"/>
+<smd name="3" x="0" y="-0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100" cream="no"/>
+<smd name="4" x="0" y="0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100" cream="no"/>
+<smd name="5" x="1.27" y="-0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100" cream="no"/>
+<smd name="6" x="1.27" y="0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100" cream="no"/>
+<hole x="-2.54" y="0" drill="0.9906"/>
+<hole x="2.54" y="1.016" drill="0.9906"/>
+<hole x="2.54" y="-1.016" drill="0.9906"/>
+<wire x1="-3.302" y1="-1.778" x2="3.302" y2="-1.778" width="0.11" layer="39"/>
+<wire x1="3.302" y1="-1.778" x2="3.302" y2="1.778" width="0.11" layer="39"/>
+<wire x1="3.302" y1="1.778" x2="-3.302" y2="1.778" width="0.11" layer="39"/>
+<wire x1="-3.302" y1="1.778" x2="-3.302" y2="-1.778" width="0.11" layer="39"/>
+</package>
 </packages>
 <symbols>
 <symbol name="BOARD_MICROSD">
@@ -573,6 +594,20 @@ chip</description>
 <rectangle x1="2.2225" y1="-0.3175" x2="2.8575" y2="0.3175" layer="94"/>
 <pin name="2" x="2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="1" x="-2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1"/>
+</symbol>
+<symbol name="CON_TC2030-CTX-NL">
+<wire x1="-15.24" y1="5.08" x2="15.24" y2="5.08" width="0.254" layer="94"/>
+<wire x1="15.24" y1="5.08" x2="15.24" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-5.08" x2="-15.24" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="-5.08" x2="-15.24" y2="5.08" width="0.254" layer="94"/>
+<text x="-15.24" y="5.08" size="1.27" layer="95">&gt;NAME</text>
+<text x="-15.24" y="-7.62" size="1.27" layer="96">&gt;VALUE</text>
+<pin name="SWDIO/TMS" x="17.78" y="2.54" length="short" rot="R180"/>
+<pin name="VCC" x="-17.78" y="2.54" length="short"/>
+<pin name="NRESET" x="-17.78" y="0" length="short"/>
+<pin name="SWCLK/TCK" x="17.78" y="0" length="short" rot="R180"/>
+<pin name="GND" x="-17.78" y="-2.54" length="short"/>
+<pin name="SW0/TDO" x="17.78" y="-2.54" length="short" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -733,6 +768,26 @@ chip</description>
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CON_TC2030" prefix="CON">
+<gates>
+<gate name="G$1" symbol="CON_TC2030-CTX-NL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-CTL-NL" package="CON_TC2030-IDC-NL">
+<connects>
+<connect gate="G$1" pin="GND" pad="5"/>
+<connect gate="G$1" pin="NRESET" pad="3"/>
+<connect gate="G$1" pin="SW0/TDO" pad="6"/>
+<connect gate="G$1" pin="SWCLK/TCK" pad="4"/>
+<connect gate="G$1" pin="SWDIO/TMS" pad="2"/>
+<connect gate="G$1" pin="VCC" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1469,6 +1524,8 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="TP9" library="testpad_local" deviceset="TP" device="TP08R"/>
 <part name="TP10" library="testpad_local" deviceset="TP" device="TP08R"/>
 <part name="TP11" library="testpad_local" deviceset="TP" device="TP08R"/>
+<part name="CON1" library="mylib" deviceset="CON_TC2030" device="-CTL-NL"/>
+<part name="SUPPLY4" library="mylib" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -1482,9 +1539,9 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <text x="71.12" y="119.38" size="1.778" layer="94" rot="MR0" align="center-left">RESET</text>
 <text x="71.12" y="99.06" size="1.778" layer="94" rot="MR0" align="center-left">-&gt; P0_5/RXD/SCK</text>
 <text x="71.12" y="109.22" size="1.778" layer="94" rot="MR0" align="center-left">&lt;- P0_4/TXD/MOSI</text>
-<wire x1="99.06" y1="76.2" x2="193.04" y2="76.2" width="0.254" layer="94"/>
-<wire x1="193.04" y1="76.2" x2="193.04" y2="127" width="0.254" layer="94"/>
-<wire x1="193.04" y1="127" x2="99.06" y2="127" width="0.254" layer="94"/>
+<wire x1="99.06" y1="76.2" x2="236.22" y2="76.2" width="0.254" layer="94"/>
+<wire x1="236.22" y1="76.2" x2="236.22" y2="127" width="0.254" layer="94"/>
+<wire x1="236.22" y1="127" x2="99.06" y2="127" width="0.254" layer="94"/>
 <text x="71.12" y="88.9" size="1.778" layer="94" rot="MR0" align="center-left">P0_7/MISO</text>
 <text x="71.12" y="83.82" size="1.778" layer="94" rot="MR0" align="center-left">P0_6/DAT1</text>
 <text x="154.94" y="93.98" size="1.778" layer="94">P0_7/MISO</text>
@@ -1513,6 +1570,8 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <instance part="TP9" gate="G$1" x="187.96" y="109.22" rot="R270"/>
 <instance part="TP10" gate="G$1" x="185.42" y="88.9" rot="R270"/>
 <instance part="TP11" gate="G$1" x="182.88" y="86.36" rot="R270"/>
+<instance part="CON1" gate="G$1" x="198.12" y="119.38"/>
+<instance part="SUPPLY4" gate="GND" x="177.8" y="116.84" rot="R270"/>
 </instances>
 <busses>
 </busses>
@@ -1530,6 +1589,11 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pinref part="C1" gate="G$1" pin="1"/>
 <wire x1="106.68" y1="109.22" x2="111.76" y2="109.22" width="0.1524" layer="91"/>
 <junction x="106.68" y="109.22"/>
+</segment>
+<segment>
+<wire x1="180.34" y1="121.92" x2="170.18" y2="121.92" width="0.1524" layer="91"/>
+<pinref part="CON1" gate="G$1" pin="VCC"/>
+<label x="170.18" y="121.92" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -1550,6 +1614,10 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pinref part="SUPPLY3" gate="GND" pin="GND"/>
 <pinref part="R1" gate="G$1" pin="1"/>
 <wire x1="104.14" y1="114.3" x2="101.6" y2="114.3" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="CON1" gate="G$1" pin="GND"/>
+<pinref part="SUPPLY4" gate="GND" pin="GND"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -1630,6 +1698,11 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <label x="101.6" y="88.9" size="1.778" layer="95"/>
 <pinref part="TP1" gate="G$1" pin="TP"/>
 </segment>
+<segment>
+<wire x1="226.06" y1="119.38" x2="215.9" y2="119.38" width="0.1524" layer="91"/>
+<pinref part="CON1" gate="G$1" pin="SWCLK/TCK"/>
+<label x="226.06" y="119.38" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="SWDIO" class="0">
 <segment>
@@ -1637,6 +1710,11 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <wire x1="111.76" y1="86.36" x2="99.06" y2="86.36" width="0.1524" layer="91"/>
 <label x="101.6" y="86.36" size="1.778" layer="95"/>
 <pinref part="TP2" gate="G$1" pin="TP"/>
+</segment>
+<segment>
+<wire x1="228.6" y1="121.92" x2="215.9" y2="121.92" width="0.1524" layer="91"/>
+<pinref part="CON1" gate="G$1" pin="SWDIO/TMS"/>
+<label x="228.6" y="121.92" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$2" class="0">
