@@ -4299,9 +4299,9 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="TP2" library="mylib" deviceset="TESTPAD" device=""/>
 <part name="TP3" library="mylib" deviceset="TESTPAD" device=""/>
 <part name="TP4" library="mylib" deviceset="TESTPAD" device=""/>
-<part name="TP9" library="testpad_local" deviceset="TP" device="TP08R" value="TPTP08R"/>
-<part name="TP10" library="testpad_local" deviceset="TP" device="TP08R" value="TPTP08R"/>
-<part name="TP11" library="testpad_local" deviceset="TP" device="TP08R" value="TPTP08R"/>
+<part name="TP9" library="testpad_local" deviceset="TP" device="TP20R" value="TPTP20R"/>
+<part name="TP10" library="testpad_local" deviceset="TP" device="TP20R" value="TPTP20R"/>
+<part name="TP11" library="testpad_local" deviceset="TP" device="TP20R" value="TPTP20R"/>
 </parts>
 <sheets>
 <sheet>
