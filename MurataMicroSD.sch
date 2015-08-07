@@ -1536,7 +1536,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="TP3" library="testpad_local" deviceset="TP" device="TP20R" value="TPTP20R"/>
 <part name="TP4" library="testpad_local" deviceset="TP" device="TP20R" value="TPTP20R"/>
 <part name="TP5" library="testpad_local" deviceset="TP" device="TP20R" value="TPTP20R"/>
-<part name="TP6" library="testpad_local" deviceset="TP" device="TP08R"/>
 <part name="TP7" library="testpad_local" deviceset="TP" device="TP08R"/>
 <part name="TP8" library="testpad_local" deviceset="TP" device="TP08R"/>
 <part name="TP9" library="testpad_local" deviceset="TP" device="TP08R"/>
@@ -1544,6 +1543,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="TP11" library="testpad_local" deviceset="TP" device="TP08R"/>
 <part name="CON1" library="mylib" deviceset="CON_TC2030" device="-CTL-NL"/>
 <part name="SUPPLY4" library="mylib" deviceset="GND" device=""/>
+<part name="TP1" library="testpad_local" deviceset="TP" device="TP08R"/>
 </parts>
 <sheets>
 <sheet>
@@ -1561,12 +1561,13 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <wire x1="236.22" y1="76.2" x2="236.22" y2="127" width="0.254" layer="94"/>
 <wire x1="236.22" y1="127" x2="99.06" y2="127" width="0.254" layer="94"/>
 <text x="71.12" y="88.9" size="1.778" layer="94" rot="MR0" align="center-left">P0_7/MISO</text>
-<text x="71.12" y="83.82" size="1.778" layer="94" rot="MR0" align="center-left">P0_6/DAT1</text>
 <text x="154.94" y="93.98" size="1.778" layer="94">P0_7/MISO</text>
 <text x="71.12" y="114.3" size="1.778" layer="94" rot="MR0" align="center-left">P0_0/!CS!</text>
 <text x="162.56" y="15.24" size="6.4516" layer="94">r03</text>
 <text x="162.56" y="5.08" size="6.4516" layer="94">CC-BY-SA</text>
 <text x="99.06" y="116.84" size="1.778" layer="94" rot="MR0" align="center-left">RESET</text>
+<text x="101.6" y="119.38" size="1.778" layer="94" rot="MR0" align="center-left">VPP</text>
+<text x="71.12" y="83.82" size="1.778" layer="94" rot="MR0" align="center-left">VPP</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
@@ -1580,7 +1581,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <instance part="TP3" gate="G$1" x="223.52" y="43.18" rot="R90"/>
 <instance part="TP4" gate="G$1" x="223.52" y="38.1" rot="R90"/>
 <instance part="TP5" gate="G$1" x="223.52" y="33.02" rot="R90"/>
-<instance part="TP6" gate="G$1" x="99.06" y="119.38" rot="R90"/>
 <instance part="TP7" gate="G$1" x="182.88" y="104.14" rot="R270"/>
 <instance part="TP8" gate="G$1" x="185.42" y="106.68" rot="R270"/>
 <instance part="TP9" gate="G$1" x="187.96" y="109.22" rot="R270"/>
@@ -1588,6 +1588,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <instance part="TP11" gate="G$1" x="182.88" y="86.36" rot="R270"/>
 <instance part="CON1" gate="G$1" x="198.12" y="119.38"/>
 <instance part="SUPPLY4" gate="GND" x="177.8" y="116.84" rot="R270"/>
+<instance part="TP1" gate="G$1" x="172.72" y="96.52" rot="R270"/>
 </instances>
 <busses>
 </busses>
@@ -1661,12 +1662,9 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </net>
 <net name="DAT1" class="0">
 <segment>
-<wire x1="81.28" y1="83.82" x2="71.12" y2="83.82" width="0.1524" layer="91"/>
-<pinref part="C100" gate="G$1" pin="8"/>
-</segment>
-<segment>
-<wire x1="154.94" y1="96.52" x2="144.78" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="96.52" x2="144.78" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="P0_6"/>
+<pinref part="TP1" gate="G$1" pin="TP"/>
 </segment>
 </net>
 <net name="RXD_MOSI" class="0">
@@ -1733,9 +1731,12 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </net>
 <net name="N$2" class="0">
 <segment>
-<pinref part="TP6" gate="G$1" pin="TP"/>
 <pinref part="U1" gate="G$1" pin="VPP"/>
 <wire x1="101.6" y1="119.38" x2="111.76" y2="119.38" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<wire x1="71.12" y1="83.82" x2="81.28" y2="83.82" width="0.1524" layer="91"/>
+<pinref part="C100" gate="G$1" pin="8"/>
 </segment>
 </net>
 <net name="P0_2" class="0">
