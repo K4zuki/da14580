@@ -28,7 +28,7 @@
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
@@ -186,7 +186,7 @@
 <wire x1="32.1" y1="23" x2="31.3" y2="23" width="0.15" layer="41"/>
 <wire x1="28.6" y1="23" x2="28.6" y2="23.8" width="0.15" layer="41"/>
 <text x="11.8" y="35.1" size="1" layer="25" font="vector" ratio="20" rot="R90" align="center">muRata LBCA2HNZYZ BLE module breakout</text>
-<text x="12.7" y="45.1" size="1" layer="16" font="vector" ratio="20" rot="MR90" align="center">rev 0.3 @_K4ZUKI_</text>
+<text x="12.7" y="45.1" size="1" layer="16" font="vector" ratio="20" rot="SMR270" align="center">rev 0.3 @_K4ZUKI_</text>
 <wire x1="29.2" y1="40.9" x2="29.8" y2="40.9" width="0.15" layer="41"/>
 <text x="34.2" y="18.4" size="1" layer="21" ratio="20" rot="R90" align="center">SWCLK</text>
 <text x="34.7" y="23" size="1" layer="21" ratio="20" rot="R90" align="center">SWDIO</text>
@@ -239,7 +239,7 @@
 <wire x1="23.4" y1="21.5" x2="23.4" y2="23.2" width="0.15" layer="41"/>
 <wire x1="22.2" y1="23.2" x2="22.2" y2="24.1" width="0.15" layer="41"/>
 <wire x1="23.4" y1="23.2" x2="23.4" y2="24.1" width="0.15" layer="41"/>
-<text x="11.2" y="45.1" size="1" layer="16" ratio="20" rot="MR270" align="center">CC-BY-SA Licensed</text>
+<text x="11.2" y="45.1" size="1" layer="16" ratio="20" rot="SMR270" align="center">CC-BY-SA Licensed</text>
 <text x="36.1" y="23.6" size="1" layer="21" ratio="20" rot="R90" align="center">1.0</text>
 <text x="36.1" y="46.4" size="1" layer="21" ratio="20" rot="R90" align="center">1.1</text>
 <wire x1="35.6" y1="51.5" x2="36.6" y2="51.5" width="0.2" layer="21"/>
@@ -593,7 +593,7 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/TDA988
 <smd name="30" x="-0.75" y="2.65" dx="1.2" dy="0.3" layer="1" rot="R90" stop="no"/>
 <smd name="31" x="-1.25" y="2.65" dx="1.2" dy="0.3" layer="1" rot="R90" stop="no"/>
 <smd name="32" x="-1.75" y="2.65" dx="1.2" dy="0.3" layer="1" rot="R90" stop="no"/>
-<smd name="EXP" x="0" y="0" dx="3.5" dy="3.5" layer="1" stop="no"/>
+<smd name="EXP" x="0" y="0" dx="3.5" dy="3.5" layer="1" stop="no" cream="no"/>
 <text x="-2.5" y="3.4" size="1.27" layer="25" ratio="16">&gt;NAME</text>
 <text x="-2.5" y="-4.6" size="1.27" layer="27" ratio="16">&gt;VALUE</text>
 <wire x1="-2.1" y1="2.8" x2="-2.8" y2="2.8" width="0.2" layer="21"/>
@@ -638,6 +638,10 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/TDA988
 <rectangle x1="2.025" y1="1.575" x2="3.275" y2="1.925" layer="29" rot="R180"/>
 <rectangle x1="1.125" y1="2.475" x2="2.375" y2="2.825" layer="29" rot="R270"/>
 <rectangle x1="-2.4" y1="-2.4" x2="2.4" y2="2.4" layer="41"/>
+<rectangle x1="-1.4" y1="0.4" x2="-0.4" y2="1.4" layer="31"/>
+<rectangle x1="0.4" y1="0.4" x2="1.4" y2="1.4" layer="31"/>
+<rectangle x1="0.4" y1="-1.4" x2="1.4" y2="-0.4" layer="31"/>
+<rectangle x1="-1.4" y1="-1.4" x2="-0.4" y2="-0.4" layer="31"/>
 </package>
 <package name="CR_1608">
 <wire x1="0" y1="0.6" x2="0" y2="-0.6" width="0.2" layer="21"/>
@@ -1564,19 +1568,11 @@ design rules under a new name.</description>
 <contactref element="IC3" pad="3"/>
 <wire x1="27.4" y1="23.4" x2="28.1" y2="23.4" width="0.4" layer="1"/>
 <wire x1="31.7" y1="23.4" x2="31.7" y2="24.2" width="0.4" layer="1"/>
-<via x="28.5" y="35.9" extent="1-16" drill="0.3" diameter="0.45"/>
-<via x="28.5" y="34.1" extent="1-16" drill="0.3" diameter="0.45"/>
-<via x="30.3" y="34.1" extent="1-16" drill="0.3" diameter="0.45"/>
-<via x="30.3" y="35.9" extent="1-16" drill="0.3" diameter="0.45"/>
+<via x="28.5" y="35" extent="1-16" drill="0.3" diameter="0.45"/>
+<via x="29.4" y="34.1" extent="1-16" drill="0.3" diameter="0.45"/>
+<via x="30.3" y="35" extent="1-16" drill="0.3" diameter="0.45"/>
+<via x="29.4" y="36" extent="1-16" drill="0.3" diameter="0.45"/>
 <via x="29.4" y="35" extent="1-16" drill="0.3" diameter="0.45"/>
-<wire x1="29.4" y1="35" x2="30.3" y2="34.1" width="0.25" layer="1"/>
-<wire x1="30.3" y1="34.1" x2="31" y2="33.4" width="0.25" layer="1"/>
-<wire x1="29.4" y1="35" x2="30.3" y2="35.9" width="0.25" layer="1"/>
-<wire x1="30.3" y1="35.9" x2="31" y2="36.6" width="0.25" layer="1"/>
-<wire x1="29.4" y1="35" x2="28.5" y2="35.9" width="0.25" layer="1"/>
-<wire x1="28.5" y1="35.9" x2="27.8" y2="36.6" width="0.25" layer="1"/>
-<wire x1="29.4" y1="35" x2="28.5" y2="34.1" width="0.25" layer="1"/>
-<wire x1="28.5" y1="34.1" x2="27.8" y2="33.4" width="0.25" layer="1"/>
 <contactref element="LED1" pad="1"/>
 <contactref element="LED1" pad="2"/>
 <contactref element="LED1" pad="3"/>

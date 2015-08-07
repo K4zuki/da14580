@@ -382,14 +382,6 @@ chip</description>
 <wire x1="0" y1="-0.5" x2="0.1" y2="-0.5" width="0.2" layer="21"/>
 <wire x1="0" y1="0.5" x2="0" y2="-0.5" width="0.2" layer="21"/>
 </package>
-<package name="R_1608_PADPAD">
-<smd name="1" x="-0.9525" y="0" dx="1" dy="1" layer="1"/>
-<smd name="2" x="0.9525" y="0" dx="1" dy="1" layer="1"/>
-<wire x1="-0.3175" y1="0.8" x2="0.3175" y2="0.8" width="0.2" layer="21"/>
-<text x="-0.635" y="0.9525" size="1.27" layer="25" font="vector" ratio="15">&gt;NAME</text>
-<text x="-0.635" y="-2.2225" size="1.27" layer="27" font="vector" ratio="15">&gt;VALUE</text>
-<wire x1="-0.3175" y1="-0.8" x2="0.3175" y2="-0.8" width="0.2" layer="21"/>
-</package>
 <package name="R_2125_PADPAD">
 <smd name="1" x="-1.27" y="0" dx="1.4224" dy="1.4224" layer="1"/>
 <smd name="2" x="1.27" y="0" dx="1.4224" dy="1.4224" layer="1"/>
@@ -652,7 +644,7 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/TDA988
 <smd name="30" x="-0.75" y="2.65" dx="1.2" dy="0.3" layer="1" rot="R90" stop="no"/>
 <smd name="31" x="-1.25" y="2.65" dx="1.2" dy="0.3" layer="1" rot="R90" stop="no"/>
 <smd name="32" x="-1.75" y="2.65" dx="1.2" dy="0.3" layer="1" rot="R90" stop="no"/>
-<smd name="EXP" x="0" y="0" dx="3.5" dy="3.5" layer="1" stop="no"/>
+<smd name="EXP" x="0" y="0" dx="3.5" dy="3.5" layer="1" stop="no" cream="no"/>
 <text x="-2.5" y="3.4" size="1.27" layer="25" ratio="16">&gt;NAME</text>
 <text x="-2.5" y="-4.6" size="1.27" layer="27" ratio="16">&gt;VALUE</text>
 <wire x1="-2.1" y1="2.8" x2="-2.8" y2="2.8" width="0.2" layer="21"/>
@@ -697,6 +689,10 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/TDA988
 <rectangle x1="2.025" y1="1.575" x2="3.275" y2="1.925" layer="29" rot="R180"/>
 <rectangle x1="1.125" y1="2.475" x2="2.375" y2="2.825" layer="29" rot="R270"/>
 <rectangle x1="-2.4" y1="-2.4" x2="2.4" y2="2.4" layer="41"/>
+<rectangle x1="-1.4" y1="0.4" x2="-0.4" y2="1.4" layer="31"/>
+<rectangle x1="0.4" y1="0.4" x2="1.4" y2="1.4" layer="31"/>
+<rectangle x1="0.4" y1="-1.4" x2="1.4" y2="-0.4" layer="31"/>
+<rectangle x1="-1.4" y1="-1.4" x2="-0.4" y2="-0.4" layer="31"/>
 </package>
 <package name="IC_05_0.95_50MIL">
 <description>&lt;b&gt;Small Outline Transistor&lt;/b&gt;&lt;p&gt;
@@ -1055,6 +1051,14 @@ Source: Samtec TSW.pdf</description>
 <wire x1="5.5" y1="0" x2="5.5" y2="0.4" width="0.1" layer="48"/>
 <wire x1="5.5" y1="0.4" x2="5.9" y2="0" width="0.1" layer="48"/>
 <wire x1="5.9" y1="0" x2="5.5" y2="0" width="0.1" layer="48"/>
+</package>
+<package name="R_1608_PADPAD">
+<smd name="1" x="-0.9" y="0" dx="1" dy="1" layer="1"/>
+<smd name="2" x="0.9" y="0" dx="1" dy="1" layer="1"/>
+<wire x1="-0.3175" y1="0.8" x2="0.3175" y2="0.8" width="0.2" layer="21"/>
+<text x="-0.635" y="0.9525" size="1.27" layer="25" font="vector" ratio="15">&gt;NAME</text>
+<text x="-0.635" y="-2.2225" size="1.27" layer="27" font="vector" ratio="15">&gt;VALUE</text>
+<wire x1="-0.3175" y1="-0.8" x2="0.3175" y2="-0.8" width="0.2" layer="21"/>
 </package>
 </packages>
 <symbols>
