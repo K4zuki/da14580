@@ -317,8 +317,8 @@ DIN A4, landscape with location and doc. field</description>
 <smd name="18" x="2.85" y="3.8" dx="0.6" dy="0.3" layer="1" rot="R90" stop="no" cream="no"/>
 <smd name="19" x="2.2" y="3.8" dx="0.6" dy="0.3" layer="1" rot="R90" stop="no" cream="no"/>
 <smd name="20" x="1.55" y="3.8" dx="0.6" dy="0.3" layer="1" rot="R90" stop="no" cream="no"/>
-<smd name="36" x="6.4" y="6.95" dx="0.6" dy="0.3" layer="1" rot="R180" stop="no" cream="no"/>
-<smd name="37" x="0.6" y="6.95" dx="0.6" dy="0.3" layer="1" rot="R180" stop="no" cream="no"/>
+<smd name="36" x="6.4" y="6.825" dx="0.6" dy="0.3" layer="1" rot="R180" stop="no" cream="no"/>
+<smd name="37" x="0.6" y="6.825" dx="0.6" dy="0.3" layer="1" rot="R180" stop="no" cream="no"/>
 <text x="0.7" y="-1.9" size="1.27" layer="25" ratio="16">&gt;NAME</text>
 <text x="0.2" y="8.1" size="1.27" layer="27" ratio="16">&gt;VALUE</text>
 <rectangle x1="1.4" y1="3.5" x2="1.7" y2="4.1" layer="29"/>
@@ -355,13 +355,13 @@ DIN A4, landscape with location and doc. field</description>
 <rectangle x1="4.2" y1="1.725" x2="4.8" y2="2.025" layer="29"/>
 <rectangle x1="3.2" y1="1.725" x2="3.8" y2="2.025" layer="29"/>
 <rectangle x1="2.2" y1="1.725" x2="2.8" y2="2.025" layer="29"/>
-<rectangle x1="0.3" y1="6.8" x2="0.9" y2="7.1" layer="29"/>
+<rectangle x1="0.3" y1="6.675" x2="0.9" y2="6.975" layer="29"/>
 <rectangle x1="6.1" y1="0.425" x2="6.7" y2="0.725" layer="29"/>
-<rectangle x1="6.1" y1="6.8" x2="6.7" y2="7.1" layer="29"/>
+<rectangle x1="6.1" y1="6.675" x2="6.7" y2="6.975" layer="29"/>
 <rectangle x1="0" y1="4.4" x2="7" y2="7.4" layer="41"/>
 <rectangle x1="0.325" y1="3.7" x2="0.875" y2="3.95" layer="31"/>
-<rectangle x1="0.325" y1="6.825" x2="0.875" y2="7.075" layer="31"/>
-<rectangle x1="6.125" y1="6.825" x2="6.675" y2="7.075" layer="31"/>
+<rectangle x1="0.325" y1="6.7" x2="0.875" y2="6.95" layer="31"/>
+<rectangle x1="6.125" y1="6.7" x2="6.675" y2="6.95" layer="31"/>
 <rectangle x1="1.275" y1="3.675" x2="1.825" y2="3.925" layer="31" rot="R90"/>
 <rectangle x1="1.925" y1="3.675" x2="2.475" y2="3.925" layer="31" rot="R90"/>
 <rectangle x1="2.575" y1="3.675" x2="3.125" y2="3.925" layer="31" rot="R90"/>
@@ -396,10 +396,16 @@ DIN A4, landscape with location and doc. field</description>
 <rectangle x1="1.425" y1="2.4" x2="1.675" y2="2.65" layer="31"/>
 <rectangle x1="5.225" y1="2.4" x2="5.475" y2="2.65" layer="31"/>
 <rectangle x1="5.225" y1="1.75" x2="5.475" y2="2" layer="31"/>
-<wire x1="-0.2" y1="-0.2" x2="-0.2" y2="7.7" width="0.2" layer="21"/>
+<wire x1="-0.2" y1="-0.2" x2="-0.2" y2="7.6" width="0.2" layer="21"/>
 <wire x1="-0.2" y1="-0.2" x2="7.2" y2="-0.2" width="0.2" layer="21"/>
-<wire x1="7.2" y1="-0.2" x2="7.2" y2="7.7" width="0.2" layer="21"/>
-<wire x1="-0.2" y1="7.7" x2="7.2" y2="7.7" width="0.2" layer="21"/>
+<wire x1="7.2" y1="-0.2" x2="7.2" y2="7.6" width="0.2" layer="21"/>
+<wire x1="-0.2" y1="7.6" x2="7.2" y2="7.6" width="0.2" layer="21"/>
+<dimension x1="0" y1="0" x2="7" y2="0" x3="3.5" y3="-3.750003125" textsize="1.27" textratio="20" layer="47" visible="yes"/>
+<dimension x1="7" y1="0" x2="7" y2="7.4" x3="9.099996875" y3="3.7" textsize="1.27" textratio="20" layer="47"/>
+<wire x1="0" y1="0" x2="7" y2="0" width="0.2" layer="51"/>
+<wire x1="7" y1="0" x2="7" y2="7.4" width="0.2" layer="51"/>
+<wire x1="7" y1="7.4" x2="0" y2="7.4" width="0.2" layer="51"/>
+<wire x1="0" y1="7.4" x2="0" y2="0" width="0.2" layer="51"/>
 </package>
 <package name="CR_1608">
 <wire x1="0" y1="0.6" x2="0" y2="-0.6" width="0.2" layer="21"/>
@@ -469,14 +475,6 @@ chip</description>
 <wire x1="0" y1="-0.5" x2="0.1" y2="-0.5" width="0.2" layer="21"/>
 <wire x1="0" y1="0.5" x2="0" y2="-0.5" width="0.2" layer="21"/>
 </package>
-<package name="R_1608_PADPAD">
-<smd name="1" x="-0.9525" y="0" dx="1" dy="1" layer="1"/>
-<smd name="2" x="0.9525" y="0" dx="1" dy="1" layer="1"/>
-<wire x1="-0.3175" y1="0.8" x2="0.3175" y2="0.8" width="0.2" layer="21"/>
-<text x="-0.635" y="0.9525" size="1.27" layer="25" font="vector" ratio="15">&gt;NAME</text>
-<text x="-0.635" y="-2.2225" size="1.27" layer="27" font="vector" ratio="15">&gt;VALUE</text>
-<wire x1="-0.3175" y1="-0.8" x2="0.3175" y2="-0.8" width="0.2" layer="21"/>
-</package>
 <package name="R_2125_PADPAD">
 <smd name="1" x="-1.27" y="0" dx="1.4224" dy="1.4224" layer="1"/>
 <smd name="2" x="1.27" y="0" dx="1.4224" dy="1.4224" layer="1"/>
@@ -526,6 +524,14 @@ chip</description>
 <wire x1="3.302" y1="-1.778" x2="3.302" y2="1.778" width="0.11" layer="39"/>
 <wire x1="3.302" y1="1.778" x2="-3.302" y2="1.778" width="0.11" layer="39"/>
 <wire x1="-3.302" y1="1.778" x2="-3.302" y2="-1.778" width="0.11" layer="39"/>
+</package>
+<package name="R_1608_PADPAD">
+<smd name="1" x="-0.9" y="0" dx="1" dy="1" layer="1"/>
+<smd name="2" x="0.9" y="0" dx="1" dy="1" layer="1"/>
+<wire x1="-0.3175" y1="0.8" x2="0.3175" y2="0.8" width="0.2" layer="21"/>
+<text x="-0.635" y="0.9525" size="1.27" layer="25" font="vector" ratio="15">&gt;NAME</text>
+<text x="-0.635" y="-2.2225" size="1.27" layer="27" font="vector" ratio="15">&gt;VALUE</text>
+<wire x1="-0.3175" y1="-0.8" x2="0.3175" y2="-0.8" width="0.2" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -1533,9 +1539,9 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="C1" library="mylib" deviceset="C_PAD_PAD_" device="1005"/>
 <part name="R1" library="mylib" deviceset="R_US_PAD_PAD" device="_1005"/>
 <part name="SUPPLY3" library="mylib" deviceset="GND" device=""/>
-<part name="TP3" library="testpad_local" deviceset="TP" device="TP20R" value="TPTP20R"/>
-<part name="TP4" library="testpad_local" deviceset="TP" device="TP20R" value="TPTP20R"/>
-<part name="TP5" library="testpad_local" deviceset="TP" device="TP20R" value="TPTP20R"/>
+<part name="TP100" library="testpad_local" deviceset="TP" device="TP20R" value="TPTP20R"/>
+<part name="TP101" library="testpad_local" deviceset="TP" device="TP20R" value="TPTP20R"/>
+<part name="TP102" library="testpad_local" deviceset="TP" device="TP20R" value="TPTP20R"/>
 <part name="TP7" library="testpad_local" deviceset="TP" device="TP08R"/>
 <part name="TP8" library="testpad_local" deviceset="TP" device="TP08R"/>
 <part name="TP9" library="testpad_local" deviceset="TP" device="TP08R"/>
@@ -1548,12 +1554,10 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <sheets>
 <sheet>
 <plain>
-<circle x="223.52" y="38.1" radius="12.7" width="0.1524" layer="91"/>
-<text x="218.44" y="27.94" size="1.778" layer="91">FIDUCIAL</text>
+<text x="236.22" y="30.48" size="1.778" layer="91">FIDUCIAL</text>
 <text x="154.94" y="111.76" size="1.778" layer="94">P0_0/!CS!</text>
 <text x="154.94" y="101.6" size="1.778" layer="94">P0_4/TXD/MOSI -&gt;</text>
 <text x="154.94" y="99.06" size="1.778" layer="94">P0_5/RXD/SCK &lt;-</text>
-<text x="154.94" y="96.52" size="1.778" layer="94">P0_6/DAT1</text>
 <text x="71.12" y="119.38" size="1.778" layer="94" rot="MR0" align="center-left">RESET</text>
 <text x="71.12" y="99.06" size="1.778" layer="94" rot="MR0" align="center-left">-&gt; P0_5/RXD/SCK</text>
 <text x="71.12" y="109.22" size="1.778" layer="94" rot="MR0" align="center-left">&lt;- P0_4/TXD/MOSI</text>
@@ -1568,6 +1572,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <text x="99.06" y="116.84" size="1.778" layer="94" rot="MR0" align="center-left">RESET</text>
 <text x="101.6" y="119.38" size="1.778" layer="94" rot="MR0" align="center-left">VPP</text>
 <text x="71.12" y="83.82" size="1.778" layer="94" rot="MR0" align="center-left">VPP</text>
+<circle x="241.3" y="40.64" radius="15.24" width="0.1524" layer="91"/>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
@@ -1578,9 +1583,9 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <instance part="C1" gate="G$1" x="106.68" y="106.68"/>
 <instance part="R1" gate="G$1" x="106.68" y="114.3"/>
 <instance part="SUPPLY3" gate="GND" x="99.06" y="114.3" rot="R270"/>
-<instance part="TP3" gate="G$1" x="223.52" y="43.18" rot="R90"/>
-<instance part="TP4" gate="G$1" x="223.52" y="38.1" rot="R90"/>
-<instance part="TP5" gate="G$1" x="223.52" y="33.02" rot="R90"/>
+<instance part="TP100" gate="G$1" x="231.14" y="43.18"/>
+<instance part="TP101" gate="G$1" x="238.76" y="43.18"/>
+<instance part="TP102" gate="G$1" x="246.38" y="43.18"/>
 <instance part="TP7" gate="G$1" x="182.88" y="104.14" rot="R270"/>
 <instance part="TP8" gate="G$1" x="185.42" y="106.68" rot="R270"/>
 <instance part="TP9" gate="G$1" x="187.96" y="109.22" rot="R270"/>
@@ -1660,11 +1665,12 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pinref part="U1" gate="G$1" pin="P0_7"/>
 </segment>
 </net>
-<net name="DAT1" class="0">
+<net name="P0_6" class="0">
 <segment>
 <wire x1="170.18" y1="96.52" x2="144.78" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="P0_6"/>
 <pinref part="TP1" gate="G$1" pin="TP"/>
+<label x="154.94" y="96.52" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="RXD_MOSI" class="0">
@@ -1729,7 +1735,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <label x="223.52" y="121.92" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$2" class="0">
+<net name="VPP" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="VPP"/>
 <wire x1="101.6" y1="119.38" x2="111.76" y2="119.38" width="0.1524" layer="91"/>
