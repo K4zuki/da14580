@@ -533,6 +533,76 @@ chip</description>
 <text x="-0.635" y="-2.2225" size="1.27" layer="27" font="vector" ratio="15">&gt;VALUE</text>
 <wire x1="-0.3175" y1="-0.8" x2="0.3175" y2="-0.8" width="0.2" layer="21"/>
 </package>
+<package name="IC_08_1.27_150MIL">
+<wire x1="2.4" y1="1.9" x2="2.4" y2="-1.4" width="0.2032" layer="51"/>
+<wire x1="2.4" y1="-1.4" x2="2.4" y2="-1.9" width="0.2032" layer="51"/>
+<wire x1="2.4" y1="-1.9" x2="-2.4" y2="-1.9" width="0.2032" layer="51"/>
+<wire x1="-2.4" y1="-1.9" x2="-2.4" y2="-1.4" width="0.2032" layer="51"/>
+<wire x1="-2.4" y1="-1.4" x2="-2.4" y2="1.9" width="0.2032" layer="51"/>
+<wire x1="-2.4" y1="1.9" x2="2.4" y2="1.9" width="0.2032" layer="51"/>
+<wire x1="2.4" y1="-1.4" x2="-2.4" y2="-1.4" width="0.2032" layer="51"/>
+<smd name="2" x="-0.635" y="-2.8" dx="0.6" dy="2.2" layer="1"/>
+<smd name="7" x="-0.635" y="2.8" dx="0.6" dy="2.2" layer="1"/>
+<smd name="1" x="-1.905" y="-2.8" dx="0.6" dy="2.2" layer="1"/>
+<smd name="3" x="0.635" y="-2.8" dx="0.6" dy="2.2" layer="1"/>
+<smd name="4" x="1.905" y="-2.8" dx="0.6" dy="2.2" layer="1"/>
+<smd name="8" x="-1.905" y="2.8" dx="0.6" dy="2.2" layer="1"/>
+<smd name="6" x="0.635" y="2.8" dx="0.6" dy="2.2" layer="1"/>
+<smd name="5" x="1.905" y="2.8" dx="0.6" dy="2.2" layer="1"/>
+<text x="-2.7" y="-1.5" size="1.27" layer="25" font="vector" ratio="16" rot="R90">&gt;NAME</text>
+<text x="3.9" y="-1.5" size="1.27" layer="27" font="vector" ratio="16" rot="R90">&gt;VALUE</text>
+<rectangle x1="-2.1501" y1="-3.1001" x2="-1.6599" y2="-2" layer="51"/>
+<rectangle x1="-0.8801" y1="-3.1001" x2="-0.3899" y2="-2" layer="51"/>
+<rectangle x1="0.3899" y1="-3.1001" x2="0.8801" y2="-2" layer="51"/>
+<rectangle x1="1.6599" y1="-3.1001" x2="2.1501" y2="-2" layer="51"/>
+<rectangle x1="1.6599" y1="2" x2="2.1501" y2="3.1001" layer="51"/>
+<rectangle x1="0.3899" y1="2" x2="0.8801" y2="3.1001" layer="51"/>
+<rectangle x1="-0.8801" y1="2" x2="-0.3899" y2="3.1001" layer="51"/>
+<rectangle x1="-2.1501" y1="2" x2="-1.6599" y2="3.1001" layer="51"/>
+<wire x1="-2.4" y1="1.4" x2="2.4" y2="1.4" width="0.2032" layer="21"/>
+<wire x1="-2.4" y1="-1.4" x2="2.4" y2="-1.4" width="0.2032" layer="21"/>
+<wire x1="-2.4" y1="1.4" x2="-2.4" y2="0.6" width="0.2" layer="21"/>
+<wire x1="-2.4" y1="0.6" x2="-2.1" y2="0.3" width="0.2" layer="21"/>
+<wire x1="-2.1" y1="0.3" x2="-2.1" y2="-0.3" width="0.2" layer="21"/>
+<wire x1="-2.1" y1="-0.3" x2="-2.4" y2="-0.6" width="0.2" layer="21"/>
+<wire x1="-2.4" y1="-0.6" x2="-2.4" y2="-1.4" width="0.2" layer="21"/>
+<wire x1="2.4" y1="1.4" x2="2.4" y2="-1.4" width="0.2" layer="21"/>
+<wire x1="-2.6" y1="-1.8" x2="-2.6" y2="-3.8" width="0.2" layer="21"/>
+</package>
+<package name="IC_08_0.65_160MIL">
+<smd name="8" x="-0.975" y="3.2" dx="0.4" dy="1.2" layer="1" stop="no"/>
+<smd name="7" x="-0.325" y="3.2" dx="0.4" dy="1.2" layer="1" stop="no"/>
+<smd name="6" x="0.325" y="3.2" dx="0.4" dy="1.2" layer="1" stop="no"/>
+<smd name="5" x="0.975" y="3.2" dx="0.4" dy="1.2" layer="1" stop="no"/>
+<smd name="4" x="0.975" y="-3.2" dx="0.4" dy="1.2" layer="1" stop="no"/>
+<smd name="3" x="0.325" y="-3.2" dx="0.4" dy="1.2" layer="1" stop="no"/>
+<smd name="2" x="-0.325" y="-3.2" dx="0.4" dy="1.2" layer="1" stop="no"/>
+<smd name="1" x="-0.975" y="-3.2" dx="0.4" dy="1.2" layer="1" stop="no"/>
+<text x="-2" y="-2.5" size="1" layer="25" font="vector" ratio="20" rot="R90">&gt;NAME</text>
+<text x="2.8" y="-2.6" size="1" layer="27" font="vector" ratio="20" rot="R90">&gt;VALUE</text>
+<wire x1="-1.5" y1="2.2" x2="1.5" y2="2.2" width="0.2" layer="21"/>
+<wire x1="1.5" y1="-2.2" x2="1.5" y2="2.2" width="0.2" layer="21"/>
+<wire x1="-1.5" y1="-2.2" x2="1.5" y2="-2.2" width="0.2" layer="21"/>
+<wire x1="-1.5" y1="-2.2" x2="-1.5" y2="2.2" width="0.2" layer="21"/>
+<wire x1="-1.5" y1="0.5" x2="-1.5" y2="-0.5" width="0.2" layer="21" curve="-180"/>
+<wire x1="-1.6" y1="-2.6" x2="-1.6" y2="-2.7" width="0.5" layer="51"/>
+<rectangle x1="-1.1" y1="2.3" x2="-0.8" y2="3.2" layer="51"/>
+<rectangle x1="-0.5" y1="2.3" x2="-0.2" y2="3.2" layer="51"/>
+<rectangle x1="0.2" y1="2.3" x2="0.5" y2="3.2" layer="51"/>
+<rectangle x1="0.8" y1="2.3" x2="1.1" y2="3.2" layer="51"/>
+<rectangle x1="-1.1" y1="-3.2" x2="-0.8" y2="-2.3" layer="51"/>
+<rectangle x1="-0.5" y1="-3.2" x2="-0.2" y2="-2.3" layer="51"/>
+<rectangle x1="0.2" y1="-3.2" x2="0.5" y2="-2.3" layer="51"/>
+<rectangle x1="0.8" y1="-3.2" x2="1.1" y2="-2.3" layer="51"/>
+<rectangle x1="-1.225" y1="2.55" x2="-0.725" y2="3.85" layer="29"/>
+<rectangle x1="-0.575" y1="2.55" x2="-0.075" y2="3.85" layer="29"/>
+<rectangle x1="0.075" y1="2.55" x2="0.575" y2="3.85" layer="29"/>
+<rectangle x1="0.725" y1="2.55" x2="1.225" y2="3.85" layer="29"/>
+<rectangle x1="0.725" y1="-3.85" x2="1.225" y2="-2.55" layer="29"/>
+<rectangle x1="0.075" y1="-3.85" x2="0.575" y2="-2.55" layer="29"/>
+<rectangle x1="-0.575" y1="-3.85" x2="-0.075" y2="-2.55" layer="29"/>
+<rectangle x1="-1.225" y1="-3.85" x2="-0.725" y2="-2.55" layer="29"/>
+</package>
 </packages>
 <symbols>
 <symbol name="BOARD_MICROSD">
@@ -634,6 +704,26 @@ chip</description>
 <pin name="SWCLK/TCK" x="17.78" y="0" length="short" rot="R180"/>
 <pin name="GND" x="-17.78" y="-2.54" length="short"/>
 <pin name="SW0/TDO" x="17.78" y="-2.54" length="short" rot="R180"/>
+</symbol>
+<symbol name="IC_SRAM_23K256">
+<wire x1="-12.7" y1="10.06" x2="10.16" y2="10.06" width="0.254" layer="94"/>
+<wire x1="10.16" y1="10.06" x2="10.16" y2="-0.1" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-0.1" x2="10.16" y2="-7.72" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-7.72" x2="-12.7" y2="-7.72" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-7.72" x2="-12.7" y2="9.806" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-0.1" x2="8.89" y2="-0.1" width="0.1524" layer="94"/>
+<text x="4.064" y="7.52" size="1.778" layer="95">VCC</text>
+<text x="4.318" y="-6.958" size="1.778" layer="95">GND</text>
+<text x="-12.7" y="11.33" size="1.778" layer="95">&gt;NAME</text>
+<text x="-12.7" y="-10.26" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="VCC" x="5.08" y="12.7" visible="pad" length="short" direction="pwr" rot="R270"/>
+<pin name="GND" x="5.08" y="-10.16" visible="pad" length="short" direction="pwr" rot="R90"/>
+<pin name="!CS" x="-15.24" y="2.54" length="short" direction="in"/>
+<pin name="SO" x="12.7" y="0" length="short" rot="R180"/>
+<pin name="!HOLD" x="-15.24" y="-5.08" length="short" direction="in"/>
+<pin name="SCK" x="-15.24" y="-2.54" length="short" direction="in"/>
+<pin name="SI" x="-15.24" y="0" length="short" direction="in"/>
+<pin name="!WP" x="-15.24" y="7.62" length="short" direction="in"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -814,6 +904,43 @@ chip</description>
 <connect gate="G$1" pin="SWCLK/TCK" pad="4"/>
 <connect gate="G$1" pin="SWDIO/TMS" pad="2"/>
 <connect gate="G$1" pin="VCC" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="IC_SRAM_23K256_256K_32KB" prefix="IC">
+<gates>
+<gate name="G$1" symbol="IC_SRAM_23K256" x="0" y="0"/>
+</gates>
+<devices>
+<device name="SN" package="IC_08_1.27_150MIL">
+<connects>
+<connect gate="G$1" pin="!CS" pad="1"/>
+<connect gate="G$1" pin="!HOLD" pad="7"/>
+<connect gate="G$1" pin="!WP" pad="3"/>
+<connect gate="G$1" pin="GND" pad="4"/>
+<connect gate="G$1" pin="SCK" pad="6"/>
+<connect gate="G$1" pin="SI" pad="5"/>
+<connect gate="G$1" pin="SO" pad="2"/>
+<connect gate="G$1" pin="VCC" pad="8"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="ST" package="IC_08_0.65_160MIL">
+<connects>
+<connect gate="G$1" pin="!CS" pad="1"/>
+<connect gate="G$1" pin="!HOLD" pad="7"/>
+<connect gate="G$1" pin="!WP" pad="3"/>
+<connect gate="G$1" pin="GND" pad="4"/>
+<connect gate="G$1" pin="SCK" pad="6"/>
+<connect gate="G$1" pin="SI" pad="5"/>
+<connect gate="G$1" pin="SO" pad="2"/>
+<connect gate="G$1" pin="VCC" pad="8"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1550,6 +1677,10 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="CON1" library="mylib" deviceset="CON_TC2030" device="-CTL-NL"/>
 <part name="SUPPLY4" library="mylib" deviceset="GND" device=""/>
 <part name="TP1" library="testpad_local" deviceset="TP" device="TP08R"/>
+<part name="IC1" library="mylib" deviceset="IC_SRAM_23K256_256K_32KB" device="ST"/>
+<part name="SUPPLY5" library="mylib" deviceset="GND" device=""/>
+<part name="C2" library="mylib" deviceset="C_PAD_PAD_" device="1005"/>
+<part name="SUPPLY6" library="mylib" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -1561,9 +1692,9 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <text x="71.12" y="119.38" size="1.778" layer="94" rot="MR0" align="center-left">RESET</text>
 <text x="71.12" y="99.06" size="1.778" layer="94" rot="MR0" align="center-left">-&gt; P0_5/RXD/SCK</text>
 <text x="71.12" y="109.22" size="1.778" layer="94" rot="MR0" align="center-left">&lt;- P0_4/TXD/MOSI</text>
-<wire x1="99.06" y1="76.2" x2="236.22" y2="76.2" width="0.254" layer="94"/>
-<wire x1="236.22" y1="76.2" x2="236.22" y2="127" width="0.254" layer="94"/>
-<wire x1="236.22" y1="127" x2="99.06" y2="127" width="0.254" layer="94"/>
+<wire x1="99.06" y1="76.2" x2="248.92" y2="76.2" width="0.254" layer="94"/>
+<wire x1="248.92" y1="76.2" x2="248.92" y2="127" width="0.254" layer="94"/>
+<wire x1="248.92" y1="127" x2="99.06" y2="127" width="0.254" layer="94"/>
 <text x="71.12" y="88.9" size="1.778" layer="94" rot="MR0" align="center-left">P0_7/MISO</text>
 <text x="154.94" y="93.98" size="1.778" layer="94">P0_7/MISO</text>
 <text x="71.12" y="114.3" size="1.778" layer="94" rot="MR0" align="center-left">P0_0/!CS!</text>
@@ -1594,6 +1725,10 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <instance part="CON1" gate="G$1" x="198.12" y="119.38"/>
 <instance part="SUPPLY4" gate="GND" x="177.8" y="116.84" rot="R270"/>
 <instance part="TP1" gate="G$1" x="172.72" y="96.52" rot="R270"/>
+<instance part="IC1" gate="G$1" x="218.44" y="93.98"/>
+<instance part="SUPPLY5" gate="GND" x="223.52" y="81.28"/>
+<instance part="C2" gate="G$1" x="231.14" y="104.14"/>
+<instance part="SUPPLY6" gate="GND" x="231.14" y="99.06"/>
 </instances>
 <busses>
 </busses>
@@ -1616,6 +1751,23 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <wire x1="180.34" y1="121.92" x2="170.18" y2="121.92" width="0.1524" layer="91"/>
 <pinref part="CON1" gate="G$1" pin="VCC"/>
 <label x="170.18" y="121.92" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="233.68" y1="106.68" x2="231.14" y2="106.68" width="0.1524" layer="91"/>
+<pinref part="IC1" gate="G$1" pin="VCC"/>
+<wire x1="231.14" y1="106.68" x2="223.52" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="106.68" x2="200.66" y2="106.68" width="0.1524" layer="91"/>
+<junction x="223.52" y="106.68"/>
+<wire x1="200.66" y1="106.68" x2="200.66" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="IC1" gate="G$1" pin="!WP"/>
+<wire x1="200.66" y1="101.6" x2="203.2" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="IC1" gate="G$1" pin="!HOLD"/>
+<wire x1="203.2" y1="88.9" x2="200.66" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="88.9" x2="200.66" y2="101.6" width="0.1524" layer="91"/>
+<junction x="200.66" y="101.6"/>
+<label x="233.68" y="106.68" size="1.778" layer="95"/>
+<pinref part="C2" gate="G$1" pin="1"/>
+<junction x="231.14" y="106.68"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -1641,6 +1793,14 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pinref part="CON1" gate="G$1" pin="GND"/>
 <pinref part="SUPPLY4" gate="GND" pin="GND"/>
 </segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="GND"/>
+<pinref part="SUPPLY5" gate="GND" pin="GND"/>
+</segment>
+<segment>
+<pinref part="C2" gate="G$1" pin="2"/>
+<pinref part="SUPPLY6" gate="GND" pin="GND"/>
+</segment>
 </net>
 <net name="N$1" class="0">
 <segment>
@@ -1664,6 +1824,11 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <wire x1="154.94" y1="93.98" x2="144.78" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="P0_7"/>
 </segment>
+<segment>
+<wire x1="241.3" y1="93.98" x2="231.14" y2="93.98" width="0.1524" layer="91"/>
+<label x="233.68" y="93.98" size="1.778" layer="95"/>
+<pinref part="IC1" gate="G$1" pin="SO"/>
+</segment>
 </net>
 <net name="P0_6" class="0">
 <segment>
@@ -1682,6 +1847,11 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <wire x1="154.94" y1="101.6" x2="144.78" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="P0_4"/>
 </segment>
+<segment>
+<wire x1="203.2" y1="93.98" x2="193.04" y2="93.98" width="0.1524" layer="91"/>
+<label x="193.04" y="93.98" size="1.778" layer="95"/>
+<pinref part="IC1" gate="G$1" pin="SI"/>
+</segment>
 </net>
 <net name="!CS!" class="0">
 <segment>
@@ -1691,6 +1861,11 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <segment>
 <wire x1="154.94" y1="111.76" x2="144.78" y2="111.76" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="P0_0"/>
+</segment>
+<segment>
+<wire x1="203.2" y1="96.52" x2="193.04" y2="96.52" width="0.1524" layer="91"/>
+<label x="193.04" y="96.52" size="1.778" layer="95"/>
+<pinref part="IC1" gate="G$1" pin="!CS"/>
 </segment>
 </net>
 <net name="P0_3" class="0">
@@ -1709,6 +1884,11 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <segment>
 <wire x1="154.94" y1="99.06" x2="144.78" y2="99.06" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="P0_5"/>
+</segment>
+<segment>
+<wire x1="203.2" y1="91.44" x2="193.04" y2="91.44" width="0.1524" layer="91"/>
+<label x="193.04" y="91.44" size="1.778" layer="95"/>
+<pinref part="IC1" gate="G$1" pin="SCK"/>
 </segment>
 </net>
 <net name="SWCLK" class="0">
