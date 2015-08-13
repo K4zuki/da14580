@@ -1677,7 +1677,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="CON1" library="mylib" deviceset="CON_TC2030" device="-CTL-NL"/>
 <part name="SUPPLY4" library="mylib" deviceset="GND" device=""/>
 <part name="TP1" library="testpad_local" deviceset="TP" device="TP08R"/>
-<part name="IC1" library="mylib" deviceset="IC_SRAM_23K256_256K_32KB" device="ST"/>
+<part name="IC1" library="mylib" deviceset="IC_SRAM_23K256_256K_32KB" device="ST" value="1265-1139-1-ND"/>
 <part name="SUPPLY5" library="mylib" deviceset="GND" device=""/>
 <part name="C2" library="mylib" deviceset="C_PAD_PAD_" device="1005"/>
 <part name="SUPPLY6" library="mylib" deviceset="GND" device=""/>
