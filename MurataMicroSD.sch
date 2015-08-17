@@ -1774,11 +1774,11 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <plain>
 <text x="236.22" y="30.48" size="1.778" layer="91">FIDUCIAL</text>
 <text x="154.94" y="111.76" size="1.778" layer="94">P0_0/!CS!</text>
-<text x="154.94" y="101.6" size="1.778" layer="94">P0_4/TXD/MOSI -&gt;</text>
-<text x="154.94" y="99.06" size="1.778" layer="94">P0_5/RXD/SCK &lt;-</text>
+<text x="154.94" y="101.6" size="1.778" layer="94">P0_4/TXD-&gt;/MOSI</text>
+<text x="154.94" y="99.06" size="1.778" layer="94">P0_5/RXD&lt;-/SCK</text>
 <text x="71.12" y="119.38" size="1.778" layer="94" rot="MR0" align="center-left">RESET</text>
-<text x="71.12" y="99.06" size="1.778" layer="94" rot="MR0" align="center-left">-&gt; P0_5/RXD/SCK</text>
-<text x="71.12" y="109.22" size="1.778" layer="94" rot="MR0" align="center-left">&lt;- P0_4/TXD/MOSI</text>
+<text x="71.12" y="99.06" size="1.778" layer="94" rot="MR0" align="center-left">P0_5/-&gt;RXD/SCK</text>
+<text x="71.12" y="109.22" size="1.778" layer="94" rot="MR0" align="center-left">P0_4/&lt;-TXD/MOSI</text>
 <wire x1="99.06" y1="76.2" x2="248.92" y2="76.2" width="0.254" layer="94"/>
 <wire x1="248.92" y1="76.2" x2="248.92" y2="127" width="0.254" layer="94"/>
 <wire x1="248.92" y1="127" x2="99.06" y2="127" width="0.254" layer="94"/>
