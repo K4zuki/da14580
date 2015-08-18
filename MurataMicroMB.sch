@@ -4304,7 +4304,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </classes>
 <parts>
 <part name="FRAME1" library="frames" deviceset="A4L-LOC" device=""/>
-<part name="CON1" library="mylib" deviceset="CON_MICROSD" device="_C2395"/>
+<part name="CON1" library="mylib" deviceset="CON_MICROSD" device="_C2395" value="C-2395.MurataMicroSD"/>
 <part name="PCB1" library="dp_pcb" deviceset="PCB_DP_RECTANGLE" device="-43X70" value="PCB_DP_RECTANGLE-43X70"/>
 <part name="IC1" library="74xx-little-us_local" deviceset="74*1G00" device="DBV" technology="LVC"/>
 <part name="CON2" library="mylib" deviceset="CON_USB" device="UB"/>
@@ -4313,12 +4313,12 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="SUPPLY5" library="mylib" deviceset="GND" device=""/>
 <part name="SUPPLY3" library="mylib" deviceset="GND" device=""/>
 <part name="SUPPLY4" library="mylib" deviceset="GND" device=""/>
-<part name="C1" library="mylib" deviceset="C_PAD_PAD_" device="1005"/>
+<part name="C1" library="mylib" deviceset="C_PAD_PAD_" device="1005" value="0.1u"/>
 <part name="SUPPLY6" library="mylib" deviceset="GND" device=""/>
-<part name="C2" library="mylib" deviceset="C_PAD_PAD_" device="1608"/>
+<part name="C2" library="mylib" deviceset="C_PAD_PAD_" device="1608" value="0.1u"/>
 <part name="SUPPLY7" library="mylib" deviceset="GND" device=""/>
 <part name="SUPPLY8" library="mylib" deviceset="GND" device=""/>
-<part name="L1" library="mylib" deviceset="INDUCTOR" device="_2016" value="4.7u"/>
+<part name="L1" library="mylib" deviceset="INDUCTOR" device="_2016" value="4.7uH/2016"/>
 <part name="IC2" library="mylib" deviceset="IC_DCDC_LM27313" device=""/>
 <part name="D1" library="mylib" deviceset="DIODE_SMALL" device=""/>
 <part name="R2" library="mylib" deviceset="R_US_PAD_PAD" device="_1608" value="10k"/>
@@ -4326,7 +4326,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="R4" library="mylib" deviceset="R_US_PAD_PAD" device="_1608" value="13.3k"/>
 <part name="C4" library="mylib" deviceset="C_PAD_PAD_" device="2125" value="4.7u"/>
 <part name="C5" library="mylib" deviceset="C_PAD_PAD_" device="2125" value="4.7u"/>
-<part name="C6" library="mylib" deviceset="C_PAD_PAD_" device="1608"/>
+<part name="C6" library="mylib" deviceset="C_PAD_PAD_" device="1608" value="NM"/>
 <part name="SUPPLY10" library="mylib" deviceset="GND" device=""/>
 <part name="SUPPLY11" library="mylib" deviceset="GND" device=""/>
 <part name="X1" library="con-samtec.local" deviceset="TSW-102-02-S-S" device=""/>
@@ -4338,16 +4338,16 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="C9" library="mylib" deviceset="C_PAD_PAD_" device="2125" value="4.7u"/>
 <part name="SUPPLY12" library="mylib" deviceset="GND" device=""/>
 <part name="SUPPLY13" library="mylib" deviceset="GND" device=""/>
-<part name="C10" library="mylib" deviceset="C_PAD_PAD_" device="1005" value="4.7u"/>
-<part name="C11" library="mylib" deviceset="C_PAD_PAD_" device="1005" value="4.7u"/>
-<part name="R5" library="mylib" deviceset="R_US_PAD_PAD" device="_1005"/>
-<part name="R6" library="mylib" deviceset="R_US_PAD_PAD" device="_1005"/>
-<part name="R7" library="mylib" deviceset="R_US_PAD_PAD" device="_1005"/>
-<part name="R8" library="mylib" deviceset="R_US_PAD_PAD" device="_1005"/>
-<part name="R9" library="mylib" deviceset="R_US_PAD_PAD" device="_1005"/>
+<part name="C10" library="mylib" deviceset="C_PAD_PAD_" device="1005" value="0.1u"/>
+<part name="C11" library="mylib" deviceset="C_PAD_PAD_" device="1005" value="0.1u"/>
+<part name="R5" library="mylib" deviceset="R_US_PAD_PAD" device="_1005" value="100"/>
+<part name="R6" library="mylib" deviceset="R_US_PAD_PAD" device="_1005" value="100"/>
+<part name="R7" library="mylib" deviceset="R_US_PAD_PAD" device="_1005" value="10k"/>
+<part name="R8" library="mylib" deviceset="R_US_PAD_PAD" device="_1005" value="10k"/>
+<part name="R9" library="mylib" deviceset="R_US_PAD_PAD" device="_1005" value="10k"/>
 <part name="Q1" library="mylib" deviceset="CLOCK_CRYSTAL_4" device="_3225"/>
-<part name="C3" library="mylib" deviceset="C_PAD_PAD_" device="1005" value="4.7u"/>
-<part name="C12" library="mylib" deviceset="C_PAD_PAD_" device="1005" value="4.7u"/>
+<part name="C3" library="mylib" deviceset="C_PAD_PAD_" device="1005" value="18p"/>
+<part name="C12" library="mylib" deviceset="C_PAD_PAD_" device="1005" value="18p"/>
 <part name="SUPPLY2" library="mylib" deviceset="GND" device=""/>
 <part name="IC4" library="mylib" deviceset="IC_LDO_XX1117_4" device=""/>
 <part name="R1" library="mylib" deviceset="R_US_PAD_PAD" device="_1005" value="33/1005"/>
@@ -4358,7 +4358,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="R11" library="mylib" deviceset="R_US_PAD_PAD" device="_1005" value="1.5k/1005"/>
 <part name="SUPPLY9" library="mylib" deviceset="GND" device=""/>
 <part name="SUPPLY14" library="mylib" deviceset="GND" device=""/>
-<part name="R12" library="mylib" deviceset="R_US_PAD_PAD" device="_1005"/>
+<part name="R12" library="mylib" deviceset="R_US_PAD_PAD" device="_1005" value="10k"/>
 <part name="SUPPLY15" library="mylib" deviceset="GND" device=""/>
 <part name="SW1" library="mylib" deviceset="SW_TACTSW_2P" device="P8073"/>
 <part name="SW2" library="mylib" deviceset="SW_TACTSW_2P" device="P8073"/>
@@ -4366,9 +4366,9 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="SUPPLY16" library="mylib" deviceset="GND" device=""/>
 <part name="SUPPLY17" library="mylib" deviceset="GND" device=""/>
 <part name="SUPPLY18" library="mylib" deviceset="GND" device=""/>
-<part name="CON4" library="mylib" deviceset="CON_MICROSD" device="_C2395"/>
+<part name="CON4" library="mylib" deviceset="CON_MICROSD" device="_C2395" value="C-2395.microSD"/>
 <part name="SUPPLY19" library="mylib" deviceset="GND" device=""/>
-<part name="C15" library="mylib" deviceset="C_PAD_PAD_" device="1608"/>
+<part name="C15" library="mylib" deviceset="C_PAD_PAD_" device="1608" value="0.1u"/>
 <part name="SUPPLY20" library="mylib" deviceset="GND" device=""/>
 <part name="SUPPLY21" library="mylib" deviceset="GND" device=""/>
 </parts>
