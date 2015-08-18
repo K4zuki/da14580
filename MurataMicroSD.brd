@@ -226,8 +226,8 @@ Licensed</text>
 <vertex x="29.2" y="16.7"/>
 </polygon>
 <polygon width="0.2" layer="46">
-<vertex x="31.7" y="16.7"/>
-<vertex x="31.7" y="16.1"/>
+<vertex x="31.6" y="16.7"/>
+<vertex x="31.6" y="16.1"/>
 <vertex x="39.5" y="16.1"/>
 <vertex x="39.5" y="16.7"/>
 </polygon>
@@ -238,9 +238,9 @@ Licensed</text>
 <dimension x1="0" y1="50.6" x2="0" y2="55.6" x3="-4.9" y3="53.1" textsize="1" textratio="20" layer="47" dtype="vertical"/>
 <dimension x1="0" y1="55.6" x2="0" y2="73.4" x3="-2.7" y3="64.5" textsize="1" textratio="20" layer="47" dtype="vertical"/>
 <wire x1="26.8" y1="16.8" x2="27.4" y2="16.8" width="0.2" layer="21"/>
-<wire x1="29.5" y1="16.8" x2="31.4" y2="16.8" width="0.2" layer="21"/>
+<wire x1="29.5" y1="16.8" x2="31.3" y2="16.8" width="0.2" layer="21"/>
 <wire x1="26.8" y1="16" x2="27.4" y2="16" width="0.2" layer="21"/>
-<wire x1="29.5" y1="16" x2="31.4" y2="16" width="0.2" layer="21"/>
+<wire x1="29.5" y1="16" x2="31.3" y2="16" width="0.2" layer="21"/>
 <rectangle x1="29.5" y1="16.2" x2="31.3" y2="16.6" layer="29"/>
 <rectangle x1="26.8" y1="16.2" x2="27.4" y2="16.6" layer="29"/>
 </plain>
