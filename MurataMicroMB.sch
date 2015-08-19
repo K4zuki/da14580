@@ -1060,6 +1060,70 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/TDA988
 <wire x1="2.54" y1="-1.27" x2="1.74625" y2="-1.27" width="0.127" layer="51"/>
 <wire x1="1.74625" y1="-1.27" x2="1.74625" y2="1.27" width="0.127" layer="51"/>
 </package>
+<package name="ICON_OSHW">
+<wire x1="-0.26713125" y1="-0.65441875" x2="-0.6607" y2="-1.618359375" width="0.2" layer="21"/>
+<wire x1="-0.6607" y1="-1.618359375" x2="-0.699959375" y2="-1.63473125" width="0.2" layer="21"/>
+<wire x1="-0.699959375" y1="-1.63473125" x2="-0.913740625" y2="-1.54618125" width="0.2" layer="21"/>
+<wire x1="-0.913740625" y1="-1.54618125" x2="-0.94203125" y2="-1.54905" width="0.2" layer="21"/>
+<wire x1="-0.94203125" y1="-1.54905" x2="-1.41218125" y2="-1.86713125" width="0.2" layer="21"/>
+<wire x1="-1.41218125" y1="-1.86713125" x2="-1.450209375" y2="-1.8635" width="0.2" layer="21"/>
+<wire x1="-1.450209375" y1="-1.8635" x2="-1.8519" y2="-1.4618" width="0.2" layer="21"/>
+<wire x1="-1.8519" y1="-1.4618" x2="-1.855540625" y2="-1.42378125" width="0.2" layer="21"/>
+<wire x1="-1.855540625" y1="-1.42378125" x2="-1.53745" y2="-0.95363125" width="0.2" layer="21"/>
+<wire x1="-1.53745" y1="-0.95363125" x2="-1.53458125" y2="-0.925340625" width="0.2" layer="21"/>
+<wire x1="-1.53458125" y1="-0.925340625" x2="-1.72796875" y2="-0.45846875" width="0.2" layer="21"/>
+<wire x1="-1.72796875" y1="-0.45846875" x2="-1.75" y2="-0.4405" width="0.2" layer="21"/>
+<wire x1="-1.75" y1="-0.4405" x2="-2.307359375" y2="-0.33296875" width="0.2" layer="21"/>
+<wire x1="-2.307359375" y1="-0.33296875" x2="-2.33168125" y2="-0.303509375" width="0.2" layer="21"/>
+<wire x1="-2.33168125" y1="-0.303509375" x2="-2.33168125" y2="0.26456875" width="0.2" layer="21"/>
+<wire x1="-2.33168125" y1="0.26456875" x2="-2.307359375" y2="0.29403125" width="0.2" layer="21"/>
+<wire x1="-2.307359375" y1="0.29403125" x2="-1.75" y2="0.401559375" width="0.2" layer="21"/>
+<wire x1="-1.75" y1="0.401559375" x2="-1.72796875" y2="0.419540625" width="0.2" layer="21"/>
+<wire x1="-1.72796875" y1="0.419540625" x2="-1.53458125" y2="0.8864" width="0.2" layer="21"/>
+<wire x1="-1.53458125" y1="0.8864" x2="-1.53745" y2="0.914690625" width="0.2" layer="21"/>
+<wire x1="-1.53745" y1="0.914690625" x2="-1.855540625" y2="1.384840625" width="0.2" layer="21"/>
+<wire x1="-1.855540625" y1="1.384840625" x2="-1.8519" y2="1.42286875" width="0.2" layer="21"/>
+<wire x1="-1.8519" y1="1.42286875" x2="-1.450209375" y2="1.824559375" width="0.2" layer="21"/>
+<wire x1="-1.450209375" y1="1.824559375" x2="-1.41218125" y2="1.8282" width="0.2" layer="21"/>
+<wire x1="-1.41218125" y1="1.8282" x2="-0.94203125" y2="1.510109375" width="0.2" layer="21"/>
+<wire x1="-0.94203125" y1="1.510109375" x2="-0.913740625" y2="1.50725" width="0.2" layer="21"/>
+<wire x1="-0.913740625" y1="1.50725" x2="-0.44688125" y2="1.70063125" width="0.2" layer="21"/>
+<wire x1="-0.44688125" y1="1.70063125" x2="-0.4289" y2="1.722659375" width="0.2" layer="21"/>
+<wire x1="-0.4289" y1="1.722659375" x2="-0.32136875" y2="2.28003125" width="0.2" layer="21"/>
+<wire x1="-0.32136875" y1="2.28003125" x2="-0.291909375" y2="2.304340625" width="0.2" layer="21"/>
+<wire x1="-0.291909375" y1="2.304340625" x2="0.27616875" y2="2.304340625" width="0.2" layer="21"/>
+<wire x1="0.27616875" y1="2.304340625" x2="0.30563125" y2="2.28003125" width="0.2" layer="21"/>
+<wire x1="0.30563125" y1="2.28003125" x2="0.413159375" y2="1.722659375" width="0.2" layer="21"/>
+<wire x1="0.413159375" y1="1.722659375" x2="0.43113125" y2="1.70063125" width="0.2" layer="21"/>
+<wire x1="0.43113125" y1="1.70063125" x2="0.898" y2="1.50725" width="0.2" layer="21"/>
+<wire x1="0.898" y1="1.50725" x2="0.926290625" y2="1.510109375" width="0.2" layer="21"/>
+<wire x1="0.926290625" y1="1.510109375" x2="1.396440625" y2="1.8282" width="0.2" layer="21"/>
+<wire x1="1.396440625" y1="1.8282" x2="1.434459375" y2="1.824559375" width="0.2" layer="21"/>
+<wire x1="1.434459375" y1="1.824559375" x2="1.836159375" y2="1.42286875" width="0.2" layer="21"/>
+<wire x1="1.836159375" y1="1.42286875" x2="1.839790625" y2="1.384840625" width="0.2" layer="21"/>
+<wire x1="1.839790625" y1="1.384840625" x2="1.521709375" y2="0.914690625" width="0.2" layer="21"/>
+<wire x1="1.521709375" y1="0.914690625" x2="1.518840625" y2="0.8864" width="0.2" layer="21"/>
+<wire x1="1.518840625" y1="0.8864" x2="1.71221875" y2="0.419540625" width="0.2" layer="21"/>
+<wire x1="1.71221875" y1="0.419540625" x2="1.734259375" y2="0.401559375" width="0.2" layer="21"/>
+<wire x1="1.734259375" y1="0.401559375" x2="2.29161875" y2="0.29403125" width="0.2" layer="21"/>
+<wire x1="2.29161875" y1="0.29403125" x2="2.315940625" y2="0.26456875" width="0.2" layer="21"/>
+<wire x1="2.315940625" y1="0.26456875" x2="2.315940625" y2="-0.303509375" width="0.2" layer="21"/>
+<wire x1="2.315940625" y1="-0.303509375" x2="2.29161875" y2="-0.33296875" width="0.2" layer="21"/>
+<wire x1="2.29161875" y1="-0.33296875" x2="1.734259375" y2="-0.4405" width="0.2" layer="21"/>
+<wire x1="1.734259375" y1="-0.4405" x2="1.71221875" y2="-0.45846875" width="0.2" layer="21"/>
+<wire x1="1.71221875" y1="-0.45846875" x2="1.518840625" y2="-0.925340625" width="0.2" layer="21"/>
+<wire x1="1.518840625" y1="-0.925340625" x2="1.521709375" y2="-0.95363125" width="0.2" layer="21"/>
+<wire x1="1.521709375" y1="-0.95363125" x2="1.839790625" y2="-1.42378125" width="0.2" layer="21"/>
+<wire x1="1.839790625" y1="-1.42378125" x2="1.836159375" y2="-1.4618" width="0.2" layer="21"/>
+<wire x1="1.836159375" y1="-1.4618" x2="1.434459375" y2="-1.8635" width="0.2" layer="21"/>
+<wire x1="1.434459375" y1="-1.8635" x2="1.396440625" y2="-1.86713125" width="0.2" layer="21"/>
+<wire x1="1.396440625" y1="-1.86713125" x2="0.926290625" y2="-1.54905" width="0.2" layer="21"/>
+<wire x1="0.926290625" y1="-1.54905" x2="0.898" y2="-1.54618125" width="0.2" layer="21"/>
+<wire x1="0.898" y1="-1.54618125" x2="0.68421875" y2="-1.63473125" width="0.2" layer="21"/>
+<wire x1="0.68421875" y1="-1.63473125" x2="0.644959375" y2="-1.618359375" width="0.2" layer="21"/>
+<wire x1="0.644959375" y1="-1.618359375" x2="0.25138125" y2="-0.65441875" width="0.2" layer="21"/>
+<wire x1="0.3" y1="-0.6" x2="-0.3" y2="-0.6" width="0.2" layer="21" curve="306.869898"/>
+</package>
 </packages>
 <symbols>
 <symbol name="CON_MICROSD_C-2395">
@@ -1329,6 +1393,14 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/TDA988
 <text x="-1.27" y="3.175" size="1.016" layer="96" rot="R90">&gt;VALUE</text>
 <pin name="P" x="2.54" y="-5.08" visible="pad" length="short" direction="pas" swaplevel="1" rot="R90"/>
 <pin name="S" x="2.54" y="5.08" visible="pad" length="short" direction="pas" swaplevel="1" rot="R270"/>
+</symbol>
+<symbol name="ICON_OSHW">
+<text x="0" y="0" size="2.54" layer="94" ratio="20" align="center">OSHW</text>
+<wire x1="-5.08" y1="2.54" x2="-5.08" y2="-2.54" width="0.254" layer="94" curve="180"/>
+<wire x1="5.08" y1="-2.54" x2="5.08" y2="2.54" width="0.254" layer="94" curve="180"/>
+<wire x1="-5.08" y1="-2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="2.54" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="2.54" y2="2.54" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -1791,6 +1863,18 @@ high speed (Philips)</description>
 <connect gate="G$1" pin="P" pad="A1"/>
 <connect gate="G$1" pin="S" pad="A2"/>
 </connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ICON_OSHW">
+<gates>
+<gate name="G$1" symbol="ICON_OSHW" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="ICON_OSHW">
 <technologies>
 <technology name=""/>
 </technologies>
@@ -4371,10 +4455,12 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="C15" library="mylib" deviceset="C_PAD_PAD_" device="1608" value="0.1u"/>
 <part name="SUPPLY20" library="mylib" deviceset="GND" device=""/>
 <part name="SUPPLY21" library="mylib" deviceset="GND" device=""/>
+<part name="U$1" library="mylib" deviceset="ICON_OSHW" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
+<text x="162.56" y="25.4" size="15.24" layer="94">r0.1</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
@@ -4447,6 +4533,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <instance part="C15" gate="G$1" x="210.82" y="132.08"/>
 <instance part="SUPPLY20" gate="GND" x="210.82" y="127"/>
 <instance part="SUPPLY21" gate="GND" x="236.22" y="96.52"/>
+<instance part="U$1" gate="G$1" x="205.74" y="20.32"/>
 </instances>
 <busses>
 </busses>
@@ -4893,7 +4980,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <junction x="55.88" y="40.64"/>
 <pinref part="X1" gate="-2" pin="1"/>
 <junction x="45.72" y="40.64"/>
-<label x="60.96" y="40.64" size="1.778" layer="95"/>
+<label x="63.5" y="40.64" size="1.778" layer="95"/>
 <pinref part="C7" gate="G$1" pin="1"/>
 <wire x1="50.8" y1="33.02" x2="50.8" y2="40.64" width="0.1524" layer="91"/>
 <junction x="50.8" y="40.64"/>
