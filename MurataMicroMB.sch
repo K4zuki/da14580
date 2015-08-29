@@ -4460,12 +4460,12 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <sheets>
 <sheet>
 <plain>
-<text x="162.56" y="25.4" size="15.24" layer="94">r0.1</text>
+<text x="162.56" y="5.08" size="12.7" layer="94">r0.1</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
 <instance part="CON1" gate="G$1" x="241.3" y="60.96"/>
-<instance part="PCB1" gate="G$1" x="172.72" y="12.7"/>
+<instance part="PCB1" gate="G$1" x="12.7" y="10.16"/>
 <instance part="IC1" gate="A" x="193.04" y="78.74"/>
 <instance part="IC1" gate="P" x="193.04" y="78.74"/>
 <instance part="CON2" gate="G$1" x="20.32" y="134.62" rot="MR0"/>
@@ -4744,9 +4744,8 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <label x="104.14" y="71.12" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="160.02" y1="139.7" x2="170.18" y2="139.7" width="0.1524" layer="91"/>
-<label x="170.18" y="139.7" size="1.778" layer="95"/>
-<pinref part="IC3" gate="G$1" pin="P0_4/SCL"/>
+<wire x1="160.02" y1="137.16" x2="165.1" y2="137.16" width="0.1524" layer="91"/>
+<pinref part="IC3" gate="G$1" pin="P0_5/SDA"/>
 </segment>
 </net>
 <net name="SWDIO" class="0">
@@ -4756,9 +4755,8 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <label x="104.14" y="73.66" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="160.02" y1="137.16" x2="170.18" y2="137.16" width="0.1524" layer="91"/>
-<label x="170.18" y="137.16" size="1.778" layer="95"/>
-<pinref part="IC3" gate="G$1" pin="P0_5/SDA"/>
+<wire x1="160.02" y1="139.7" x2="165.1" y2="139.7" width="0.1524" layer="91"/>
+<pinref part="IC3" gate="G$1" pin="P0_4/SCL"/>
 </segment>
 </net>
 <net name="NSRST" class="0">
@@ -4777,8 +4775,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <label x="175.26" y="78.74" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
-<wire x1="160.02" y1="134.62" x2="170.18" y2="134.62" width="0.1524" layer="91"/>
-<label x="170.18" y="134.62" size="1.778" layer="95"/>
+<wire x1="160.02" y1="134.62" x2="165.1" y2="134.62" width="0.1524" layer="91"/>
 <pinref part="IC3" gate="G$1" pin="P0_21/MOSI1"/>
 </segment>
 </net>
@@ -4887,14 +4884,9 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <label x="215.9" y="58.42" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="167.64" y1="124.46" x2="160.02" y2="124.46" width="0.1524" layer="91"/>
-<pinref part="IC3" gate="G$1" pin="P0_10/SCK0/SWCLK"/>
-<label x="167.64" y="124.46" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="177.8" y1="93.98" x2="170.18" y2="93.98" width="0.1524" layer="91"/>
-<label x="177.8" y="93.98" size="1.778" layer="95"/>
-<pinref part="R5" gate="G$1" pin="2"/>
+<wire x1="170.18" y1="111.76" x2="160.02" y2="111.76" width="0.1524" layer="91"/>
+<pinref part="IC3" gate="G$1" pin="P0_14/AD3"/>
+<label x="170.18" y="111.76" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MISO" class="0">
@@ -4904,14 +4896,9 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <label x="215.9" y="48.26" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="167.64" y1="129.54" x2="160.02" y2="129.54" width="0.1524" layer="91"/>
-<pinref part="IC3" gate="G$1" pin="P0_8/MISO0"/>
-<label x="167.64" y="129.54" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="177.8" y1="96.52" x2="170.18" y2="96.52" width="0.1524" layer="91"/>
-<label x="177.8" y="96.52" size="1.778" layer="95"/>
-<pinref part="R6" gate="G$1" pin="2"/>
+<wire x1="170.18" y1="114.3" x2="160.02" y2="114.3" width="0.1524" layer="91"/>
+<pinref part="IC3" gate="G$1" pin="P0_13/AD2"/>
+<label x="170.18" y="114.3" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MOSI" class="0">
@@ -4921,9 +4908,14 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <label x="215.9" y="68.58" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="167.64" y1="127" x2="160.02" y2="127" width="0.1524" layer="91"/>
-<pinref part="IC3" gate="G$1" pin="P0_9/MOSI0"/>
-<label x="167.64" y="127" size="1.778" layer="95"/>
+<wire x1="182.88" y1="96.52" x2="170.18" y2="96.52" width="0.1524" layer="91"/>
+<pinref part="R6" gate="G$1" pin="2"/>
+<label x="182.88" y="96.52" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="170.18" y1="109.22" x2="160.02" y2="109.22" width="0.1524" layer="91"/>
+<pinref part="IC3" gate="G$1" pin="P0_15/SWDIO/AD4"/>
+<label x="170.18" y="109.22" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="!CS!" class="0">
@@ -4933,9 +4925,14 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <label x="215.9" y="73.66" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="167.64" y1="132.08" x2="160.02" y2="132.08" width="0.1524" layer="91"/>
-<pinref part="IC3" gate="G$1" pin="P0_7/CTS"/>
-<label x="167.64" y="132.08" size="1.778" layer="95"/>
+<wire x1="182.88" y1="93.98" x2="170.18" y2="93.98" width="0.1524" layer="91"/>
+<pinref part="R5" gate="G$1" pin="2"/>
+<label x="182.88" y="93.98" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="170.18" y1="106.68" x2="160.02" y2="106.68" width="0.1524" layer="91"/>
+<pinref part="IC3" gate="G$1" pin="P0_16/AD5"/>
+<label x="170.18" y="106.68" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VPP" class="0">
@@ -5143,50 +5140,50 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </net>
 <net name="MOSI2" class="0">
 <segment>
-<pinref part="IC3" gate="G$1" pin="P0_14/AD3"/>
-<wire x1="160.02" y1="111.76" x2="170.18" y2="111.76" width="0.1524" layer="91"/>
-<label x="170.18" y="111.76" size="1.778" layer="95"/>
-</segment>
-<segment>
 <wire x1="215.9" y1="139.7" x2="228.6" y2="139.7" width="0.1524" layer="91"/>
 <label x="215.9" y="139.7" size="1.778" layer="95"/>
 <pinref part="CON4" gate="G$1" pin="3"/>
 </segment>
+<segment>
+<wire x1="160.02" y1="129.54" x2="170.18" y2="129.54" width="0.1524" layer="91"/>
+<pinref part="IC3" gate="G$1" pin="P0_8/MISO0"/>
+<label x="170.18" y="129.54" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="MISO2" class="0">
-<segment>
-<pinref part="IC3" gate="G$1" pin="P0_15/SWDIO/AD4"/>
-<wire x1="160.02" y1="109.22" x2="170.18" y2="109.22" width="0.1524" layer="91"/>
-<label x="170.18" y="109.22" size="1.778" layer="95"/>
-</segment>
 <segment>
 <wire x1="215.9" y1="119.38" x2="228.6" y2="119.38" width="0.1524" layer="91"/>
 <label x="215.9" y="119.38" size="1.778" layer="95"/>
 <pinref part="CON4" gate="G$1" pin="7"/>
 </segment>
+<segment>
+<wire x1="160.02" y1="124.46" x2="170.18" y2="124.46" width="0.1524" layer="91"/>
+<pinref part="IC3" gate="G$1" pin="P0_10/SCK0/SWCLK"/>
+<label x="170.18" y="124.46" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="SCK2" class="0">
-<segment>
-<pinref part="IC3" gate="G$1" pin="P0_16/AD5"/>
-<wire x1="160.02" y1="106.68" x2="170.18" y2="106.68" width="0.1524" layer="91"/>
-<label x="170.18" y="106.68" size="1.778" layer="95"/>
-</segment>
 <segment>
 <wire x1="215.9" y1="129.54" x2="228.6" y2="129.54" width="0.1524" layer="91"/>
 <label x="215.9" y="129.54" size="1.778" layer="95"/>
 <pinref part="CON4" gate="G$1" pin="5"/>
 </segment>
+<segment>
+<wire x1="160.02" y1="127" x2="170.18" y2="127" width="0.1524" layer="91"/>
+<pinref part="IC3" gate="G$1" pin="P0_9/MOSI0"/>
+<label x="170.18" y="127" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="CS2" class="0">
-<segment>
-<pinref part="IC3" gate="G$1" pin="P0_32/AD7"/>
-<wire x1="160.02" y1="104.14" x2="170.18" y2="104.14" width="0.1524" layer="91"/>
-<label x="170.18" y="104.14" size="1.778" layer="95"/>
-</segment>
 <segment>
 <wire x1="215.9" y1="144.78" x2="228.6" y2="144.78" width="0.1524" layer="91"/>
 <label x="215.9" y="144.78" size="1.778" layer="95"/>
 <pinref part="CON4" gate="G$1" pin="2"/>
+</segment>
+<segment>
+<wire x1="160.02" y1="132.08" x2="170.18" y2="132.08" width="0.1524" layer="91"/>
+<pinref part="IC3" gate="G$1" pin="P0_7/CTS"/>
+<label x="170.18" y="132.08" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
