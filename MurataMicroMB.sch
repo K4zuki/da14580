@@ -620,14 +620,14 @@ chip</description>
 <wire x1="1.9" y1="1" x2="1.9" y2="-1" width="0.127" layer="39"/>
 <wire x1="1.9" y1="-1" x2="-1.9" y2="-1" width="0.127" layer="39"/>
 <wire x1="-1.9" y1="-1" x2="-1.9" y2="1" width="0.127" layer="39"/>
-<wire x1="1" y1="0.8" x2="1" y2="-0.8" width="0.127" layer="51"/>
-<wire x1="1" y1="-0.8" x2="0.3" y2="-0.8" width="0.127" layer="51"/>
-<wire x1="0.3" y1="-0.8" x2="-0.3" y2="-0.8" width="0.127" layer="21"/>
-<wire x1="-0.3" y1="-0.8" x2="-1" y2="-0.8" width="0.127" layer="51"/>
-<wire x1="-1" y1="-0.8" x2="-1" y2="0.8" width="0.127" layer="51"/>
-<wire x1="-1" y1="0.8" x2="-0.3" y2="0.8" width="0.127" layer="51"/>
-<wire x1="-0.3" y1="0.8" x2="0.3" y2="0.8" width="0.127" layer="21"/>
-<wire x1="0.3" y1="0.8" x2="1" y2="0.8" width="0.127" layer="51"/>
+<wire x1="1" y1="0.8" x2="1" y2="-0.8" width="0.2" layer="51"/>
+<wire x1="1" y1="-0.8" x2="0.2" y2="-0.8" width="0.2" layer="51"/>
+<wire x1="0.2" y1="-0.8" x2="-0.2" y2="-0.8" width="0.2" layer="21"/>
+<wire x1="-0.2" y1="-0.8" x2="-1" y2="-0.8" width="0.2" layer="51"/>
+<wire x1="-1" y1="-0.8" x2="-1" y2="0.8" width="0.2" layer="51"/>
+<wire x1="-1" y1="0.8" x2="-0.2" y2="0.8" width="0.2" layer="51"/>
+<wire x1="-0.2" y1="0.8" x2="0.2" y2="0.8" width="0.2" layer="21"/>
+<wire x1="0.2" y1="0.8" x2="1" y2="0.8" width="0.2" layer="51"/>
 </package>
 <package name="L_2520">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
