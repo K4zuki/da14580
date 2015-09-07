@@ -44,7 +44,7 @@
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="0" visible="yes" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
@@ -215,7 +215,7 @@
 <wire x1="41" y1="70" x2="41" y2="0" width="0.8" layer="102"/>
 <wire x1="90" y1="70" x2="0" y2="70" width="0" layer="20"/>
 <wire x1="0" y1="0" x2="90" y2="0" width="0" layer="20"/>
-<dimension x1="0" y1="0" x2="90" y2="0" x3="45" y3="-3.4" textsize="1.778" textratio="20" layer="47" precision="3" visible="yes"/>
+<dimension x1="0" y1="0" x2="90" y2="0" x3="45" y3="-10.2" textsize="1.778" textratio="20" layer="47" precision="3" visible="yes"/>
 <dimension x1="90" y1="0" x2="90" y2="70" x3="94.5" y3="35" textsize="1.778" textratio="20" layer="47" precision="3" visible="yes"/>
 <wire x1="90" y1="70" x2="90" y2="0" width="0" layer="20"/>
 <text x="14.1" y="48" size="1" layer="21" ratio="20" rot="R90" align="center">ISP</text>
@@ -225,7 +225,6 @@
 <wire x1="10" y1="70" x2="10" y2="0" width="0.8" layer="102"/>
 <wire x1="80" y1="70" x2="80" y2="0" width="0.8" layer="102"/>
 <circle x="35" y="66.5" radius="0.1" width="0.1" layer="52"/>
-<wire x1="0" y1="60" x2="90" y2="60" width="0.8" layer="102"/>
 <wire x1="0" y1="10" x2="90" y2="10" width="0.8" layer="102"/>
 <wire x1="13.2" y1="19.7" x2="13.2" y2="21.4" width="0.25" layer="41"/>
 <wire x1="13.2" y1="21.4" x2="14.5" y2="21.4" width="0.25" layer="41"/>
@@ -281,12 +280,10 @@
 <wire x1="42" y1="14" x2="42" y2="19" width="2" layer="46"/>
 <wire x1="9" y1="14" x2="9" y2="19" width="2" layer="46"/>
 <wire x1="9" y1="56" x2="9" y2="51" width="2" layer="46"/>
-<wire x1="14" y1="61" x2="19" y2="61" width="2" layer="46"/>
-<wire x1="32" y1="61" x2="37" y2="61" width="2" layer="46"/>
+<wire x1="14" y1="61" x2="37" y2="61" width="2" layer="46"/>
 <wire x1="42" y1="51" x2="42" y2="56" width="2" layer="46"/>
 <wire x1="48" y1="51" x2="48" y2="56" width="2" layer="46"/>
-<wire x1="58" y1="61" x2="53" y2="61" width="2" layer="46"/>
-<wire x1="76" y1="61" x2="71" y2="61" width="2" layer="46"/>
+<wire x1="76" y1="61" x2="53" y2="61" width="2" layer="46"/>
 <wire x1="81" y1="56" x2="81" y2="51" width="2" layer="46"/>
 <wire x1="48" y1="14" x2="48" y2="19" width="2" layer="46"/>
 <wire x1="58" y1="9" x2="53" y2="9" width="2" layer="46"/>
@@ -297,7 +294,6 @@
 <text x="48.2" y="-4.8" size="1.778" layer="102" ratio="17">V-CUT</text>
 <text x="76.9" y="-4.4" size="1.778" layer="102" ratio="17">V-CUT</text>
 <text x="93.2" y="9.2" size="1.778" layer="102" ratio="17">V-CUT</text>
-<text x="92.9" y="59.1" size="1.778" layer="102" ratio="17">V-CUT</text>
 <wire x1="10" y1="-0.4" x2="9.5" y2="-0.9" width="0.2" layer="102"/>
 <wire x1="9.5" y1="-0.9" x2="10.5" y2="-0.9" width="0.2" layer="102"/>
 <wire x1="10.5" y1="-0.9" x2="10" y2="-0.4" width="0.2" layer="102"/>
@@ -318,10 +314,12 @@
 <wire x1="91" y1="9.5" x2="91" y2="10.5" width="0.2" layer="102"/>
 <wire x1="91" y1="10.5" x2="90.5" y2="10" width="0.2" layer="102"/>
 <wire x1="90.5" y1="10" x2="92.3" y2="10" width="0.2" layer="102"/>
-<wire x1="90.5" y1="60" x2="91" y2="59.5" width="0.2" layer="102"/>
-<wire x1="91" y1="59.5" x2="91" y2="60.5" width="0.2" layer="102"/>
-<wire x1="91" y1="60.5" x2="90.5" y2="60" width="0.2" layer="102"/>
-<wire x1="90.5" y1="60" x2="92.3" y2="60" width="0.2" layer="102"/>
+<wire x1="0" y1="61" x2="90" y2="61" width="0.8" layer="102"/>
+<text x="93.1" y="60.2" size="1.778" layer="102" ratio="17">V-CUT</text>
+<wire x1="90.4" y1="61" x2="90.9" y2="60.5" width="0.2" layer="102"/>
+<wire x1="90.9" y1="60.5" x2="90.9" y2="61.5" width="0.2" layer="102"/>
+<wire x1="90.9" y1="61.5" x2="90.4" y2="61" width="0.2" layer="102"/>
+<wire x1="90.4" y1="61" x2="92.2" y2="61" width="0.2" layer="102"/>
 </plain>
 <libraries>
 <library name="mylib">
