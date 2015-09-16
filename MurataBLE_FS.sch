@@ -1551,6 +1551,41 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/TDA988
 <pin name="SI" x="-15.24" y="0" length="short" direction="in"/>
 <pin name="!WP" x="-15.24" y="7.62" length="short" direction="in"/>
 </symbol>
+<symbol name="LED_2SEG_A2K1">
+<wire x1="-3.81" y1="1.27" x2="-2.54" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-1.27" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="1.27" x2="-3.81" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="-1.27" x2="-2.54" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-1.27" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-1.27" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="0" x2="0" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="0" y1="-1.27" x2="0" y2="-0.635" width="0.254" layer="94"/>
+<wire x1="0" y1="-1.27" x2="-0.635" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="1.905" x2="0" y2="0.635" width="0.254" layer="94"/>
+<wire x1="0" y1="0.635" x2="0" y2="1.27" width="0.254" layer="94"/>
+<wire x1="0" y1="0.635" x2="-0.635" y2="0.635" width="0.254" layer="94"/>
+<wire x1="1.27" y1="1.27" x2="2.54" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-1.27" x2="3.81" y2="1.27" width="0.254" layer="94"/>
+<wire x1="3.81" y1="1.27" x2="1.27" y2="1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-1.27" x2="2.54" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-1.27" x2="3.81" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-1.27" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="3.81" y1="0" x2="5.08" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-1.27" x2="5.08" y2="-0.635" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-1.27" x2="4.445" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="3.81" y1="1.905" x2="5.08" y2="0.635" width="0.254" layer="94"/>
+<wire x1="5.08" y1="0.635" x2="5.08" y2="1.27" width="0.254" layer="94"/>
+<wire x1="5.08" y1="0.635" x2="4.445" y2="0.635" width="0.254" layer="94"/>
+<text x="5.715" y="0" size="1.27" layer="95">&gt;NAME</text>
+<pin name="A1" x="-2.54" y="2.54" visible="off" length="point" rot="R270"/>
+<pin name="K1" x="0" y="-5.08" visible="off" length="point" rot="R90"/>
+<pin name="A2" x="2.54" y="2.54" visible="off" length="point" rot="R270"/>
+<wire x1="-2.54" y1="-2.54" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="0" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="0" y2="-2.54" width="0.254" layer="94"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="CON_MICROSD" prefix="CON">
@@ -2036,6 +2071,23 @@ high speed (Philips)</description>
 <connect gate="G$1" pin="SI" pad="5"/>
 <connect gate="G$1" pin="SO" pad="2"/>
 <connect gate="G$1" pin="VCC" pad="8"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LED_1SEG_A2K1" prefix="LED" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="LED_2SEG_A2K1" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT95P300X140-3N">
+<connects>
+<connect gate="G$1" pin="A1" pad="1"/>
+<connect gate="G$1" pin="A2" pad="2"/>
+<connect gate="G$1" pin="K1" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4620,6 +4672,10 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="SUPPLY25" library="mylib" deviceset="GND" device=""/>
 <part name="C16" library="mylib" deviceset="C_PAD_PAD_" device="1005" value="0.1u"/>
 <part name="SUPPLY4" library="mylib" deviceset="GND" device=""/>
+<part name="R13" library="mylib" deviceset="R_US_PAD_PAD" device="_1005" value="100/1005"/>
+<part name="R14" library="mylib" deviceset="R_US_PAD_PAD" device="_1005" value="100/1005"/>
+<part name="LED1" library="mylib" deviceset="LED_1SEG_A2K1" device=""/>
+<part name="SUPPLY5" library="mylib" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -4706,6 +4762,10 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <instance part="SUPPLY25" gate="GND" x="185.42" y="-104.14"/>
 <instance part="C16" gate="G$1" x="198.12" y="-78.74" rot="R90"/>
 <instance part="SUPPLY4" gate="GND" x="205.74" y="-81.28"/>
+<instance part="R13" gate="G$1" x="167.64" y="139.7"/>
+<instance part="R14" gate="G$1" x="167.64" y="137.16"/>
+<instance part="LED1" gate="G$1" x="187.96" y="132.08"/>
+<instance part="SUPPLY5" gate="GND" x="187.96" y="124.46"/>
 </instances>
 <busses>
 </busses>
@@ -4884,6 +4944,10 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pinref part="C16" gate="G$1" pin="2"/>
 <pinref part="SUPPLY4" gate="GND" pin="GND"/>
 <wire x1="200.66" y1="-78.74" x2="205.74" y2="-78.74" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="LED1" gate="G$1" pin="K1"/>
+<pinref part="SUPPLY5" gate="GND" pin="GND"/>
 </segment>
 </net>
 <net name="VBUS" class="0">
@@ -5426,6 +5490,36 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pinref part="R5" gate="G$1" pin="1"/>
 <wire x1="182.88" y1="93.98" x2="160.02" y2="93.98" width="0.1524" layer="91"/>
 <label x="165.1" y="93.98" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$3" class="0">
+<segment>
+<pinref part="IC3" gate="G$1" pin="P0_4/SCL"/>
+<pinref part="R13" gate="G$1" pin="1"/>
+<wire x1="160.02" y1="139.7" x2="165.1" y2="139.7" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$6" class="0">
+<segment>
+<pinref part="R14" gate="G$1" pin="1"/>
+<pinref part="IC3" gate="G$1" pin="P0_5/SDA"/>
+<wire x1="165.1" y1="137.16" x2="160.02" y2="137.16" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$9" class="0">
+<segment>
+<pinref part="R13" gate="G$1" pin="2"/>
+<pinref part="LED1" gate="G$1" pin="A2"/>
+<wire x1="170.18" y1="139.7" x2="190.5" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="139.7" x2="190.5" y2="134.62" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$14" class="0">
+<segment>
+<pinref part="R14" gate="G$1" pin="2"/>
+<pinref part="LED1" gate="G$1" pin="A1"/>
+<wire x1="170.18" y1="137.16" x2="185.42" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="137.16" x2="185.42" y2="134.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
