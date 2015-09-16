@@ -358,9 +358,9 @@ Source: http://www.cypressindustries.com/pdf/85-32004-00x.pdf</description>
 </polygon>
 <wire x1="3.8" y1="0" x2="-3.8" y2="0" width="0.1" layer="51"/>
 <wire x1="-3.8" y1="0" x2="-4.7" y2="0" width="0.1" layer="48"/>
-<pad name="SHD" x="-2.2" y="4.45" drill="0.7" diameter="0.95" shape="long" rot="R90"/>
-<pad name="SHD$1" x="2.2" y="4.45" drill="0.7" diameter="0.95" shape="long" rot="R90"/>
-<rectangle x1="-1.6" y1="3.35" x2="1.65" y2="4.95" layer="29"/>
+<pad name="SHD" x="-2.2" y="4.45" drill="0.6" diameter="0.95" shape="long" rot="R90"/>
+<pad name="SHD$1" x="2.2" y="4.45" drill="0.6" diameter="0.95" shape="long" rot="R90"/>
+<rectangle x1="-1.625" y1="3.35" x2="1.625" y2="4.95" layer="29"/>
 <polygon width="0.5" layer="46">
 <vertex x="4.15" y="1"/>
 <vertex x="4.15" y="1.9" curve="-90"/>
@@ -1402,6 +1402,41 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/TDA988
 <wire x1="-5.08" y1="2.54" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
 <wire x1="5.08" y1="2.54" x2="2.54" y2="2.54" width="0.254" layer="94"/>
 </symbol>
+<symbol name="LED_2SEG_A2K1">
+<wire x1="-3.81" y1="1.27" x2="-2.54" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-1.27" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="1.27" x2="-3.81" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="-1.27" x2="-2.54" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-1.27" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-1.27" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="0" x2="0" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="0" y1="-1.27" x2="0" y2="-0.635" width="0.254" layer="94"/>
+<wire x1="0" y1="-1.27" x2="-0.635" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="1.905" x2="0" y2="0.635" width="0.254" layer="94"/>
+<wire x1="0" y1="0.635" x2="0" y2="1.27" width="0.254" layer="94"/>
+<wire x1="0" y1="0.635" x2="-0.635" y2="0.635" width="0.254" layer="94"/>
+<wire x1="1.27" y1="1.27" x2="2.54" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-1.27" x2="3.81" y2="1.27" width="0.254" layer="94"/>
+<wire x1="3.81" y1="1.27" x2="1.27" y2="1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-1.27" x2="2.54" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-1.27" x2="3.81" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-1.27" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="3.81" y1="0" x2="5.08" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-1.27" x2="5.08" y2="-0.635" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-1.27" x2="4.445" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="3.81" y1="1.905" x2="5.08" y2="0.635" width="0.254" layer="94"/>
+<wire x1="5.08" y1="0.635" x2="5.08" y2="1.27" width="0.254" layer="94"/>
+<wire x1="5.08" y1="0.635" x2="4.445" y2="0.635" width="0.254" layer="94"/>
+<text x="5.715" y="0" size="1.27" layer="95">&gt;NAME</text>
+<pin name="A1" x="-2.54" y="2.54" visible="off" length="point" rot="R270"/>
+<pin name="K1" x="0" y="-5.08" visible="off" length="point" rot="R90"/>
+<pin name="A2" x="2.54" y="2.54" visible="off" length="point" rot="R270"/>
+<wire x1="-2.54" y1="-2.54" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="0" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="0" y2="-2.54" width="0.254" layer="94"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="CON_MICROSD" prefix="CON">
@@ -1875,6 +1910,23 @@ high speed (Philips)</description>
 </gates>
 <devices>
 <device name="" package="ICON_OSHW">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LED_1SEG_A2K1" prefix="LED" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="LED_2SEG_A2K1" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT95P300X140-3N">
+<connects>
+<connect gate="G$1" pin="A1" pad="1"/>
+<connect gate="G$1" pin="A2" pad="2"/>
+<connect gate="G$1" pin="K1" pad="3"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -4403,7 +4455,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="SUPPLY7" library="mylib" deviceset="GND" device=""/>
 <part name="SUPPLY8" library="mylib" deviceset="GND" device=""/>
 <part name="L1" library="mylib" deviceset="INDUCTOR" device="_2016" value="4.7uH/2016"/>
-<part name="IC2" library="mylib" deviceset="IC_DCDC_LM27313" device=""/>
+<part name="IC2" library="mylib" deviceset="IC_DCDC_LM27313" device="" value="296-35164-1-ND"/>
 <part name="D1" library="mylib" deviceset="DIODE_SMALL" device=""/>
 <part name="R2" library="mylib" deviceset="R_US_PAD_PAD" device="_1608" value="10k"/>
 <part name="R3" library="mylib" deviceset="R_US_PAD_PAD" device="_1608" value="60.4k"/>
@@ -4458,6 +4510,10 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="U$1" library="mylib" deviceset="ICON_OSHW" device=""/>
 <part name="SUPPLY22" library="mylib" deviceset="GND" device=""/>
 <part name="SUPPLY23" library="mylib" deviceset="GND" device=""/>
+<part name="R13" library="mylib" deviceset="R_US_PAD_PAD" device="_1005" value="100/1005"/>
+<part name="R14" library="mylib" deviceset="R_US_PAD_PAD" device="_1005" value="100/1005"/>
+<part name="LED1" library="mylib" deviceset="LED_1SEG_A2K1" device=""/>
+<part name="SUPPLY24" library="mylib" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -4544,6 +4600,10 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <instance part="U$1" gate="G$1" x="205.74" y="20.32"/>
 <instance part="SUPPLY22" gate="GND" x="223.52" y="160.02" rot="R270"/>
 <instance part="SUPPLY23" gate="GND" x="223.52" y="88.9" rot="R270"/>
+<instance part="R13" gate="G$1" x="182.88" y="144.78"/>
+<instance part="R14" gate="G$1" x="182.88" y="142.24"/>
+<instance part="LED1" gate="G$1" x="190.5" y="137.16"/>
+<instance part="SUPPLY24" gate="GND" x="190.5" y="129.54"/>
 </instances>
 <busses>
 </busses>
@@ -4739,6 +4799,10 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pinref part="CON1" gate="G$1" pin="SW_A"/>
 <wire x1="226.06" y1="88.9" x2="226.06" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="226.06" y1="86.36" x2="233.68" y2="86.36" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="LED1" gate="G$1" pin="K1"/>
+<pinref part="SUPPLY24" gate="GND" pin="GND"/>
 </segment>
 </net>
 <net name="VBUS" class="0">
@@ -5238,6 +5302,36 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <wire x1="223.52" y1="83.82" x2="233.68" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="CON1" gate="G$1" pin="SW_B"/>
 <label x="223.52" y="83.82" size="1.778" layer="95" rot="MR0"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="R14" gate="G$1" pin="1"/>
+<pinref part="IC3" gate="G$1" pin="P0_2/SSEL0"/>
+<wire x1="180.34" y1="142.24" x2="160.02" y2="142.24" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$14" class="0">
+<segment>
+<pinref part="IC3" gate="G$1" pin="P0_20"/>
+<pinref part="R13" gate="G$1" pin="1"/>
+<wire x1="160.02" y1="144.78" x2="180.34" y2="144.78" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$15" class="0">
+<segment>
+<pinref part="R13" gate="G$1" pin="2"/>
+<pinref part="LED1" gate="G$1" pin="A2"/>
+<wire x1="185.42" y1="144.78" x2="193.04" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="144.78" x2="193.04" y2="139.7" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$16" class="0">
+<segment>
+<pinref part="R14" gate="G$1" pin="2"/>
+<pinref part="LED1" gate="G$1" pin="A1"/>
+<wire x1="185.42" y1="142.24" x2="187.96" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="142.24" x2="187.96" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
