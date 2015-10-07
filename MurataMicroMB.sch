@@ -4443,7 +4443,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="FRAME1" library="frames" deviceset="A4L-LOC" device=""/>
 <part name="CON1" library="mylib" deviceset="CON_MICROSD" device="_C2395" value="C-2395"/>
 <part name="PCB1" library="dp_pcb" deviceset="PCB_DP_RECTANGLE" device="-43X70" value="PCB_DP_RECTANGLE-43X70"/>
-<part name="IC1" library="74xx-little-us_local" deviceset="74*1G00" device="DBV" technology="LVC" value="NC7SZ125M5XCT-ND"/>
+<part name="IC1" library="74xx-little-us_local" deviceset="74*1G00" device="DBV" technology="LVC" value="NC7SZ00M5XCT-ND"/>
 <part name="CON2" library="mylib" deviceset="CON_USB" device="UB" value="WM17143CT-ND"/>
 <part name="CON3" library="mylib" deviceset="CON_MIL_10" device="_ARM"/>
 <part name="SUPPLY1" library="mylib" deviceset="GND" device=""/>
@@ -4455,7 +4455,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="C2" library="mylib" deviceset="C_PAD_PAD_" device="1608" value="0.1u/1608"/>
 <part name="SUPPLY7" library="mylib" deviceset="GND" device=""/>
 <part name="SUPPLY8" library="mylib" deviceset="GND" device=""/>
-<part name="L1" library="mylib" deviceset="INDUCTOR" device="_2016" value="4.7uH/2016"/>
+<part name="L1" library="mylib" deviceset="INDUCTOR" device="_2016" value="PFL2010-472MEB"/>
 <part name="IC2" library="mylib" deviceset="IC_DCDC_LM27313" device="" value="296-35164-1-ND"/>
 <part name="D1" library="mylib" deviceset="DIODE_SMALL" device=""/>
 <part name="R2" library="mylib" deviceset="R_US_PAD_PAD" device="_1608" value="10k/1608"/>
@@ -4565,7 +4565,10 @@ P0_2</text>
 <instance part="C2" gate="G$1" x="208.28" y="55.88" rot="MR0"/>
 <instance part="SUPPLY7" gate="GND" x="208.28" y="43.18"/>
 <instance part="SUPPLY8" gate="GND" x="236.22" y="27.94"/>
-<instance part="L1" gate="G$1" x="73.66" y="45.72"/>
+<instance part="L1" gate="G$1" x="73.66" y="45.72" smashed="yes">
+<attribute name="NAME" x="71.12" y="45.466" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="71.12" y="43.688" size="1.016" layer="96"/>
+</instance>
 <instance part="IC2" gate="G$1" x="73.66" y="27.94"/>
 <instance part="D1" gate="G$1" x="91.44" y="45.72"/>
 <instance part="R2" gate="G$1" x="55.88" y="35.56" rot="R90"/>
