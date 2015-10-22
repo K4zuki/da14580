@@ -4459,8 +4459,8 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="IC2" library="mylib" deviceset="IC_DCDC_LM27313" device="" value="296-35164-1-ND"/>
 <part name="D1" library="mylib" deviceset="DIODE_SMALL" device=""/>
 <part name="R2" library="mylib" deviceset="R_US_PAD_PAD" device="_1608" value="10k/1608"/>
-<part name="R3" library="mylib" deviceset="R_US_PAD_PAD" device="_1608" value="60.4k/1608"/>
-<part name="R4" library="mylib" deviceset="R_US_PAD_PAD" device="_1608" value="13.3k/1608"/>
+<part name="R3" library="mylib" deviceset="R_US_PAD_PAD" device="_1608" value="P60.4KHCT-ND"/>
+<part name="R4" library="mylib" deviceset="R_US_PAD_PAD" device="_1608" value="P13.3KHCT-ND"/>
 <part name="C4" library="mylib" deviceset="C_PAD_PAD_" device="2125" value="4.7u/2012"/>
 <part name="C5" library="mylib" deviceset="C_PAD_PAD_" device="2125" value="4.7u/2012"/>
 <part name="C6" library="mylib" deviceset="C_PAD_PAD_" device="1608" value="NM/1608"/>

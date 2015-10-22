@@ -1290,11 +1290,11 @@ design rules under a new name.</description>
 <attribute name="NAME" x="47.8" y="24.3" size="1" layer="25" font="vector" ratio="20" rot="R270" align="center"/>
 <attribute name="VALUE" x="50" y="21.3" size="1.27" layer="27" font="vector" ratio="15" rot="R90"/>
 </element>
-<element name="R3" library="mylib" package="R_1608_PADPAD" value="60.4k/1608" x="53.3" y="17.7" smashed="yes">
+<element name="R3" library="mylib" package="R_1608_PADPAD" value="P60.4KHCT-ND" x="53.3" y="17.7" smashed="yes">
 <attribute name="NAME" x="50.9" y="17.7" size="1" layer="25" font="vector" ratio="20" align="center"/>
 <attribute name="VALUE" x="52.665" y="15.4775" size="1.27" layer="27" font="vector" ratio="15"/>
 </element>
-<element name="R4" library="mylib" package="R_1608_PADPAD" value="13.3k/1608" x="53.3" y="19" smashed="yes" rot="R180">
+<element name="R4" library="mylib" package="R_1608_PADPAD" value="P13.3KHCT-ND" x="53.3" y="19" smashed="yes" rot="R180">
 <attribute name="NAME" x="50.9" y="19" size="1" layer="25" font="vector" ratio="20" align="center"/>
 <attribute name="VALUE" x="53.935" y="21.2225" size="1.27" layer="27" font="vector" ratio="15" rot="R180"/>
 </element>
