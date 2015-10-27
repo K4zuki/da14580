@@ -44,7 +44,7 @@
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="0" visible="yes" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
@@ -169,10 +169,9 @@
 <wire x1="90" y1="0" x2="0" y2="0" width="0" layer="20"/>
 <wire x1="0" y1="0" x2="0" y2="63" width="0" layer="20"/>
 <wire x1="0" y1="63" x2="10" y2="63" width="0" layer="20"/>
-<wire x1="10" y1="63" x2="10" y2="62.9" width="0" layer="20"/>
 <wire x1="0" y1="10" x2="90" y2="10" width="0.8" layer="102"/>
-<dimension x1="0" y1="63" x2="90" y2="63" x3="45" y3="65.3" textsize="1.778" layer="20" visible="yes"/>
-<dimension x1="0" y1="63" x2="0" y2="0" x3="-5" y3="31.5" textsize="1.778" layer="20" visible="yes"/>
+<dimension x1="0" y1="63" x2="90" y2="63" x3="45" y3="70.6" textsize="1.778" layer="47" visible="yes"/>
+<dimension x1="0" y1="63" x2="0" y2="0" x3="-5" y3="31.5" textsize="1.778" layer="47" visible="yes"/>
 <hole x="5" y="58" drill="4"/>
 <hole x="5" y="5" drill="4"/>
 <hole x="85" y="5" drill="4"/>
@@ -1534,7 +1533,7 @@ design rules under a new name.</description>
 <contactref element="SW1" pad="A1"/>
 <contactref element="SW2" pad="A1"/>
 <contactref element="SW3" pad="A1"/>
-<via x="48.1" y="30.4" extent="1-16" drill="0.3"/>
+<via x="48.1" y="30.2" extent="1-16" drill="0.3"/>
 <via x="58.6" y="39.1" extent="1-16" drill="0.3"/>
 <wire x1="49.3" y1="20.6" x2="49.6" y2="20.9" width="0.8" layer="1"/>
 <contactref element="CON4" pad="VSS"/>
