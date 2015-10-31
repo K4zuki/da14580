@@ -802,15 +802,15 @@ wave soldering</description>
 <pin name="P2_9" x="15.24" y="-48.26" length="short" rot="R180"/>
 <pin name="SW_CLK" x="15.24" y="-15.24" length="short" rot="R180"/>
 <pin name="SWDIO" x="15.24" y="-17.78" length="short" rot="R180"/>
-<pin name="NC" x="-17.78" y="-48.26" length="short"/>
-<pin name="VPP" x="-17.78" y="17.78" length="short"/>
-<pin name="GND" x="-17.78" y="12.7" length="short"/>
-<pin name="VBAT3V" x="-17.78" y="2.54" length="short"/>
-<pin name="VBAT1V" x="-17.78" y="0" length="short"/>
-<pin name="VBAT_RF" x="-17.78" y="5.08" length="short"/>
+<pin name="NC/VDD_FLASH" x="-17.78" y="-48.26" length="short" direction="pwr"/>
+<pin name="VPP" x="-17.78" y="17.78" length="short" direction="pwr"/>
+<pin name="GND" x="-17.78" y="12.7" length="short" direction="pwr"/>
+<pin name="VBAT3V" x="-17.78" y="2.54" length="short" direction="pwr"/>
+<pin name="VBAT1V" x="-17.78" y="0" length="short" direction="pwr"/>
+<pin name="VBAT_RF" x="-17.78" y="5.08" length="short" direction="pwr"/>
 <pin name="RESET" x="-17.78" y="15.24" length="short"/>
 <pin name="LX" x="-17.78" y="-2.54" length="short"/>
-<pin name="VDCDC" x="-17.78" y="-5.08" length="short"/>
+<pin name="VDCDC" x="-17.78" y="-5.08" length="short" direction="pwr"/>
 <pin name="RFIO+" x="15.24" y="17.78" length="short" rot="R180"/>
 <pin name="RFIO-" x="15.24" y="15.24" length="short" rot="R180"/>
 <pin name="XTAL16M+" x="-17.78" y="-10.16" length="short"/>
@@ -821,11 +821,12 @@ wave soldering</description>
 <wire x1="12.7" y1="20.32" x2="12.7" y2="-22.86" width="0.254" layer="94"/>
 <wire x1="12.7" y1="-22.86" x2="-15.24" y2="-22.86" width="0.254" layer="94"/>
 <wire x1="-15.24" y1="-22.86" x2="-15.24" y2="20.32" width="0.254" layer="94"/>
-<pin name="VDCDC_RF" x="-17.78" y="7.62" length="short"/>
+<pin name="VDCDC_RF" x="-17.78" y="7.62" length="short" direction="pwr"/>
 <wire x1="-15.24" y1="-22.86" x2="-15.24" y2="-50.8" width="0.254" layer="94"/>
 <wire x1="-15.24" y1="-50.8" x2="12.7" y2="-50.8" width="0.254" layer="94"/>
 <wire x1="12.7" y1="-50.8" x2="12.7" y2="-22.86" width="0.254" layer="94"/>
-<pin name="BP" x="-17.78" y="-45.72" length="short"/>
+<text x="-15.24" y="20.32" size="1.778" layer="95" ratio="10">&gt;NAME</text>
+<text x="-15.24" y="-53.34" size="1.778" layer="96" ratio="10">&gt;VALUE</text>
 </symbol>
 <symbol name="REF_GND">
 <wire x1="-1.27" y1="1.27" x2="0" y2="1.27" width="0.254" layer="94"/>
@@ -856,7 +857,7 @@ wave soldering</description>
 <pin name="1" x="0" y="2.54" visible="off" length="point" direction="pas" swaplevel="1" rot="R270"/>
 <pin name="2" x="0" y="-2.54" visible="off" length="point" direction="pas" swaplevel="1" rot="R90"/>
 </symbol>
-<symbol name="IC_LDO_XX1117">
+<symbol name="IC_LDO_XX1117_5">
 <wire x1="-5.08" y1="-7.62" x2="5.08" y2="-7.62" width="0.4064" layer="94"/>
 <wire x1="5.08" y1="-7.62" x2="5.08" y2="0" width="0.4064" layer="94"/>
 <wire x1="5.08" y1="0" x2="-5.08" y2="0" width="0.4064" layer="94"/>
@@ -891,24 +892,20 @@ wave soldering</description>
 <pin name="1" x="-2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1"/>
 </symbol>
 <symbol name="IC_SRAM_23K256">
-<wire x1="-12.7" y1="10.06" x2="10.16" y2="10.06" width="0.254" layer="94"/>
-<wire x1="10.16" y1="10.06" x2="10.16" y2="-0.1" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-0.1" x2="10.16" y2="-7.72" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-7.72" x2="-12.7" y2="-7.72" width="0.254" layer="94"/>
-<wire x1="-12.7" y1="-7.72" x2="-12.7" y2="9.806" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-0.1" x2="8.89" y2="-0.1" width="0.1524" layer="94"/>
-<text x="4.064" y="7.52" size="1.778" layer="95">VCC</text>
-<text x="4.318" y="-6.958" size="1.778" layer="95">GND</text>
 <text x="-12.7" y="11.33" size="1.778" layer="95">&gt;NAME</text>
 <text x="-12.7" y="-10.26" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="VCC" x="5.08" y="12.7" visible="pad" length="short" direction="pwr" rot="R270"/>
-<pin name="GND" x="5.08" y="-10.16" visible="pad" length="short" direction="pwr" rot="R90"/>
+<pin name="VCC" x="12.7" y="7.62" length="short" direction="pwr" rot="R180"/>
+<pin name="GND" x="12.7" y="2.54" length="short" direction="pwr" rot="R180"/>
 <pin name="!CS" x="-15.24" y="2.54" length="short" direction="in"/>
-<pin name="SO" x="12.7" y="0" length="short" rot="R180"/>
+<pin name="SO" x="12.7" y="-5.08" length="short" direction="out" rot="R180"/>
 <pin name="!HOLD" x="-15.24" y="-5.08" length="short" direction="in"/>
 <pin name="SCK" x="-15.24" y="-2.54" length="short" direction="in"/>
 <pin name="SI" x="-15.24" y="0" length="short" direction="in"/>
 <pin name="!WP" x="-15.24" y="7.62" length="short" direction="in"/>
+<wire x1="-12.7" y1="10.16" x2="10.16" y2="10.16" width="0.254" layer="94"/>
+<wire x1="10.16" y1="10.16" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-7.62" x2="-12.7" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-7.62" x2="-12.7" y2="10.16" width="0.254" layer="94"/>
 </symbol>
 <symbol name="ANT_IFA">
 <pin name="ANT" x="-5.08" y="0" length="middle"/>
@@ -978,17 +975,16 @@ wave soldering</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="IC_DA14580_QFN40" prefix="U">
+<deviceset name="DA1458*" prefix="U">
 <gates>
 <gate name="G$1" symbol="IC_DA14580_QFN40" x="35.56" y="15.24"/>
 </gates>
 <devices>
-<device name="" package="QFN40_0.4P5.0X5.0">
+<device name="-AT2" package="QFN40_0.4P5.0X5.0">
 <connects>
-<connect gate="G$1" pin="BP" pad="BP"/>
-<connect gate="G$1" pin="GND" pad="16"/>
+<connect gate="G$1" pin="GND" pad="16 BP"/>
 <connect gate="G$1" pin="LX" pad="21"/>
-<connect gate="G$1" pin="NC" pad="5"/>
+<connect gate="G$1" pin="NC/VDD_FLASH" pad="5"/>
 <connect gate="G$1" pin="P0_0" pad="1"/>
 <connect gate="G$1" pin="P0_1" pad="2"/>
 <connect gate="G$1" pin="P0_2" pad="3"/>
@@ -1028,7 +1024,18 @@ wave soldering</description>
 <connect gate="G$1" pin="XTAL32K-" pad="11"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="0">
+<attribute name="DIGIKEY" value="" constant="no"/>
+<attribute name="MOUSER" value="724-DA14580-01AT2" constant="no"/>
+</technology>
+<technology name="1">
+<attribute name="DIGIKEY" value="" constant="no"/>
+<attribute name="MOUSER" value="" constant="no"/>
+</technology>
+<technology name="3">
+<attribute name="DIGIKEY" value="" constant="no"/>
+<attribute name="MOUSER" value="724-DA14583-01AT2" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -1103,9 +1110,9 @@ wave soldering</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="IC_LDO_XX1117" prefix="IC">
+<deviceset name="IC_LDO_XX1117_5" prefix="IC">
 <gates>
-<gate name="G$1" symbol="IC_LDO_XX1117" x="0" y="0"/>
+<gate name="G$1" symbol="IC_LDO_XX1117_5" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="IC_05_0.95_50MIL">
@@ -1172,12 +1179,12 @@ wave soldering</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="IC_SRAM_23K256_256K_32KB" prefix="IC">
+<deviceset name="IC_MEMORY_8P_*" prefix="IC">
 <gates>
 <gate name="G$1" symbol="IC_SRAM_23K256" x="0" y="0"/>
 </gates>
 <devices>
-<device name="SN" package="IC_08_1.27_150MIL">
+<device name="_SOP" package="IC_08_1.27_150MIL">
 <connects>
 <connect gate="G$1" pin="!CS" pad="1"/>
 <connect gate="G$1" pin="!HOLD" pad="7"/>
@@ -1189,10 +1196,17 @@ wave soldering</description>
 <connect gate="G$1" pin="VCC" pad="8"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="23K256-I">
+<attribute name="DIGIKEY" value="" constant="no"/>
+<attribute name="MOUSER" value="579-23K256-I/SN" constant="no"/>
+</technology>
+<technology name="AT25XE011">
+<attribute name="DIGIKEY" value="1265-1137-1-ND" constant="no"/>
+<attribute name="MOUSER" value="" constant="no"/>
+</technology>
 </technologies>
 </device>
-<device name="ST" package="IC_08_0.65_160MIL">
+<device name="_TSSOP" package="IC_08_0.65_160MIL">
 <connects>
 <connect gate="G$1" pin="!CS" pad="1"/>
 <connect gate="G$1" pin="!HOLD" pad="7"/>
@@ -1204,7 +1218,14 @@ wave soldering</description>
 <connect gate="G$1" pin="VCC" pad="8"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="23K256-I">
+<attribute name="DIGIKEY" value="" constant="no"/>
+<attribute name="MOUSER" value="" constant="no"/>
+</technology>
+<technology name="AT25XE011">
+<attribute name="DIGIKEY" value="1265-1184-5-ND" constant="no"/>
+<attribute name="MOUSER" value="" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -2433,7 +2454,7 @@ Source: Samtec SSW.pdf</description>
 </classes>
 <parts>
 <part name="FRAME1" library="frames" deviceset="A4L-LOC" device="" value="A4L-LOC"/>
-<part name="U1" library="mylib" deviceset="IC_DA14580_QFN40" device=""/>
+<part name="U1" library="mylib" deviceset="DA1458*" device="-AT2" technology="3" value="DA14583-AT2"/>
 <part name="SUPPLY1" library="mylib" deviceset="GND" device=""/>
 <part name="SUPPLY2" library="mylib" deviceset="GND" device=""/>
 <part name="SUPPLY4" library="mylib" deviceset="GND" device=""/>
@@ -2449,10 +2470,9 @@ Source: Samtec SSW.pdf</description>
 <part name="SUPPLY9" library="mylib" deviceset="GND" device=""/>
 <part name="SUPPLY11" library="mylib" deviceset="GND" device=""/>
 <part name="C3" library="mylib" deviceset="C_PAD_PAD_" device="1005"/>
-<part name="L1" library="mylib" deviceset="INDUCTOR" device="_1608"/>
+<part name="L1" library="mylib" deviceset="INDUCTOR" device="_1608" value="2.2u"/>
 <part name="R1" library="mylib" deviceset="R_US_PAD_PAD" device="_1005"/>
-<part name="IC1" library="mylib" deviceset="IC_SRAM_23K256_256K_32KB" device="SN" value="IC_SRAM_23K256_256K_32KBSN"/>
-<part name="SUPPLY3" library="mylib" deviceset="GND" device=""/>
+<part name="IC1" library="mylib" deviceset="IC_MEMORY_8P_*" device="_SOP" technology="AT25XE011" value="IC_MEMORY_8P_AT25XE011_SOP"/>
 <part name="P+3" library="mylib" deviceset="VCC" device=""/>
 <part name="C4" library="mylib" deviceset="C_PAD_PAD_" device="1005"/>
 <part name="SUPPLY13" library="mylib" deviceset="GND" device=""/>
@@ -2465,14 +2485,13 @@ Source: Samtec SSW.pdf</description>
 <part name="P+4" library="mylib" deviceset="VCC" device=""/>
 <part name="TP3" library="testpad_local" deviceset="TP" device="TP07R" value="TPTP07R"/>
 <part name="P+5" library="mylib" deviceset="VCC" device=""/>
-<part name="IC3" library="mylib" deviceset="IC_LDO_XX1117" device=""/>
+<part name="IC3" library="mylib" deviceset="IC_LDO_XX1117_5" device=""/>
 <part name="IC2" library="74xx-little-us_local" deviceset="74*1G00" device="DBV" technology="LVC"/>
 <part name="TP6" library="testpad_local" deviceset="TP" device="PAD1-13"/>
 <part name="C6" library="mylib" deviceset="C_PAD_PAD_" device="1005"/>
 <part name="C7" library="mylib" deviceset="C_PAD_PAD_" device="1005"/>
 <part name="C8" library="mylib" deviceset="C_PAD_PAD_" device="1005"/>
 <part name="C9" library="mylib" deviceset="C_PAD_PAD_" device="1005"/>
-<part name="SUPPLY14" library="mylib" deviceset="GND" device=""/>
 <part name="C10" library="mylib" deviceset="C_PAD_PAD_" device="1005"/>
 <part name="SUPPLY15" library="mylib" deviceset="GND" device=""/>
 <part name="SUPPLY16" library="mylib" deviceset="GND" device=""/>
@@ -2483,19 +2502,21 @@ Source: Samtec SSW.pdf</description>
 <part name="U$2" library="mylib" deviceset="ICON_OSHW" device=""/>
 <part name="P+6" library="mylib" deviceset="VCC" device=""/>
 <part name="Q2" library="mylib" deviceset="CLOCK_CRYSTAL_4" device="_2520"/>
+<part name="P+7" library="mylib" deviceset="VCC" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 <text x="217.17" y="25.4" size="12.7" layer="94">v0.5</text>
+<text x="12.7" y="167.64" size="1.778" layer="94">L1: 445-6385-1-ND</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
 <instance part="U1" gate="G$1" x="104.14" y="142.24"/>
-<instance part="SUPPLY1" gate="GND" x="81.28" y="152.4"/>
+<instance part="SUPPLY1" gate="GND" x="81.28" y="154.94" rot="R270"/>
 <instance part="SUPPLY2" gate="GND" x="147.32" y="152.4"/>
 <instance part="SUPPLY4" gate="GND" x="210.82" y="33.02"/>
-<instance part="SUPPLY6" gate="GND" x="71.12" y="139.7"/>
+<instance part="SUPPLY6" gate="GND" x="68.58" y="142.24" rot="R270"/>
 <instance part="VDD1" gate="G$1" x="213.36" y="161.29"/>
 <instance part="P+1" gate="VCC" x="238.76" y="162.56"/>
 <instance part="Q1" gate="G$1" x="76.2" y="124.46"/>
@@ -2505,16 +2526,15 @@ Source: Samtec SSW.pdf</description>
 <instance part="C1" gate="G$1" x="213.36" y="147.32"/>
 <instance part="C2" gate="G$1" x="238.76" y="151.13"/>
 <instance part="SUPPLY9" gate="GND" x="238.76" y="142.24"/>
-<instance part="SUPPLY11" gate="GND" x="58.42" y="139.7"/>
-<instance part="C3" gate="G$1" x="58.42" y="147.32"/>
-<instance part="L1" gate="G$1" x="81.28" y="139.7"/>
+<instance part="SUPPLY11" gate="GND" x="53.34" y="139.7"/>
+<instance part="C3" gate="G$1" x="53.34" y="147.32"/>
+<instance part="L1" gate="G$1" x="76.2" y="139.7"/>
 <instance part="R1" gate="G$1" x="213.36" y="67.31" rot="R90"/>
 <instance part="IC1" gate="G$1" x="223.52" y="101.6"/>
-<instance part="SUPPLY3" gate="GND" x="228.6" y="86.36"/>
-<instance part="P+3" gate="VCC" x="228.6" y="119.38"/>
-<instance part="C4" gate="G$1" x="241.3" y="111.76"/>
-<instance part="SUPPLY13" gate="GND" x="241.3" y="104.14"/>
-<instance part="TP1" gate="G$1" x="76.2" y="152.4"/>
+<instance part="P+3" gate="VCC" x="205.74" y="114.3"/>
+<instance part="C4" gate="G$1" x="241.3" y="106.68"/>
+<instance part="SUPPLY13" gate="GND" x="241.3" y="101.6"/>
+<instance part="TP1" gate="G$1" x="63.5" y="152.4"/>
 <instance part="X1" gate="-1" x="86.36" y="60.96" rot="MR0"/>
 <instance part="X1" gate="-2" x="86.36" y="58.42" rot="MR0"/>
 <instance part="X1" gate="-3" x="86.36" y="55.88" rot="MR0"/>
@@ -2557,7 +2577,6 @@ Source: Samtec SSW.pdf</description>
 <instance part="C7" gate="G$1" x="139.7" y="157.48"/>
 <instance part="C8" gate="G$1" x="124.46" y="157.48"/>
 <instance part="C9" gate="G$1" x="73.66" y="144.78"/>
-<instance part="SUPPLY14" gate="GND" x="71.12" y="93.98"/>
 <instance part="C10" gate="G$1" x="83.82" y="91.44"/>
 <instance part="SUPPLY15" gate="GND" x="83.82" y="86.36"/>
 <instance part="SUPPLY16" gate="GND" x="76.2" y="53.34" rot="MR90"/>
@@ -2571,6 +2590,7 @@ Source: Samtec SSW.pdf</description>
 <attribute name="NAME" x="68.58" y="132.08" size="1.778" layer="95"/>
 <attribute name="VALUE" x="66.802" y="129.54" size="1.016" layer="96" rot="R270"/>
 </instance>
+<instance part="P+7" gate="VCC" x="241.3" y="114.3"/>
 </instances>
 <busses>
 </busses>
@@ -2579,7 +2599,7 @@ Source: Samtec SSW.pdf</description>
 <segment>
 <pinref part="U1" gate="G$1" pin="GND"/>
 <pinref part="SUPPLY1" gate="GND" pin="GND"/>
-<wire x1="86.36" y1="154.94" x2="81.28" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="154.94" x2="83.82" y2="154.94" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="139.7" y1="154.94" x2="147.32" y2="154.94" width="0.1524" layer="91"/>
@@ -2609,11 +2629,6 @@ Source: Samtec SSW.pdf</description>
 <pinref part="SUPPLY4" gate="GND" pin="GND"/>
 <pinref part="TP6" gate="G$1" pin="TP"/>
 <wire x1="210.82" y1="38.1" x2="210.82" y2="35.56" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="U1" gate="G$1" pin="BP"/>
-<wire x1="86.36" y1="96.52" x2="71.12" y2="96.52" width="0.1524" layer="91"/>
-<pinref part="SUPPLY14" gate="GND" pin="GND"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="VBAT1V"/>
@@ -2649,17 +2664,14 @@ Source: Samtec SSW.pdf</description>
 <segment>
 <pinref part="SUPPLY11" gate="GND" pin="GND"/>
 <pinref part="C3" gate="G$1" pin="2"/>
-<wire x1="58.42" y1="142.24" x2="58.42" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="142.24" x2="53.34" y2="144.78" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="GND"/>
-<pinref part="SUPPLY3" gate="GND" pin="GND"/>
-<wire x1="228.6" y1="91.44" x2="228.6" y2="88.9" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="C4" gate="G$1" pin="2"/>
 <pinref part="SUPPLY13" gate="GND" pin="GND"/>
-<wire x1="241.3" y1="106.68" x2="241.3" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="236.22" y1="104.14" x2="241.3" y2="104.14" width="0.1524" layer="91"/>
+<junction x="241.3" y="104.14"/>
 </segment>
 <segment>
 <pinref part="C5" gate="G$1" pin="2"/>
@@ -2949,21 +2961,22 @@ Source: Samtec SSW.pdf</description>
 <junction x="73.66" y="147.32"/>
 </segment>
 <segment>
-<pinref part="P+3" gate="VCC" pin="VCC"/>
+<pinref part="C4" gate="G$1" pin="1"/>
+<pinref part="P+7" gate="VCC" pin="VCC"/>
 <pinref part="IC1" gate="G$1" pin="VCC"/>
-<wire x1="228.6" y1="114.3" x2="228.6" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="236.22" y1="109.22" x2="241.3" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="241.3" y1="111.76" x2="241.3" y2="109.22" width="0.1524" layer="91"/>
+<junction x="241.3" y="109.22"/>
+</segment>
+<segment>
+<pinref part="P+3" gate="VCC" pin="VCC"/>
 <pinref part="IC1" gate="G$1" pin="!HOLD"/>
 <pinref part="IC1" gate="G$1" pin="!WP"/>
 <wire x1="208.28" y1="96.52" x2="205.74" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="205.74" y1="96.52" x2="205.74" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="205.74" y1="109.22" x2="208.28" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="228.6" y1="116.84" x2="205.74" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="205.74" y1="116.84" x2="205.74" y2="109.22" width="0.1524" layer="91"/>
-<junction x="228.6" y="116.84"/>
+<wire x1="205.74" y1="111.76" x2="205.74" y2="109.22" width="0.1524" layer="91"/>
 <junction x="205.74" y="109.22"/>
-<pinref part="C4" gate="G$1" pin="1"/>
-<wire x1="228.6" y1="116.84" x2="241.3" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="241.3" y1="116.84" x2="241.3" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C5" gate="G$1" pin="1"/>
@@ -2976,7 +2989,7 @@ Source: Samtec SSW.pdf</description>
 <pinref part="IC2" gate="P" pin="VCC"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="NC"/>
+<pinref part="U1" gate="G$1" pin="NC/VDD_FLASH"/>
 <pinref part="P+5" gate="VCC" pin="VCC"/>
 <wire x1="81.28" y1="93.98" x2="83.82" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="C10" gate="G$1" pin="1"/>
@@ -2993,7 +3006,7 @@ Source: Samtec SSW.pdf</description>
 <segment>
 <pinref part="U1" gate="G$1" pin="LX"/>
 <pinref part="L1" gate="G$1" pin="2"/>
-<wire x1="86.36" y1="139.7" x2="83.82" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="139.7" x2="78.74" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VPP" class="1">
@@ -3068,8 +3081,8 @@ Source: Samtec SSW.pdf</description>
 <label x="124.46" y="93.98" size="1.6764" layer="95"/>
 </segment>
 <segment>
-<wire x1="236.22" y1="101.6" x2="250.19" y2="101.6" width="0.1524" layer="91"/>
-<label x="245.11" y="101.6" size="1.778" layer="95"/>
+<wire x1="236.22" y1="96.52" x2="245.11" y2="96.52" width="0.1524" layer="91"/>
+<label x="245.11" y="96.52" size="1.778" layer="95"/>
 <pinref part="IC1" gate="G$1" pin="SO"/>
 </segment>
 <segment>
@@ -3156,18 +3169,18 @@ Source: Samtec SSW.pdf</description>
 <net name="N$9" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="VDCDC_RF"/>
-<wire x1="86.36" y1="149.86" x2="76.2" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="149.86" x2="76.2" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="149.86" x2="63.5" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="149.86" x2="63.5" y2="139.7" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="VDCDC"/>
-<wire x1="78.74" y1="139.7" x2="76.2" y2="139.7" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="139.7" x2="76.2" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="137.16" x2="86.36" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="149.86" x2="58.42" y2="149.86" width="0.1524" layer="91"/>
-<junction x="76.2" y="149.86"/>
+<wire x1="73.66" y1="139.7" x2="63.5" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="139.7" x2="63.5" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="137.16" x2="86.36" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="149.86" x2="53.34" y2="149.86" width="0.1524" layer="91"/>
+<junction x="63.5" y="149.86"/>
 <pinref part="C3" gate="G$1" pin="1"/>
 <pinref part="L1" gate="G$1" pin="1"/>
 <pinref part="TP1" gate="G$1" pin="TP"/>
-<junction x="76.2" y="139.7"/>
+<junction x="63.5" y="139.7"/>
 </segment>
 </net>
 <net name="!RESET!" class="0">
