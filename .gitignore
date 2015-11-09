@@ -4,3 +4,5 @@
 *.gpi
 /.project
 /MurataMicroSD_P.png
+*/*.zip
+*.pdf
