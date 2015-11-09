@@ -3970,7 +3970,7 @@ Source: Samtec TSW.pdf</description>
 <part name="L1" library="mylib" deviceset="INDUCTOR" device="_2016" value="PFL2010-472MEB"/>
 <part name="IC2" library="mylib" deviceset="IC_DCDC_LM27313" device="" value="296-35164-1-ND"/>
 <part name="D1" library="mylib" deviceset="DIODE_SMALL" device=""/>
-<part name="R2" library="mylib" deviceset="R_US_PAD_PAD" device="_1608" value="10k/1608"/>
+<part name="R2" library="mylib" deviceset="R_US_PAD_PAD" device="_1005" value="10k/1005"/>
 <part name="R3" library="mylib" deviceset="R_US_PAD_PAD" device="_1608" value="P60.4KHCT-ND"/>
 <part name="R4" library="mylib" deviceset="R_US_PAD_PAD" device="_1608" value="P13.3KHCT-ND"/>
 <part name="C4" library="mylib" deviceset="C_PAD_PAD_" device="2125" value="4.7u/2012"/>
@@ -3979,7 +3979,7 @@ Source: Samtec TSW.pdf</description>
 <part name="SUPPLY10" library="mylib" deviceset="GND" device=""/>
 <part name="SUPPLY11" library="mylib" deviceset="GND" device=""/>
 <part name="X1" library="con-samtec.local" deviceset="TSW-102-02-S-S" device=""/>
-<part name="C7" library="mylib" deviceset="C_PAD_PAD_" device="1608" value="0.1u/1608"/>
+<part name="C7" library="mylib" deviceset="C_PAD_PAD_" device="1005" value="0.1u/1005"/>
 <part name="IC3" library="mylib" deviceset="IC_LPC11U3XQFN33" device=""/>
 <part name="C8" library="mylib" deviceset="C_PAD_PAD_" device="2125" value="4.7u/2012"/>
 <part name="C9" library="mylib" deviceset="C_PAD_PAD_" device="2125" value="4.7u/2012"/>
