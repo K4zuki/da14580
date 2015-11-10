@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -1427,8 +1427,8 @@ wave soldering</description>
 <wire x1="17.78" y1="2.54" x2="-17.78" y2="2.54" width="0.254" layer="94"/>
 <wire x1="-17.78" y1="2.54" x2="-17.78" y2="-63.5" width="0.254" layer="94"/>
 <pin name="!RESET!" x="-22.86" y="-5.08" length="middle"/>
-<pin name="ISP" x="-22.86" y="-12.7" length="middle"/>
-<pin name="BL" x="-22.86" y="-10.16" length="middle"/>
+<pin name="ISP/P0_1" x="-22.86" y="-12.7" length="middle"/>
+<pin name="BL/P1_19" x="-22.86" y="-10.16" length="middle"/>
 <pin name="P0_20" x="22.86" y="-10.16" length="middle" rot="R180"/>
 <pin name="P0_19/TXD-&gt;" x="22.86" y="-60.96" length="middle" rot="R180"/>
 <pin name="P0_18/RXD&lt;-" x="22.86" y="-58.42" length="middle" rot="R180"/>
@@ -1953,8 +1953,8 @@ high speed (Philips)</description>
 <device name="" package="HVQFN33">
 <connects>
 <connect gate="G$1" pin="!RESET!" pad="2"/>
-<connect gate="G$1" pin="BL" pad="1"/>
-<connect gate="G$1" pin="ISP" pad="3"/>
+<connect gate="G$1" pin="BL/P1_19" pad="1"/>
+<connect gate="G$1" pin="ISP/P0_1" pad="3"/>
 <connect gate="G$1" pin="P0_10/SCK0/SWCLK" pad="19"/>
 <connect gate="G$1" pin="P0_11/AD0" pad="21"/>
 <connect gate="G$1" pin="P0_12/AD1" pad="22"/>
@@ -4034,6 +4034,7 @@ Source: Samtec TSW.pdf</description>
 <part name="R17" library="mylib" deviceset="R_US_PAD_PAD" device="_1005" value="10k/1005"/>
 <part name="R18" library="mylib" deviceset="R_US_PAD_PAD" device="_1005" value="10k/1005"/>
 <part name="R19" library="mylib" deviceset="R_US_PAD_PAD" device="_1005" value="10k/1005"/>
+<part name="R20" library="mylib" deviceset="R_US_PAD_PAD" device="_1005" value="10k/1005"/>
 </parts>
 <sheets>
 <sheet>
@@ -4044,13 +4045,14 @@ PFL2010-472MEB
 4.7uH/2016</text>
 <text x="243.84" y="73.66" size="1.27" layer="94" rot="R90" align="center">MurataMicroSD</text>
 <text x="243.84" y="147.32" size="1.27" layer="94" rot="R90" align="center">microSD</text>
-<text x="48.26" y="63.5" size="1.778" layer="91">- UART -
+<text x="46.99" y="55.88" size="1.778" layer="91">- UART -
 TX = P0_19
 RX = P0_18
 - SWD -
 SWDIO = P0_4
 SWCLK = P0_5
 NSRST = P0_21
+TGT_RST = P1_19
 - SD -
 MOSI = P0_8
 MISO = P0_10
@@ -4067,12 +4069,6 @@ DETECT1 = P0_11
 P0_20
 P0_2
 *BL = P0_14*</text>
-<wire x1="120.65" y1="146.05" x2="124.46" y2="146.05" width="0.1524" layer="94"/>
-<wire x1="124.46" y1="146.05" x2="124.46" y2="143.51" width="0.1524" layer="94"/>
-<wire x1="124.46" y1="143.51" x2="120.65" y2="143.51" width="0.1524" layer="94"/>
-<wire x1="120.65" y1="143.51" x2="120.65" y2="146.05" width="0.1524" layer="94"/>
-<wire x1="120.65" y1="146.05" x2="124.46" y2="143.51" width="0.1524" layer="94"/>
-<wire x1="120.65" y1="143.51" x2="124.46" y2="146.05" width="0.1524" layer="94"/>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
@@ -4169,6 +4165,7 @@ P0_2
 <instance part="R17" gate="G$1" x="114.3" y="76.2"/>
 <instance part="R18" gate="G$1" x="114.3" y="68.58"/>
 <instance part="R19" gate="G$1" x="114.3" y="66.04"/>
+<instance part="R20" gate="G$1" x="101.6" y="144.78"/>
 </instances>
 <busses>
 </busses>
@@ -4501,7 +4498,8 @@ P0_2
 <wire x1="91.44" y1="157.48" x2="83.82" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="91.44" y1="157.48" x2="91.44" y2="149.86" width="0.1524" layer="91"/>
 <pinref part="R9" gate="G$1" pin="1"/>
-<wire x1="91.44" y1="149.86" x2="91.44" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="149.86" x2="91.44" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="144.78" x2="91.44" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="91.44" y1="142.24" x2="99.06" y2="142.24" width="0.1524" layer="91"/>
 <pinref part="R7" gate="G$1" pin="1"/>
 <wire x1="99.06" y1="149.86" x2="91.44" y2="149.86" width="0.1524" layer="91"/>
@@ -4511,6 +4509,9 @@ P0_2
 <wire x1="99.06" y1="132.08" x2="91.44" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="91.44" y1="132.08" x2="91.44" y2="142.24" width="0.1524" layer="91"/>
 <junction x="91.44" y="142.24"/>
+<pinref part="R20" gate="G$1" pin="1"/>
+<wire x1="99.06" y1="144.78" x2="91.44" y2="144.78" width="0.1524" layer="91"/>
+<junction x="91.44" y="144.78"/>
 </segment>
 <segment>
 <wire x1="48.26" y1="170.18" x2="40.64" y2="170.18" width="0.1524" layer="91"/>
@@ -4719,7 +4720,7 @@ P0_2
 <net name="ISP" class="0">
 <segment>
 <pinref part="R9" gate="G$1" pin="2"/>
-<pinref part="IC3" gate="G$1" pin="ISP"/>
+<pinref part="IC3" gate="G$1" pin="ISP/P0_1"/>
 <wire x1="104.14" y1="142.24" x2="114.3" y2="142.24" width="0.1524" layer="91"/>
 <label x="116.84" y="142.24" size="1.778" layer="95" rot="R180"/>
 </segment>
@@ -4941,10 +4942,10 @@ P0_2
 </net>
 <net name="TGT_RST" class="0">
 <segment>
-<pinref part="IC3" gate="G$1" pin="BL"/>
+<pinref part="IC3" gate="G$1" pin="BL/P1_19"/>
 <wire x1="104.14" y1="144.78" x2="114.3" y2="144.78" width="0.1524" layer="91"/>
 <label x="104.14" y="144.78" size="1.778" layer="95"/>
-<label x="125.73" y="144.78" size="1.778" layer="95"/>
+<pinref part="R20" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="A" pin="I1"/>
