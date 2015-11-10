@@ -4041,7 +4041,7 @@ PFL2010-472MEB
 4.7uH/2016</text>
 <text x="243.84" y="73.66" size="1.27" layer="94" rot="R90" align="center">MurataMicroSD</text>
 <text x="243.84" y="147.32" size="1.27" layer="94" rot="R90" align="center">microSD</text>
-<text x="55.88" y="53.34" size="1.778" layer="91">- UART -
+<text x="48.26" y="63.5" size="1.778" layer="91">- UART -
 TX = P0_19
 RX = P0_18
 - SWD -
@@ -4053,11 +4053,13 @@ MOSI = P0_8
 MISO = P0_10
 SCK = P0_9
 CS = P0_7
+DETECT2 = P0_22
 - 580 -
 MOSI = P0_15
 MISO = P0_13
 SCK = P0_14
 CS = P0_16
+DETECT1 = P0_12
 - LED -
 P0_20
 P0_2</text>
