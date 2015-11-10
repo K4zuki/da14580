@@ -4031,6 +4031,9 @@ Source: Samtec TSW.pdf</description>
 <part name="TP4" library="mylib" deviceset="TESTPAD" device="_F"/>
 <part name="TP5" library="mylib" deviceset="TESTPAD" device="_F"/>
 <part name="X2" library="con-samtec.local" deviceset="TSW-102-02-S-S" device=""/>
+<part name="R17" library="mylib" deviceset="R_US_PAD_PAD" device="_1005" value="10k/1005"/>
+<part name="R18" library="mylib" deviceset="R_US_PAD_PAD" device="_1005" value="10k/1005"/>
+<part name="R19" library="mylib" deviceset="R_US_PAD_PAD" device="_1005" value="10k/1005"/>
 </parts>
 <sheets>
 <sheet>
@@ -4071,9 +4074,9 @@ P0_2</text>
 <instance part="IC1" gate="A" x="193.04" y="78.74"/>
 <instance part="IC1" gate="P" x="193.04" y="78.74"/>
 <instance part="CON2" gate="G$1" x="20.32" y="134.62" rot="MR0"/>
-<instance part="CON3" gate="G$1" x="137.16" y="71.12"/>
+<instance part="CON3" gate="G$1" x="99.06" y="68.58"/>
 <instance part="SUPPLY1" gate="GND" x="33.02" y="127" rot="MR0"/>
-<instance part="SUPPLY5" gate="GND" x="129.54" y="60.96"/>
+<instance part="SUPPLY5" gate="GND" x="91.44" y="58.42"/>
 <instance part="SUPPLY3" gate="GND" x="193.04" y="66.04"/>
 <instance part="SUPPLY4" gate="GND" x="223.52" y="53.34" rot="R270"/>
 <instance part="C1" gate="G$1" x="200.66" y="91.44" rot="R90"/>
@@ -4156,6 +4159,9 @@ P0_2</text>
 <instance part="TP5" gate="1" x="149.86" y="12.7"/>
 <instance part="X2" gate="-1" x="124.46" y="45.72"/>
 <instance part="X2" gate="-2" x="124.46" y="12.7"/>
+<instance part="R17" gate="G$1" x="114.3" y="76.2"/>
+<instance part="R18" gate="G$1" x="114.3" y="68.58"/>
+<instance part="R19" gate="G$1" x="114.3" y="66.04"/>
 </instances>
 <busses>
 </busses>
@@ -4193,17 +4199,17 @@ P0_2</text>
 </segment>
 <segment>
 <pinref part="CON3" gate="G$1" pin="9"/>
-<wire x1="132.08" y1="66.04" x2="129.54" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="63.5" x2="91.44" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="SUPPLY5" gate="GND" pin="GND"/>
-<wire x1="129.54" y1="66.04" x2="129.54" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="63.5" x2="91.44" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="CON3" gate="G$1" pin="5"/>
-<wire x1="132.08" y1="71.12" x2="129.54" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="129.54" y1="71.12" x2="129.54" y2="66.04" width="0.1524" layer="91"/>
-<junction x="129.54" y="66.04"/>
+<wire x1="93.98" y1="68.58" x2="91.44" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="68.58" x2="91.44" y2="63.5" width="0.1524" layer="91"/>
+<junction x="91.44" y="63.5"/>
 <pinref part="CON3" gate="G$1" pin="3"/>
-<wire x1="132.08" y1="73.66" x2="129.54" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="129.54" y1="73.66" x2="129.54" y2="71.12" width="0.1524" layer="91"/>
-<junction x="129.54" y="71.12"/>
+<wire x1="93.98" y1="71.12" x2="91.44" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="71.12" x2="91.44" y2="68.58" width="0.1524" layer="91"/>
+<junction x="91.44" y="68.58"/>
 </segment>
 <segment>
 <pinref part="SUPPLY3" gate="GND" pin="GND"/>
@@ -4381,9 +4387,13 @@ P0_2</text>
 </net>
 <net name="SWCLK" class="0">
 <segment>
-<wire x1="142.24" y1="73.66" x2="147.32" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="71.12" x2="111.76" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="CON3" gate="G$1" pin="4"/>
-<label x="147.32" y="73.66" size="1.778" layer="95"/>
+<label x="124.46" y="71.12" size="1.778" layer="95"/>
+<pinref part="R18" gate="G$1" pin="1"/>
+<wire x1="111.76" y1="71.12" x2="124.46" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="68.58" x2="111.76" y2="71.12" width="0.1524" layer="91"/>
+<junction x="111.76" y="71.12"/>
 </segment>
 <segment>
 <wire x1="160.02" y1="137.16" x2="165.1" y2="137.16" width="0.1524" layer="91"/>
@@ -4393,9 +4403,13 @@ P0_2</text>
 </net>
 <net name="SWDIO" class="0">
 <segment>
-<wire x1="142.24" y1="76.2" x2="147.32" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="73.66" x2="111.76" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="CON3" gate="G$1" pin="2"/>
-<label x="147.32" y="76.2" size="1.778" layer="95"/>
+<label x="124.46" y="73.66" size="1.778" layer="95"/>
+<pinref part="R17" gate="G$1" pin="1"/>
+<wire x1="111.76" y1="73.66" x2="124.46" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="73.66" x2="111.76" y2="76.2" width="0.1524" layer="91"/>
+<junction x="111.76" y="73.66"/>
 </segment>
 <segment>
 <wire x1="160.02" y1="139.7" x2="165.1" y2="139.7" width="0.1524" layer="91"/>
@@ -4405,9 +4419,13 @@ P0_2</text>
 </net>
 <net name="NSRST" class="0">
 <segment>
-<wire x1="142.24" y1="66.04" x2="147.32" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="63.5" x2="111.76" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="CON3" gate="G$1" pin="10"/>
-<label x="147.32" y="66.04" size="1.778" layer="95"/>
+<label x="124.46" y="63.5" size="1.778" layer="95"/>
+<pinref part="R19" gate="G$1" pin="1"/>
+<wire x1="111.76" y1="63.5" x2="124.46" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="66.04" x2="111.76" y2="63.5" width="0.1524" layer="91"/>
+<junction x="111.76" y="63.5"/>
 </segment>
 <segment>
 <wire x1="175.26" y1="78.74" x2="180.34" y2="78.74" width="0.1524" layer="91"/>
@@ -4509,6 +4527,21 @@ P0_2</text>
 <wire x1="213.36" y1="129.54" x2="213.36" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="213.36" y1="134.62" x2="203.2" y2="134.62" width="0.1524" layer="91"/>
 <junction x="213.36" y="134.62"/>
+</segment>
+<segment>
+<wire x1="124.46" y1="76.2" x2="116.84" y2="76.2" width="0.1524" layer="91"/>
+<pinref part="R17" gate="G$1" pin="2"/>
+<label x="124.46" y="76.2" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="124.46" y1="66.04" x2="116.84" y2="66.04" width="0.1524" layer="91"/>
+<pinref part="R19" gate="G$1" pin="2"/>
+<wire x1="124.46" y1="68.58" x2="116.84" y2="68.58" width="0.1524" layer="91"/>
+<pinref part="R18" gate="G$1" pin="2"/>
+<wire x1="124.46" y1="66.04" x2="124.46" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="68.58" x2="127" y2="68.58" width="0.1524" layer="91"/>
+<junction x="124.46" y="68.58"/>
+<label x="127" y="68.58" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$3" class="0">
