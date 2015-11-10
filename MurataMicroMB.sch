@@ -4434,9 +4434,6 @@ P0_2</text>
 <segment>
 <wire x1="175.26" y1="81.28" x2="180.34" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="A" pin="I0"/>
-<pinref part="IC1" gate="A" pin="I1"/>
-<junction x="180.34" y="81.28"/>
-<wire x1="180.34" y1="81.28" x2="180.34" y2="76.2" width="0.1524" layer="91"/>
 <label x="175.26" y="81.28" size="1.778" layer="95" rot="MR0"/>
 </segment>
 <segment>
@@ -4742,6 +4739,11 @@ P0_2</text>
 <pinref part="R20" gate="G$1" pin="1"/>
 <wire x1="99.06" y1="144.78" x2="96.52" y2="144.78" width="0.1524" layer="91"/>
 <label x="96.52" y="144.78" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="180.34" y1="76.2" x2="175.26" y2="76.2" width="0.1524" layer="91"/>
+<pinref part="IC1" gate="A" pin="I1"/>
+<label x="175.26" y="76.2" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="!RESET!" class="0">
