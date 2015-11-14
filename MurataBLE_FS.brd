@@ -222,18 +222,18 @@ Writer / Debugger</text>
 <packages>
 <package name="CON_MICROSD_C2395">
 <description>http://akizukidenshi.com/catalog/g/gC-02395/</description>
-<smd name="DAT2" x="3.2" y="16" dx="0.7" dy="1.2" layer="1"/>
-<smd name="DAT3/CD" x="2.1" y="16" dx="0.7" dy="1.2" layer="1"/>
-<smd name="CMD" x="1" y="16" dx="0.7" dy="1.2" layer="1"/>
-<smd name="VDD" x="-0.1" y="16" dx="0.7" dy="1.2" layer="1"/>
-<smd name="CLK" x="-1.2" y="16" dx="0.7" dy="1.2" layer="1"/>
-<smd name="VSS" x="-2.3" y="16" dx="0.7" dy="1.2" layer="1"/>
-<smd name="DAT0" x="-3.4" y="16" dx="0.7" dy="1.2" layer="1"/>
-<smd name="DAT1" x="-4.5" y="16" dx="0.7" dy="1.2" layer="1"/>
-<smd name="SHLD@4" x="4.8" y="16" dx="1" dy="1.2" layer="1"/>
-<smd name="SHLD" x="-6.5" y="11.7" dx="1" dy="1.2" layer="1"/>
-<smd name="SW_A" x="-6.5" y="5.5" dx="1" dy="0.8" layer="1"/>
-<smd name="SHLD@3" x="7.1" y="0.95" dx="1.3" dy="1.9" layer="1"/>
+<smd name="DAT2" x="3.2" y="16" dx="0.7" dy="1.2" layer="1" cream="no"/>
+<smd name="DAT3/CD" x="2.1" y="16" dx="0.7" dy="1.2" layer="1" cream="no"/>
+<smd name="CMD" x="1" y="16" dx="0.7" dy="1.2" layer="1" cream="no"/>
+<smd name="VDD" x="-0.1" y="16" dx="0.7" dy="1.2" layer="1" cream="no"/>
+<smd name="CLK" x="-1.2" y="16" dx="0.7" dy="1.2" layer="1" cream="no"/>
+<smd name="VSS" x="-2.3" y="16" dx="0.7" dy="1.2" layer="1" cream="no"/>
+<smd name="DAT0" x="-3.4" y="16" dx="0.7" dy="1.2" layer="1" cream="no"/>
+<smd name="DAT1" x="-4.5" y="16" dx="0.7" dy="1.2" layer="1" cream="no"/>
+<smd name="SHLD@4" x="4.8" y="16" dx="1" dy="1.2" layer="1" cream="no"/>
+<smd name="SHLD" x="-6.5" y="11.7" dx="1" dy="1.2" layer="1" cream="no"/>
+<smd name="SW_A" x="-6.5" y="5.5" dx="1" dy="0.8" layer="1" cream="no"/>
+<smd name="SHLD@3" x="7.1" y="0.95" dx="1.3" dy="1.9" layer="1" cream="no"/>
 <rectangle x1="3.2" y1="0" x2="6" y2="2" layer="41"/>
 <wire x1="-5.6" y1="0" x2="6.1" y2="0" width="0.2" layer="21"/>
 <wire x1="-6.5" y1="3.1" x2="-6.5" y2="4.8" width="0.2" layer="21"/>
@@ -242,8 +242,8 @@ Writer / Debugger</text>
 <wire x1="-6.5" y1="16" x2="-6.2" y2="16" width="0.2" layer="21"/>
 <wire x1="5.7" y1="16" x2="7.4" y2="16" width="0.2" layer="21"/>
 <wire x1="7.4" y1="16" x2="7.4" y2="2.2" width="0.2" layer="21"/>
-<smd name="SW_B" x="-5.5" y="16" dx="0.7" dy="1.2" layer="1"/>
-<smd name="SHLD@2" x="-6.5" y="1.4" dx="1" dy="2.8" layer="1"/>
+<smd name="SW_B" x="-5.5" y="16" dx="0.7" dy="1.2" layer="1" cream="no"/>
+<smd name="SHLD@2" x="-6.5" y="1.4" dx="1" dy="2.8" layer="1" cream="no"/>
 <rectangle x1="-6.9" y1="12.3" x2="-6.1" y2="15.5" layer="41"/>
 <rectangle x1="-5" y1="9.4" x2="3.7" y2="11" layer="41"/>
 <rectangle x1="-5.7" y1="2.1" x2="-5" y2="9.7" layer="41"/>
@@ -268,6 +268,20 @@ Writer / Debugger</text>
 <dimension x1="-6.5" y1="0" x2="-6.5" y2="-2.2" x3="-7.8" y3="-1.1" textsize="1.27" layer="47"/>
 <wire x1="3" y1="15.4" x2="3.4" y2="15.4" width="0.2" layer="51"/>
 <wire x1="3.2" y1="15.6" x2="3.2" y2="15.2" width="0.2" layer="51"/>
+<rectangle x1="-5.8" y1="15.45" x2="-5.2" y2="16.55" layer="31"/>
+<rectangle x1="-4.8" y1="15.45" x2="-4.2" y2="16.55" layer="31"/>
+<rectangle x1="-3.7" y1="15.45" x2="-3.1" y2="16.55" layer="31"/>
+<rectangle x1="-2.6" y1="15.45" x2="-2" y2="16.55" layer="31"/>
+<rectangle x1="-1.5" y1="15.45" x2="-0.9" y2="16.55" layer="31"/>
+<rectangle x1="-0.4" y1="15.45" x2="0.2" y2="16.55" layer="31"/>
+<rectangle x1="0.7" y1="15.45" x2="1.3" y2="16.55" layer="31"/>
+<rectangle x1="1.8" y1="15.45" x2="2.4" y2="16.55" layer="31"/>
+<rectangle x1="2.9" y1="15.45" x2="3.5" y2="16.55" layer="31"/>
+<rectangle x1="4.35" y1="15.45" x2="5.25" y2="16.55" layer="31"/>
+<rectangle x1="6.5" y1="0.05" x2="7.7" y2="1.85" layer="31"/>
+<rectangle x1="-6.95" y1="0.05" x2="-6.05" y2="2.75" layer="31"/>
+<rectangle x1="-6.95" y1="5.15" x2="-6.05" y2="5.85" layer="31"/>
+<rectangle x1="-6.95" y1="11.15" x2="-6.05" y2="12.25" layer="31"/>
 </package>
 <package name="CON_USB_47589-0001MOLEX">
 <description>http://www.mouser.jp/ProductDetail/Molex/47589-0001/?qs=KKUMDL8WE1J88PqW%2fNep5w%3d%3d&amp;_cdc=0</description>
@@ -297,7 +311,6 @@ Writer / Debugger</text>
 <wire x1="-3.8" y1="0" x2="-4.7" y2="0" width="0.1" layer="48"/>
 <pad name="SHD" x="-2.2" y="4.45" drill="0.6" diameter="0.95" shape="long" rot="R90"/>
 <pad name="SHD$1" x="2.2" y="4.45" drill="0.6" diameter="0.95" shape="long" rot="R90"/>
-<rectangle x1="-1.625" y1="3.35" x2="1.625" y2="4.95" layer="29"/>
 <polygon width="0.5" layer="46">
 <vertex x="4.15" y="1"/>
 <vertex x="4.15" y="1.9" curve="-90"/>
@@ -369,6 +382,11 @@ Writer / Debugger</text>
 <rectangle x1="1.15" y1="3.5" x2="1.45" y2="4.8" layer="31"/>
 <rectangle x1="-2.6" y1="3.8" x2="-1.8" y2="5.1" layer="31"/>
 <rectangle x1="1.8" y1="3.8" x2="2.6" y2="5.1" layer="31"/>
+<rectangle x1="-1.55" y1="3.4" x2="-1.05" y2="4.9" layer="29"/>
+<rectangle x1="-0.9" y1="3.4" x2="-0.4" y2="4.9" layer="29"/>
+<rectangle x1="-0.25" y1="3.4" x2="0.25" y2="4.9" layer="29"/>
+<rectangle x1="0.4" y1="3.4" x2="0.9" y2="4.9" layer="29"/>
+<rectangle x1="1.05" y1="3.4" x2="1.55" y2="4.9" layer="29"/>
 </package>
 <package name="CR_2125">
 <smd name="1" x="-1.2" y="0" dx="1.4" dy="1.4" layer="1" stop="no"/>
@@ -1359,7 +1377,7 @@ design rules under a new name.</description>
 <param name="mvStopFrame" value="1"/>
 <param name="mvCreamFrame" value="0"/>
 <param name="mlMinStopFrame" value="4mil"/>
-<param name="mlMaxStopFrame" value="0.1mm"/>
+<param name="mlMaxStopFrame" value="0.05mm"/>
 <param name="mlMinCreamFrame" value="0mil"/>
 <param name="mlMaxCreamFrame" value="0mil"/>
 <param name="mlViaStopLimit" value="100mil"/>
@@ -1476,8 +1494,11 @@ design rules under a new name.</description>
 <attribute name="NAME" x="56.7" y="30.7" size="1" layer="25" ratio="20" rot="R180" align="center"/>
 <attribute name="VALUE" x="52.9" y="35.5" size="1.27" layer="27" ratio="16" rot="R270"/>
 </element>
-<element name="CON1" library="mylib" package="CON_USB_47589-0001MOLEX" value="" x="9.9" y="31.5" locked="yes" smashed="yes" rot="R270">
+<element name="CON1" library="mylib" package="CON_USB_47589-0001MOLEX" value="WM17143CT-ND" x="9.9" y="31.5" locked="yes" smashed="yes" rot="R270">
 <attribute name="NAME" x="14.8" y="27" size="1" layer="21" ratio="20" align="center"/>
+<attribute name="AKIZUKI" value="" x="9.9" y="31.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOUSER" value="" x="9.9" y="31.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DIGIKEY" value="WM17143CT-ND" x="9.9" y="31.5" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C1" library="mylib" package="C0402" value="0.1u" x="59.7" y="34.1" smashed="yes" rot="R270">
 <attribute name="NAME" x="59.7" y="35.8" size="1" layer="25" font="vector" ratio="20" rot="R180" align="center"/>
@@ -1627,20 +1648,23 @@ design rules under a new name.</description>
 <attribute name="NAME" x="37.5" y="31.7" size="1" layer="25" font="vector" ratio="20" rot="R270" align="center"/>
 <attribute name="VALUE" x="35.6" y="34.7" size="1" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
-<element name="SW1" library="mylib" package="SW_TACTSW_P8073" value="SW_TACTSW_2PP8073" x="60.9" y="45.1" smashed="yes" rot="R90">
-<attribute name="NAME" x="60.9" y="50" size="1.27" layer="25" font="vector" ratio="16" rot="R180" align="center"/>
-<attribute name="VALUE" x="64.7" y="42.6" size="1.27" layer="27" font="vector" ratio="16" rot="R90"/>
+<element name="SW1" library="mylib" package="SW_TACTSW_P8073" value="SW_TACTSW_2PP8073" x="60" y="45" smashed="yes" rot="R180">
+<attribute name="NAME" x="60" y="47.7" size="1.27" layer="25" font="vector" ratio="16" align="center"/>
+<attribute name="VALUE" x="62.5" y="48.8" size="1.27" layer="27" font="vector" ratio="16" rot="R180"/>
 </element>
-<element name="SW2" library="mylib" package="SW_TACTSW_P8073" value="SW_TACTSW_2PP8073" x="57.1" y="45.1" smashed="yes" rot="R270">
-<attribute name="NAME" x="57.1" y="50" size="1.27" layer="25" font="vector" ratio="16" rot="R180" align="center"/>
-<attribute name="VALUE" x="53.3" y="47.6" size="1.27" layer="27" font="vector" ratio="16" rot="R270"/>
+<element name="SW2" library="mylib" package="SW_TACTSW_P8073" value="SW_TACTSW_2PP8073" x="70" y="45" smashed="yes" rot="R180">
+<attribute name="NAME" x="70" y="47.7" size="1.27" layer="25" font="vector" ratio="16" rot="R180" align="center"/>
+<attribute name="VALUE" x="72.5" y="48.8" size="1.27" layer="27" font="vector" ratio="16" rot="R180"/>
 </element>
-<element name="SW3" library="mylib" package="SW_TACTSW_P8073" value="SW_TACTSW_2PP8073" x="53.3" y="45.1" smashed="yes" rot="R90">
-<attribute name="NAME" x="53.3" y="50" size="1.27" layer="25" font="vector" ratio="16" rot="R180" align="center"/>
-<attribute name="VALUE" x="57.1" y="42.6" size="1.27" layer="27" font="vector" ratio="16" rot="R90"/>
+<element name="SW3" library="mylib" package="SW_TACTSW_P8073" value="SW_TACTSW_2PP8073" x="50" y="45" smashed="yes" rot="R180">
+<attribute name="NAME" x="50" y="47.7" size="1.27" layer="25" font="vector" ratio="16" align="center"/>
+<attribute name="VALUE" x="52.5" y="48.8" size="1.27" layer="27" font="vector" ratio="16" rot="R180"/>
 </element>
 <element name="CON2" library="mylib" package="CON_MICROSD_C2395" value="C-2395.microSD" x="29.7" y="10.4" smashed="yes">
 <attribute name="NAME" x="21.9" y="12.4" size="1" layer="25" ratio="20" rot="R90" align="center"/>
+<attribute name="AKIZUKI" value="C-02395" x="29.7" y="10.4" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER" value="798-DM3AT-SF-PEJM5" x="29.7" y="10.4" size="1.778" layer="27" display="off"/>
+<attribute name="DIGIKEY" value="HR1964CT-ND" x="29.7" y="10.4" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C15" library="mylib" package="CR_1608" value="0.1u" x="28.7" y="28" smashed="yes" rot="R180">
 <attribute name="NAME" x="31.8" y="28" size="1" layer="25" font="vector" ratio="20" rot="R180" align="center"/>
@@ -1651,7 +1675,7 @@ design rules under a new name.</description>
 <element name="IC5" library="mylib" package="IC_08_0.65_160MIL" value="IC_MEMORY_8P_AT25XE011_TSSOP" x="65.2" y="30.9" smashed="yes" rot="R180">
 <attribute name="NAME" x="62.4" y="30.9" size="1" layer="25" font="vector" ratio="20" align="center"/>
 <attribute name="VALUE" x="62.4" y="33.5" size="1" layer="27" font="vector" ratio="20" rot="R270"/>
-<attribute name="MOUSER" value="" x="65.2" y="30.9" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER" value="!non-stock! 988-AT25XE011-SSHN-B" x="65.2" y="30.9" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DIGIKEY" value="1265-1184-5-ND" x="65.2" y="30.9" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C16" library="mylib" package="C0402" value="0.1u" x="67.5" y="29.4" smashed="yes" rot="R90">
@@ -1882,31 +1906,31 @@ design rules under a new name.</description>
 <contactref element="U1" pad="4"/>
 <wire x1="73" y1="31.5" x2="72.5" y2="31.5" width="0.25" layer="1"/>
 <wire x1="72.5" y1="31.5" x2="72.4" y2="31.4" width="0.25" layer="1"/>
-<wire x1="72.4" y1="31.4" x2="69.8" y2="31.4" width="0.25" layer="1"/>
-<wire x1="69.8" y1="31.4" x2="69" y2="30.6" width="0.25" layer="1"/>
-<wire x1="69" y1="30.6" x2="69" y2="27.2" width="0.25" layer="1"/>
-<wire x1="69" y1="27.2" x2="68.1" y2="26.3" width="0.25" layer="1"/>
-<wire x1="68.1" y1="26.3" x2="63.1" y2="26.3" width="0.25" layer="1"/>
-<contactref element="IC3" pad="24"/>
-<wire x1="43.75" y1="28.85" x2="43.75" y2="28.15" width="0.25" layer="1"/>
-<wire x1="43.75" y1="28.15" x2="43.9" y2="28" width="0.25" layer="1"/>
-<wire x1="43.9" y1="28" x2="61.4" y2="28" width="0.25" layer="1"/>
+<wire x1="72.4" y1="31.4" x2="69.7" y2="31.4" width="0.25" layer="1"/>
+<wire x1="69.7" y1="31.4" x2="69.1" y2="30.8" width="0.25" layer="1"/>
+<wire x1="69.1" y1="30.8" x2="69.1" y2="27.4" width="0.25" layer="1"/>
+<wire x1="69.1" y1="27.4" x2="68" y2="26.3" width="0.25" layer="1"/>
+<wire x1="68" y1="26.3" x2="63.1" y2="26.3" width="0.25" layer="1"/>
+<wire x1="43.4" y1="28" x2="61.4" y2="28" width="0.25" layer="1"/>
 <wire x1="61.4" y1="28" x2="63.1" y2="26.3" width="0.25" layer="1"/>
+<contactref element="IC3" pad="23"/>
+<wire x1="43.25" y1="28.85" x2="43.25" y2="28.15" width="0.25" layer="1"/>
+<wire x1="43.25" y1="28.15" x2="43.4" y2="28" width="0.25" layer="1"/>
 </signal>
 <signal name="SWDIO">
 <contactref element="U1" pad="5"/>
 <wire x1="73" y1="30.85" x2="72.55" y2="30.85" width="0.25" layer="1"/>
 <wire x1="72.55" y1="30.85" x2="72.5" y2="30.9" width="0.25" layer="1"/>
 <wire x1="72.5" y1="30.9" x2="70" y2="30.9" width="0.25" layer="1"/>
-<wire x1="70" y1="30.9" x2="69.6" y2="30.5" width="0.25" layer="1"/>
-<wire x1="69.6" y1="30.5" x2="69.6" y2="26.9" width="0.25" layer="1"/>
-<wire x1="69.6" y1="26.9" x2="68.5" y2="25.8" width="0.25" layer="1"/>
-<contactref element="IC3" pad="23"/>
+<wire x1="70" y1="30.9" x2="69.7" y2="30.6" width="0.25" layer="1"/>
+<wire x1="69.7" y1="30.6" x2="69.7" y2="27" width="0.25" layer="1"/>
+<wire x1="69.7" y1="27" x2="68.5" y2="25.8" width="0.25" layer="1"/>
 <wire x1="68.5" y1="25.8" x2="62.9" y2="25.8" width="0.25" layer="1"/>
 <wire x1="62.9" y1="25.8" x2="61.2" y2="27.5" width="0.25" layer="1"/>
-<wire x1="61.2" y1="27.5" x2="43.6" y2="27.5" width="0.25" layer="1"/>
-<wire x1="43.6" y1="27.5" x2="43.25" y2="27.85" width="0.25" layer="1"/>
-<wire x1="43.25" y1="28.85" x2="43.25" y2="27.85" width="0.25" layer="1"/>
+<wire x1="61.2" y1="27.5" x2="43" y2="27.5" width="0.25" layer="1"/>
+<contactref element="IC3" pad="22"/>
+<wire x1="42.75" y1="28.85" x2="42.75" y2="27.75" width="0.25" layer="1"/>
+<wire x1="42.75" y1="27.75" x2="43" y2="27.5" width="0.25" layer="1"/>
 </signal>
 <signal name="NSRST">
 <contactref element="IC1" pad="1"/>
@@ -2127,9 +2151,6 @@ design rules under a new name.</description>
 <wire x1="73" y1="32.15" x2="72.55" y2="32.15" width="0.25" layer="1"/>
 <wire x1="72.55" y1="32.15" x2="72.5" y2="32.2" width="0.25" layer="1"/>
 <wire x1="72.5" y1="32.2" x2="65.6" y2="32.2" width="0.25" layer="1"/>
-<contactref element="IC3" pad="25"/>
-<wire x1="44.65" y1="29.75" x2="45.75" y2="29.75" width="0.25" layer="1"/>
-<wire x1="45.75" y1="29.75" x2="46.3" y2="29.2" width="0.25" layer="1"/>
 <wire x1="46.3" y1="29.2" x2="60.9" y2="29.2" width="0.25" layer="1"/>
 <wire x1="60.9" y1="29.2" x2="63.3" y2="26.8" width="0.25" layer="1"/>
 <wire x1="64.875" y1="27.7" x2="64.875" y2="27.675" width="0.25" layer="1"/>
@@ -2137,6 +2158,10 @@ design rules under a new name.</description>
 <wire x1="64.8" y1="27.6" x2="64.8" y2="27" width="0.25" layer="1"/>
 <wire x1="64.8" y1="27" x2="64.6" y2="26.8" width="0.25" layer="1"/>
 <wire x1="64.6" y1="26.8" x2="63.3" y2="26.8" width="0.25" layer="1"/>
+<contactref element="IC3" pad="24"/>
+<wire x1="43.75" y1="28.85" x2="43.8" y2="28.8" width="0.25" layer="1"/>
+<wire x1="43.8" y1="28.8" x2="45.9" y2="28.8" width="0.25" layer="1"/>
+<wire x1="45.9" y1="28.8" x2="46.3" y2="29.2" width="0.25" layer="1"/>
 </signal>
 <signal name="MISO">
 <contactref element="IC5" pad="2"/>
@@ -2307,10 +2332,8 @@ design rules under a new name.</description>
 <contactref element="SW3" pad="A2"/>
 <wire x1="45.5" y1="38.3" x2="46.2" y2="39" width="0.25" layer="1"/>
 <wire x1="46.2" y1="39" x2="46.2" y2="42.9" width="0.25" layer="1"/>
-<wire x1="53.3" y1="48.3" x2="53.3" y2="46.8" width="0.25" layer="1"/>
-<wire x1="53.3" y1="46.8" x2="51.6" y2="45.1" width="0.25" layer="1"/>
-<wire x1="51.6" y1="45.1" x2="48.4" y2="45.1" width="0.25" layer="1"/>
-<wire x1="48.4" y1="45.1" x2="46.2" y2="42.9" width="0.25" layer="1"/>
+<wire x1="46.2" y1="42.9" x2="46.8" y2="43.5" width="0.25" layer="1"/>
+<wire x1="46.8" y1="43.5" x2="46.8" y2="45" width="0.25" layer="1"/>
 </signal>
 <signal name="BL">
 <contactref element="IC3" pad="1"/>
@@ -2320,12 +2343,9 @@ design rules under a new name.</description>
 <wire x1="44.7" y1="35.9" x2="45.9" y2="35.9" width="0.25" layer="1"/>
 <contactref element="SW2" pad="A2"/>
 <wire x1="45.9" y1="35.9" x2="48.3" y2="38.3" width="0.25" layer="1"/>
-<wire x1="48.3" y1="38.3" x2="49" y2="39" width="0.25" layer="1"/>
-<wire x1="49" y1="39" x2="49" y2="43" width="0.25" layer="1"/>
-<wire x1="56.5" y1="44.1" x2="50.1" y2="44.1" width="0.25" layer="1"/>
-<wire x1="50.1" y1="44.1" x2="49" y2="43" width="0.25" layer="1"/>
-<wire x1="57.1" y1="41.9" x2="57.1" y2="43.5" width="0.25" layer="1"/>
-<wire x1="57.1" y1="43.5" x2="56.5" y2="44.1" width="0.25" layer="1"/>
+<wire x1="48.3" y1="38.3" x2="52.4" y2="42.4" width="0.25" layer="1"/>
+<wire x1="52.4" y1="42.4" x2="64.2" y2="42.4" width="0.25" layer="1"/>
+<wire x1="64.2" y1="42.4" x2="66.8" y2="45" width="0.25" layer="1"/>
 </signal>
 <signal name="!RESET!">
 <contactref element="R7" pad="2"/>
@@ -2336,11 +2356,10 @@ design rules under a new name.</description>
 <wire x1="44.5" y1="36.4" x2="45" y2="36.4" width="0.25" layer="1"/>
 <contactref element="SW1" pad="A2"/>
 <wire x1="46.9" y1="38.3" x2="47.6" y2="39" width="0.25" layer="1"/>
-<wire x1="47.6" y1="39" x2="47.6" y2="43" width="0.25" layer="1"/>
-<wire x1="59.7" y1="44.6" x2="49.2" y2="44.6" width="0.25" layer="1"/>
-<wire x1="49.2" y1="44.6" x2="47.6" y2="43" width="0.25" layer="1"/>
-<wire x1="59.7" y1="44.6" x2="60.9" y2="45.8" width="0.25" layer="1"/>
-<wire x1="60.9" y1="45.8" x2="60.9" y2="48.3" width="0.25" layer="1"/>
+<wire x1="49.3" y1="42.9" x2="54.7" y2="42.9" width="0.25" layer="1"/>
+<wire x1="54.7" y1="42.9" x2="56.8" y2="45" width="0.25" layer="1"/>
+<wire x1="47.6" y1="39" x2="47.6" y2="41.2" width="0.25" layer="1"/>
+<wire x1="47.6" y1="41.2" x2="49.3" y2="42.9" width="0.25" layer="1"/>
 </signal>
 <signal name="N$5">
 <contactref element="C12" pad="1"/>
@@ -2417,12 +2436,12 @@ design rules under a new name.</description>
 </signal>
 <signal name="MISO2">
 <contactref element="CON2" pad="DAT0"/>
-<contactref element="IC3" pad="19"/>
-<wire x1="41.25" y1="28.85" x2="41.25" y2="27.35" width="0.25" layer="1"/>
-<wire x1="41.25" y1="27.35" x2="38" y2="24.1" width="0.25" layer="1"/>
+<wire x1="41.75" y1="27.85" x2="38" y2="24.1" width="0.25" layer="1"/>
 <wire x1="38" y1="24.1" x2="27.7" y2="24.1" width="0.25" layer="1"/>
 <wire x1="26.3" y1="26.4" x2="26.3" y2="25.5" width="0.25" layer="1"/>
 <wire x1="26.3" y1="25.5" x2="27.7" y2="24.1" width="0.25" layer="1"/>
+<contactref element="IC3" pad="20"/>
+<wire x1="41.75" y1="28.85" x2="41.75" y2="27.85" width="0.25" layer="1"/>
 </signal>
 <signal name="SCK2">
 <contactref element="CON2" pad="CLK"/>
@@ -2443,13 +2462,13 @@ design rules under a new name.</description>
 <wire x1="31.8" y1="28" x2="31.8" y2="26.4" width="0.25" layer="1"/>
 </signal>
 <signal name="DETECT2">
-<contactref element="IC3" pad="20"/>
 <contactref element="CON2" pad="SW_B"/>
 <wire x1="24.2" y1="26.4" x2="24.2" y2="25.1" width="0.25" layer="1"/>
 <wire x1="24.2" y1="25.1" x2="25.7" y2="23.6" width="0.25" layer="1"/>
 <wire x1="25.7" y1="23.6" x2="38.2" y2="23.6" width="0.25" layer="1"/>
-<wire x1="38.2" y1="23.6" x2="41.75" y2="27.15" width="0.25" layer="1"/>
-<wire x1="41.75" y1="28.85" x2="41.75" y2="27.15" width="0.25" layer="1"/>
+<wire x1="38.2" y1="23.6" x2="42.25" y2="27.65" width="0.25" layer="1"/>
+<contactref element="IC3" pad="21"/>
+<wire x1="42.25" y1="28.85" x2="42.25" y2="27.65" width="0.25" layer="1"/>
 </signal>
 <signal name="HOST_RX&lt;-">
 <contactref element="IC3" pad="31"/>
