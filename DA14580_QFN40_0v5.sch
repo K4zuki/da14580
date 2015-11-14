@@ -2609,38 +2609,38 @@ Source: Samtec SSW.pdf</description>
 <part name="SUPPLY6" library="mylib" deviceset="GND" device=""/>
 <part name="VDD1" library="supply1" deviceset="VDD" device=""/>
 <part name="P+1" library="mylib" deviceset="VCC" device=""/>
-<part name="Q1" library="mylib" deviceset="C_PAD_PAD_" device="3216"/>
+<part name="Q1" library="mylib" deviceset="C_PAD_PAD_" device="3216" value="728-1076-1-ND"/>
 <part name="SUPPLY7" library="mylib" deviceset="GND" device=""/>
 <part name="SUPPLY8" library="mylib" deviceset="GND" device=""/>
 <part name="P+2" library="mylib" deviceset="VCC" device=""/>
-<part name="C1" library="mylib" deviceset="C_PAD_PAD_" device="1005"/>
-<part name="C2" library="mylib" deviceset="C_PAD_PAD_" device="1005"/>
+<part name="C1" library="mylib" deviceset="C_PAD_PAD_" device="1005" value="1u/1005"/>
+<part name="C2" library="mylib" deviceset="C_PAD_PAD_" device="1005" value="1u/1005"/>
 <part name="SUPPLY9" library="mylib" deviceset="GND" device=""/>
 <part name="SUPPLY11" library="mylib" deviceset="GND" device=""/>
-<part name="C3" library="mylib" deviceset="C_PAD_PAD_" device="1005"/>
+<part name="C3" library="mylib" deviceset="C_PAD_PAD_" device="1005" value="1u/1005"/>
 <part name="L1" library="mylib" deviceset="INDUCTOR" device="_1608" value="2.2u"/>
-<part name="R1" library="mylib" deviceset="R_US_PAD_PAD" device="_1005"/>
+<part name="R1" library="mylib" deviceset="R_US_PAD_PAD" device="_1005" value="10k/1005"/>
 <part name="IC1" library="mylib" deviceset="IC_MEMORY_8P_*" device="_SOP" technology="AT25XE011" value="1265-1137-1-ND"/>
 <part name="P+3" library="mylib" deviceset="VCC" device=""/>
-<part name="C4" library="mylib" deviceset="C_PAD_PAD_" device="1005"/>
+<part name="C4" library="mylib" deviceset="C_PAD_PAD_" device="1005" value="0.1u/1005"/>
 <part name="SUPPLY13" library="mylib" deviceset="GND" device=""/>
 <part name="TP1" library="testpad_local" deviceset="TP" device="TP07R" value="TPTP07R"/>
 <part name="X1" library="con-samtec.local" deviceset="SSW-114-02-S-S" device=""/>
 <part name="X2" library="con-samtec.local" deviceset="SSW-114-02-S-S" device=""/>
 <part name="SUPPLY10" library="mylib" deviceset="GND" device=""/>
-<part name="C5" library="mylib" deviceset="C_PAD_PAD_" device="1005"/>
+<part name="C5" library="mylib" deviceset="C_PAD_PAD_" device="1005" value="0.1u/1005"/>
 <part name="SUPPLY12" library="mylib" deviceset="GND" device=""/>
 <part name="P+4" library="mylib" deviceset="VCC" device=""/>
 <part name="TP3" library="testpad_local" deviceset="TP" device="TP07R" value="TPTP07R"/>
 <part name="P+5" library="mylib" deviceset="VCC" device=""/>
 <part name="IC3" library="mylib" deviceset="IC_LDO_XX1117_5" device=""/>
-<part name="IC2" library="74xx-little-us_local" deviceset="74*1G00" device="DBV" technology="LVC"/>
+<part name="IC2" library="74xx-little-us_local" deviceset="74*1G00" device="DBV" technology="LVC" value="NC7SZ00M5XCT-ND"/>
 <part name="TP6" library="testpad_local" deviceset="TP" device="PAD1-13"/>
-<part name="C6" library="mylib" deviceset="C_PAD_PAD_" device="1005"/>
-<part name="C7" library="mylib" deviceset="C_PAD_PAD_" device="1005"/>
-<part name="C8" library="mylib" deviceset="C_PAD_PAD_" device="1005"/>
-<part name="C9" library="mylib" deviceset="C_PAD_PAD_" device="1005"/>
-<part name="C10" library="mylib" deviceset="C_PAD_PAD_" device="1005"/>
+<part name="C6" library="mylib" deviceset="C_PAD_PAD_" device="1005" value="NM/10p/1005"/>
+<part name="C7" library="mylib" deviceset="C_PAD_PAD_" device="1005" value="NM/1005"/>
+<part name="C8" library="mylib" deviceset="C_PAD_PAD_" device="1005" value="NM/1005"/>
+<part name="C9" library="mylib" deviceset="C_PAD_PAD_" device="1005" value="1u/1005"/>
+<part name="C10" library="mylib" deviceset="C_PAD_PAD_" device="1005" value="0.1u/1005"/>
 <part name="SUPPLY15" library="mylib" deviceset="GND" device=""/>
 <part name="SUPPLY16" library="mylib" deviceset="GND" device=""/>
 <part name="VDD2" library="supply1" deviceset="VDD" device=""/>
@@ -2649,7 +2649,7 @@ Source: Samtec SSW.pdf</description>
 <part name="SUPPLY5" library="mylib" deviceset="GND" device=""/>
 <part name="U$2" library="mylib" deviceset="ICON_OSHW" device=""/>
 <part name="P+6" library="mylib" deviceset="VCC" device=""/>
-<part name="Q2" library="mylib" deviceset="CLOCK_CRYSTAL_4" device="_2520"/>
+<part name="Q2" library="mylib" deviceset="CLOCK_CRYSTAL_4" device="_2520" value="887-1833-1-ND"/>
 <part name="P+7" library="mylib" deviceset="VCC" device=""/>
 <part name="TP2" library="mylib" deviceset="TESTPAD" device="_F"/>
 <part name="TP4" library="mylib" deviceset="TESTPAD" device="_F"/>
@@ -2670,7 +2670,10 @@ Source: Samtec SSW.pdf</description>
 <instance part="SUPPLY6" gate="GND" x="68.58" y="142.24" rot="R270"/>
 <instance part="VDD1" gate="G$1" x="213.36" y="161.29"/>
 <instance part="P+1" gate="VCC" x="238.76" y="162.56"/>
-<instance part="Q1" gate="G$1" x="76.2" y="124.46"/>
+<instance part="Q1" gate="G$1" x="76.2" y="124.46" smashed="yes">
+<attribute name="NAME" x="78.74" y="127" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="78.74" y="121.158" size="1.016" layer="96" rot="R180"/>
+</instance>
 <instance part="SUPPLY7" gate="GND" x="60.96" y="127"/>
 <instance part="SUPPLY8" gate="GND" x="223.52" y="139.7"/>
 <instance part="P+2" gate="VCC" x="68.58" y="147.32" rot="R90"/>
@@ -2678,7 +2681,10 @@ Source: Samtec SSW.pdf</description>
 <instance part="C2" gate="G$1" x="238.76" y="151.13"/>
 <instance part="SUPPLY9" gate="GND" x="238.76" y="142.24"/>
 <instance part="SUPPLY11" gate="GND" x="53.34" y="139.7"/>
-<instance part="C3" gate="G$1" x="53.34" y="147.32"/>
+<instance part="C3" gate="G$1" x="53.34" y="147.32" smashed="yes">
+<attribute name="NAME" x="55.88" y="149.86" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="49.022" y="149.86" size="1.016" layer="96" rot="R270"/>
+</instance>
 <instance part="L1" gate="G$1" x="76.2" y="139.7"/>
 <instance part="R1" gate="G$1" x="213.36" y="67.31" rot="R90"/>
 <instance part="IC1" gate="G$1" x="223.52" y="101.6"/>
@@ -2727,7 +2733,10 @@ Source: Samtec SSW.pdf</description>
 <instance part="C6" gate="G$1" x="134.62" y="160.02" rot="R90"/>
 <instance part="C7" gate="G$1" x="139.7" y="157.48"/>
 <instance part="C8" gate="G$1" x="124.46" y="157.48"/>
-<instance part="C9" gate="G$1" x="73.66" y="144.78"/>
+<instance part="C9" gate="G$1" x="73.66" y="144.78" smashed="yes">
+<attribute name="NAME" x="76.2" y="147.32" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="76.2" y="143.002" size="1.016" layer="96"/>
+</instance>
 <instance part="C10" gate="G$1" x="83.82" y="91.44"/>
 <instance part="SUPPLY15" gate="GND" x="83.82" y="86.36"/>
 <instance part="SUPPLY16" gate="GND" x="76.2" y="53.34" rot="MR90"/>
@@ -2739,7 +2748,7 @@ Source: Samtec SSW.pdf</description>
 <instance part="P+6" gate="VCC" x="152.4" y="134.62" rot="R90"/>
 <instance part="Q2" gate="G$1" x="66.04" y="132.08" smashed="yes" rot="R270">
 <attribute name="NAME" x="68.58" y="132.08" size="1.778" layer="95"/>
-<attribute name="VALUE" x="66.802" y="129.54" size="1.016" layer="96" rot="R270"/>
+<attribute name="VALUE" x="58.42" y="133.858" size="1.016" layer="96" rot="R180"/>
 </instance>
 <instance part="P+7" gate="VCC" x="241.3" y="114.3"/>
 <instance part="TP2" gate="1" x="17.78" y="20.32"/>
