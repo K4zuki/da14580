@@ -466,6 +466,7 @@ chip</description>
 <wire x1="-0.1" y1="-0.5" x2="0" y2="-0.5" width="0.2" layer="21"/>
 <wire x1="0" y1="-0.5" x2="0.1" y2="-0.5" width="0.2" layer="21"/>
 <wire x1="0" y1="0.5" x2="0" y2="-0.5" width="0.2" layer="21"/>
+<rectangle x1="-0.75" y1="-0.15" x2="-0.45" y2="0.15" layer="31"/>
 <wire x1="-0.75" y1="0.15" x2="-0.45" y2="0.15" width="0.4" layer="31"/>
 <wire x1="-0.45" y1="0.15" x2="-0.45" y2="-0.15" width="0.4" layer="31"/>
 <wire x1="-0.45" y1="-0.15" x2="-0.75" y2="-0.15" width="0.4" layer="31"/>
@@ -474,6 +475,7 @@ chip</description>
 <wire x1="0.75" y1="0.15" x2="0.75" y2="-0.15" width="0.4" layer="31"/>
 <wire x1="0.75" y1="-0.15" x2="0.45" y2="-0.15" width="0.4" layer="31"/>
 <wire x1="0.45" y1="-0.15" x2="0.45" y2="0.15" width="0.4" layer="31"/>
+<rectangle x1="0.45" y1="-0.15" x2="0.75" y2="0.15" layer="31"/>
 </package>
 <package name="CON_TC2030-IDC-NL">
 <smd name="1" x="-1.27" y="-0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100" cream="no"/>
@@ -790,30 +792,6 @@ chip</description>
 <wire x1="1.1" y1="0.2" x2="1.1" y2="-0.2" width="0.6" layer="31"/>
 <wire x1="0.7" y1="-0.2" x2="1.1" y2="-0.2" width="0.6" layer="31"/>
 </package>
-<package name="CR_2125">
-<smd name="1" x="-1.2" y="0" dx="1.4" dy="1.4" layer="1" stop="no" cream="no"/>
-<smd name="2" x="1.2" y="0" dx="1.4" dy="1.4" layer="1" stop="no" cream="no"/>
-<text x="0" y="0.9" size="1" layer="25" ratio="20">&gt;NAME</text>
-<text x="0" y="-1.9" size="1" layer="27" ratio="20">&gt;VALUE</text>
-<wire x1="1" y1="0.6" x2="1" y2="-0.6" width="0.2" layer="51"/>
-<wire x1="1" y1="-0.6" x2="0.3" y2="-0.6" width="0.2" layer="51"/>
-<wire x1="0.3" y1="-0.6" x2="-0.3" y2="-0.6" width="0.2" layer="21"/>
-<wire x1="-0.3" y1="-0.6" x2="-1" y2="-0.6" width="0.2" layer="51"/>
-<wire x1="-1" y1="-0.6" x2="-1" y2="0.6" width="0.2" layer="51"/>
-<wire x1="-1" y1="0.6" x2="-0.3" y2="0.6" width="0.2" layer="51"/>
-<wire x1="-0.3" y1="0.6" x2="0.3" y2="0.6" width="0.2" layer="21"/>
-<wire x1="0.3" y1="0.6" x2="1" y2="0.6" width="0.2" layer="51"/>
-<rectangle x1="-1.95" y1="-0.75" x2="-0.45" y2="0.75" layer="29"/>
-<rectangle x1="0.45" y1="-0.75" x2="1.95" y2="0.75" layer="29"/>
-<wire x1="-1.5" y1="0.3" x2="-0.9" y2="0.3" width="0.8" layer="31"/>
-<wire x1="-0.9" y1="0.3" x2="-0.9" y2="-0.3" width="0.8" layer="31"/>
-<wire x1="-1.5" y1="-0.3" x2="-0.9" y2="-0.3" width="0.8" layer="31"/>
-<wire x1="-1.5" y1="0.3" x2="-1.5" y2="-0.3" width="0.8" layer="31"/>
-<wire x1="0.9" y1="0.3" x2="0.9" y2="-0.3" width="0.8" layer="31"/>
-<wire x1="1.5" y1="0.3" x2="1.5" y2="-0.3" width="0.8" layer="31"/>
-<wire x1="0.9" y1="-0.3" x2="1.5" y2="-0.3" width="0.8" layer="31"/>
-<wire x1="0.9" y1="0.3" x2="1.5" y2="0.3" width="0.8" layer="31"/>
-</package>
 <package name="R_1608_PADPAD">
 <smd name="1" x="-0.9" y="0" dx="0.8" dy="1" layer="1" stop="no" cream="no"/>
 <smd name="2" x="0.9" y="0" dx="0.8" dy="1" layer="1" stop="no" cream="no"/>
@@ -837,6 +815,32 @@ chip</description>
 <wire x1="1" y1="0.2" x2="1" y2="-0.2" width="0.6" layer="31"/>
 <wire x1="1" y1="-0.2" x2="0.8" y2="-0.2" width="0.6" layer="31"/>
 <wire x1="0.8" y1="-0.2" x2="0.8" y2="0.2" width="0.6" layer="31"/>
+</package>
+<package name="CR_2125">
+<smd name="1" x="-1.2" y="0" dx="1.4" dy="1.4" layer="1" stop="no" cream="no"/>
+<smd name="2" x="1.2" y="0" dx="1.4" dy="1.4" layer="1" stop="no" cream="no"/>
+<text x="0" y="0.9" size="1" layer="25" ratio="20">&gt;NAME</text>
+<text x="0" y="-1.9" size="1" layer="27" ratio="20">&gt;VALUE</text>
+<wire x1="1" y1="0.6" x2="1" y2="-0.6" width="0.2" layer="51"/>
+<wire x1="1" y1="-0.6" x2="0.3" y2="-0.6" width="0.2" layer="51"/>
+<wire x1="0.3" y1="-0.6" x2="-0.3" y2="-0.6" width="0.2" layer="21"/>
+<wire x1="-0.3" y1="-0.6" x2="-1" y2="-0.6" width="0.2" layer="51"/>
+<wire x1="-1" y1="-0.6" x2="-1" y2="0.6" width="0.2" layer="51"/>
+<wire x1="-1" y1="0.6" x2="-0.3" y2="0.6" width="0.2" layer="51"/>
+<wire x1="-0.3" y1="0.6" x2="0.3" y2="0.6" width="0.2" layer="21"/>
+<wire x1="0.3" y1="0.6" x2="1" y2="0.6" width="0.2" layer="51"/>
+<rectangle x1="-1.95" y1="-0.75" x2="-0.45" y2="0.75" layer="29"/>
+<rectangle x1="0.45" y1="-0.75" x2="1.95" y2="0.75" layer="29"/>
+<rectangle x1="-1.7" y1="-0.5" x2="-0.7" y2="0.5" layer="31"/>
+<wire x1="-1.7" y1="0.5" x2="-0.7" y2="0.5" width="0.4" layer="31"/>
+<wire x1="-0.7" y1="0.5" x2="-0.7" y2="-0.5" width="0.4" layer="31"/>
+<wire x1="-0.7" y1="-0.5" x2="-1.7" y2="-0.5" width="0.4" layer="31"/>
+<wire x1="-1.7" y1="-0.5" x2="-1.7" y2="0.5" width="0.4" layer="31"/>
+<rectangle x1="0.7" y1="-0.5" x2="1.7" y2="0.5" layer="31"/>
+<wire x1="0.7" y1="0.5" x2="1.7" y2="0.5" width="0.4" layer="31"/>
+<wire x1="1.7" y1="0.5" x2="1.7" y2="-0.5" width="0.4" layer="31"/>
+<wire x1="1.7" y1="-0.5" x2="0.7" y2="-0.5" width="0.4" layer="31"/>
+<wire x1="0.7" y1="-0.5" x2="0.7" y2="0.5" width="0.4" layer="31"/>
 </package>
 </packages>
 <symbols>
@@ -1133,6 +1137,11 @@ chip</description>
 <attribute name="AKIZUKI" value="" constant="no"/>
 <attribute name="DIGIKEY" value="" constant="no"/>
 <attribute name="MOUSER" value="81-GRM155R60J106ME4D" constant="no"/>
+</technology>
+<technology name="12P">
+<attribute name="AKIZUKI" value="" constant="no"/>
+<attribute name="DIGIKEY" value="" constant="no"/>
+<attribute name="MOUSER" value="" constant="no"/>
 </technology>
 <technology name="18P">
 <attribute name="AKIZUKI" value="" constant="no"/>
