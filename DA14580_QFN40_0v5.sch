@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.5.0">
+<eagle version="7.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -62,7 +62,7 @@
 <layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="100" name="Muster" color="7" fill="1" visible="no" active="no"/>
-<layer number="101" name="Patch_Top" color="12" fill="4" visible="yes" active="yes"/>
+<layer number="101" name="Attributes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="102" name="Vscore" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="103" name="tMap" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="104" name="Name" color="7" fill="1" visible="yes" active="yes"/>
@@ -74,14 +74,14 @@
 <layer number="110" name="fp0" color="7" fill="1" visible="no" active="yes"/>
 <layer number="111" name="LPC17xx" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="112" name="tSilk" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="113" name="FRNTTEKEN" color="7" fill="1" visible="no" active="yes"/>
-<layer number="114" name="FRNTMAAT1" color="7" fill="1" visible="no" active="yes"/>
-<layer number="115" name="FRNTMAAT2" color="7" fill="1" visible="no" active="yes"/>
+<layer number="113" name="FRNTTEKEN" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="114" name="FRNTMAAT1" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="115" name="FRNTMAAT2" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="yes" active="yes"/>
-<layer number="117" name="BACKMAAT1" color="7" fill="1" visible="no" active="yes"/>
-<layer number="118" name="BACKMAAT2" color="7" fill="1" visible="no" active="yes"/>
-<layer number="119" name="KAP_TEKEN" color="7" fill="1" visible="no" active="yes"/>
-<layer number="120" name="KAP_MAAT1" color="7" fill="1" visible="no" active="yes"/>
+<layer number="117" name="BACKMAAT1" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="118" name="BACKMAAT2" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="119" name="KAP_TEKEN" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="120" name="KAP_MAAT1" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="122" name="_bsilk" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="123" name="tTestmark" color="7" fill="1" visible="no" active="yes"/>
@@ -90,12 +90,10 @@
 <layer number="126" name="_bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="127" name="_tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="128" name="_bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="130" name="SMDSTROOK" color="7" fill="1" visible="no" active="yes"/>
+<layer number="130" name="SMDSTROOK" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="131" name="tAdjust" color="7" fill="1" visible="no" active="yes"/>
 <layer number="132" name="bAdjust" color="7" fill="1" visible="no" active="yes"/>
 <layer number="144" name="Drill_legend" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="145" name="DrillLegend_01-16" color="2" fill="9" visible="no" active="yes"/>
-<layer number="146" name="DrillLegend_01-20" color="3" fill="9" visible="no" active="yes"/>
 <layer number="151" name="HeatSink" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="152" name="_bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="199" name="Contour" color="7" fill="1" visible="yes" active="yes"/>
@@ -124,13 +122,13 @@
 <layer number="222" name="222bmp" color="23" fill="1" visible="no" active="no"/>
 <layer number="223" name="223bmp" color="24" fill="1" visible="no" active="no"/>
 <layer number="224" name="224bmp" color="25" fill="1" visible="no" active="no"/>
-<layer number="230" name="230bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="230" name="230bmp" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="248" name="Housing" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="249" name="Edge" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
 <layer number="251" name="SMDround" color="4" fill="9" visible="no" active="yes"/>
 <layer number="254" name="cooling" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="255" name="Accent" color="7" fill="1" visible="no" active="yes"/>
+<layer number="255" name="Accent" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <schematic>
 <libraries>
@@ -155,10 +153,10 @@
 <wire x1="215.265" y1="13.97" x2="215.265" y2="19.05" width="0.1016" layer="94"/>
 <wire x1="215.265" y1="19.05" x2="256.54" y2="19.05" width="0.1016" layer="94"/>
 <wire x1="215.265" y1="19.05" x2="215.265" y2="24.13" width="0.1016" layer="94"/>
-<text x="217.17" y="15.24" size="2.54" layer="94" font="vector">&gt;DRAWING_NAME</text>
-<text x="217.17" y="10.16" size="2.286" layer="94" font="vector">&gt;LAST_DATE_TIME</text>
-<text x="230.505" y="5.08" size="2.54" layer="94" font="vector">&gt;SHEET</text>
-<text x="216.916" y="4.953" size="2.54" layer="94" font="vector">Sheet:</text>
+<text x="217.17" y="15.24" size="2.54" layer="94">&gt;DRAWING_NAME</text>
+<text x="217.17" y="10.16" size="2.286" layer="94">&gt;LAST_DATE_TIME</text>
+<text x="230.505" y="5.08" size="2.54" layer="94">&gt;SHEET</text>
+<text x="216.916" y="4.953" size="2.54" layer="94">Sheet:</text>
 <frame x1="0" y1="0" x2="260.35" y2="179.07" columns="6" rows="4" layer="94"/>
 </symbol>
 </symbols>
@@ -1201,9 +1199,9 @@ wave soldering</description>
 </symbol>
 <symbol name="IC_LDO_XX1117_5">
 <wire x1="-5.08" y1="-7.62" x2="5.08" y2="-7.62" width="0.4064" layer="94"/>
-<wire x1="5.08" y1="-7.62" x2="5.08" y2="0" width="0.4064" layer="94"/>
-<wire x1="5.08" y1="0" x2="-5.08" y2="0" width="0.4064" layer="94"/>
-<wire x1="-5.08" y1="0" x2="-5.08" y2="-7.62" width="0.4064" layer="94"/>
+<wire x1="5.08" y1="-7.62" x2="5.08" y2="-0.254" width="0.4064" layer="94"/>
+<wire x1="5.08" y1="-0.254" x2="-5.08" y2="-0.254" width="0.4064" layer="94"/>
+<wire x1="-5.08" y1="-0.254" x2="-5.08" y2="-7.62" width="0.4064" layer="94"/>
 <text x="2.54" y="-10.16" size="1.778" layer="95">&gt;NAME</text>
 <text x="2.54" y="-11.43" size="1.016" layer="96">&gt;VALUE</text>
 <text x="-2.032" y="-6.858" size="1.524" layer="95">G/ADJ</text>
@@ -1234,8 +1232,8 @@ wave soldering</description>
 <pin name="1" x="-2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1"/>
 </symbol>
 <symbol name="IC_SRAM_23K256">
-<text x="-12.7" y="11.33" size="1.778" layer="95">&gt;NAME</text>
-<text x="-12.7" y="-10.26" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-12.7" y="10.16" size="1.778" layer="95">&gt;NAME</text>
+<text x="10.16" y="-7.62" size="1.778" layer="96" rot="R180">&gt;VALUE</text>
 <pin name="VCC" x="12.7" y="7.62" length="short" direction="pwr" rot="R180"/>
 <pin name="GND" x="12.7" y="2.54" length="short" direction="pwr" rot="R180"/>
 <pin name="!CS" x="-15.24" y="2.54" length="short" direction="in"/>
@@ -1244,10 +1242,10 @@ wave soldering</description>
 <pin name="SCK" x="-15.24" y="-2.54" length="short" direction="in"/>
 <pin name="SI" x="-15.24" y="0" length="short" direction="in"/>
 <pin name="!WP" x="-15.24" y="7.62" length="short" direction="in"/>
-<wire x1="-12.7" y1="10.16" x2="10.16" y2="10.16" width="0.254" layer="94"/>
-<wire x1="10.16" y1="10.16" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-7.62" x2="-12.7" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="-12.7" y1="-7.62" x2="-12.7" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="9.906" x2="10.16" y2="9.906" width="0.254" layer="94"/>
+<wire x1="10.16" y1="9.906" x2="10.16" y2="-7.366" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-7.366" x2="-12.7" y2="-7.366" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-7.366" x2="-12.7" y2="9.906" width="0.254" layer="94"/>
 </symbol>
 <symbol name="ANT_IFA">
 <pin name="ANT" x="-5.08" y="0" length="middle"/>
@@ -1327,7 +1325,7 @@ wave soldering</description>
 <gate name="G$1" symbol="IC_DA14580_QFN40" x="35.56" y="15.24"/>
 </gates>
 <devices>
-<device name="-AT2" package="QFN40_0.4P5.0X5.0">
+<device name="AT2" package="QFN40_0.4P5.0X5.0">
 <connects>
 <connect gate="G$1" pin="GND" pad="16 BP"/>
 <connect gate="G$1" pin="LX" pad="21"/>
@@ -1455,7 +1453,7 @@ wave soldering</description>
 </technology>
 <technology name="4.7U">
 <attribute name="AKIZUKI" value="" constant="no"/>
-<attribute name="DIGIKEY" value="" constant="no"/>
+<attribute name="DIGIKEY" value="490-9962-1-ND" constant="no"/>
 <attribute name="MOUSER" value="" constant="no"/>
 </technology>
 </technologies>
@@ -1524,7 +1522,7 @@ wave soldering</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="CLOCK_CRYSTAL" prefix="Q">
+<deviceset name="CRYSTAL2_*" prefix="Q">
 <gates>
 <gate name="G$1" symbol="CLOCK_CRYSTAL" x="0" y="0"/>
 </gates>
@@ -1535,17 +1533,26 @@ wave soldering</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="AKIZUKI" value="" constant="no"/>
+<attribute name="DIGIKEY" value="" constant="no"/>
+<attribute name="MOUSER" value="" constant="no"/>
+</technology>
+<technology name="32.768K">
+<attribute name="AKIZUKI" value="" constant="no"/>
+<attribute name="DIGIKEY" value="728-1076-1-ND" constant="no"/>
+<attribute name="MOUSER" value="" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="IC_LDO_XX1117_5" prefix="IC">
+<deviceset name="LDO5_*" prefix="IC">
 <gates>
 <gate name="G$1" symbol="IC_LDO_XX1117_5" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="IC_05_0.95_50MIL">
+<device name="_SOT23" package="IC_05_0.95_50MIL">
 <connects>
 <connect gate="G$1" pin="ADJ" pad="2"/>
 <connect gate="G$1" pin="E" pad="3"/>
@@ -1554,7 +1561,26 @@ wave soldering</description>
 <connect gate="G$1" pin="OUT@1" pad="4"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="AKIZUKI" value="" constant="no"/>
+<attribute name="DIGIKEY" value="" constant="no"/>
+<attribute name="MOUSER" value="" constant="no"/>
+</technology>
+<technology name="1.8">
+<attribute name="AKIZUKI" value="" constant="no"/>
+<attribute name="DIGIKEY" value="" constant="no"/>
+<attribute name="MOUSER" value="" constant="no"/>
+</technology>
+<technology name="3.3">
+<attribute name="AKIZUKI" value="I-05448" constant="no"/>
+<attribute name="DIGIKEY" value="" constant="no"/>
+<attribute name="MOUSER" value="" constant="no"/>
+</technology>
+<technology name="5.0">
+<attribute name="AKIZUKI" value="" constant="no"/>
+<attribute name="DIGIKEY" value="" constant="no"/>
+<attribute name="MOUSER" value="" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -1801,7 +1827,7 @@ wave soldering</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="CLOCK_CRYSTAL_4" prefix="Q" uservalue="yes">
+<deviceset name="CRYSTAL4_*" prefix="Q" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="CLOCK_CRYSTAL_4" x="0" y="0"/>
 </gates>
@@ -1814,7 +1840,21 @@ wave soldering</description>
 <connect gate="G$1" pin="P$2" pad="4"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="AKIZUKI" value="" constant="no"/>
+<attribute name="DIGIKEY" value="" constant="no"/>
+<attribute name="MOUSER" value="" constant="no"/>
+</technology>
+<technology name="12M">
+<attribute name="AKIZUKI" value="" constant="no"/>
+<attribute name="DIGIKEY" value="1253-1168-1-ND" constant="no"/>
+<attribute name="MOUSER" value="" constant="no"/>
+</technology>
+<technology name="16M">
+<attribute name="AKIZUKI" value="" constant="no"/>
+<attribute name="DIGIKEY" value="" constant="no"/>
+<attribute name="MOUSER" value="" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="_2520" package="CLOCK_2520">
@@ -1825,7 +1865,26 @@ wave soldering</description>
 <connect gate="G$1" pin="P$2" pad="4"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="AKIZUKI" value="" constant="no"/>
+<attribute name="DIGIKEY" value="" constant="no"/>
+<attribute name="MOUSER" value="" constant="no"/>
+</technology>
+<technology name="12M">
+<attribute name="AKIZUKI" value="" constant="no"/>
+<attribute name="DIGIKEY" value="" constant="no"/>
+<attribute name="MOUSER" value="" constant="no"/>
+</technology>
+<technology name="16M">
+<attribute name="AKIZUKI" value="" constant="no"/>
+<attribute name="DIGIKEY" value="887-1833-1-ND" constant="no"/>
+<attribute name="MOUSER" value="" constant="no"/>
+</technology>
+<technology name="6,0M">
+<attribute name="AKIZUKI" value="" constant="no"/>
+<attribute name="DIGIKEY" value="" constant="no"/>
+<attribute name="MOUSER" value="" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -2762,14 +2821,14 @@ Source: Samtec SSW.pdf</description>
 </classes>
 <parts>
 <part name="FRAME1" library="frames" deviceset="A4L-LOC" device="" value="A4L-LOC"/>
-<part name="U1" library="mylib" deviceset="DA1458*" device="-AT2" technology="3" value="DA14583-AT2"/>
+<part name="U1" library="mylib" deviceset="DA1458*" device="AT2" technology="3" value="DA14583AT2"/>
 <part name="SUPPLY1" library="mylib" deviceset="GND" device=""/>
 <part name="SUPPLY2" library="mylib" deviceset="GND" device=""/>
 <part name="SUPPLY4" library="mylib" deviceset="GND" device=""/>
 <part name="SUPPLY6" library="mylib" deviceset="GND" device=""/>
 <part name="VDD1" library="supply1" deviceset="VDD" device=""/>
 <part name="P+1" library="mylib" deviceset="VCC" device=""/>
-<part name="Q1" library="mylib" deviceset="CLOCK_CRYSTAL" device="_FC-135" value="728-1076-1-ND"/>
+<part name="Q1" library="mylib" deviceset="CRYSTAL2_*" device="_FC-135" technology="32.768K" value="728-1076-1-ND"/>
 <part name="SUPPLY7" library="mylib" deviceset="GND" device=""/>
 <part name="SUPPLY8" library="mylib" deviceset="GND" device=""/>
 <part name="P+2" library="mylib" deviceset="VCC" device=""/>
@@ -2780,7 +2839,7 @@ Source: Samtec SSW.pdf</description>
 <part name="C3" library="mylib" deviceset="C_SMD_*" device="_1005" technology="1.0U"/>
 <part name="L1" library="mylib" deviceset="INDUCTOR_" device="_1608" technology="2.2U" value=""/>
 <part name="R1" library="mylib" deviceset="R_US_*" device="_1005" technology="10K"/>
-<part name="IC1" library="mylib" deviceset="IC_MEMORY_8P_*" device="_SOP" technology="AT25XE011" value="1265-1137-1-ND"/>
+<part name="IC1" library="mylib" deviceset="IC_MEMORY_8P_*" device="_SOP" technology="AT25XE011" value="IC_MEMORY_8P_AT25XE011_SOP"/>
 <part name="P+3" library="mylib" deviceset="VCC" device=""/>
 <part name="C4" library="mylib" deviceset="C_SMD_*" device="_1005" technology="0.1U"/>
 <part name="SUPPLY13" library="mylib" deviceset="GND" device=""/>
@@ -2793,7 +2852,7 @@ Source: Samtec SSW.pdf</description>
 <part name="P+4" library="mylib" deviceset="VCC" device=""/>
 <part name="TP3" library="testpad_local" deviceset="TP" device="TP07R" value="TPTP07R"/>
 <part name="P+5" library="mylib" deviceset="VCC" device=""/>
-<part name="IC3" library="mylib" deviceset="IC_LDO_XX1117_5" device=""/>
+<part name="IC3" library="mylib" deviceset="LDO5_*" device="_SOT23" technology="3.3" value="LDO5_3.3_SOT23"/>
 <part name="IC2" library="74xx-little-us_local" deviceset="74*1G00" device="DBV" technology="LVC" value="NC7SZ00M5XCT-ND"/>
 <part name="TP6" library="testpad_local" deviceset="TP" device="PAD1-13"/>
 <part name="C6" library="mylib" deviceset="C_SMD_*" device="_1005" technology="10P" value="NM"/>
@@ -2809,7 +2868,7 @@ Source: Samtec SSW.pdf</description>
 <part name="SUPPLY5" library="mylib" deviceset="GND" device=""/>
 <part name="U$2" library="mylib" deviceset="ICON_OSHW" device=""/>
 <part name="P+6" library="mylib" deviceset="VCC" device=""/>
-<part name="Q2" library="mylib" deviceset="CLOCK_CRYSTAL_4" device="_2520" value="887-1833-1-ND"/>
+<part name="Q2" library="mylib" deviceset="CRYSTAL4_*" device="_2520" technology="16M" value="16M_2520"/>
 <part name="P+7" library="mylib" deviceset="VCC" device=""/>
 <part name="TP2" library="mylib" deviceset="TESTPAD" device="_F"/>
 <part name="TP4" library="mylib" deviceset="TESTPAD" device="_F"/>
@@ -2818,12 +2877,14 @@ Source: Samtec SSW.pdf</description>
 <sheets>
 <sheet>
 <plain>
-<text x="217.17" y="25.4" size="12.7" layer="94">v0.5</text>
+<text x="162.56" y="5.08" size="12.7" layer="94">v0.5</text>
 <text x="12.7" y="167.64" size="1.778" layer="94">L1: 445-6385-1-ND</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
-<instance part="U1" gate="G$1" x="104.14" y="142.24"/>
+<instance part="U1" gate="G$1" x="104.14" y="142.24">
+<attribute name="MOUSER" x="88.9" y="86.36" size="1.778" layer="96" display="both"/>
+</instance>
 <instance part="SUPPLY1" gate="GND" x="81.28" y="154.94" rot="R270"/>
 <instance part="SUPPLY2" gate="GND" x="147.32" y="152.4"/>
 <instance part="SUPPLY4" gate="GND" x="210.82" y="33.02"/>
@@ -2846,11 +2907,14 @@ Source: Samtec SSW.pdf</description>
 <attribute name="VALUE" x="49.022" y="149.86" size="1.016" layer="96" rot="R270"/>
 </instance>
 <instance part="L1" gate="G$1" x="73.66" y="139.7" smashed="yes">
-<attribute name="NAME" x="71.12" y="139.446" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="71.12" y="137.668" size="1.016" layer="96"/>
+<attribute name="DIGIKEY" x="66.04" y="137.16" size="0.8128" layer="96" display="both"/>
+<attribute name="NAME" x="76.2" y="139.954" size="1.778" layer="95"/>
+<attribute name="VALUE" x="76.2" y="137.668" size="1.016" layer="96"/>
 </instance>
 <instance part="R1" gate="G$1" x="213.36" y="67.31" rot="R90"/>
-<instance part="IC1" gate="G$1" x="223.52" y="101.6"/>
+<instance part="IC1" gate="G$1" x="223.52" y="101.6">
+<attribute name="DIGIKEY" x="208.28" y="114.3" size="1.4224" layer="96" display="both"/>
+</instance>
 <instance part="P+3" gate="VCC" x="205.74" y="114.3"/>
 <instance part="C4" gate="G$1" x="241.3" y="106.68"/>
 <instance part="SUPPLY13" gate="GND" x="241.3" y="101.6"/>
@@ -2893,7 +2957,9 @@ Source: Samtec SSW.pdf</description>
 <attribute name="NAME" x="69.85" y="125.73" size="1.778" layer="95" rot="R180"/>
 </instance>
 <instance part="P+5" gate="VCC" x="78.74" y="93.98" rot="R90"/>
-<instance part="IC3" gate="G$1" x="223.52" y="158.75"/>
+<instance part="IC3" gate="G$1" x="223.52" y="158.75">
+<attribute name="AKIZUKI" x="215.9" y="158.75" size="1.016" layer="96" display="both"/>
+</instance>
 <instance part="IC2" gate="A" x="228.6" y="54.61"/>
 <instance part="IC2" gate="P" x="217.17" y="72.39"/>
 <instance part="TP6" gate="G$1" x="210.82" y="40.64"/>
@@ -2911,7 +2977,7 @@ Source: Samtec SSW.pdf</description>
 <instance part="U$1" gate="G$1" x="154.94" y="160.02"/>
 <instance part="CON1" gate="G$1" x="175.26" y="132.08"/>
 <instance part="SUPPLY5" gate="GND" x="154.94" y="127"/>
-<instance part="U$2" gate="G$1" x="170.18" y="20.32"/>
+<instance part="U$2" gate="G$1" x="205.74" y="20.32"/>
 <instance part="P+6" gate="VCC" x="152.4" y="134.62" rot="R90"/>
 <instance part="Q2" gate="G$1" x="66.04" y="132.08" smashed="yes" rot="R270">
 <attribute name="NAME" x="68.58" y="132.08" size="1.778" layer="95"/>
