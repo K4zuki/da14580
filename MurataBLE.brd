@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.5.0">
+<eagle version="7.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -64,58 +64,58 @@
 <layer number="100" name="Muster" color="7" fill="1" visible="no" active="no"/>
 <layer number="101" name="Patch_Top" color="12" fill="4" visible="no" active="yes"/>
 <layer number="102" name="Vscore" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="103" name="tMap" color="7" fill="1" visible="no" active="yes"/>
-<layer number="104" name="Name" color="7" fill="1" visible="no" active="yes"/>
-<layer number="105" name="tPlate" color="7" fill="1" visible="no" active="yes"/>
-<layer number="106" name="bPlate" color="7" fill="1" visible="no" active="yes"/>
-<layer number="107" name="Crop" color="7" fill="1" visible="no" active="yes"/>
+<layer number="103" name="tMap" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="104" name="Name" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="105" name="tPlate" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="106" name="bPlate" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="107" name="Crop" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="108" name="fp8" color="7" fill="1" visible="no" active="yes"/>
 <layer number="109" name="fp9" color="7" fill="1" visible="no" active="yes"/>
 <layer number="110" name="fp0" color="7" fill="1" visible="no" active="yes"/>
-<layer number="111" name="LPC17xx" color="7" fill="1" visible="no" active="yes"/>
-<layer number="112" name="tSilk" color="7" fill="1" visible="no" active="yes"/>
-<layer number="113" name="FRNTTEKEN" color="7" fill="1" visible="no" active="yes"/>
-<layer number="114" name="FRNTMAAT1" color="7" fill="1" visible="no" active="yes"/>
-<layer number="115" name="FRNTMAAT2" color="7" fill="1" visible="no" active="yes"/>
-<layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="yes"/>
-<layer number="117" name="BACKMAAT1" color="7" fill="1" visible="no" active="yes"/>
-<layer number="118" name="BACKMAAT2" color="7" fill="1" visible="no" active="yes"/>
-<layer number="119" name="KAP_TEKEN" color="7" fill="1" visible="no" active="yes"/>
-<layer number="120" name="KAP_MAAT1" color="7" fill="1" visible="no" active="yes"/>
-<layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="yes"/>
-<layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="yes"/>
+<layer number="111" name="LPC17xx" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="112" name="tSilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="113" name="FRNTTEKEN" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="114" name="FRNTMAAT1" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="115" name="FRNTMAAT2" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="116" name="Patch_BOT" color="9" fill="4" visible="yes" active="yes"/>
+<layer number="117" name="BACKMAAT1" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="118" name="BACKMAAT2" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="119" name="KAP_TEKEN" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="120" name="KAP_MAAT1" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="121" name="_tsilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="122" name="_bsilk" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="123" name="tTestmark" color="7" fill="1" visible="no" active="yes"/>
 <layer number="124" name="bTestmark" color="7" fill="1" visible="no" active="yes"/>
-<layer number="125" name="_tNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="126" name="_bNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="127" name="_tValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="128" name="_bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="130" name="SMDSTROOK" color="7" fill="1" visible="no" active="yes"/>
+<layer number="125" name="_tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="126" name="_bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="127" name="_tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="128" name="_bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="130" name="SMDSTROOK" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="131" name="tAdjust" color="7" fill="1" visible="no" active="yes"/>
 <layer number="132" name="bAdjust" color="7" fill="1" visible="no" active="yes"/>
-<layer number="144" name="Drill_legend" color="7" fill="1" visible="no" active="yes"/>
+<layer number="144" name="Drill_legend" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="145" name="DrillLegend_01-16" color="2" fill="9" visible="no" active="yes"/>
 <layer number="146" name="DrillLegend_01-20" color="3" fill="9" visible="no" active="yes"/>
-<layer number="151" name="HeatSink" color="7" fill="1" visible="no" active="yes"/>
-<layer number="152" name="_bDocu" color="7" fill="1" visible="no" active="yes"/>
-<layer number="199" name="Contour" color="7" fill="1" visible="no" active="yes"/>
-<layer number="200" name="200bmp" color="1" fill="10" visible="no" active="yes"/>
-<layer number="201" name="201bmp" color="2" fill="10" visible="no" active="yes"/>
-<layer number="202" name="202bmp" color="3" fill="10" visible="no" active="yes"/>
-<layer number="203" name="203bmp" color="4" fill="10" visible="no" active="yes"/>
-<layer number="204" name="204bmp" color="5" fill="10" visible="no" active="yes"/>
-<layer number="205" name="205bmp" color="6" fill="10" visible="no" active="yes"/>
-<layer number="206" name="206bmp" color="7" fill="10" visible="no" active="yes"/>
-<layer number="207" name="207bmp" color="8" fill="10" visible="no" active="yes"/>
-<layer number="208" name="208bmp" color="9" fill="10" visible="no" active="yes"/>
+<layer number="151" name="HeatSink" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="152" name="_bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="199" name="Contour" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="200" name="200bmp" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="201" name="201bmp" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="202" name="202bmp" color="3" fill="10" visible="yes" active="yes"/>
+<layer number="203" name="203bmp" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="204" name="204bmp" color="5" fill="10" visible="yes" active="yes"/>
+<layer number="205" name="205bmp" color="6" fill="10" visible="yes" active="yes"/>
+<layer number="206" name="206bmp" color="7" fill="10" visible="yes" active="yes"/>
+<layer number="207" name="207bmp" color="8" fill="10" visible="yes" active="yes"/>
+<layer number="208" name="208bmp" color="9" fill="10" visible="yes" active="yes"/>
 <layer number="209" name="209bmp" color="7" fill="1" visible="no" active="yes"/>
 <layer number="210" name="210bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="211" name="211bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="212" name="212bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="213" name="213bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="214" name="214bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="215" name="215bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="216" name="216bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="211" name="211bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="212" name="212bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="213" name="213bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="214" name="214bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="215" name="215bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="216" name="216bmp" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="217" name="217bmp" color="18" fill="1" visible="no" active="no"/>
 <layer number="218" name="218bmp" color="19" fill="1" visible="no" active="no"/>
 <layer number="219" name="219bmp" color="20" fill="1" visible="no" active="no"/>
@@ -124,13 +124,13 @@
 <layer number="222" name="222bmp" color="23" fill="1" visible="no" active="no"/>
 <layer number="223" name="223bmp" color="24" fill="1" visible="no" active="no"/>
 <layer number="224" name="224bmp" color="25" fill="1" visible="no" active="no"/>
-<layer number="230" name="230bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="248" name="Housing" color="7" fill="1" visible="no" active="yes"/>
-<layer number="249" name="Edge" color="7" fill="1" visible="no" active="yes"/>
+<layer number="230" name="230bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="248" name="Housing" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="249" name="Edge" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
 <layer number="251" name="SMDround" color="4" fill="9" visible="no" active="yes"/>
-<layer number="254" name="cooling" color="7" fill="1" visible="no" active="yes"/>
-<layer number="255" name="Accent" color="7" fill="1" visible="no" active="yes"/>
+<layer number="254" name="cooling" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="255" name="Accent" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <board>
 <plain>
@@ -186,7 +186,7 @@
 <wire x1="32.1" y1="23" x2="31.3" y2="23" width="0.15" layer="41"/>
 <wire x1="28.6" y1="23" x2="28.6" y2="23.8" width="0.15" layer="41"/>
 <text x="11.6" y="35.1" size="1" layer="21" font="vector" ratio="20" rot="R90" align="center">muRata LBCA2HNZYZ BLE module breakout</text>
-<text x="12.5" y="45.2" size="1" layer="16" font="vector" ratio="20" rot="SMR270" align="center">rev 0.3 @_K4ZUKI_</text>
+<text x="12.8" y="43.8" size="1.2" layer="16" font="vector" ratio="17" rot="SMR270" align="center">rev 0.3 @_K4ZUKI_</text>
 <wire x1="29.2" y1="40.9" x2="29.8" y2="40.9" width="0.15" layer="41"/>
 <text x="34.2" y="18.4" size="1" layer="21" ratio="20" rot="R90" align="center">SWCLK</text>
 <text x="34.7" y="23" size="1" layer="21" ratio="20" rot="R90" align="center">SWDIO</text>
@@ -218,8 +218,8 @@
 <dimension x1="0" y1="0" x2="90" y2="0" x3="45" y3="-10.2" textsize="1.778" textratio="20" layer="47" precision="3" visible="yes"/>
 <dimension x1="90" y1="0" x2="90" y2="70" x3="94.5" y3="35" textsize="1.778" textratio="20" layer="47" precision="3" visible="yes"/>
 <wire x1="90" y1="70" x2="90" y2="0" width="0" layer="20"/>
-<text x="14.1" y="48" size="1" layer="21" ratio="20" rot="R90" align="center">ISP</text>
-<text x="19.1" y="48" size="1" layer="21" ratio="20" rot="R90" align="center">BL</text>
+<text x="14" y="48" size="1" layer="21" ratio="20" rot="R90" align="center">ISP</text>
+<text x="19" y="48" size="1" layer="21" ratio="20" rot="R90" align="center">BL</text>
 <text x="19.1" y="15.9" size="1" layer="21" ratio="20" rot="R270" align="center">RESET</text>
 <wire x1="49" y1="70" x2="49" y2="0" width="0.8" layer="102"/>
 <wire x1="10" y1="70" x2="10" y2="0" width="0.8" layer="102"/>
@@ -238,7 +238,7 @@
 <wire x1="23.4" y1="21.5" x2="23.4" y2="23.2" width="0.15" layer="41"/>
 <wire x1="22.2" y1="23.2" x2="22.2" y2="24.1" width="0.15" layer="41"/>
 <wire x1="23.4" y1="23.2" x2="23.4" y2="24.1" width="0.15" layer="41"/>
-<text x="11" y="45" size="1" layer="16" ratio="20" rot="SMR270" align="center">CC-BY-SA Licensed</text>
+<text x="11.3" y="43.8" size="1.2" layer="16" ratio="17" rot="SMR270" align="center">CC-BY-SA Licensed</text>
 <text x="36.1" y="23.6" size="1" layer="21" ratio="20" rot="R90" align="center">1.0</text>
 <text x="36.1" y="46.4" size="1" layer="21" ratio="20" rot="R90" align="center">1.1</text>
 <wire x1="35.6" y1="51.5" x2="36.6" y2="51.5" width="0.2" layer="21"/>
@@ -698,38 +698,38 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/TDA988
 <wire x1="-0.7" y1="-1.1" x2="-0.7" y2="-0.7" width="0.6" layer="31"/>
 <wire x1="-1.1" y1="-1.1" x2="-1.1" y2="-0.7" width="0.6" layer="31"/>
 <wire x1="-1.1" y1="-1.1" x2="-0.7" y2="-1.1" width="0.6" layer="31"/>
-<wire x1="-2.2" y1="1.75" x2="-2.9" y2="1.75" width="0.3" layer="31"/>
-<wire x1="-2.2" y1="1.25" x2="-2.9" y2="1.25" width="0.3" layer="31"/>
-<wire x1="-2.2" y1="0.75" x2="-2.9" y2="0.75" width="0.3" layer="31"/>
-<wire x1="-2.2" y1="0.25" x2="-2.9" y2="0.25" width="0.3" layer="31"/>
-<wire x1="-2.2" y1="-0.25" x2="-2.9" y2="-0.25" width="0.3" layer="31"/>
-<wire x1="-2.2" y1="-0.75" x2="-2.9" y2="-0.75" width="0.3" layer="31"/>
-<wire x1="-2.2" y1="-1.25" x2="-2.9" y2="-1.25" width="0.3" layer="31"/>
-<wire x1="-2.2" y1="-1.75" x2="-2.9" y2="-1.75" width="0.3" layer="31"/>
-<wire x1="-1.75" y1="-2.2" x2="-1.75" y2="-2.9" width="0.3" layer="31"/>
-<wire x1="-1.25" y1="-2.2" x2="-1.25" y2="-2.9" width="0.3" layer="31"/>
-<wire x1="-0.75" y1="-2.2" x2="-0.75" y2="-2.9" width="0.3" layer="31"/>
-<wire x1="-0.25" y1="-2.2" x2="-0.25" y2="-2.9" width="0.3" layer="31"/>
-<wire x1="0.25" y1="-2.2" x2="0.25" y2="-2.9" width="0.3" layer="31"/>
-<wire x1="0.75" y1="-2.2" x2="0.75" y2="-2.9" width="0.3" layer="31"/>
-<wire x1="1.25" y1="-2.2" x2="1.25" y2="-2.9" width="0.3" layer="31"/>
-<wire x1="1.75" y1="-2.2" x2="1.75" y2="-2.9" width="0.3" layer="31"/>
-<wire x1="2.2" y1="-1.75" x2="2.9" y2="-1.75" width="0.3" layer="31"/>
-<wire x1="2.2" y1="-1.25" x2="2.9" y2="-1.25" width="0.3" layer="31"/>
-<wire x1="2.2" y1="-0.75" x2="2.9" y2="-0.75" width="0.3" layer="31"/>
-<wire x1="2.2" y1="-0.25" x2="2.9" y2="-0.25" width="0.3" layer="31"/>
-<wire x1="2.2" y1="0.25" x2="2.9" y2="0.25" width="0.3" layer="31"/>
-<wire x1="2.2" y1="0.75" x2="2.9" y2="0.75" width="0.3" layer="31"/>
-<wire x1="2.2" y1="1.25" x2="2.9" y2="1.25" width="0.3" layer="31"/>
-<wire x1="2.2" y1="1.75" x2="2.9" y2="1.75" width="0.3" layer="31"/>
-<wire x1="1.75" y1="2.2" x2="1.75" y2="2.9" width="0.3" layer="31"/>
-<wire x1="1.25" y1="2.2" x2="1.25" y2="2.9" width="0.3" layer="31"/>
-<wire x1="0.75" y1="2.2" x2="0.75" y2="2.9" width="0.3" layer="31"/>
-<wire x1="0.25" y1="2.2" x2="0.25" y2="2.9" width="0.3" layer="31"/>
-<wire x1="-0.25" y1="2.2" x2="-0.25" y2="2.9" width="0.3" layer="31"/>
-<wire x1="-0.75" y1="2.2" x2="-0.75" y2="2.9" width="0.3" layer="31"/>
-<wire x1="-1.25" y1="2.2" x2="-1.25" y2="2.9" width="0.3" layer="31"/>
-<wire x1="-1.75" y1="2.2" x2="-1.75" y2="2.9" width="0.3" layer="31"/>
+<wire x1="-2.2" y1="1.75" x2="-2.95" y2="1.75" width="0.2" layer="31"/>
+<wire x1="-2.2" y1="1.25" x2="-2.95" y2="1.25" width="0.2" layer="31"/>
+<wire x1="-2.2" y1="0.75" x2="-2.95" y2="0.75" width="0.2" layer="31"/>
+<wire x1="-2.2" y1="0.25" x2="-2.95" y2="0.25" width="0.2" layer="31"/>
+<wire x1="-2.2" y1="-0.25" x2="-2.95" y2="-0.25" width="0.2" layer="31"/>
+<wire x1="-2.2" y1="-0.75" x2="-2.95" y2="-0.75" width="0.2" layer="31"/>
+<wire x1="-2.2" y1="-1.25" x2="-2.95" y2="-1.25" width="0.2" layer="31"/>
+<wire x1="-2.2" y1="-1.75" x2="-2.95" y2="-1.75" width="0.2" layer="31"/>
+<wire x1="-1.75" y1="-2.2" x2="-1.75" y2="-2.95" width="0.2" layer="31"/>
+<wire x1="-1.25" y1="-2.2" x2="-1.25" y2="-2.95" width="0.2" layer="31"/>
+<wire x1="-0.75" y1="-2.2" x2="-0.75" y2="-2.95" width="0.2" layer="31"/>
+<wire x1="-0.25" y1="-2.2" x2="-0.25" y2="-2.95" width="0.2" layer="31"/>
+<wire x1="0.25" y1="-2.2" x2="0.25" y2="-2.95" width="0.2" layer="31"/>
+<wire x1="0.75" y1="-2.2" x2="0.75" y2="-2.95" width="0.2" layer="31"/>
+<wire x1="1.25" y1="-2.2" x2="1.25" y2="-2.95" width="0.2" layer="31"/>
+<wire x1="1.75" y1="-2.2" x2="1.75" y2="-2.95" width="0.2" layer="31"/>
+<wire x1="2.2" y1="-1.75" x2="2.95" y2="-1.75" width="0.2" layer="31"/>
+<wire x1="2.2" y1="-1.25" x2="2.95" y2="-1.25" width="0.2" layer="31"/>
+<wire x1="2.2" y1="-0.75" x2="2.95" y2="-0.75" width="0.2" layer="31"/>
+<wire x1="2.2" y1="-0.25" x2="2.95" y2="-0.25" width="0.2" layer="31"/>
+<wire x1="2.2" y1="0.25" x2="2.95" y2="0.25" width="0.2" layer="31"/>
+<wire x1="2.2" y1="0.75" x2="2.95" y2="0.75" width="0.2" layer="31"/>
+<wire x1="2.2" y1="1.25" x2="2.95" y2="1.25" width="0.2" layer="31"/>
+<wire x1="2.2" y1="1.75" x2="2.95" y2="1.75" width="0.2" layer="31"/>
+<wire x1="1.75" y1="2.2" x2="1.75" y2="2.95" width="0.2" layer="31"/>
+<wire x1="1.25" y1="2.2" x2="1.25" y2="2.95" width="0.2" layer="31"/>
+<wire x1="0.75" y1="2.2" x2="0.75" y2="2.95" width="0.2" layer="31"/>
+<wire x1="0.25" y1="2.2" x2="0.25" y2="2.95" width="0.2" layer="31"/>
+<wire x1="-0.25" y1="2.2" x2="-0.25" y2="2.95" width="0.2" layer="31"/>
+<wire x1="-0.75" y1="2.2" x2="-0.75" y2="2.95" width="0.2" layer="31"/>
+<wire x1="-1.25" y1="2.2" x2="-1.25" y2="2.95" width="0.2" layer="31"/>
+<wire x1="-1.75" y1="2.2" x2="-1.75" y2="2.95" width="0.2" layer="31"/>
 </package>
 <package name="CR_1608">
 <wire x1="0" y1="0.6" x2="0" y2="-0.6" width="0.2" layer="21"/>
@@ -1389,6 +1389,9 @@ design rules under a new name.</description>
 <autorouter>
 <pass name="Default">
 <param name="RoutingGrid" value="50mil"/>
+<param name="AutoGrid" value="1"/>
+<param name="Efforts" value="0"/>
+<param name="TopRouterVariant" value="1"/>
 <param name="tpViaShape" value="round"/>
 <param name="PrefDir.1" value="|"/>
 <param name="PrefDir.2" value="0"/>
@@ -1480,12 +1483,18 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="U1" library="mylib" package="IC_MURATA_LBCA2HNZYZ-711" value="IC_BLE_LBCA2HNZYZ-711" x="22" y="52.5" smashed="yes">
+<element name="U1" library="mylib" package="IC_MURATA_LBCA2HNZYZ-711" value="LBCA2HNZYZ-711" x="22" y="52.5" smashed="yes">
 <attribute name="NAME" x="21.1" y="55.1" size="1" layer="21" ratio="20" rot="R90" align="center"/>
+<attribute name="DIGIKEY" value="490-10561-1-ND" x="22" y="52.5" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER" value="81-LBCA2HNZYZ-711" x="22" y="52.5" size="1.778" layer="27" display="off"/>
+<attribute name="AKIZUKI" value="" x="22" y="52.5" size="1.778" layer="27" display="off"/>
 </element>
 <element name="Q1" library="mylib" package="CRYSTAL_FC-135" value="FC-135 32.7680KA-AG3" x="31.6" y="52.3" smashed="yes" rot="R90">
 <attribute name="NAME" x="33.5" y="54" size="1" layer="25" font="vector" ratio="20" rot="R90" align="center"/>
 <attribute name="VALUE" x="34.3305" y="51.03" size="1.27" layer="27" font="vector" ratio="16" rot="R90"/>
+<attribute name="DIGIKEY" value="728-1076-1-ND" x="31.6" y="52.3" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER" value="" x="31.6" y="52.3" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="AKIZUKI" value="" x="31.6" y="52.3" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C2" library="mylib" package="C0402" value="0.1u/1005" x="28.5" y="51.6" smashed="yes">
 <attribute name="NAME" x="26.8" y="51.4" size="1" layer="25" font="vector" ratio="20" rot="R90" align="center"/>
@@ -1494,9 +1503,10 @@ design rules under a new name.</description>
 <attribute name="MOUSER" value="" x="28.5" y="51.6" size="1.778" layer="27" display="off"/>
 <attribute name="DIGIKEY" value="490-3261-1-ND" x="28.5" y="51.6" size="1.778" layer="27" display="off"/>
 </element>
-<element name="SW1" library="mylib" package="SW_TACTSW_P8073" value="P8073" x="19.1" y="22.4" smashed="yes" rot="R90">
+<element name="SW1" library="mylib" package="SW_TACTSW_P8073" value="" x="19.1" y="22.4" smashed="yes" rot="R90">
 <attribute name="NAME" x="17.5" y="18" size="1" layer="25" font="vector" ratio="20" rot="R90" align="center"/>
 <attribute name="VALUE" x="22.9" y="19.9" size="1.27" layer="27" font="vector" ratio="16" rot="R90"/>
+<attribute name="AKIZUKI" value="P-08073" x="19.1" y="22.4" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="PCB1" library="dp_pcb" package="DP5031_V1" value="PCB_DP_RECTANGLE-31X50" x="25.5" y="35" smashed="yes" rot="R270"/>
 <element name="R1" library="mylib" package="C0402" value="10k/1005" x="23.7" y="30.6" smashed="yes" rot="R180">
@@ -1513,6 +1523,8 @@ design rules under a new name.</description>
 <element name="CON1" library="mylib" package="CON_USB_MINIB_AKI" value="C-2235" x="25.5" y="17.7" smashed="yes" rot="R90">
 <attribute name="NAME" x="30.9" y="14.8" size="1.27" layer="25" font="vector" ratio="16" rot="R90" align="center"/>
 <attribute name="VALUE" x="31.8" y="11.4" size="1.27" layer="27" font="vector" ratio="16" rot="R90"/>
+<attribute name="DIGIKEY" value="" x="25.5" y="17.7" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="AKIZUKI" value="" x="25.5" y="17.7" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C1" library="mylib" package="CR_1608" value="1u/1608" x="22.8" y="22.9" smashed="yes" rot="R90">
 <attribute name="NAME" x="21.6" y="22.9" size="1" layer="25" font="vector" ratio="20" rot="R270" align="center"/>
@@ -1556,13 +1568,15 @@ design rules under a new name.</description>
 <attribute name="MOUSER" value="" x="30.5" y="21.6" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DIGIKEY" value="P33.0LCT-ND" x="30.5" y="21.6" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="SW2" library="mylib" package="SW_TACTSW_P8073" value="P8073" x="16.5" y="45" smashed="yes" rot="R270">
-<attribute name="NAME" x="14.1" y="45" size="1" layer="25" font="vector" ratio="20" rot="R90" align="center"/>
+<element name="SW2" library="mylib" package="SW_TACTSW_P8073" value="" x="16.5" y="45" smashed="yes" rot="R270">
+<attribute name="NAME" x="14" y="45" size="1" layer="25" font="vector" ratio="20" rot="R90" align="center"/>
 <attribute name="VALUE" x="12.7" y="47.5" size="1.27" layer="27" font="vector" ratio="16" rot="R270"/>
+<attribute name="AKIZUKI" value="P-08073" x="16.5" y="45" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="SW3" library="mylib" package="SW_TACTSW_P8073" value="P8073" x="21.5" y="45" smashed="yes" rot="R270">
-<attribute name="NAME" x="19.1" y="45" size="1" layer="25" font="vector" ratio="20" rot="R90" align="center"/>
+<element name="SW3" library="mylib" package="SW_TACTSW_P8073" value="" x="21.5" y="45" smashed="yes" rot="R270">
+<attribute name="NAME" x="19" y="45" size="1" layer="25" font="vector" ratio="20" rot="R90" align="center"/>
 <attribute name="VALUE" x="17.7" y="47.5" size="1.27" layer="27" font="vector" ratio="16" rot="R270"/>
+<attribute name="AKIZUKI" value="P-08074" x="21.5" y="45" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R6" library="mylib" package="C0402" value="10k/1005" x="26.3" y="30.6" smashed="yes">
 <attribute name="NAME" x="26.3" y="29.2" size="1" layer="25" font="vector" ratio="20" rot="R90" align="center"/>
@@ -1595,6 +1609,9 @@ design rules under a new name.</description>
 <element name="IC1" library="mylib" package="IC_05_0.95_50MIL" value="I-5448" x="25.4" y="24.6" smashed="yes">
 <attribute name="NAME" x="25.2" y="28.2" size="1" layer="25" font="vector" ratio="20" rot="R90" align="center"/>
 <attribute name="VALUE" x="22.9" y="20.8" size="1.27" layer="27" font="vector" ratio="16"/>
+<attribute name="AKIZUKI" value="I-05448" x="25.4" y="24.6" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER" value="" x="25.4" y="24.6" size="1.778" layer="27" display="off"/>
+<attribute name="DIGIKEY" value="" x="25.4" y="24.6" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C4" library="mylib" package="C0402" value="0.1u/1005" x="18" y="29.9" smashed="yes" rot="R180">
 <attribute name="NAME" x="16.4" y="29.9" size="1" layer="25" font="vector" ratio="20" rot="R270" align="center"/>
@@ -1646,21 +1663,21 @@ design rules under a new name.</description>
 <attribute name="NAME" x="19.8" y="29.7" size="1" layer="25" ratio="20" rot="R90" align="center"/>
 <attribute name="VALUE" x="22.2" y="29.9" size="1" layer="27" ratio="20" rot="R90"/>
 </element>
-<element name="R4" library="mylib" package="C0402" value="270/1005" x="23.7" y="32" smashed="yes" rot="R180">
+<element name="R4" library="mylib" package="C0402" value="" x="23.7" y="32" smashed="yes" rot="R180">
 <attribute name="NAME" x="24.9" y="33.1" size="1" layer="25" font="vector" ratio="20" rot="R270"/>
 <attribute name="VALUE" x="24.3" y="33.9" size="1" layer="27" font="vector" ratio="20" rot="R180"/>
 <attribute name="AKIZUKI" value="" x="23.7" y="32" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER" value="" x="23.7" y="32" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DIGIKEY" value="" x="23.7" y="32" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="R5" library="mylib" package="C0402" value="75/1005" x="28.8" y="30.3" smashed="yes" rot="R270">
+<element name="R5" library="mylib" package="C0402" value="" x="28.8" y="30.3" smashed="yes" rot="R270">
 <attribute name="NAME" x="28.4" y="29.3" size="1" layer="25" font="vector" ratio="20" rot="R270"/>
 <attribute name="VALUE" x="26.9" y="30.9" size="1" layer="27" font="vector" ratio="20" rot="R270"/>
 <attribute name="AKIZUKI" value="" x="28.8" y="30.3" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER" value="" x="28.8" y="30.3" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DIGIKEY" value="" x="28.8" y="30.3" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="R11" library="mylib" package="C0402" value="75/1005" x="33.9" y="29.9" smashed="yes" rot="R270">
+<element name="R11" library="mylib" package="C0402" value="" x="33.9" y="29.9" smashed="yes" rot="R270">
 <attribute name="NAME" x="32.3" y="29.9" size="1" layer="25" font="vector" ratio="20" rot="R90" align="center"/>
 <attribute name="VALUE" x="32" y="30.5" size="1" layer="27" font="vector" ratio="20" rot="R270"/>
 <attribute name="AKIZUKI" value="" x="33.9" y="29.9" size="1.778" layer="27" rot="R270" display="off"/>
@@ -1716,6 +1733,9 @@ design rules under a new name.</description>
 </element>
 <element name="Q2" library="mylib" package="CLOCK_3225" value="" x="19.1" y="35.9" smashed="yes" rot="R180">
 <attribute name="NAME" x="18" y="37.8" size="1" layer="25" font="vector" ratio="20" rot="R90"/>
+<attribute name="AKIZUKI" value="" x="19.1" y="35.9" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER" value="" x="19.1" y="35.9" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DIGIKEY" value="1253-1168-1-ND" x="19.1" y="35.9" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 </elements>
 <signals>
