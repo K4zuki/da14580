@@ -1578,6 +1578,23 @@ wave soldering</description>
 <wire x1="-0.7" y1="-1.1" x2="-1.4" y2="-1.1" width="0.4" layer="31"/>
 <wire x1="-1.4" y1="-1.1" x2="-1.4" y2="-0.6" width="0.4" layer="31"/>
 </package>
+<package name="TP_1608">
+<smd name="TP" x="0" y="0" dx="1.8" dy="1" layer="1" stop="no" cream="no"/>
+<wire x1="0.8" y1="0.4" x2="0.8" y2="-0.4" width="0.2" layer="51"/>
+<wire x1="0.8" y1="-0.4" x2="-0.8" y2="-0.4" width="0.2" layer="51"/>
+<wire x1="-0.8" y1="-0.4" x2="-0.8" y2="0.4" width="0.2" layer="51"/>
+<wire x1="-0.8" y1="0.4" x2="0.8" y2="0.4" width="0.2" layer="51"/>
+<wire x1="-1.1" y1="0.7" x2="1.1" y2="0.7" width="0.2" layer="21"/>
+<wire x1="1.1" y1="0.7" x2="1.1" y2="-0.7" width="0.2" layer="21"/>
+<wire x1="1.1" y1="-0.7" x2="-1.1" y2="-0.7" width="0.2" layer="21"/>
+<wire x1="-1.1" y1="-0.7" x2="-1.1" y2="0.7" width="0.2" layer="21"/>
+<rectangle x1="-0.95" y1="-0.55" x2="0.95" y2="0.55" layer="29"/>
+<wire x1="-0.65" y1="0.25" x2="0.65" y2="0.25" width="0.4" layer="31"/>
+<wire x1="0.65" y1="0.25" x2="0.65" y2="-0.25" width="0.4" layer="31"/>
+<wire x1="0.65" y1="-0.25" x2="-0.65" y2="-0.25" width="0.4" layer="31"/>
+<wire x1="-0.65" y1="-0.25" x2="-0.65" y2="0.25" width="0.4" layer="31"/>
+<rectangle x1="-0.65" y1="-0.25" x2="0.65" y2="0.25" layer="31"/>
+</package>
 </packages>
 <symbols>
 <symbol name="CON_MICROSD_C-2395">
@@ -2279,7 +2296,7 @@ http://www.mouser.jp/ProductDetail/Hirose-Connector/DM3AT-SF-PEJM5/?qs=LZSZKJVF%
 </technology>
 <technology name="1.0K">
 <attribute name="AKIZUKI" value="" constant="no"/>
-<attribute name="DIGIKEY" value="" constant="no"/>
+<attribute name="DIGIKEY" value="P1.00KLCT-ND " constant="no"/>
 <attribute name="MOUSER" value="" constant="no"/>
 </technology>
 <technology name="1.5K">
@@ -2300,6 +2317,11 @@ http://www.mouser.jp/ProductDetail/Hirose-Connector/DM3AT-SF-PEJM5/?qs=LZSZKJVF%
 <technology name="15K">
 <attribute name="AKIZUKI" value="" constant="no"/>
 <attribute name="DIGIKEY" value="P15.0KLCT-ND" constant="no"/>
+<attribute name="MOUSER" value="" constant="no"/>
+</technology>
+<technology name="220R">
+<attribute name="AKIZUKI" value="" constant="no"/>
+<attribute name="DIGIKEY" value="" constant="no"/>
 <attribute name="MOUSER" value="" constant="no"/>
 </technology>
 <technology name="270R">
@@ -2513,6 +2535,11 @@ high speed (Philips)</description>
 <attribute name="DIGIKEY" value="" constant="no"/>
 <attribute name="MOUSER" value="" constant="no"/>
 </technology>
+<technology name="48M">
+<attribute name="AKIZUKI" value="" constant="no"/>
+<attribute name="DIGIKEY" value="1253-1227-1-ND" constant="no"/>
+<attribute name="MOUSER" value="" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="_2520" package="CLOCK_2520">
@@ -2536,6 +2563,11 @@ high speed (Philips)</description>
 <technology name="16M">
 <attribute name="AKIZUKI" value="" constant="no"/>
 <attribute name="DIGIKEY" value="887-1833-1-ND" constant="no"/>
+<attribute name="MOUSER" value="" constant="no"/>
+</technology>
+<technology name="48M">
+<attribute name="AKIZUKI" value="" constant="no"/>
+<attribute name="DIGIKEY" value="644-1068-2-ND" constant="no"/>
 <attribute name="MOUSER" value="" constant="no"/>
 </technology>
 <technology name="6.0M">
@@ -2752,6 +2784,16 @@ high speed (Philips)</description>
 </connects>
 <technologies>
 <technology name=""/>
+</technologies>
+</device>
+<device name="_1608" package="TP_1608">
+<connects>
+<connect gate="1" pin="1" pad="TP"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="A106145CT-ND" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -4895,10 +4937,10 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="R18" library="mylib" deviceset="R_US_*" device="_1005" technology="10K" value="10k/1005"/>
 <part name="R19" library="mylib" deviceset="R_US_*" device="_1005" technology="10K" value="10k/1005"/>
 <part name="R20" library="mylib" deviceset="R_US_*" device="_1005" technology="10K" value="10k/1005"/>
-<part name="TP1" library="mylib" deviceset="TESTPAD" device=""/>
-<part name="TP2" library="mylib" deviceset="TESTPAD" device=""/>
-<part name="TP6" library="mylib" deviceset="TESTPAD" device=""/>
-<part name="TP7" library="mylib" deviceset="TESTPAD" device=""/>
+<part name="TP1" library="mylib" deviceset="TESTPAD" device="_1608" value="TESTPAD_1608"/>
+<part name="TP2" library="mylib" deviceset="TESTPAD" device="_1608" value="TESTPAD_1608"/>
+<part name="TP6" library="mylib" deviceset="TESTPAD" device="_1608" value="TESTPAD_1608"/>
+<part name="TP7" library="mylib" deviceset="TESTPAD" device="_1608" value="TESTPAD_1608"/>
 <part name="TP8" library="testpad_local" deviceset="TP" device="PAD1-13"/>
 <part name="TP9" library="testpad_local" deviceset="TP" device="PAD1-13"/>
 <part name="SUPPLY25" library="mylib" deviceset="GND" device=""/>
@@ -4933,6 +4975,14 @@ DETECT1 = P0_11
 P0_20
 P0_2
 *BL = P0_14*</text>
+<circle x="188.976" y="81.28" radius="0.915809375" width="0.1524" layer="94"/>
+<circle x="188.976" y="76.2" radius="0.915809375" width="0.1524" layer="94"/>
+<wire x1="188.976" y1="82.804" x2="188.976" y2="74.676" width="0.1524" layer="94" curve="-90"/>
+<wire x1="188.976" y1="82.804" x2="198.12" y2="78.74" width="0.1524" layer="94" curve="-90"/>
+<wire x1="198.12" y1="78.74" x2="188.976" y2="74.676" width="0.1524" layer="94" curve="-90"/>
+<wire x1="198.12" y1="78.74" x2="202.692" y2="78.74" width="0.1524" layer="94"/>
+<wire x1="185.42" y1="81.28" x2="187.96" y2="81.28" width="0.1524" layer="94"/>
+<wire x1="185.42" y1="76.2" x2="187.96" y2="76.2" width="0.1524" layer="94"/>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
