@@ -4930,9 +4930,9 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="SUPPLY24" library="mylib" deviceset="GND" device=""/>
 <part name="R15" library="mylib" deviceset="R_US_*" device="_1005" technology="1.0K" value="1k/1005"/>
 <part name="R16" library="mylib" deviceset="R_US_*" device="_1005" technology="1.0K" value="1k/1005"/>
-<part name="TP3" library="mylib" deviceset="TESTPAD" device="_F"/>
-<part name="TP4" library="mylib" deviceset="TESTPAD" device="_F"/>
-<part name="TP5" library="mylib" deviceset="TESTPAD" device="_F"/>
+<part name="TP101" library="mylib" deviceset="TESTPAD" device="_F"/>
+<part name="TP102" library="mylib" deviceset="TESTPAD" device="_F"/>
+<part name="TP103" library="mylib" deviceset="TESTPAD" device="_F"/>
 <part name="R17" library="mylib" deviceset="R_US_*" device="_1005" technology="10K" value="10k/1005"/>
 <part name="R18" library="mylib" deviceset="R_US_*" device="_1005" technology="10K" value="10k/1005"/>
 <part name="R19" library="mylib" deviceset="R_US_*" device="_1005" technology="10K" value="10k/1005"/>
@@ -4983,6 +4983,8 @@ P0_2
 <wire x1="198.12" y1="78.74" x2="202.692" y2="78.74" width="0.1524" layer="94"/>
 <wire x1="185.42" y1="81.28" x2="187.96" y2="81.28" width="0.1524" layer="94"/>
 <wire x1="185.42" y1="76.2" x2="187.96" y2="76.2" width="0.1524" layer="94"/>
+<wire x1="160.02" y1="22.86" x2="142.24" y2="22.86" width="0.1524" layer="94"/>
+<wire x1="142.24" y1="22.86" x2="142.24" y2="5.08" width="0.1524" layer="94"/>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
@@ -5081,9 +5083,9 @@ P0_2
 <instance part="SUPPLY24" gate="GND" x="187.96" y="124.46"/>
 <instance part="R15" gate="G$1" x="172.72" y="104.14"/>
 <instance part="R16" gate="G$1" x="172.72" y="106.68"/>
-<instance part="TP3" gate="1" x="149.86" y="7.62"/>
-<instance part="TP4" gate="1" x="149.86" y="10.16"/>
-<instance part="TP5" gate="1" x="149.86" y="12.7"/>
+<instance part="TP101" gate="1" x="149.86" y="7.62"/>
+<instance part="TP102" gate="1" x="149.86" y="10.16"/>
+<instance part="TP103" gate="1" x="149.86" y="12.7"/>
 <instance part="R17" gate="G$1" x="114.3" y="76.2"/>
 <instance part="R18" gate="G$1" x="114.3" y="68.58"/>
 <instance part="R19" gate="G$1" x="114.3" y="66.04"/>
