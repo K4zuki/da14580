@@ -1073,6 +1073,36 @@ wave soldering</description>
 <wire x1="0.325" y1="-2.8" x2="0.325" y2="-3.6" width="0.3" layer="31"/>
 <wire x1="0.975" y1="-2.8" x2="0.975" y2="-3.6" width="0.3" layer="31"/>
 </package>
+<package name="TP_1608">
+<smd name="TP" x="0" y="0" dx="1.8" dy="1" layer="1" stop="no" cream="no"/>
+<wire x1="0.8" y1="0.4" x2="0.8" y2="-0.4" width="0.2" layer="51"/>
+<wire x1="0.8" y1="-0.4" x2="-0.8" y2="-0.4" width="0.2" layer="51"/>
+<wire x1="-0.8" y1="-0.4" x2="-0.8" y2="0.4" width="0.2" layer="51"/>
+<wire x1="-0.8" y1="0.4" x2="0.8" y2="0.4" width="0.2" layer="51"/>
+<wire x1="-1.1" y1="0.7" x2="1.1" y2="0.7" width="0.2" layer="21"/>
+<wire x1="1.1" y1="0.7" x2="1.1" y2="-0.7" width="0.2" layer="21"/>
+<wire x1="1.1" y1="-0.7" x2="-1.1" y2="-0.7" width="0.2" layer="21"/>
+<wire x1="-1.1" y1="-0.7" x2="-1.1" y2="0.7" width="0.2" layer="21"/>
+<rectangle x1="-0.95" y1="-0.55" x2="0.95" y2="0.55" layer="29"/>
+<wire x1="-0.65" y1="0.25" x2="0.65" y2="0.25" width="0.4" layer="31"/>
+<wire x1="0.65" y1="0.25" x2="0.65" y2="-0.25" width="0.4" layer="31"/>
+<wire x1="0.65" y1="-0.25" x2="-0.65" y2="-0.25" width="0.4" layer="31"/>
+<wire x1="-0.65" y1="-0.25" x2="-0.65" y2="0.25" width="0.4" layer="31"/>
+<rectangle x1="-0.65" y1="-0.25" x2="0.65" y2="0.25" layer="31"/>
+</package>
+<package name="TP_4020">
+<smd name="TP" x="0" y="0" dx="3.8" dy="2" layer="1" stop="no" cream="no"/>
+<wire x1="-1.65" y1="0.75" x2="1.65" y2="0.75" width="0.4" layer="31"/>
+<wire x1="1.65" y1="0.75" x2="1.65" y2="-0.75" width="0.4" layer="31"/>
+<wire x1="1.65" y1="-0.75" x2="-1.65" y2="-0.75" width="0.4" layer="31"/>
+<wire x1="-1.65" y1="-0.75" x2="-1.65" y2="0.75" width="0.4" layer="31"/>
+<rectangle x1="-1.95" y1="-1.05" x2="1.95" y2="1.05" layer="29"/>
+<rectangle x1="-1.5" y1="-0.6" x2="1.5" y2="0.6" layer="31"/>
+<wire x1="-2.1" y1="1.2" x2="2.1" y2="1.2" width="0.2" layer="21"/>
+<wire x1="2.1" y1="1.2" x2="2.1" y2="-1.2" width="0.2" layer="21"/>
+<wire x1="2.1" y1="-1.2" x2="-2.1" y2="-1.2" width="0.2" layer="21"/>
+<wire x1="-2.1" y1="-1.2" x2="-2.1" y2="1.2" width="0.2" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="IC_DA14580_QFN40">
@@ -1516,7 +1546,7 @@ wave soldering</description>
 </technology>
 <technology name="32.768K">
 <attribute name="AKIZUKI" value="" constant="no"/>
-<attribute name="DIGIKEY" value="728-1076-1-ND" constant="no"/>
+<attribute name="DIGIKEY" value="1253-1342-1-ND" constant="no"/>
 <attribute name="MOUSER" value="" constant="no"/>
 </technology>
 </technologies>
@@ -1657,7 +1687,7 @@ wave soldering</description>
 </technology>
 <technology name="1.0K">
 <attribute name="AKIZUKI" value="" constant="no"/>
-<attribute name="DIGIKEY" value="" constant="no"/>
+<attribute name="DIGIKEY" value="P1.00KLCT-ND " constant="no"/>
 <attribute name="MOUSER" value="" constant="no"/>
 </technology>
 <technology name="1.5K">
@@ -1796,14 +1826,16 @@ wave soldering</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="ICON_OSHW">
+<deviceset name="ICON_OSHW" prefix="ICON" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="ICON_OSHW" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="ICON_OSHW">
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="NOT_COMPONENT" value="YES" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -1836,6 +1868,11 @@ wave soldering</description>
 <attribute name="DIGIKEY" value="" constant="no"/>
 <attribute name="MOUSER" value="" constant="no"/>
 </technology>
+<technology name="48M">
+<attribute name="AKIZUKI" value="" constant="no"/>
+<attribute name="DIGIKEY" value="1253-1227-1-ND" constant="no"/>
+<attribute name="MOUSER" value="" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="_2520" package="CLOCK_2520">
@@ -1861,6 +1898,11 @@ wave soldering</description>
 <attribute name="DIGIKEY" value="887-1833-1-ND" constant="no"/>
 <attribute name="MOUSER" value="" constant="no"/>
 </technology>
+<technology name="48M">
+<attribute name="AKIZUKI" value="" constant="no"/>
+<attribute name="DIGIKEY" value="644-1068-2-ND" constant="no"/>
+<attribute name="MOUSER" value="" constant="no"/>
+</technology>
 <technology name="6.0M">
 <attribute name="AKIZUKI" value="" constant="no"/>
 <attribute name="DIGIKEY" value="" constant="no"/>
@@ -1870,7 +1912,7 @@ wave soldering</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="INDUCTOR_" prefix="L">
+<deviceset name="INDUCTOR_" prefix="L" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="INDUCTOR" x="0" y="0"/>
 </gates>
@@ -1927,7 +1969,7 @@ wave soldering</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="TESTPAD" prefix="TP">
+<deviceset name="TESTPAD" prefix="TP" uservalue="yes">
 <gates>
 <gate name="1" symbol="MPIN" x="0" y="0"/>
 </gates>
@@ -1937,7 +1979,9 @@ wave soldering</description>
 <connect gate="1" pin="1" pad="TP"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="NOT_COMPONENT" value="YES" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="_F" package="FIDUCIAL">
@@ -1945,7 +1989,29 @@ wave soldering</description>
 <connect gate="1" pin="1" pad="TP"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="NOT_COMPONENT" value="YES" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_1608" package="TP_1608">
+<connects>
+<connect gate="1" pin="1" pad="TP"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="A106145CT-ND" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_4020" package="TP_4020">
+<connects>
+<connect gate="1" pin="1" pad="TP"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="36-5019CT-ND" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -2019,7 +2085,6 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <wire x1="-1.5" y1="-0.8" x2="-1.5" y2="-0.3" width="0.2" layer="21"/>
 <wire x1="1.5" y1="0.8" x2="1.5" y2="-0.8" width="0.2" layer="21"/>
 <wire x1="-0.4" y1="0.8" x2="0.4" y2="0.8" width="0.2" layer="21"/>
-<wire x1="-1.7" y1="-1.4" x2="-1.7" y2="-1.6" width="0.4" layer="21"/>
 <wire x1="-1.8" y1="-2.1" x2="-1.8" y2="2.2" width="0.2" layer="39"/>
 <wire x1="-1.8" y1="2.2" x2="1.8" y2="2.2" width="0.2" layer="39"/>
 <wire x1="1.8" y1="2.2" x2="1.8" y2="-2.1" width="0.2" layer="39"/>
@@ -2029,12 +2094,13 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <rectangle x1="-1.25" y1="-2" x2="-0.65" y2="-0.8" layer="29" rot="R180"/>
 <rectangle x1="-0.3" y1="-2" x2="0.3" y2="-0.8" layer="29" rot="R180"/>
 <rectangle x1="0.65" y1="-2" x2="1.25" y2="-0.8" layer="29" rot="R180"/>
-<circle x="-1.7" y="-1.5" radius="0.2" width="0.2" layer="21"/>
+<circle x="-1.7" y="-1.3" radius="0.2" width="0.2" layer="21"/>
 <wire x1="-0.95" y1="1.1" x2="-0.95" y2="1.7" width="0.4" layer="31"/>
 <wire x1="0.95" y1="1.1" x2="0.95" y2="1.7" width="0.4" layer="31"/>
 <wire x1="0.95" y1="-1.7" x2="0.95" y2="-1.1" width="0.4" layer="31"/>
 <wire x1="0" y1="-1.7" x2="0" y2="-1.1" width="0.4" layer="31"/>
 <wire x1="-0.95" y1="-1.7" x2="-0.95" y2="-1.1" width="0.4" layer="31"/>
+<rectangle x1="-1.9" y1="-1.5" x2="-1.5" y2="-1.1" layer="21"/>
 </package>
 <package name="SC70-5">
 <description>&lt;b&gt;SMT SC70-5&lt;/b&gt;&lt;p&gt;
@@ -2818,7 +2884,7 @@ Source: Samtec SSW.pdf</description>
 <part name="SUPPLY9" library="mylib" deviceset="GND" device=""/>
 <part name="SUPPLY11" library="mylib" deviceset="GND" device=""/>
 <part name="C3" library="mylib" deviceset="C_SMD_*" device="_1005" technology="1.0U"/>
-<part name="L1" library="mylib" deviceset="INDUCTOR_" device="_1608" technology="2.2U" value=""/>
+<part name="L1" library="mylib" deviceset="INDUCTOR_" device="_1608" technology="2.2U"/>
 <part name="R1" library="mylib" deviceset="R_US_*" device="_1005" technology="10K"/>
 <part name="IC1" library="mylib" deviceset="IC_MEMORY_8P_*" device="_SOP" technology="AT25XE011" value="IC_MEMORY_8P_AT25XE011_SOP"/>
 <part name="P+3" library="mylib" deviceset="VCC" device=""/>
