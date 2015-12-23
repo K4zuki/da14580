@@ -1937,7 +1937,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <text x="78.74" y="124.46" size="1.778" layer="94" rot="MR0" align="center-left">VPP</text>
 <text x="48.26" y="88.9" size="1.778" layer="94" rot="MR0" align="center-left">VPP</text>
 <circle x="241.3" y="40.64" radius="15.24" width="0.1524" layer="91"/>
-<text x="91.44" y="134.62" size="1.778" layer="94">P0_0 = TP1
+<text x="5.08" y="5.08" size="2.1844" layer="94">P0_0 = TP1
 P0_1 = TP2
 P0_2 = TP3
 P0_3 = TP4
