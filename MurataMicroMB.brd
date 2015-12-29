@@ -164,7 +164,6 @@
 <wire x1="71" y1="9" x2="76" y2="9" width="2" layer="46"/>
 <text x="49.3" y="13.1" size="1.5" layer="1" ratio="20" align="center">LBCA2HNZYZ-uSD
 Writer / Debugger</text>
-<text x="70.5" y="13.9" size="1.5" layer="1" ratio="20" align="center">r0.2</text>
 <text x="67.1" y="11.7" size="1.5" layer="1" ratio="20" align="center">@_K4ZUKI_</text>
 <text x="76.1" y="-4.9" size="1.778" layer="102" ratio="17">V-CUT</text>
 <text x="6.9" y="-5.1" size="1.778" layer="102" ratio="17">V-CUT</text>
@@ -254,7 +253,7 @@ Writer / Debugger</text>
 <wire x1="-6.5" y1="3.1" x2="-6.5" y2="0" width="0.2" layer="51"/>
 <wire x1="7.4" y1="0" x2="7.4" y2="2.2" width="0.2" layer="51"/>
 <wire x1="6.1" y1="0" x2="7.4" y2="0" width="0.2" layer="51"/>
-<text x="7.4" y="16.2" size="1" layer="25" ratio="20">&gt;NAME</text>
+<text x="0" y="0" size="1" layer="25" ratio="20" align="center">&gt;NAME</text>
 <wire x1="-5.6" y1="0" x2="-6.5" y2="0" width="0.2" layer="51"/>
 <circle x="0" y="0" radius="0.3" width="0.1" layer="51"/>
 <wire x1="-0.3" y1="0" x2="0.3" y2="0" width="0.1" layer="51"/>
@@ -545,7 +544,7 @@ Writer / Debugger</text>
 <package name="DIODE_2125">
 <wire x1="-2.5" y1="1" x2="2.4" y2="1" width="0.2" layer="21"/>
 <wire x1="2.4" y1="-1" x2="-2.5" y2="-1" width="0.2" layer="21"/>
-<text x="-0.635" y="1.27" size="1" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="0" y="0" size="1" layer="25" font="vector" ratio="20" align="center">&gt;NAME</text>
 <wire x1="2.4" y1="1" x2="2.4" y2="-1" width="0.2" layer="21"/>
 <smd name="K" x="-1.4" y="0" dx="1.4" dy="1.4" layer="1" stop="no" cream="no"/>
 <smd name="A" x="1.4" y="0" dx="1.4" dy="1.4" layer="1" stop="no" cream="no"/>
@@ -646,8 +645,8 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/TDA988
 <smd name="31" x="-1.25" y="2.65" dx="1.2" dy="0.3" layer="1" rot="R90" stop="no" cream="no"/>
 <smd name="32" x="-1.75" y="2.65" dx="1.2" dy="0.3" layer="1" rot="R90" stop="no" cream="no"/>
 <smd name="EXP" x="0" y="0" dx="3.5" dy="3.5" layer="1" stop="no" cream="no"/>
-<text x="-2.5" y="3.4" size="1.27" layer="25" ratio="16">&gt;NAME</text>
-<text x="-2.5" y="-4.6" size="1.27" layer="27" ratio="16">&gt;VALUE</text>
+<text x="0" y="0" size="1.2" layer="25" ratio="17" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1" layer="27" align="center">&gt;VALUE</text>
 <wire x1="-2.1" y1="2.8" x2="-2.8" y2="2.8" width="0.2" layer="21"/>
 <wire x1="-2.8" y1="2.8" x2="-2.8" y2="2.1" width="0.2" layer="21"/>
 <wire x1="2.8" y1="-2.8" x2="2.1" y2="-2.8" width="0.2" layer="21"/>
@@ -863,8 +862,8 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/TDA988
 <wire x1="-0.35" y1="-0.7" x2="0.45" y2="-0.7" width="0.2" layer="21"/>
 <wire x1="-1.5" y1="0.7" x2="-0.55" y2="0.7" width="0.2" layer="21"/>
 <wire x1="1.6" y1="0.7" x2="0.55" y2="0.7" width="0.2" layer="21"/>
-<text x="0" y="2.3" size="1" layer="21" font="vector" ratio="20" align="center">&gt;NAME</text>
-<text x="0" y="-2.5" size="1" layer="27" font="vector" ratio="20" align="center">&gt;VALUE</text>
+<text x="0" y="0" size="1" layer="21" font="vector" ratio="20" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1" layer="27" font="vector" align="center">&gt;VALUE</text>
 <rectangle x1="-0.4" y1="0.65" x2="0.4" y2="1.75" layer="29"/>
 <rectangle x1="-1.3" y1="-1.75" x2="-0.5" y2="-0.65" layer="29"/>
 <rectangle x1="0.6" y1="-1.75" x2="1.4" y2="-0.65" layer="29"/>
@@ -894,8 +893,8 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/TDA988
 <wire x1="1.5" y1="-0.7" x2="1.45" y2="-0.7" width="0.2" layer="21"/>
 <wire x1="-1.4" y1="0.7" x2="-0.55" y2="0.7" width="0.2" layer="21"/>
 <wire x1="1.5" y1="0.7" x2="0.55" y2="0.7" width="0.2" layer="21"/>
-<text x="0" y="2.3" size="1" layer="21" font="vector" ratio="20" align="center">&gt;NAME</text>
-<text x="0" y="-2.5" size="1" layer="27" font="vector" ratio="20" align="center">&gt;VALUE</text>
+<text x="0" y="0" size="1" layer="21" font="vector" ratio="20" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1" layer="27" font="vector" align="center">&gt;VALUE</text>
 <rectangle x1="-0.4" y1="0.65" x2="0.4" y2="1.75" layer="29"/>
 <rectangle x1="-1.2" y1="-1.75" x2="-0.4" y2="-0.65" layer="29"/>
 <rectangle x1="0.5" y1="-1.75" x2="1.3" y2="-0.65" layer="29"/>
@@ -1074,11 +1073,12 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/TDA988
 <wire x1="0.65" y1="-0.25" x2="-0.65" y2="-0.25" width="0.4" layer="31"/>
 <wire x1="-0.65" y1="-0.25" x2="-0.65" y2="0.25" width="0.4" layer="31"/>
 <rectangle x1="-0.65" y1="-0.25" x2="0.65" y2="0.25" layer="31"/>
+<text x="0" y="0" size="1" layer="49" ratio="20" align="center">&gt;NAME</text>
 </package>
 <package name="TP06RECT">
 <description>&lt;b&gt;TEST PAD&lt;/b&gt;</description>
 <smd name="TP" x="0" y="0" dx="0.4" dy="0.6" layer="1" stop="no" cream="no"/>
-<text x="0" y="0" size="1.2" layer="25" ratio="17" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.2" layer="49" ratio="17" align="center">&gt;NAME</text>
 <text x="-0.254" y="-0.381" size="0.0254" layer="27">&gt;VALUE</text>
 <text x="0" y="-1.905" size="1" layer="37">&gt;TP_SIGNAL_NAME</text>
 <rectangle x1="-0.25" y1="-0.35" x2="0.25" y2="0.35" layer="29"/>
@@ -1099,6 +1099,7 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/TDA988
 <wire x1="2.1" y1="1.2" x2="2.1" y2="-1.2" width="0.2" layer="21"/>
 <wire x1="2.1" y1="-1.2" x2="-2.1" y2="-1.2" width="0.2" layer="21"/>
 <wire x1="-2.1" y1="-1.2" x2="-2.1" y2="1.2" width="0.2" layer="21"/>
+<text x="0" y="0" size="1" layer="49" ratio="20" align="center">&gt;NAME</text>
 </package>
 <package name="SOT95P280X145-5N">
 <smd name="1" x="-1.3" y="0.95" dx="1.2" dy="0.7" layer="1" stop="no" cream="no"/>
@@ -1106,8 +1107,8 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/TDA988
 <smd name="3" x="-1.3" y="-0.95" dx="1.2" dy="0.7" layer="1" stop="no" cream="no"/>
 <smd name="4" x="1.3" y="-0.95" dx="1.2" dy="0.7" layer="1" stop="no" cream="no"/>
 <smd name="5" x="1.3" y="0.95" dx="1.2" dy="0.7" layer="1" stop="no" cream="no"/>
-<text x="-2.1" y="2.2" size="1.2" layer="25" ratio="17" rot="SR0">&gt;NAME</text>
-<text x="-1.9" y="-3" size="1.2" layer="27" ratio="17" rot="SR0">&gt;VALUE</text>
+<text x="0" y="0" size="1.2" layer="25" font="vector" ratio="17" rot="SR0" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.2" layer="27" rot="SR0" align="center">&gt;VALUE</text>
 <wire x1="-1.65" y1="0.1" x2="-0.95" y2="0.1" width="0.4" layer="31"/>
 <wire x1="-0.9" y1="-1.5" x2="-0.9" y2="1.5" width="0.2" layer="51"/>
 <wire x1="-0.3" y1="1.5" x2="0.3" y2="1.5" width="0.2" layer="21" curve="180"/>
@@ -1148,6 +1149,13 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/TDA988
 <wire x1="0.9" y1="-1.5" x2="0.9" y2="-0.4" width="0.2" layer="51"/>
 <rectangle x1="-1.5" y1="1.6" x2="-1.1" y2="2" layer="21"/>
 <circle x="-1.3" y="1.8" radius="0.2" width="0.2" layer="21"/>
+</package>
+<package name="ICON_REVISION2.0">
+<text x="0" y="0" size="2" layer="21" font="vector" ratio="10" align="center">&gt;VALUE</text>
+<wire x1="-3.3" y1="1.2" x2="2.8" y2="1.2" width="0.2" layer="21"/>
+<wire x1="2.8" y1="1.2" x2="2.8" y2="-1.2" width="0.2" layer="21"/>
+<wire x1="2.8" y1="-1.2" x2="-3.3" y2="-1.2" width="0.2" layer="21"/>
+<wire x1="-3.3" y1="-1.2" x2="-3.3" y2="1.2" width="0.2" layer="21"/>
 </package>
 </packages>
 </library>
@@ -1757,7 +1765,7 @@ design rules under a new name.</description>
 <attribute name="MOUSER" value="" x="20.8" y="32.8" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DIGIKEY" value="490-5858-1-ND" x="20.8" y="32.8" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="TR1" library="mylib" package="SOT95P300X140-3N" value="" x="24.3" y="30.9" smashed="yes" rot="R180">
+<element name="TR1" library="mylib" package="SOT95P300X140-3N" value="PMOS_BSS84_SOT23" x="24.3" y="30.9" smashed="yes" rot="R180">
 <attribute name="NAME" x="27.2" y="30.9" size="1" layer="21" font="vector" ratio="20" rot="R180" align="center"/>
 <attribute name="VALUE" x="24.3" y="33.4" size="1" layer="27" font="vector" ratio="20" rot="R180" align="center"/>
 <attribute name="AKIZUKI" value="I-04269/I-04270(reel)" x="24.3" y="30.9" size="1.778" layer="27" rot="R180" display="off"/>
@@ -1804,8 +1812,8 @@ design rules under a new name.</description>
 <attribute name="MOUSER" value="" x="28.7" y="28" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DIGIKEY" value="" x="28.7" y="28" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="U$1" library="mylib" package="ICON_OSHW" value="" x="70.5" y="17.2">
-<attribute name="NOT_COMPONENT" value="YES" x="70.5" y="17.2" size="1.778" layer="27" display="off"/>
+<element name="U$1" library="mylib" package="ICON_OSHW" value="" x="70.2" y="17.8">
+<attribute name="NOT_COMPONENT" value="YES" x="70.2" y="17.8" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R13" library="mylib" package="C0402" value="100/1005" x="37.8" y="38.2" smashed="yes" rot="R90">
 <attribute name="NAME" x="38.7" y="39.8" size="1" layer="25" font="vector" ratio="20" align="center"/>
@@ -1877,55 +1885,43 @@ design rules under a new name.</description>
 <attribute name="MOUSER" value="" x="48.2" y="34.7" size="1.778" layer="27" display="off"/>
 <attribute name="DIGIKEY" value="P10.0KLCT-ND" x="48.2" y="34.7" size="1.778" layer="27" display="off"/>
 </element>
-<element name="TP1" library="mylib" package="TP_1608" value="TESTPAD_1608" x="52" y="29.3" smashed="yes">
-<attribute name="VALUE" x="51.746" y="28.919" size="0.0254" layer="27"/>
+<element name="TP1" library="mylib" package="TP_1608" value="TESTPAD_1608" x="52" y="29.3">
 <attribute name="DIGIKEY" value="A106145CT-ND" x="52" y="29.3" size="1.778" layer="27" display="off"/>
 </element>
-<element name="TP2" library="mylib" package="TP_1608" value="TESTPAD_1608" x="52" y="30.9" smashed="yes">
-<attribute name="VALUE" x="51.746" y="30.519" size="0.0254" layer="27"/>
+<element name="TP2" library="mylib" package="TP_1608" value="TESTPAD_1608" x="52" y="30.9">
 <attribute name="DIGIKEY" value="A106145CT-ND" x="52" y="30.9" size="1.778" layer="27" display="off"/>
 </element>
-<element name="TP3" library="mylib" package="TP_1608" value="TESTPAD_1608" x="52" y="32.6" smashed="yes">
-<attribute name="VALUE" x="51.746" y="32.219" size="0.0254" layer="27"/>
+<element name="TP3" library="mylib" package="TP_1608" value="TESTPAD_1608" x="52" y="32.6">
 <attribute name="DIGIKEY" value="A106145CT-ND" x="52" y="32.6" size="1.778" layer="27" display="off"/>
 </element>
-<element name="TP4" library="mylib" package="TP_1608" value="TESTPAD_1608" x="52" y="34.2" smashed="yes">
-<attribute name="VALUE" x="51.746" y="33.819" size="0.0254" layer="27"/>
+<element name="TP4" library="mylib" package="TP_1608" value="TESTPAD_1608" x="52" y="34.2">
 <attribute name="DIGIKEY" value="A106145CT-ND" x="52" y="34.2" size="1.778" layer="27" display="off"/>
 </element>
-<element name="TP5" library="mylib" package="TP06RECT" value="" x="62.2" y="34.7" smashed="yes" rot="R90">
-<attribute name="VALUE" x="62.581" y="34.446" size="0.0254" layer="27" rot="R90"/>
+<element name="TP5" library="mylib" package="TP06RECT" value="" x="62.2" y="34.7" rot="R90">
 <attribute name="NOT_COMPONENT" value="YES" x="62.2" y="34.7" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="TP6" library="mylib" package="TP06RECT" value="" x="62.2" y="33.6" smashed="yes" rot="R90">
-<attribute name="VALUE" x="62.581" y="33.346" size="0.0254" layer="27" rot="R90"/>
+<element name="TP6" library="mylib" package="TP06RECT" value="" x="62.2" y="33.6" rot="R90">
 <attribute name="NOT_COMPONENT" value="YES" x="62.2" y="33.6" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="TP7" library="mylib" package="TP06RECT" value="" x="62.2" y="32.4" smashed="yes" rot="R90">
-<attribute name="VALUE" x="62.581" y="32.146" size="0.0254" layer="27" rot="R90"/>
+<element name="TP7" library="mylib" package="TP06RECT" value="" x="62.2" y="32.4" rot="R90">
 <attribute name="NOT_COMPONENT" value="YES" x="62.2" y="32.4" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="TP8" library="mylib" package="TP06RECT" value="" x="62.2" y="30.3" smashed="yes" rot="R90">
-<attribute name="VALUE" x="62.581" y="30.046" size="0.0254" layer="27" rot="R90"/>
+<element name="TP8" library="mylib" package="TP06RECT" value="" x="62.2" y="30.3" rot="R90">
 <attribute name="NOT_COMPONENT" value="YES" x="62.2" y="30.3" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="TP9" library="mylib" package="TP06RECT" value="" x="62.2" y="28.1" smashed="yes" rot="R90">
-<attribute name="VALUE" x="62.581" y="27.846" size="0.0254" layer="27" rot="R90"/>
+<element name="TP9" library="mylib" package="TP06RECT" value="" x="62.2" y="28.1" rot="R90">
 <attribute name="NOT_COMPONENT" value="YES" x="62.2" y="28.1" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="TP11" library="mylib" package="TP06RECT" value="" x="56.6" y="35.7" smashed="yes" rot="R90">
-<attribute name="VALUE" x="56.981" y="35.446" size="0.0254" layer="27" rot="R90"/>
+<element name="TP11" library="mylib" package="TP06RECT" value="" x="56.6" y="35.7" rot="R90">
 <attribute name="NOT_COMPONENT" value="YES" x="56.6" y="35.7" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="TP10" library="mylib" package="TP06RECT" value="" x="56.6" y="36.7" smashed="yes" rot="R90">
-<attribute name="VALUE" x="56.981" y="36.446" size="0.0254" layer="27" rot="R90"/>
+<element name="TP10" library="mylib" package="TP06RECT" value="" x="56.6" y="36.7" rot="R90">
 <attribute name="NOT_COMPONENT" value="YES" x="56.6" y="36.7" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="TP13" library="mylib" package="TP_4020" value="" x="77" y="20" rot="R90">
 <attribute name="DIGIKEY" value="36-5019CT-ND" x="77" y="20" size="1" layer="27" ratio="20" rot="R90" display="off"/>
 </element>
-<element name="TP12" library="mylib" package="TP06RECT" value="" x="60.3" y="17.9" smashed="yes" rot="R90">
-<attribute name="VALUE" x="60.681" y="17.646" size="0.0254" layer="27" rot="R90"/>
+<element name="TP12" library="mylib" package="TP06RECT" value="" x="60.3" y="17.9" rot="R90">
 <attribute name="NOT_COMPONENT" value="YES" x="60.3" y="17.9" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="TP14" library="mylib" package="TP_4020" value="" x="13" y="20" rot="R90">
@@ -1941,6 +1937,9 @@ design rules under a new name.</description>
 <attribute name="NAME" x="58.5" y="33" size="1" layer="25" ratio="20" rot="SR0"/>
 <attribute name="VALUE" x="57.6" y="32.7" size="1.2" layer="27" ratio="17" rot="SR0"/>
 <attribute name="DIGIKEY" value="NC7SZ00M5XCT-ND" x="59.5" y="35.7" size="1.778" layer="27" display="off"/>
+</element>
+<element name="ICON1" library="mylib" package="ICON_REVISION2.0" value="r0.2" x="70" y="14.2">
+<attribute name="NOT_COMPONENT" value="YES" x="70" y="14.2" size="1.778" layer="27" display="off"/>
 </element>
 </elements>
 <signals>
