@@ -476,8 +476,8 @@ Licensed</text>
 <wire x1="-1.073" y1="-0.483" x2="-1.073" y2="0.483" width="0.0508" layer="39"/>
 <smd name="1" x="-0.6" y="0" dx="0.7" dy="0.7" layer="1" stop="no" cream="no"/>
 <smd name="2" x="0.6" y="0" dx="0.7" dy="0.7" layer="1" stop="no" cream="no"/>
-<text x="-0.6" y="0.6" size="1" layer="25" font="vector" ratio="20">&gt;NAME</text>
-<text x="-0.6" y="-1.9" size="1" layer="27" font="vector" ratio="20">&gt;VALUE</text>
+<text x="0" y="0" size="1" layer="25" font="vector" ratio="20" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1" layer="27" font="vector" align="center">&gt;VALUE</text>
 <rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
 <rectangle x1="-0.55" y1="-0.3" x2="-0.25" y2="0.3" layer="51"/>
 <rectangle x1="-0.5" y1="-0.25" x2="0.5" y2="0.25" layer="51"/>
@@ -514,6 +514,10 @@ Licensed</text>
 <wire x1="3.302" y1="-1.778" x2="3.302" y2="1.778" width="0.11" layer="39"/>
 <wire x1="3.302" y1="1.778" x2="-3.302" y2="1.778" width="0.11" layer="39"/>
 <wire x1="-3.302" y1="1.778" x2="-3.302" y2="-1.778" width="0.11" layer="39"/>
+<wire x1="3.302" y1="1.778" x2="-3.302" y2="1.778" width="0.2" layer="21"/>
+<wire x1="-3.302" y1="1.778" x2="-3.302" y2="-1.778" width="0.2" layer="21"/>
+<wire x1="-3.302" y1="-1.778" x2="3.302" y2="-1.778" width="0.2" layer="21"/>
+<wire x1="3.302" y1="-1.778" x2="3.302" y2="1.778" width="0.2" layer="21"/>
 </package>
 <package name="IC_08_0.65_160MIL">
 <smd name="8" x="-0.975" y="3.2" dx="0.4" dy="1.2" layer="1" stop="no" cream="no"/>
@@ -663,7 +667,7 @@ Licensed</text>
 </polygon>
 </package>
 <package name="FIDUCIAL">
-<smd name="TP" x="0" y="0" dx="2" dy="2" layer="1" roundness="100" cream="no"/>
+<smd name="TP" x="0" y="0" dx="1" dy="1" layer="1" roundness="100" cream="no"/>
 <text x="0" y="-1.905" size="1" layer="37">&gt;TP_SIGNAL_NAME</text>
 <rectangle x1="-2" y1="-2" x2="2" y2="2" layer="29"/>
 <wire x1="-2" y1="2" x2="2" y2="2" width="0.2" layer="1"/>
@@ -894,12 +898,15 @@ design rules under a new name.</description>
 </element>
 <element name="TP100" library="mylib" package="FIDUCIAL" value="TESTPAD_F" x="15" y="78.4" smashed="yes">
 <attribute name="VALUE" x="14.619" y="78.019" size="0.0254" layer="27"/>
+<attribute name="NOT_COMPONENT" value="YES" x="15" y="78.4" size="1.778" layer="27" display="off"/>
 </element>
 <element name="TP101" library="mylib" package="FIDUCIAL" value="TESTPAD_F" x="64.5" y="5" smashed="yes">
 <attribute name="VALUE" x="64.119" y="4.619" size="0.0254" layer="27"/>
+<attribute name="NOT_COMPONENT" value="YES" x="64.5" y="5" size="1.778" layer="27" display="off"/>
 </element>
 <element name="TP102" library="mylib" package="FIDUCIAL" value="TESTPAD_F" x="69.5" y="78.4" smashed="yes">
 <attribute name="VALUE" x="69.119" y="78.019" size="0.0254" layer="27"/>
+<attribute name="NOT_COMPONENT" value="YES" x="69.5" y="78.4" size="1.778" layer="27" display="off"/>
 </element>
 <element name="TP4" library="testpad_local" package="TP08R" value="TPTP08R" x="33.5" y="17.8" smashed="yes">
 <attribute name="TP_SIGNAL_NAME" value="" x="33.5" y="15.895" size="1" layer="37"/>
@@ -935,7 +942,9 @@ design rules under a new name.</description>
 <attribute name="MOUSER" value="" x="29.1" y="19.8" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DIGIKEY" value="490-3261-1-ND" x="29.1" y="19.8" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="U$1" library="mylib" package="ICON_OSHW" value="ICON_OSHW" x="17.3" y="22.4"/>
+<element name="U$1" library="mylib" package="ICON_OSHW" value="" x="17.3" y="22.4">
+<attribute name="NOT_COMPONENT" value="YES" x="17.3" y="22.4" size="1.778" layer="27" display="off"/>
+</element>
 <element name="TP1" library="testpad_local" package="TP08R" value="TPTP08R" x="33.4" y="26.9" smashed="yes">
 <attribute name="TP_SIGNAL_NAME" value="" x="33.4" y="24.995" size="1" layer="37"/>
 <attribute name="VALUE" x="33.019" y="26.519" size="0.0254" layer="27"/>
