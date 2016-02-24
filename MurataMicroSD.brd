@@ -101,7 +101,6 @@
 <wire x1="31.6" y1="23.7" x2="30.8" y2="23.7" width="0.25" layer="41"/>
 <text x="28.9" y="26.1" size="1" layer="16" font="vector" ratio="20" rot="MR0">@_K4ZUKI_</text>
 <text x="16.3" y="26.7" size="1" layer="21" font="vector" ratio="20" rot="R180" align="bottom-right">LBCA2HNZYZ-uSD</text>
-<text x="22.2" y="24.5" size="1" layer="21" ratio="20">r04</text>
 <wire x1="0" y1="0" x2="0" y2="83.4" width="0" layer="20"/>
 <wire x1="10" y1="50.6" x2="0" y2="50.6" width="0" layer="102"/>
 <wire x1="10" y1="32.8" x2="0" y2="32.8" width="0" layer="102"/>
@@ -675,6 +674,13 @@ Licensed</text>
 <wire x1="2" y1="-2" x2="-2" y2="-2" width="0.2" layer="1"/>
 <wire x1="-2" y1="-2" x2="-2" y2="2" width="0.2" layer="1"/>
 </package>
+<package name="ICON_REVISION1.2">
+<text x="-0.1" y="0" size="1.27" layer="21" font="vector" ratio="17" align="center">&gt;VALUE</text>
+<wire x1="-2.3" y1="1" x2="2.1" y2="1" width="0.2" layer="21"/>
+<wire x1="2.1" y1="1" x2="2.1" y2="-1" width="0.2" layer="21"/>
+<wire x1="2.1" y1="-1" x2="-2.3" y2="-1" width="0.2" layer="21"/>
+<wire x1="-2.3" y1="-1" x2="-2.3" y2="1" width="0.2" layer="21"/>
+</package>
 </packages>
 </library>
 <library name="testpad_local">
@@ -949,6 +955,7 @@ design rules under a new name.</description>
 <attribute name="TP_SIGNAL_NAME" value="" x="33.4" y="24.995" size="1" layer="37"/>
 <attribute name="VALUE" x="33.019" y="26.519" size="0.0254" layer="27"/>
 </element>
+<element name="ICON1" library="mylib" package="ICON_REVISION1.2" value="r0.4" x="22.9" y="24.4"/>
 </elements>
 <signals>
 <signal name="VCC">

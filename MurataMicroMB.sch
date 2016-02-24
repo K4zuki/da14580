@@ -1831,8 +1831,8 @@ SOT23-5&lt;br&gt;</description>
 <wire x1="2.54" y1="7.366" x2="2.54" y2="-7.366" width="0.254" layer="94"/>
 <wire x1="2.54" y1="-7.366" x2="-2.54" y2="-7.366" width="0.254" layer="94"/>
 <wire x1="-2.54" y1="-7.366" x2="-2.54" y2="7.366" width="0.254" layer="94"/>
-<text x="-2.54" y="7.62" size="1.27" layer="95">&gt;NAME</text>
-<text x="2.54" y="-7.62" size="1.27" layer="96" rot="R180">&gt;VALUE</text>
+<text x="0" y="7.62" size="1.27" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-7.62" size="1.27" layer="96" align="top-center">&gt;VALUE</text>
 <pin name="1" x="-5.08" y="5.08" visible="pad" length="short"/>
 <pin name="2" x="5.08" y="5.08" visible="pad" length="short" rot="R180"/>
 <pin name="3" x="-5.08" y="2.54" visible="pad" length="short"/>
@@ -1970,8 +1970,8 @@ SOT23-5&lt;br&gt;</description>
 <wire x1="0.9525" y1="0" x2="0.9525" y2="-1.905" width="0.1524" layer="94"/>
 <wire x1="-2.54" y1="0" x2="-0.9525" y2="0" width="0.1524" layer="94"/>
 <wire x1="0.9525" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
-<text x="-2.54" y="2.54" size="1.778" layer="95" rot="R180">&gt;NAME</text>
-<text x="2.54" y="0.762" size="1.016" layer="96">&gt;VALUE</text>
+<text x="0" y="-2.54" size="1.778" layer="95" rot="R180" align="center">&gt;NAME</text>
+<text x="0" y="-5.08" size="1.016" layer="96" align="center">&gt;VALUE</text>
 <rectangle x1="-2.8575" y1="-0.3175" x2="-2.2225" y2="0.3175" layer="94" rot="R90"/>
 <rectangle x1="2.2225" y1="-0.3175" x2="2.8575" y2="0.3175" layer="94" rot="R90"/>
 <pin name="1" x="-2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1"/>
@@ -4671,9 +4671,9 @@ Source: Samtec TSW.pdf</description>
 <part name="SUPPLY14" library="mylib" deviceset="GND" device=""/>
 <part name="R12" library="mylib" deviceset="R_US_*" device="_1005" technology="10K" value="10k/1005"/>
 <part name="SUPPLY15" library="mylib" deviceset="GND" device=""/>
-<part name="SW1" library="mylib" deviceset="TACTSW2_*" device="_P807X" technology="BK" value="P-8073"/>
-<part name="SW2" library="mylib" deviceset="TACTSW2_*" device="_P807X" technology="BL" value="P-8073"/>
-<part name="SW3" library="mylib" deviceset="TACTSW2_*" device="_P807X" technology="BK" value="P-8073"/>
+<part name="SW1" library="mylib" deviceset="TACTSW2_*" device="FSM2JMTR" value="P-8073"/>
+<part name="SW2" library="mylib" deviceset="TACTSW2_*" device="FSM2JMTR" value="P-8073"/>
+<part name="SW3" library="mylib" deviceset="TACTSW2_*" device="FSM2JMTR" value="P-8073"/>
 <part name="SUPPLY16" library="mylib" deviceset="GND" device=""/>
 <part name="SUPPLY17" library="mylib" deviceset="GND" device=""/>
 <part name="SUPPLY18" library="mylib" deviceset="GND" device=""/>
@@ -4786,9 +4786,7 @@ P0_2
 <instance part="R7" gate="G$1" x="101.6" y="152.4"/>
 <instance part="R8" gate="G$1" x="144.78" y="43.18" rot="R270"/>
 <instance part="R9" gate="G$1" x="101.6" y="144.78"/>
-<instance part="Q1" gate="G$1" x="109.22" y="101.6" smashed="yes">
-<attribute name="NAME" x="111.76" y="99.06" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="106.68" y="104.902" size="1.016" layer="96"/>
+<instance part="Q1" gate="G$1" x="109.22" y="101.6">
 <attribute name="DIGIKEY" x="104.14" y="104.14" size="0.8128" layer="96"/>
 </instance>
 <instance part="C3" gate="G$1" x="114.3" y="96.52"/>
@@ -4806,15 +4804,9 @@ P0_2
 <instance part="SUPPLY14" gate="GND" x="73.66" y="116.84"/>
 <instance part="R12" gate="G$1" x="101.6" y="134.62"/>
 <instance part="SUPPLY15" gate="GND" x="114.3" y="83.82"/>
-<instance part="SW1" gate="G$1" x="129.54" y="17.78">
-<attribute name="AKIZUKI" x="129.54" y="20.32" size="0.8128" layer="96" rot="R90" display="both"/>
-</instance>
-<instance part="SW2" gate="G$1" x="142.24" y="17.78">
-<attribute name="AKIZUKI" x="142.24" y="20.32" size="0.8128" layer="96" rot="R90" display="both"/>
-</instance>
-<instance part="SW3" gate="G$1" x="154.94" y="17.78">
-<attribute name="AKIZUKI" x="154.94" y="20.32" size="0.8128" layer="96" rot="R90" display="both"/>
-</instance>
+<instance part="SW1" gate="G$1" x="129.54" y="17.78"/>
+<instance part="SW2" gate="G$1" x="142.24" y="17.78"/>
+<instance part="SW3" gate="G$1" x="154.94" y="17.78"/>
 <instance part="SUPPLY16" gate="GND" x="132.08" y="7.62"/>
 <instance part="SUPPLY17" gate="GND" x="144.78" y="7.62"/>
 <instance part="SUPPLY18" gate="GND" x="157.48" y="7.62"/>

@@ -849,6 +849,20 @@ chip</description>
 <wire x1="2.1" y1="-1.2" x2="-2.1" y2="-1.2" width="0.2" layer="21"/>
 <wire x1="-2.1" y1="-1.2" x2="-2.1" y2="1.2" width="0.2" layer="21"/>
 </package>
+<package name="ICON_REVISION2.0">
+<text x="0" y="0" size="2" layer="21" font="vector" ratio="10" align="center">&gt;VALUE</text>
+<wire x1="-3.3" y1="1.2" x2="2.8" y2="1.2" width="0.2" layer="21"/>
+<wire x1="2.8" y1="1.2" x2="2.8" y2="-1.2" width="0.2" layer="21"/>
+<wire x1="2.8" y1="-1.2" x2="-3.3" y2="-1.2" width="0.2" layer="21"/>
+<wire x1="-3.3" y1="-1.2" x2="-3.3" y2="1.2" width="0.2" layer="21"/>
+</package>
+<package name="ICON_REVISION1.2">
+<text x="-0.1" y="0" size="1.27" layer="21" font="vector" ratio="17" align="center">&gt;VALUE</text>
+<wire x1="-2.3" y1="1" x2="2.1" y2="1" width="0.2" layer="21"/>
+<wire x1="2.1" y1="1" x2="2.1" y2="-1" width="0.2" layer="21"/>
+<wire x1="2.1" y1="-1" x2="-2.3" y2="-1" width="0.2" layer="21"/>
+<wire x1="-2.3" y1="-1" x2="-2.3" y2="1" width="0.2" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="BOARD_MICROSD">
@@ -985,6 +999,13 @@ chip</description>
 <text x="2.54" y="-0.762" size="1.524" layer="95">&gt;NAME</text>
 <rectangle x1="0" y1="-0.254" x2="1.778" y2="0.254" layer="94"/>
 <pin name="1" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
+</symbol>
+<symbol name="ICON_REVISION">
+<text x="1.27" y="1.27" size="12.7" layer="94" font="vector">&gt;VALUE</text>
+<wire x1="0" y1="14.986" x2="50.8" y2="14.986" width="0.254" layer="94"/>
+<wire x1="50.8" y1="14.986" x2="50.8" y2="0" width="0.254" layer="94"/>
+<wire x1="50.8" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="14.986" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -1468,6 +1489,25 @@ chip</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="ICON_REVISION" prefix="ICON" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="ICON_REVISION" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_2.0" package="ICON_REVISION2.0">
+<technologies>
+<technology name="">
+<attribute name="NOT_COMPONENT" value="YES" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_1.2" package="ICON_REVISION1.2">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 <library name="testpad_local">
@@ -1945,6 +1985,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="P+4" library="mylib" deviceset="VCC" device=""/>
 <part name="P+5" library="mylib" deviceset="VCC" device=""/>
 <part name="TP1" library="testpad_local" deviceset="TP" device="TP08R"/>
+<part name="ICON1" library="mylib" deviceset="ICON_REVISION" device="_1.2" value="r0.4"/>
 </parts>
 <sheets>
 <sheet>
@@ -1962,8 +2003,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <text x="48.26" y="93.98" size="1.778" layer="94" rot="MR0" align="center-left">P0_7/MISO</text>
 <text x="132.08" y="99.06" size="1.778" layer="94">P0_7/MISO</text>
 <text x="48.26" y="119.38" size="1.778" layer="94" rot="MR0" align="center-left">P1_0/!CS!</text>
-<text x="162.56" y="15.24" size="6.4516" layer="94">r04</text>
-<text x="162.56" y="5.08" size="6.4516" layer="94">CC-BY-SA</text>
+<text x="215.9" y="20.32" size="2.54" layer="94">CC-BY-SA</text>
 <text x="76.2" y="121.92" size="1.778" layer="94" rot="MR0" align="center-left">RESET</text>
 <text x="78.74" y="124.46" size="1.778" layer="94" rot="MR0" align="center-left">VPP</text>
 <text x="48.26" y="88.9" size="1.778" layer="94" rot="MR0" align="center-left">VPP</text>
@@ -2014,6 +2054,7 @@ P1_1 = TP6</text>
 <instance part="P+4" gate="VCC" x="149.86" y="127" smashed="yes" rot="R90"/>
 <instance part="P+5" gate="VCC" x="68.58" y="114.3" smashed="yes" rot="R90"/>
 <instance part="TP1" gate="G$1" x="139.7" y="121.92"/>
+<instance part="ICON1" gate="G$1" x="162.56" y="5.08"/>
 </instances>
 <busses>
 </busses>
