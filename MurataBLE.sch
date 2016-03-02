@@ -5022,12 +5022,12 @@ P0_1 &lt;- TGT_RX</text>
 </instance>
 <instance part="IC3" gate="P" x="96.52" y="152.4"/>
 <instance part="R4" gate="G$1" x="165.1" y="101.6"/>
-<instance part="R5" gate="G$1" x="165.1" y="91.44"/>
-<instance part="R11" gate="G$1" x="165.1" y="83.82"/>
-<instance part="SUPPLY16" gate="GND" x="185.42" y="78.74"/>
+<instance part="R5" gate="G$1" x="165.1" y="96.52"/>
+<instance part="R11" gate="G$1" x="165.1" y="93.98"/>
+<instance part="SUPPLY16" gate="GND" x="185.42" y="88.9"/>
 <instance part="LED1" gate="R" x="180.34" y="101.6" rot="R90"/>
-<instance part="LED1" gate="G" x="177.8" y="91.44" rot="R90"/>
-<instance part="LED1" gate="B" x="180.34" y="83.82" rot="R90"/>
+<instance part="LED1" gate="G" x="175.26" y="96.52" rot="R90"/>
+<instance part="LED1" gate="B" x="180.34" y="93.98" rot="R90"/>
 <instance part="TP5" gate="G$1" x="165.1" y="55.88"/>
 <instance part="TP6" gate="G$1" x="165.1" y="48.26" rot="R180"/>
 <instance part="TP7" gate="G$1" x="185.42" y="48.26" rot="R180"/>
@@ -5166,13 +5166,13 @@ P0_1 &lt;- TGT_RX</text>
 </segment>
 <segment>
 <wire x1="182.88" y1="101.6" x2="185.42" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="185.42" y1="101.6" x2="185.42" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="185.42" y1="91.44" x2="185.42" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="185.42" y1="83.82" x2="185.42" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="182.88" y1="83.82" x2="185.42" y2="83.82" width="0.1524" layer="91"/>
-<junction x="185.42" y="83.82"/>
-<wire x1="180.34" y1="91.44" x2="185.42" y2="91.44" width="0.1524" layer="91"/>
-<junction x="185.42" y="91.44"/>
+<wire x1="185.42" y1="101.6" x2="185.42" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="96.52" x2="185.42" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="93.98" x2="185.42" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="93.98" x2="185.42" y2="93.98" width="0.1524" layer="91"/>
+<junction x="185.42" y="93.98"/>
+<wire x1="177.8" y1="96.52" x2="185.42" y2="96.52" width="0.1524" layer="91"/>
+<junction x="185.42" y="96.52"/>
 <pinref part="SUPPLY16" gate="GND" pin="GND"/>
 <pinref part="LED1" gate="R" pin="K"/>
 <pinref part="LED1" gate="G" pin="K"/>
@@ -5453,11 +5453,6 @@ P0_1 &lt;- TGT_RX</text>
 <label x="180.34" y="119.38" size="1.778" layer="95"/>
 </segment>
 <segment>
-<label x="167.64" y="88.9" size="1.778" layer="95"/>
-<wire x1="157.48" y1="88.9" x2="167.64" y2="88.9" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="G$1" pin="P0_7/CTS"/>
-</segment>
-<segment>
 <label x="241.3" y="93.98" size="1.778" layer="95"/>
 <wire x1="233.68" y1="93.98" x2="241.3" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="X1" gate="-1" pin="1"/>
@@ -5603,11 +5598,6 @@ P0_1 &lt;- TGT_RX</text>
 </net>
 <net name="SWDIO" class="0">
 <segment>
-<label x="167.64" y="86.36" size="1.778" layer="95"/>
-<wire x1="157.48" y1="86.36" x2="167.64" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="G$1" pin="P0_8/MISO0"/>
-</segment>
-<segment>
 <pinref part="U1" gate="G$1" pin="SWDIO"/>
 <wire x1="195.58" y1="116.84" x2="180.34" y2="116.84" width="0.1524" layer="91"/>
 <label x="180.34" y="116.84" size="1.778" layer="95"/>
@@ -5695,15 +5685,15 @@ P0_1 &lt;- TGT_RX</text>
 <net name="N$9" class="0">
 <segment>
 <pinref part="R5" gate="G$1" pin="1"/>
-<wire x1="157.48" y1="91.44" x2="162.56" y2="91.44" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="G$1" pin="P0_21/MOSI1"/>
+<pinref part="IC2" gate="G$1" pin="P0_4/SCL"/>
+<wire x1="157.48" y1="96.52" x2="162.56" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$10" class="0">
 <segment>
 <pinref part="R11" gate="G$1" pin="1"/>
-<wire x1="157.48" y1="83.82" x2="162.56" y2="83.82" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="G$1" pin="P0_9/MOSI0"/>
+<pinref part="IC2" gate="G$1" pin="P0_5/SDA"/>
+<wire x1="157.48" y1="93.98" x2="162.56" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$11" class="0">
@@ -5716,14 +5706,14 @@ P0_1 &lt;- TGT_RX</text>
 <net name="N$12" class="0">
 <segment>
 <pinref part="R5" gate="G$1" pin="2"/>
-<wire x1="175.26" y1="91.44" x2="167.64" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="96.52" x2="167.64" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="LED1" gate="G" pin="A"/>
 </segment>
 </net>
 <net name="N$13" class="0">
 <segment>
 <pinref part="R11" gate="G$1" pin="2"/>
-<wire x1="167.64" y1="83.82" x2="177.8" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="93.98" x2="177.8" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="LED1" gate="B" pin="A"/>
 </segment>
 </net>
