@@ -4804,9 +4804,6 @@ Source: Samtec TSW.pdf</description>
 <part name="SUPPLY14" library="mylib" deviceset="GND" device=""/>
 <part name="R12" library="mylib" deviceset="R_US_*" device="_1005" technology="10K" value="10k/1005"/>
 <part name="SUPPLY15" library="mylib" deviceset="GND" device=""/>
-<part name="SW1" library="mylib" deviceset="TACTSW2_*" device="FSM2JMTR" value="P-8073"/>
-<part name="SW2" library="mylib" deviceset="TACTSW2_*" device="FSM2JMTR" value="P-8073"/>
-<part name="SW3" library="mylib" deviceset="TACTSW2_*" device="FSM2JMTR" value="P-8073"/>
 <part name="SUPPLY16" library="mylib" deviceset="GND" device=""/>
 <part name="SUPPLY17" library="mylib" deviceset="GND" device=""/>
 <part name="SUPPLY18" library="mylib" deviceset="GND" device=""/>
@@ -4850,6 +4847,9 @@ Source: Samtec TSW.pdf</description>
 <part name="TP16" library="mylib" deviceset="TESTPAD" device="_4020"/>
 <part name="IC1" library="mylib" deviceset="IC_TTL_SINGLE_74_00" device="_SOT23"/>
 <part name="ICON1" library="mylib" deviceset="ICON_REVISION" device="_2.0" value="r0.2"/>
+<part name="SW1" library="mylib" deviceset="TACTSW2_*" device="FSM2JMTR"/>
+<part name="SW2" library="mylib" deviceset="TACTSW2_*" device="FSM2JMTR"/>
+<part name="SW3" library="mylib" deviceset="TACTSW2_*" device="FSM2JMTR"/>
 </parts>
 <sheets>
 <sheet>
@@ -4937,9 +4937,6 @@ P0_2
 <instance part="SUPPLY14" gate="GND" x="73.66" y="116.84"/>
 <instance part="R12" gate="G$1" x="101.6" y="134.62"/>
 <instance part="SUPPLY15" gate="GND" x="114.3" y="83.82"/>
-<instance part="SW1" gate="G$1" x="129.54" y="17.78"/>
-<instance part="SW2" gate="G$1" x="142.24" y="17.78"/>
-<instance part="SW3" gate="G$1" x="154.94" y="17.78"/>
 <instance part="SUPPLY16" gate="GND" x="132.08" y="7.62"/>
 <instance part="SUPPLY17" gate="GND" x="144.78" y="7.62"/>
 <instance part="SUPPLY18" gate="GND" x="157.48" y="7.62"/>
@@ -5026,6 +5023,9 @@ P0_2
 <instance part="TP102" gate="1" x="15.24" y="10.16" rot="MR0"/>
 <instance part="TP103" gate="1" x="15.24" y="12.7" rot="MR0"/>
 <instance part="ICON1" gate="G$1" x="162.56" y="5.08"/>
+<instance part="SW1" gate="G$1" x="129.54" y="17.78"/>
+<instance part="SW2" gate="G$1" x="142.24" y="17.78"/>
+<instance part="SW3" gate="G$1" x="154.94" y="17.78"/>
 </instances>
 <busses>
 </busses>
@@ -5127,18 +5127,18 @@ P0_2
 </segment>
 <segment>
 <pinref part="SUPPLY16" gate="GND" pin="GND"/>
-<pinref part="SW1" gate="G$1" pin="P"/>
 <wire x1="132.08" y1="10.16" x2="132.08" y2="12.7" width="0.1524" layer="91"/>
+<pinref part="SW1" gate="G$1" pin="P"/>
 </segment>
 <segment>
 <pinref part="SUPPLY17" gate="GND" pin="GND"/>
-<pinref part="SW2" gate="G$1" pin="P"/>
 <wire x1="144.78" y1="10.16" x2="144.78" y2="12.7" width="0.1524" layer="91"/>
+<pinref part="SW2" gate="G$1" pin="P"/>
 </segment>
 <segment>
 <pinref part="SUPPLY18" gate="GND" pin="GND"/>
-<pinref part="SW3" gate="G$1" pin="P"/>
 <wire x1="157.48" y1="10.16" x2="157.48" y2="12.7" width="0.1524" layer="91"/>
+<pinref part="SW3" gate="G$1" pin="P"/>
 </segment>
 <segment>
 <pinref part="CON4" gate="G$1" pin="6"/>
@@ -5558,8 +5558,8 @@ P0_2
 </segment>
 <segment>
 <wire x1="157.48" y1="22.86" x2="157.48" y2="33.02" width="0.1524" layer="91"/>
-<pinref part="SW3" gate="G$1" pin="S"/>
 <label x="157.48" y="33.02" size="1.778" layer="95" rot="R90"/>
+<pinref part="SW3" gate="G$1" pin="S"/>
 </segment>
 </net>
 <net name="BL" class="0">
@@ -5586,8 +5586,8 @@ P0_2
 </segment>
 <segment>
 <wire x1="132.08" y1="22.86" x2="132.08" y2="33.02" width="0.1524" layer="91"/>
-<pinref part="SW1" gate="G$1" pin="S"/>
 <label x="132.08" y="33.02" size="1.778" layer="95" rot="R90"/>
+<pinref part="SW1" gate="G$1" pin="S"/>
 </segment>
 </net>
 <net name="N$5" class="0">
