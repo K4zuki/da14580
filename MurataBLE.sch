@@ -789,30 +789,30 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/TDA988
 </package>
 <package name="SOT95P300X140-3N">
 <smd name="3" x="0" y="1.2" dx="0.7" dy="1" layer="1" stop="no" cream="no"/>
-<smd name="1" x="-0.8" y="-1.2" dx="0.7" dy="1" layer="1" stop="no" cream="no"/>
+<smd name="1" x="-0.9" y="-1.2" dx="0.7" dy="1" layer="1" stop="no" cream="no"/>
 <smd name="2" x="0.9" y="-1.2" dx="0.7" dy="1" layer="1" stop="no" cream="no"/>
 <wire x1="1.5" y1="-0.7" x2="1.5" y2="0.7" width="0.2" layer="21"/>
-<wire x1="-1.4" y1="0.7" x2="-1.4" y2="-0.7" width="0.2" layer="21"/>
-<wire x1="-1.4" y1="-0.7" x2="-1.35" y2="-0.7" width="0.2" layer="21"/>
-<wire x1="-0.25" y1="-0.7" x2="0.35" y2="-0.7" width="0.2" layer="21"/>
+<wire x1="-1.5" y1="0.7" x2="-1.5" y2="-0.7" width="0.2" layer="21"/>
+<wire x1="-1.5" y1="-0.7" x2="-1.45" y2="-0.7" width="0.2" layer="21"/>
+<wire x1="-0.35" y1="-0.7" x2="0.35" y2="-0.7" width="0.2" layer="21"/>
 <wire x1="1.5" y1="-0.7" x2="1.45" y2="-0.7" width="0.2" layer="21"/>
-<wire x1="-1.4" y1="0.7" x2="-0.55" y2="0.7" width="0.2" layer="21"/>
+<wire x1="-1.5" y1="0.7" x2="-0.65" y2="0.7" width="0.2" layer="21"/>
 <wire x1="1.5" y1="0.7" x2="0.55" y2="0.7" width="0.2" layer="21"/>
 <text x="0" y="0" size="1" layer="21" font="vector" ratio="20" align="center">&gt;NAME</text>
 <text x="0" y="0" size="1" layer="27" font="vector" align="center">&gt;VALUE</text>
 <rectangle x1="-0.4" y1="0.65" x2="0.4" y2="1.75" layer="29"/>
-<rectangle x1="-1.2" y1="-1.75" x2="-0.4" y2="-0.65" layer="29"/>
+<rectangle x1="-1.3" y1="-1.75" x2="-0.5" y2="-0.65" layer="29"/>
 <rectangle x1="0.5" y1="-1.75" x2="1.3" y2="-0.65" layer="29"/>
-<wire x1="-1.7" y1="-1.05" x2="-1.7" y2="-1.15" width="0.4" layer="21"/>
-<circle x="-1.7" y="-1.1" radius="0.15" width="0.2" layer="21"/>
+<wire x1="-1.8" y1="-1.05" x2="-1.8" y2="-1.15" width="0.4" layer="21"/>
+<circle x="-1.8" y="-1.1" radius="0.15" width="0.2" layer="21"/>
 <wire x1="-0.1" y1="1.45" x2="0.1" y2="1.45" width="0.4" layer="31"/>
 <wire x1="0.1" y1="1.45" x2="0.1" y2="0.95" width="0.4" layer="31"/>
 <wire x1="0.1" y1="0.95" x2="-0.1" y2="0.95" width="0.4" layer="31"/>
 <wire x1="-0.1" y1="0.95" x2="-0.1" y2="1.45" width="0.4" layer="31"/>
-<wire x1="-0.9" y1="-0.95" x2="-0.7" y2="-0.95" width="0.4" layer="31"/>
-<wire x1="-0.7" y1="-0.95" x2="-0.7" y2="-1.45" width="0.4" layer="31"/>
-<wire x1="-0.7" y1="-1.45" x2="-0.9" y2="-1.45" width="0.4" layer="31"/>
-<wire x1="-0.9" y1="-1.45" x2="-0.9" y2="-0.95" width="0.4" layer="31"/>
+<wire x1="-1" y1="-0.95" x2="-0.8" y2="-0.95" width="0.4" layer="31"/>
+<wire x1="-0.8" y1="-0.95" x2="-0.8" y2="-1.45" width="0.4" layer="31"/>
+<wire x1="-0.8" y1="-1.45" x2="-1" y2="-1.45" width="0.4" layer="31"/>
+<wire x1="-1" y1="-1.45" x2="-1" y2="-0.95" width="0.4" layer="31"/>
 <wire x1="0.8" y1="-0.95" x2="1" y2="-0.95" width="0.4" layer="31"/>
 <wire x1="1" y1="-0.95" x2="1" y2="-1.45" width="0.4" layer="31"/>
 <wire x1="1" y1="-1.45" x2="0.8" y2="-1.45" width="0.4" layer="31"/>
