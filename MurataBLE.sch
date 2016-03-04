@@ -2863,6 +2863,10 @@ Source: Samtec TSW.pdf</description>
 <attribute name="DIGIKEY" value="1265-1137-1-ND" constant="no"/>
 <attribute name="MOUSER" value="" constant="no"/>
 </technology>
+<technology name="AT25XE512C">
+<attribute name="DIGIKEY" value="1265-1134-1-ND" constant="no"/>
+<attribute name="MOUSER" value="" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="_TSSOP" package="IC_08_0.65_160MIL">
@@ -2888,6 +2892,10 @@ Source: Samtec TSW.pdf</description>
 <technology name="AT25XE011">
 <attribute name="DIGIKEY" value="1265-1184-5-ND" constant="no"/>
 <attribute name="MOUSER" value="!non-stock! 988-AT25XE011-SSHN-B" constant="no"/>
+</technology>
+<technology name="AT25XE512C">
+<attribute name="DIGIKEY" value="1265-1136-1-ND" constant="no"/>
+<attribute name="MOUSER" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -3221,6 +3229,7 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <part name="P2" library="mylib" deviceset="PCB_CORNER" device=""/>
 <part name="P3" library="mylib" deviceset="PCB_CORNER" device=""/>
 <part name="P4" library="mylib" deviceset="PCB_CORNER" device=""/>
+<part name="C13" library="mylib" deviceset="C_SMD_*" device="_1005" technology="0.1U" value="0.1u/1005"/>
 </parts>
 <sheets>
 <sheet>
@@ -3343,6 +3352,7 @@ P0_1 &lt;- TGT_RX</text>
 <instance part="P2" gate="G$1" x="137.16" y="17.78" rot="R90"/>
 <instance part="P3" gate="G$1" x="134.62" y="17.78" rot="R180"/>
 <instance part="P4" gate="G$1" x="134.62" y="10.16" rot="R270"/>
+<instance part="C13" gate="G$1" x="104.14" y="76.2"/>
 </instances>
 <busses>
 </busses>
@@ -3378,6 +3388,9 @@ P0_1 &lt;- TGT_RX</text>
 <pinref part="SUPPLY4" gate="GND" pin="GND"/>
 <wire x1="111.76" y1="71.12" x2="104.14" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="G$1" pin="VSS"/>
+<pinref part="C13" gate="G$1" pin="2"/>
+<wire x1="104.14" y1="71.12" x2="104.14" y2="73.66" width="0.1524" layer="91"/>
+<junction x="104.14" y="71.12"/>
 </segment>
 <segment>
 <pinref part="SUPPLY5" gate="GND" pin="GND"/>
@@ -3925,8 +3938,12 @@ P0_1 &lt;- TGT_RX</text>
 <net name="N$4" class="0">
 <segment>
 <pinref part="R6" gate="G$1" pin="2"/>
-<wire x1="101.6" y1="88.9" x2="111.76" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="88.9" x2="104.14" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="G$1" pin="USB_VBUS"/>
+<pinref part="C13" gate="G$1" pin="1"/>
+<wire x1="104.14" y1="88.9" x2="111.76" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="78.74" x2="104.14" y2="88.9" width="0.1524" layer="91"/>
+<junction x="104.14" y="88.9"/>
 </segment>
 </net>
 <net name="N$5" class="0">
