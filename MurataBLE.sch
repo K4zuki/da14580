@@ -1282,8 +1282,8 @@ Source: Samtec TSW.pdf</description>
 <smd name="5" x="1.3" y="4.15" dx="0.4" dy="1.4" layer="1" stop="no" cream="no"/>
 <wire x1="3.8" y1="0" x2="-3.8" y2="0" width="0.1" layer="51"/>
 <wire x1="-3.8" y1="0" x2="-4.7" y2="0" width="0.1" layer="48"/>
-<pad name="SHD" x="-2.2" y="4.45" drill="0.6" diameter="0.95" shape="long" rot="R90"/>
-<pad name="SHD$1" x="2.2" y="4.45" drill="0.6" diameter="0.95" shape="long" rot="R90"/>
+<pad name="SHD" x="-2.2" y="4.45" drill="0.6" diameter="1" shape="long" rot="R90"/>
+<pad name="SHD$1" x="2.2" y="4.45" drill="0.6" diameter="1" shape="long" rot="R90"/>
 <wire x1="-4" y1="-0.7" x2="4" y2="-0.7" width="0.1" layer="51"/>
 <wire x1="-4" y1="-0.7" x2="-3.8" y2="0" width="0.1" layer="51"/>
 <wire x1="4" y1="-0.7" x2="3.8" y2="0" width="0.1" layer="51"/>
@@ -1686,6 +1686,37 @@ Source: Samtec TSW.pdf</description>
 <wire x1="-6.1" y1="-4" x2="0" y2="-4" width="0.2" layer="51"/>
 <wire x1="0" y1="-4" x2="4" y2="0.1" width="0.2" layer="51" curve="91.41465"/>
 <wire x1="4" y1="0.1" x2="4" y2="6.1" width="0.2" layer="51"/>
+</package>
+<package name="CON_USB_614104150121WURTH">
+<text x="0" y="0" size="1.27" layer="25" font="vector" ratio="16" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" font="vector" align="center">&gt;VALUE</text>
+<pad name="SHLD@1" x="6.4" y="-7.35" drill="0.6" diameter="1.3" shape="long" rot="R90"/>
+<pad name="SHLD" x="-6.4" y="-7.35" drill="0.6" diameter="1.3" shape="long" rot="R90"/>
+<pad name="3" x="1" y="0" drill="0.9"/>
+<pad name="2" x="-1" y="0" drill="0.9"/>
+<pad name="4" x="3.5" y="0" drill="0.9"/>
+<pad name="1" x="-3.5" y="0" drill="0.9"/>
+<wire x1="-7.3" y1="0" x2="-4.5" y2="0" width="0.2" layer="21"/>
+<wire x1="4.5" y1="0" x2="7.3" y2="0" width="0.2" layer="21"/>
+<wire x1="-7.3" y1="0" x2="-7.3" y2="-2.7" width="0.2" layer="21"/>
+<wire x1="-6.3" y1="-2.7" x2="-6.3" y2="-5.7" width="0.2" layer="21"/>
+<wire x1="-6.3" y1="-9" x2="-6.3" y2="-10" width="0.2" layer="21"/>
+<wire x1="-7.3" y1="0" x2="-7.3" y2="-2.7" width="0.2" layer="51"/>
+<wire x1="-7.3" y1="-2.7" x2="-6.3" y2="-2.7" width="0.2" layer="51"/>
+<wire x1="-6.3" y1="-2.7" x2="-6.3" y2="-10" width="0.2" layer="51"/>
+<wire x1="7.3" y1="0" x2="7.3" y2="-2.6" width="0.2" layer="21"/>
+<wire x1="6.3" y1="-2.6" x2="6.3" y2="-5.7" width="0.2" layer="21"/>
+<wire x1="6.3" y1="-9" x2="6.3" y2="-10" width="0.2" layer="21"/>
+<wire x1="7.3" y1="0" x2="7.3" y2="-2.6" width="0.2" layer="51"/>
+<wire x1="7.3" y1="-2.6" x2="6.3" y2="-2.6" width="0.2" layer="51"/>
+<wire x1="6.3" y1="-2.6" x2="6.3" y2="-10" width="0.2" layer="51"/>
+<wire x1="-6.3" y1="-10" x2="6.3" y2="-10" width="0.2" layer="51"/>
+<wire x1="-6.3" y1="-10" x2="6.3" y2="-10" width="0.2" layer="21"/>
+<wire x1="-7.3" y1="0" x2="7.3" y2="0" width="0.2" layer="51"/>
+<wire x1="-6.4" y1="-6.6" x2="-6.4" y2="-8.1" width="0.6" layer="46"/>
+<wire x1="6.4" y1="-6.6" x2="6.4" y2="-8.1" width="0.6" layer="46"/>
+<wire x1="6.3" y1="-2.6" x2="7.3" y2="-2.6" width="0.2" layer="21"/>
+<wire x1="-7.3" y1="-2.7" x2="-6.3" y2="-2.7" width="0.2" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -2500,6 +2531,20 @@ Source: Samtec TSW.pdf</description>
 </technology>
 </technologies>
 </device>
+<device name="_A_614104150121" package="CON_USB_614104150121WURTH">
+<connects>
+<connect gate="G$1" pin="D+" pad="3"/>
+<connect gate="G$1" pin="D-" pad="2"/>
+<connect gate="G$1" pin="GND" pad="4"/>
+<connect gate="G$1" pin="SHLD" pad="SHLD SHLD@1"/>
+<connect gate="G$1" pin="VCC" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="732-5962-1-ND" constant="no"/>
+</technology>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="LDO5_*" prefix="IC">
@@ -3103,7 +3148,7 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <part name="FRAME1" library="frames" deviceset="A4L-LOC" device=""/>
 <part name="U1" library="mylib" deviceset="LBCA2HNZYZ-711" device=""/>
 <part name="SUPPLY1" library="mylib" deviceset="GND" device=""/>
-<part name="Q1" library="mylib" deviceset="CRYSTAL2_*" device="_FC-135" technology="32.768K" value="FC-135 32.7680KA-AG3"/>
+<part name="Q1" library="mylib" deviceset="CRYSTAL2_*" device="_2012" technology="32.768K"/>
 <part name="C2" library="mylib" deviceset="C_SMD_*" device="_1005" technology="0.1U" value="0.1u/1005"/>
 <part name="SW1" library="mylib" deviceset="TACTSW2_*" device="FSM2JMTR"/>
 <part name="R1" library="mylib" deviceset="R_US_*" device="_1005" technology="10K" value="10k/1005"/>
