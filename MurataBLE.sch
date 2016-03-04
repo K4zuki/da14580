@@ -2855,6 +2855,10 @@ Source: Samtec TSW.pdf</description>
 <attribute name="DIGIKEY" value="" constant="no"/>
 <attribute name="MOUSER" value="579-23K256-I/SN" constant="no"/>
 </technology>
+<technology name="AT25DN512C">
+<attribute name="DIGIKEY" value="" constant="no"/>
+<attribute name="MOUSER" value="988-A25DN512CSSHFGPT (cuttape)" constant="no"/>
+</technology>
 <technology name="AT25XE011">
 <attribute name="DIGIKEY" value="1265-1137-1-ND" constant="no"/>
 <attribute name="MOUSER" value="" constant="no"/>
@@ -2876,6 +2880,10 @@ Source: Samtec TSW.pdf</description>
 <technology name="23K256-I">
 <attribute name="DIGIKEY" value="" constant="no"/>
 <attribute name="MOUSER" value="" constant="no"/>
+</technology>
+<technology name="AT25DN512C">
+<attribute name="DIGIKEY" value="" constant="no"/>
+<attribute name="MOUSER" value="988-A25DN512CXMHFGPB (tube)" constant="no"/>
 </technology>
 <technology name="AT25XE011">
 <attribute name="DIGIKEY" value="1265-1184-5-ND" constant="no"/>
@@ -3237,6 +3245,10 @@ P0_1 &lt;- TGT_RX</text>
 <text x="167.64" y="88.9" size="1.778" layer="94">P0_3/MISO</text>
 <wire x1="160.02" y1="22.86" x2="144.78" y2="22.86" width="0.1524" layer="94"/>
 <wire x1="144.78" y1="22.86" x2="144.78" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="134.62" y1="22.86" x2="137.16" y2="22.86" width="0.1524" layer="94"/>
+<wire x1="142.24" y1="17.78" x2="142.24" y2="10.16" width="0.1524" layer="94"/>
+<wire x1="129.54" y1="10.16" x2="129.54" y2="17.78" width="0.1524" layer="94"/>
+<wire x1="134.62" y1="5.08" x2="137.16" y2="5.08" width="0.1524" layer="94"/>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
@@ -3328,9 +3340,9 @@ P0_1 &lt;- TGT_RX</text>
 <instance part="TP2" gate="1" x="190.5" y="50.8"/>
 <instance part="CON1" gate="G$1" x="25.4" y="93.98" rot="MR0"/>
 <instance part="P1" gate="G$1" x="137.16" y="10.16"/>
-<instance part="P2" gate="G$1" x="137.16" y="15.24" rot="R90"/>
-<instance part="P3" gate="G$1" x="129.54" y="15.24" rot="R180"/>
-<instance part="P4" gate="G$1" x="129.54" y="10.16" rot="R270"/>
+<instance part="P2" gate="G$1" x="137.16" y="17.78" rot="R90"/>
+<instance part="P3" gate="G$1" x="134.62" y="17.78" rot="R180"/>
+<instance part="P4" gate="G$1" x="134.62" y="10.16" rot="R270"/>
 </instances>
 <busses>
 </busses>
