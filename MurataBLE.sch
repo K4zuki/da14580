@@ -3214,7 +3214,7 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <part name="TP102" library="mylib" deviceset="TESTPAD" device="_F" value="TESTPAD_F"/>
 <part name="Q2" library="mylib" deviceset="CRYSTAL4_*" device="_3225" technology="12M"/>
 <part name="IC4" library="mylib" deviceset="IC_MEMORY_8P_*" device="_SOP" technology="AT25XE011" value="IC_MEMORY_8P_AT25XE011_SOP"/>
-<part name="IC5" library="mylib" deviceset="IC_MEMORY_8P_*" device="_TSSOP" technology="AT25XE011"/>
+<part name="IC5" library="mylib" deviceset="IC_MEMORY_8P_*" device="_SOP" technology="AT25DN512C" value="IC_MEMORY_8P_AT25DN512C_SOP"/>
 <part name="IC2" library="mylib" deviceset="IC_LPC11U*_QFN33" device="_5X5" technology="35"/>
 <part name="SUPPLY17" library="mylib" deviceset="GND" device=""/>
 <part name="SUPPLY18" library="mylib" deviceset="GND" device=""/>
