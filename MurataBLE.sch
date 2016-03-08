@@ -1240,6 +1240,16 @@ Source: Samtec TSW.pdf</description>
 </polygon>
 <smd name="1" x="-2.5" y="0" dx="3" dy="2" layer="1" cream="no"/>
 <smd name="2" x="2.5" y="0" dx="3" dy="2" layer="1" cream="no"/>
+<wire x1="-3.7" y1="0.7" x2="-1.3" y2="0.7" width="0.4" layer="31"/>
+<wire x1="-1.3" y1="0.7" x2="-1.3" y2="-0.7" width="0.4" layer="31"/>
+<wire x1="-1.3" y1="-0.7" x2="-3.7" y2="-0.7" width="0.4" layer="31"/>
+<wire x1="-3.7" y1="-0.7" x2="-3.7" y2="0.7" width="0.4" layer="31"/>
+<wire x1="1.3" y1="0.7" x2="3.7" y2="0.7" width="0.4" layer="31"/>
+<wire x1="3.7" y1="0.7" x2="3.7" y2="-0.7" width="0.4" layer="31"/>
+<wire x1="3.7" y1="-0.7" x2="1.3" y2="-0.7" width="0.4" layer="31"/>
+<wire x1="1.3" y1="-0.7" x2="1.3" y2="0.7" width="0.4" layer="31"/>
+<rectangle x1="-3.7" y1="-0.7" x2="-1.3" y2="0.7" layer="31"/>
+<rectangle x1="1.3" y1="-0.7" x2="3.7" y2="0.7" layer="31"/>
 </package>
 <package name="CON_USB_A_SHIELD">
 <description>&lt;b&gt;USB connector&lt;/b&gt; with shield&lt;p&gt;</description>
@@ -1717,6 +1727,22 @@ Source: Samtec TSW.pdf</description>
 <wire x1="6.4" y1="-6.6" x2="6.4" y2="-8.1" width="0.6" layer="46"/>
 <wire x1="6.3" y1="-2.6" x2="7.3" y2="-2.6" width="0.2" layer="21"/>
 <wire x1="-7.3" y1="-2.7" x2="-6.3" y2="-2.7" width="0.2" layer="21"/>
+</package>
+<package name="R0402SHORT">
+<smd name="1" x="-0.6" y="0" dx="0.7" dy="0.7" layer="1" stop="no" cream="no"/>
+<smd name="3" x="0.6" y="0" dx="0.7" dy="0.7" layer="1" stop="no" cream="no"/>
+<text x="0" y="0" size="1" layer="25" font="vector" ratio="20" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1" layer="27" font="vector" align="center">&gt;VALUE</text>
+<rectangle x1="-0.55" y1="-0.3" x2="-0.25" y2="0.3" layer="51"/>
+<rectangle x1="-0.5" y1="-0.25" x2="0.5" y2="0.25" layer="51"/>
+<rectangle x1="-1" y1="-0.4" x2="-0.2" y2="0.4" layer="29"/>
+<rectangle x1="0.2" y1="-0.4" x2="1" y2="0.4" layer="29"/>
+<rectangle x1="0.25" y1="-0.3" x2="0.55" y2="0.3" layer="51"/>
+<wire x1="-0.1" y1="0.5" x2="0" y2="0.5" width="0.2" layer="21"/>
+<wire x1="0" y1="0.5" x2="0.1" y2="0.5" width="0.2" layer="21"/>
+<wire x1="-0.1" y1="-0.5" x2="0" y2="-0.5" width="0.2" layer="21"/>
+<wire x1="0" y1="-0.5" x2="0.1" y2="-0.5" width="0.2" layer="21"/>
+<smd name="2" x="0" y="0" dx="0.8" dy="0.3" layer="1" cream="no"/>
 </package>
 </packages>
 <symbols>
@@ -2398,6 +2424,17 @@ Source: Samtec TSW.pdf</description>
 </technology>
 </technologies>
 </device>
+<device name="_1005SHORT" package="R0402SHORT">
+<connects>
+<connect gate="G$1" pin="1" pad="1 2"/>
+<connect gate="G$1" pin="2" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="NOT_COMPONENT" value="YES" constant="no"/>
+</technology>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="TACTSW2_*" prefix="SW" uservalue="yes">
@@ -2610,8 +2647,7 @@ Source: Samtec TSW.pdf</description>
 </devices>
 </deviceset>
 <deviceset name="LED_3SEG" prefix="LED">
-<description>Mouser Part No.: 604-APF3236SEEZGQBDC
-Vf@5mA:
+<description>Vf@5mA:
 (R) = 1.9V
 (G) = 2.9V
 (B) = 2.8V</description>
@@ -2631,7 +2667,9 @@ Vf@5mA:
 <connect gate="R" pin="K" pad="1"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MOUSER" value="604-APF3236SEEZGQBDC" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -3222,14 +3260,14 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <part name="C12" library="mylib" deviceset="C_SMD_*" device="_1005" technology="0.1U" value="0.1u/1005"/>
 <part name="ICON1" library="mylib" deviceset="ICON_REVISION" device="_1.2" value="r0.4"/>
 <part name="ICON2" library="mylib" deviceset="ICON_OSHW" device=""/>
-<part name="TP1" library="mylib" deviceset="TESTPAD" device="_1608"/>
-<part name="TP2" library="mylib" deviceset="TESTPAD" device="_1608"/>
 <part name="CON1" library="mylib" deviceset="CON_USB" device="_UB"/>
 <part name="P1" library="mylib" deviceset="PCB_CORNER" device=""/>
 <part name="P2" library="mylib" deviceset="PCB_CORNER" device=""/>
 <part name="P3" library="mylib" deviceset="PCB_CORNER" device=""/>
 <part name="P4" library="mylib" deviceset="PCB_CORNER" device=""/>
 <part name="C13" library="mylib" deviceset="C_SMD_*" device="_1005" technology="0.1U" value="0.1u/1005"/>
+<part name="R12" library="mylib" deviceset="R_US_*" device="_1005SHORT"/>
+<part name="R13" library="mylib" deviceset="R_US_*" device="_1005SHORT"/>
 </parts>
 <sheets>
 <sheet>
@@ -3238,7 +3276,7 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 (R) = 1.9V
 (G) = 2.9V
 (B) = 2.8V</text>
-<text x="162.56" y="50.8" size="1.778" layer="94">TGT_TX &lt;- P0_0
+<text x="160.02" y="50.8" size="1.778" layer="94">TGT_TX &lt;- P0_0
 TGT_RX -&gt; P0_1</text>
 <text x="233.68" y="139.7" size="1.778" layer="94">P0_0 -&gt; TGT_TX
 P0_1 &lt;- TGT_RX</text>
@@ -3345,14 +3383,14 @@ P0_1 &lt;- TGT_RX</text>
 <instance part="C12" gate="G$1" x="58.42" y="35.56"/>
 <instance part="ICON1" gate="G$1" x="162.56" y="5.08"/>
 <instance part="ICON2" gate="G$1" x="223.52" y="21.59"/>
-<instance part="TP1" gate="1" x="190.5" y="53.34"/>
-<instance part="TP2" gate="1" x="190.5" y="50.8"/>
 <instance part="CON1" gate="G$1" x="25.4" y="93.98" rot="MR0"/>
 <instance part="P1" gate="G$1" x="137.16" y="10.16"/>
 <instance part="P2" gate="G$1" x="137.16" y="17.78" rot="R90"/>
 <instance part="P3" gate="G$1" x="134.62" y="17.78" rot="R180"/>
 <instance part="P4" gate="G$1" x="134.62" y="10.16" rot="R270"/>
 <instance part="C13" gate="G$1" x="104.14" y="76.2"/>
+<instance part="R12" gate="G$1" x="190.5" y="53.34"/>
+<instance part="R13" gate="G$1" x="190.5" y="50.8"/>
 </instances>
 <busses>
 </busses>
@@ -3919,11 +3957,11 @@ P0_1 &lt;- TGT_RX</text>
 <pinref part="X1" gate="-2" pin="1"/>
 </segment>
 </net>
-<net name="TGT_TX" class="0">
+<net name="580.P0_0" class="0">
 <segment>
-<wire x1="157.48" y1="53.34" x2="187.96" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="G$1" pin="P0_18/RXD&lt;-"/>
-<pinref part="TP1" gate="1" pin="1"/>
+<pinref part="R12" gate="G$1" pin="2"/>
+<wire x1="193.04" y1="53.34" x2="205.74" y2="53.34" width="0.1524" layer="91"/>
+<label x="195.58" y="53.34" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="P0_0"/>
@@ -4023,11 +4061,11 @@ P0_1 &lt;- TGT_RX</text>
 <pinref part="LED1" gate="B" pin="A"/>
 </segment>
 </net>
-<net name="TGT_RX" class="0">
+<net name="580.P0_1" class="0">
 <segment>
-<wire x1="157.48" y1="50.8" x2="187.96" y2="50.8" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="G$1" pin="P0_19/TXD-&gt;"/>
-<pinref part="TP2" gate="1" pin="1"/>
+<pinref part="R13" gate="G$1" pin="2"/>
+<wire x1="193.04" y1="50.8" x2="205.74" y2="50.8" width="0.1524" layer="91"/>
+<label x="195.58" y="50.8" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="P0_1"/>
@@ -4085,6 +4123,20 @@ P0_1 &lt;- TGT_RX</text>
 <wire x1="22.86" y1="50.8" x2="30.48" y2="50.8" width="0.1524" layer="91"/>
 <pinref part="IC4" gate="G$1" pin="SCK"/>
 <label x="17.78" y="50.8" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="TGT_TX" class="0">
+<segment>
+<pinref part="IC2" gate="G$1" pin="P0_18/RXD&lt;-"/>
+<pinref part="R12" gate="G$1" pin="1"/>
+<wire x1="187.96" y1="53.34" x2="157.48" y2="53.34" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="TGT_RX" class="0">
+<segment>
+<pinref part="IC2" gate="G$1" pin="P0_19/TXD-&gt;"/>
+<pinref part="R13" gate="G$1" pin="1"/>
+<wire x1="187.96" y1="50.8" x2="157.48" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
