@@ -196,7 +196,7 @@ Writer / Debugger</text>
 <wire x1="62.5" y1="27" x2="61.9" y2="27" width="0.3" layer="21"/>
 <wire x1="61.9" y1="27" x2="60.9" y2="26" width="0.3" layer="21"/>
 <wire x1="60.9" y1="26" x2="60.9" y2="18.4" width="0.3" layer="21"/>
-<rectangle x1="47.1" y1="21" x2="48.7" y2="21.8" layer="41"/>
+<rectangle x1="44.4" y1="21" x2="46" y2="21.8" layer="41"/>
 <wire x1="62.7" y1="26.4" x2="62.2" y2="26.4" width="0.2" layer="41"/>
 <wire x1="62.2" y1="26.4" x2="61.5" y2="25.7" width="0.2" layer="41"/>
 <wire x1="61.5" y1="25.7" x2="61.5" y2="18.1" width="0.2" layer="41"/>
@@ -207,10 +207,8 @@ Writer / Debugger</text>
 <wire x1="59.5" y1="18.6" x2="60.1" y2="18.6" width="0.2" layer="41"/>
 <wire x1="60.1" y1="18.6" x2="60.3" y2="18.8" width="0.2" layer="41"/>
 <wire x1="60.3" y1="18.8" x2="60.3" y2="25.6" width="0.2" layer="41"/>
-<wire x1="50.6" y1="18.9" x2="52.3" y2="18.9" width="0.2" layer="41"/>
-<wire x1="52.3" y1="18.9" x2="52.5" y2="19.1" width="0.2" layer="41"/>
-<wire x1="52.5" y1="19.1" x2="59" y2="19.1" width="0.2" layer="41"/>
-<wire x1="59" y1="19.1" x2="59.5" y2="18.6" width="0.2" layer="41"/>
+<wire x1="50.6" y1="18.9" x2="59.2" y2="18.9" width="0.2" layer="41"/>
+<wire x1="59.2" y1="18.9" x2="59.5" y2="18.6" width="0.2" layer="41"/>
 <text x="60" y="48" size="1.2" layer="21" ratio="17" align="center">!RESET!</text>
 <text x="50" y="48" size="1.2" layer="21" ratio="17" align="center">ISP</text>
 <text x="70" y="48" size="1.2" layer="21" ratio="17" align="center">!TARGET!</text>
@@ -300,8 +298,8 @@ Writer / Debugger</text>
 <smd name="5" x="1.3" y="4.15" dx="0.4" dy="1.4" layer="1" stop="no" cream="no"/>
 <wire x1="3.8" y1="0" x2="-3.8" y2="0" width="0.1" layer="51"/>
 <wire x1="-3.8" y1="0" x2="-4.7" y2="0" width="0.1" layer="48"/>
-<pad name="SHD" x="-2.2" y="4.45" drill="0.6" diameter="0.95" shape="long" rot="R90"/>
-<pad name="SHD$1" x="2.2" y="4.45" drill="0.6" diameter="0.95" shape="long" rot="R90"/>
+<pad name="SHD" x="-2.2" y="4.45" drill="0.6" diameter="1" shape="long" rot="R90"/>
+<pad name="SHD$1" x="2.2" y="4.45" drill="0.6" diameter="1" shape="long" rot="R90"/>
 <wire x1="-4" y1="-0.7" x2="4" y2="-0.7" width="0.1" layer="51"/>
 <wire x1="-4" y1="-0.7" x2="-3.8" y2="0" width="0.1" layer="51"/>
 <wire x1="4" y1="-0.7" x2="3.8" y2="0" width="0.1" layer="51"/>
@@ -840,20 +838,51 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/TDA988
 </package>
 <package name="SOT105P300X130-3N">
 <smd name="3" x="0" y="1.2" dx="0.7" dy="1" layer="1" stop="no" cream="no"/>
-<smd name="1" x="-0.9" y="-1.2" dx="0.7" dy="1" layer="1" stop="no" cream="no"/>
+<smd name="1" x="-1" y="-1.2" dx="0.7" dy="1" layer="1" stop="no" cream="no"/>
 <smd name="2" x="1" y="-1.2" dx="0.7" dy="1" layer="1" stop="no" cream="no"/>
 <wire x1="1.6" y1="-0.7" x2="1.6" y2="0.7" width="0.2" layer="21"/>
-<wire x1="-1.5" y1="0.7" x2="-1.5" y2="-0.7" width="0.2" layer="21"/>
-<wire x1="-0.35" y1="-0.7" x2="0.45" y2="-0.7" width="0.2" layer="21"/>
-<wire x1="-1.5" y1="0.7" x2="-0.55" y2="0.7" width="0.2" layer="21"/>
+<wire x1="-1.6" y1="0.7" x2="-1.6" y2="-0.7" width="0.2" layer="21"/>
+<wire x1="-0.45" y1="-0.7" x2="0.45" y2="-0.7" width="0.2" layer="21"/>
+<wire x1="-1.6" y1="0.7" x2="-0.55" y2="0.7" width="0.2" layer="21"/>
 <wire x1="1.6" y1="0.7" x2="0.55" y2="0.7" width="0.2" layer="21"/>
 <text x="0" y="0" size="1" layer="21" font="vector" ratio="20" align="center">&gt;NAME</text>
 <text x="0" y="0" size="1" layer="27" font="vector" align="center">&gt;VALUE</text>
 <rectangle x1="-0.4" y1="0.65" x2="0.4" y2="1.75" layer="29"/>
-<rectangle x1="-1.3" y1="-1.75" x2="-0.5" y2="-0.65" layer="29"/>
+<rectangle x1="-1.4" y1="-1.75" x2="-0.6" y2="-0.65" layer="29"/>
 <rectangle x1="0.6" y1="-1.75" x2="1.4" y2="-0.65" layer="29"/>
-<wire x1="-1.7" y1="-1.05" x2="-1.7" y2="-1.15" width="0.4" layer="21"/>
-<circle x="-1.7" y="-1.1" radius="0.15" width="0.2" layer="21"/>
+<wire x1="-1.8" y1="-1.05" x2="-1.8" y2="-1.15" width="0.4" layer="21"/>
+<circle x="-1.8" y="-1.1" radius="0.15" width="0.2" layer="21"/>
+<wire x1="-0.1" y1="1.45" x2="0.1" y2="1.45" width="0.4" layer="31"/>
+<wire x1="0.1" y1="1.45" x2="0.1" y2="0.95" width="0.4" layer="31"/>
+<wire x1="0.1" y1="0.95" x2="-0.1" y2="0.95" width="0.4" layer="31"/>
+<wire x1="-0.1" y1="0.95" x2="-0.1" y2="1.45" width="0.4" layer="31"/>
+<wire x1="-1.1" y1="-0.95" x2="-0.9" y2="-0.95" width="0.4" layer="31"/>
+<wire x1="-0.9" y1="-0.95" x2="-0.9" y2="-1.45" width="0.4" layer="31"/>
+<wire x1="-0.9" y1="-1.45" x2="-1.1" y2="-1.45" width="0.4" layer="31"/>
+<wire x1="-1.1" y1="-1.45" x2="-1.1" y2="-0.95" width="0.4" layer="31"/>
+<wire x1="0.9" y1="-0.95" x2="1.1" y2="-0.95" width="0.4" layer="31"/>
+<wire x1="1.1" y1="-0.95" x2="1.1" y2="-1.45" width="0.4" layer="31"/>
+<wire x1="1.1" y1="-1.45" x2="0.9" y2="-1.45" width="0.4" layer="31"/>
+<wire x1="0.9" y1="-1.45" x2="0.9" y2="-0.95" width="0.4" layer="31"/>
+</package>
+<package name="SOT95P300X140-3N">
+<smd name="3" x="0" y="1.2" dx="0.7" dy="1" layer="1" stop="no" cream="no"/>
+<smd name="1" x="-0.9" y="-1.2" dx="0.7" dy="1" layer="1" stop="no" cream="no"/>
+<smd name="2" x="0.9" y="-1.2" dx="0.7" dy="1" layer="1" stop="no" cream="no"/>
+<wire x1="1.5" y1="-0.7" x2="1.5" y2="0.7" width="0.2" layer="21"/>
+<wire x1="-1.5" y1="0.7" x2="-1.5" y2="-0.7" width="0.2" layer="21"/>
+<wire x1="-1.5" y1="-0.7" x2="-1.45" y2="-0.7" width="0.2" layer="21"/>
+<wire x1="-0.35" y1="-0.7" x2="0.35" y2="-0.7" width="0.2" layer="21"/>
+<wire x1="1.5" y1="-0.7" x2="1.45" y2="-0.7" width="0.2" layer="21"/>
+<wire x1="-1.5" y1="0.7" x2="-0.65" y2="0.7" width="0.2" layer="21"/>
+<wire x1="1.5" y1="0.7" x2="0.55" y2="0.7" width="0.2" layer="21"/>
+<text x="0" y="0" size="1" layer="21" font="vector" ratio="20" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1" layer="27" font="vector" align="center">&gt;VALUE</text>
+<rectangle x1="-0.4" y1="0.65" x2="0.4" y2="1.75" layer="29"/>
+<rectangle x1="-1.3" y1="-1.75" x2="-0.5" y2="-0.65" layer="29"/>
+<rectangle x1="0.5" y1="-1.75" x2="1.3" y2="-0.65" layer="29"/>
+<wire x1="-1.8" y1="-1.05" x2="-1.8" y2="-1.15" width="0.4" layer="21"/>
+<circle x="-1.8" y="-1.1" radius="0.15" width="0.2" layer="21"/>
 <wire x1="-0.1" y1="1.45" x2="0.1" y2="1.45" width="0.4" layer="31"/>
 <wire x1="0.1" y1="1.45" x2="0.1" y2="0.95" width="0.4" layer="31"/>
 <wire x1="0.1" y1="0.95" x2="-0.1" y2="0.95" width="0.4" layer="31"/>
@@ -862,37 +891,6 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/TDA988
 <wire x1="-0.8" y1="-0.95" x2="-0.8" y2="-1.45" width="0.4" layer="31"/>
 <wire x1="-0.8" y1="-1.45" x2="-1" y2="-1.45" width="0.4" layer="31"/>
 <wire x1="-1" y1="-1.45" x2="-1" y2="-0.95" width="0.4" layer="31"/>
-<wire x1="0.9" y1="-0.95" x2="1.1" y2="-0.95" width="0.4" layer="31"/>
-<wire x1="1.1" y1="-0.95" x2="1.1" y2="-1.45" width="0.4" layer="31"/>
-<wire x1="1.1" y1="-1.45" x2="0.9" y2="-1.45" width="0.4" layer="31"/>
-<wire x1="0.9" y1="-1.45" x2="0.9" y2="-0.95" width="0.4" layer="31"/>
-</package>
-<package name="SOT95P300X140-3N">
-<smd name="3" x="0" y="1.2" dx="0.7" dy="1" layer="1" stop="no" cream="no"/>
-<smd name="1" x="-0.8" y="-1.2" dx="0.7" dy="1" layer="1" stop="no" cream="no"/>
-<smd name="2" x="0.9" y="-1.2" dx="0.7" dy="1" layer="1" stop="no" cream="no"/>
-<wire x1="1.5" y1="-0.7" x2="1.5" y2="0.7" width="0.2" layer="21"/>
-<wire x1="-1.4" y1="0.7" x2="-1.4" y2="-0.7" width="0.2" layer="21"/>
-<wire x1="-1.4" y1="-0.7" x2="-1.35" y2="-0.7" width="0.2" layer="21"/>
-<wire x1="-0.25" y1="-0.7" x2="0.35" y2="-0.7" width="0.2" layer="21"/>
-<wire x1="1.5" y1="-0.7" x2="1.45" y2="-0.7" width="0.2" layer="21"/>
-<wire x1="-1.4" y1="0.7" x2="-0.55" y2="0.7" width="0.2" layer="21"/>
-<wire x1="1.5" y1="0.7" x2="0.55" y2="0.7" width="0.2" layer="21"/>
-<text x="0" y="0" size="1" layer="21" font="vector" ratio="20" align="center">&gt;NAME</text>
-<text x="0" y="0" size="1" layer="27" font="vector" align="center">&gt;VALUE</text>
-<rectangle x1="-0.4" y1="0.65" x2="0.4" y2="1.75" layer="29"/>
-<rectangle x1="-1.2" y1="-1.75" x2="-0.4" y2="-0.65" layer="29"/>
-<rectangle x1="0.5" y1="-1.75" x2="1.3" y2="-0.65" layer="29"/>
-<wire x1="-1.7" y1="-1.05" x2="-1.7" y2="-1.15" width="0.4" layer="21"/>
-<circle x="-1.7" y="-1.1" radius="0.15" width="0.2" layer="21"/>
-<wire x1="-0.1" y1="1.45" x2="0.1" y2="1.45" width="0.4" layer="31"/>
-<wire x1="0.1" y1="1.45" x2="0.1" y2="0.95" width="0.4" layer="31"/>
-<wire x1="0.1" y1="0.95" x2="-0.1" y2="0.95" width="0.4" layer="31"/>
-<wire x1="-0.1" y1="0.95" x2="-0.1" y2="1.45" width="0.4" layer="31"/>
-<wire x1="-0.9" y1="-0.95" x2="-0.7" y2="-0.95" width="0.4" layer="31"/>
-<wire x1="-0.7" y1="-0.95" x2="-0.7" y2="-1.45" width="0.4" layer="31"/>
-<wire x1="-0.7" y1="-1.45" x2="-0.9" y2="-1.45" width="0.4" layer="31"/>
-<wire x1="-0.9" y1="-1.45" x2="-0.9" y2="-0.95" width="0.4" layer="31"/>
 <wire x1="0.8" y1="-0.95" x2="1" y2="-0.95" width="0.4" layer="31"/>
 <wire x1="1" y1="-0.95" x2="1" y2="-1.45" width="0.4" layer="31"/>
 <wire x1="1" y1="-1.45" x2="0.8" y2="-1.45" width="0.4" layer="31"/>
@@ -929,6 +927,16 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/TDA988
 </polygon>
 <smd name="1" x="-2.5" y="0" dx="3" dy="2" layer="1" cream="no"/>
 <smd name="2" x="2.5" y="0" dx="3" dy="2" layer="1" cream="no"/>
+<wire x1="-3.7" y1="0.7" x2="-1.3" y2="0.7" width="0.4" layer="31"/>
+<wire x1="-1.3" y1="0.7" x2="-1.3" y2="-0.7" width="0.4" layer="31"/>
+<wire x1="-1.3" y1="-0.7" x2="-3.7" y2="-0.7" width="0.4" layer="31"/>
+<wire x1="-3.7" y1="-0.7" x2="-3.7" y2="0.7" width="0.4" layer="31"/>
+<wire x1="1.3" y1="0.7" x2="3.7" y2="0.7" width="0.4" layer="31"/>
+<wire x1="3.7" y1="0.7" x2="3.7" y2="-0.7" width="0.4" layer="31"/>
+<wire x1="3.7" y1="-0.7" x2="1.3" y2="-0.7" width="0.4" layer="31"/>
+<wire x1="1.3" y1="-0.7" x2="1.3" y2="0.7" width="0.4" layer="31"/>
+<rectangle x1="-3.7" y1="-0.7" x2="-1.3" y2="0.7" layer="31"/>
+<rectangle x1="1.3" y1="-0.7" x2="3.7" y2="0.7" layer="31"/>
 </package>
 <package name="ICON_OSHW">
 <wire x1="-0.26713125" y1="-0.65441875" x2="-0.6607" y2="-1.618359375" width="0.2" layer="21"/>
@@ -1338,6 +1346,14 @@ Source: Samtec TSW.pdf</description>
 </package>
 </packages>
 </library>
+<library name="git-revision">
+<packages>
+<package name="GIT-REVISION">
+<text x="0" y="0" size="1.27" layer="51">&gt;GIT</text>
+<circle x="0" y="0" radius="0.2" width="0.2" layer="51"/>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -1560,23 +1576,24 @@ design rules under a new name.</description>
 <attribute name="AKIZUKI" value="P-05650" x="60.7" y="30.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER" value="" x="60.7" y="30.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DIGIKEY" value="" x="60.7" y="30.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SEEED" value="" x="60.7" y="30.5" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="L1" library="mylib" package="L_2016" value="4.7u/2016" x="47.9" y="21.4" smashed="yes" rot="R270">
-<attribute name="NAME" x="47.9" y="24.3" size="1" layer="25" ratio="20" rot="R270" align="center"/>
-<attribute name="VALUE" x="45.4" y="22" size="1" layer="27" ratio="20" rot="R270"/>
-<attribute name="AKIZUKI" value="" x="47.9" y="21.4" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MOUSER" value="" x="47.9" y="21.4" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DIGIKEY" value="445-7844-1-ND" x="47.9" y="21.4" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="L1" library="mylib" package="L_2016" value="4.7u/2016" x="45.2" y="21.4" smashed="yes" rot="R270">
+<attribute name="NAME" x="45.2" y="24.3" size="1" layer="25" ratio="20" rot="R270" align="center"/>
+<attribute name="VALUE" x="42.7" y="22" size="1" layer="27" ratio="20" rot="R270"/>
+<attribute name="AKIZUKI" value="" x="45.2" y="21.4" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOUSER" value="" x="45.2" y="21.4" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DIGIKEY" value="445-7844-1-ND" x="45.2" y="21.4" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="IC2" library="mylib" package="SOT95P280X145-5N" value="" x="51" y="21.5" smashed="yes" rot="R90">
-<attribute name="NAME" x="53.2" y="21.6" size="1" layer="25" font="vector" ratio="20" rot="R270" align="center"/>
+<attribute name="NAME" x="47.8" y="19.6" size="1" layer="25" font="vector" ratio="20" align="center"/>
 <attribute name="VALUE" x="54.2" y="21.4" size="1.27" layer="27" font="vector" ratio="16" rot="R90" align="center"/>
 <attribute name="DIGIKEY" value="296-35164-1-ND" x="51" y="21.5" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="D1" library="mylib" package="DIODE_2125" value="40V2A" x="51.5" y="17.9" smashed="yes" rot="R180">
-<attribute name="NAME" x="48.2" y="17.9" size="1" layer="25" font="vector" ratio="20" align="center"/>
-<attribute name="DIGIKEY" value="SS24FLCT-ND" x="51.5" y="17.9" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="AKIZUKI" value="I-02073" x="51.5" y="17.9" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="D1" library="mylib" package="DIODE_2125" value="40V2A" x="51" y="17.8" smashed="yes" rot="R180">
+<attribute name="NAME" x="51" y="16.1" size="1" layer="25" font="vector" ratio="20" align="center"/>
+<attribute name="DIGIKEY" value="SS24FLCT-ND" x="51" y="17.8" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="AKIZUKI" value="I-02073" x="51" y="17.8" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R2" library="mylib" package="C0402" value="10k/1005" x="51" y="24.4" smashed="yes" rot="R180">
 <attribute name="NAME" x="51" y="25.6" size="1" layer="25" font="vector" ratio="20" align="center"/>
@@ -1586,53 +1603,54 @@ design rules under a new name.</description>
 <attribute name="DIGIKEY" value="P10.0KLCT-ND" x="51" y="24.4" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SEEED" value="301010047 " x="51" y="24.4" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="R3" library="mylib" package="R_1608_PADPAD" value="P60.4KHCT-ND" x="55.5" y="19" smashed="yes" rot="R270">
-<attribute name="NAME" x="55.5" y="16.7" size="1" layer="25" font="vector" ratio="20" rot="R270" align="center"/>
-<attribute name="VALUE" x="53.2775" y="19.635" size="1.27" layer="27" font="vector" ratio="15" rot="R270"/>
-<attribute name="AKIZUKI" value="" x="55.5" y="19" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MOUSER" value="" x="55.5" y="19" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DIGIKEY" value="P60.4KHCT-ND" x="55.5" y="19" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="R3" library="mylib" package="R_1608_PADPAD" value="P60.4KHCT-ND" x="54.2" y="22.8" smashed="yes">
+<attribute name="NAME" x="56.6" y="22.8" size="1" layer="25" font="vector" ratio="20" align="center"/>
+<attribute name="VALUE" x="53.565" y="20.5775" size="1.27" layer="27" font="vector" ratio="15"/>
+<attribute name="AKIZUKI" value="" x="54.2" y="22.8" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER" value="" x="54.2" y="22.8" size="1.778" layer="27" display="off"/>
+<attribute name="DIGIKEY" value="P60.4KHCT-ND" x="54.2" y="22.8" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R4" library="mylib" package="R_1608_PADPAD" value="P13.3KHCT-ND" x="54.3" y="20.8" smashed="yes" rot="R270">
-<attribute name="NAME" x="54.3" y="23.2" size="1" layer="25" font="vector" ratio="20" rot="R90" align="center"/>
-<attribute name="VALUE" x="52.0775" y="21.435" size="1.27" layer="27" font="vector" ratio="15" rot="R270"/>
-<attribute name="AKIZUKI" value="" x="54.3" y="20.8" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MOUSER" value="" x="54.3" y="20.8" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DIGIKEY" value="P13.3KHCT-ND" x="54.3" y="20.8" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="R4" library="mylib" package="R_1608_PADPAD" value="P13.3KHCT-ND" x="54.2" y="21.5" smashed="yes" rot="R180">
+<attribute name="NAME" x="56.6" y="21.5" size="1" layer="25" font="vector" ratio="20" align="center"/>
+<attribute name="VALUE" x="54.835" y="23.7225" size="1.27" layer="27" font="vector" ratio="15" rot="R180"/>
+<attribute name="AKIZUKI" value="" x="54.2" y="21.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER" value="" x="54.2" y="21.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DIGIKEY" value="P13.3KHCT-ND" x="54.2" y="21.5" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="C4" library="mylib" package="CR_2125" value="4.7u/2012" x="44.6" y="21.7" smashed="yes" rot="R270">
-<attribute name="NAME" x="44.6" y="24.7" size="1" layer="25" font="vector" ratio="20" rot="R90" align="center"/>
-<attribute name="VALUE" x="43.1" y="21.8" size="1.27" layer="27" font="vector" ratio="15" rot="R270" align="center"/>
-<attribute name="AKIZUKI" value="" x="44.6" y="21.7" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MOUSER" value="" x="44.6" y="21.7" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DIGIKEY" value="490-9962-1-ND" x="44.6" y="21.7" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="C4" library="mylib" package="CR_2125" value="4.7u/2012" x="47.3" y="22.2" smashed="yes" rot="R270">
+<attribute name="NAME" x="47.3" y="25.2" size="1" layer="25" font="vector" ratio="20" rot="R90" align="center"/>
+<attribute name="VALUE" x="45.8" y="22.3" size="1.27" layer="27" font="vector" ratio="15" rot="R270" align="center"/>
+<attribute name="AKIZUKI" value="" x="47.3" y="22.2" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOUSER" value="" x="47.3" y="22.2" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DIGIKEY" value="490-9962-1-ND" x="47.3" y="22.2" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="C5" library="mylib" package="CR_2125" value="4.7u/2012" x="58.3" y="19.1" smashed="yes" rot="R90">
-<attribute name="NAME" x="58.3" y="22.3" size="1" layer="25" font="vector" ratio="20" rot="R90" align="center"/>
-<attribute name="VALUE" x="59.8" y="19" size="1.27" layer="27" font="vector" ratio="15" rot="R90" align="center"/>
-<attribute name="AKIZUKI" value="" x="58.3" y="19.1" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MOUSER" value="" x="58.3" y="19.1" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DIGIKEY" value="490-9962-1-ND" x="58.3" y="19.1" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="C5" library="mylib" package="CR_2125" value="4.7u/2012" x="54.9" y="18.7" smashed="yes" rot="R90">
+<attribute name="NAME" x="54.9" y="15.9" size="1" layer="25" font="vector" ratio="20" rot="R90" align="center"/>
+<attribute name="VALUE" x="56.4" y="18.6" size="1.27" layer="27" font="vector" ratio="15" rot="R90" align="center"/>
+<attribute name="AKIZUKI" value="" x="54.9" y="18.7" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER" value="" x="54.9" y="18.7" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DIGIKEY" value="490-9962-1-ND" x="54.9" y="18.7" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="C6" library="mylib" package="CR_1608" value="NM/1608" x="56.8" y="19" smashed="yes" rot="R90">
-<attribute name="NAME" x="56.8" y="21.5" size="1" layer="25" font="vector" ratio="20" rot="R90" align="center"/>
-<attribute name="VALUE" x="58.3" y="18.9" size="1.27" layer="27" font="vector" ratio="15" rot="R90" align="center"/>
-<attribute name="AKIZUKI" value="" x="56.8" y="19" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MOUSER" value="" x="56.8" y="19" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DIGIKEY" value="" x="56.8" y="19" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="C6" library="mylib" package="CR_1608" value="NM/1608" x="54.2" y="24.1" smashed="yes" rot="R180">
+<attribute name="NAME" x="56.6" y="24.1" size="1" layer="25" font="vector" ratio="20" rot="R180" align="center"/>
+<attribute name="VALUE" x="54.3" y="25.6" size="1.27" layer="27" font="vector" ratio="15" rot="R180" align="center"/>
+<attribute name="AKIZUKI" value="" x="54.2" y="24.1" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER" value="" x="54.2" y="24.1" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DIGIKEY" value="" x="54.2" y="24.1" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SEEED" value="" x="54.2" y="24.1" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="X1" library="con-samtec.local" package="TSW-102-02-S-S" value="TSW-102-02-S-S" x="41.1" y="21.9" smashed="yes" rot="R270">
 <attribute name="NAME" x="41.1" y="18.5" size="1" layer="25" font="vector" ratio="20" rot="R180" align="center"/>
 <attribute name="VALUE" x="39.83" y="17.455" size="1" layer="27" font="vector" ratio="20"/>
 <attribute name="AKIZUKI" value="1/10 C-08593" x="41.1" y="21.9" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="C7" library="mylib" package="C0402" value="0.1u/1005" x="46.2" y="21.6" smashed="yes" rot="R270">
-<attribute name="NAME" x="46.2" y="24" size="1" layer="25" font="vector" ratio="20" rot="R90" align="center"/>
-<attribute name="VALUE" x="44.7" y="21.7" size="1.27" layer="27" font="vector" ratio="15" rot="R270" align="center"/>
-<attribute name="AKIZUKI" value="" x="46.2" y="21.6" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MOUSER" value="" x="46.2" y="21.6" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DIGIKEY" value="490-3261-1-ND" x="46.2" y="21.6" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="SEEED" value="302010024 " x="46.2" y="21.6" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="C7" library="mylib" package="C0402" value="0.1u/1005" x="48.7" y="22.1" smashed="yes" rot="R270">
+<attribute name="NAME" x="48.7" y="24.5" size="1" layer="25" font="vector" ratio="20" rot="R90" align="center"/>
+<attribute name="VALUE" x="47.2" y="22.2" size="1.27" layer="27" font="vector" ratio="15" rot="R270" align="center"/>
+<attribute name="AKIZUKI" value="" x="48.7" y="22.1" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOUSER" value="" x="48.7" y="22.1" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DIGIKEY" value="490-3261-1-ND" x="48.7" y="22.1" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SEEED" value="302010024 " x="48.7" y="22.1" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="IC3" library="mylib" package="HVQFN33" value="IC_LPC11U35_QFN33_5X5" x="42" y="31.5" smashed="yes" rot="R270">
 <attribute name="NAME" x="42" y="27.4" size="1" layer="25" ratio="20" align="center"/>
@@ -1775,6 +1793,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="34.6" y="30.9" size="1" layer="21" font="vector" ratio="20" rot="R180" align="center"/>
 <attribute name="VALUE" x="31.7" y="33.4" size="1" layer="27" font="vector" ratio="20" rot="R180" align="center"/>
 <attribute name="AKIZUKI" value="I-04269/I-04270(reel)" x="31.7" y="30.9" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DIGIKEY" value="BSS84CT-ND" x="31.7" y="30.9" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R11" library="mylib" package="C0402" value="1.5k/1005" x="25.6" y="28" smashed="yes" rot="R180">
 <attribute name="NAME" x="23.2" y="28.1" size="1" layer="25" font="vector" ratio="20" align="center"/>
@@ -1784,13 +1803,13 @@ design rules under a new name.</description>
 <attribute name="DIGIKEY" value="P1.50KLCT-ND" x="25.6" y="28" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SEEED" value="301010001 " x="25.6" y="28" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="R12" library="mylib" package="C0402" value="10k/1005" x="37.8" y="34.1" smashed="yes" rot="R270">
-<attribute name="NAME" x="37.2" y="32.4" size="1" layer="25" font="vector" ratio="20" align="center"/>
-<attribute name="VALUE" x="35.9" y="34.7" size="1" layer="27" font="vector" ratio="20" rot="R270"/>
-<attribute name="AKIZUKI" value="" x="37.8" y="34.1" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MOUSER" value="" x="37.8" y="34.1" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DIGIKEY" value="P10.0KLCT-ND" x="37.8" y="34.1" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="SEEED" value="301010047 " x="37.8" y="34.1" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="R12" library="mylib" package="C0402" value="10k/1005" x="37.2" y="34.1" smashed="yes" rot="R270">
+<attribute name="NAME" x="36.6" y="32.4" size="1" layer="25" font="vector" ratio="20" align="center"/>
+<attribute name="VALUE" x="35.3" y="34.7" size="1" layer="27" font="vector" ratio="20" rot="R270"/>
+<attribute name="AKIZUKI" value="" x="37.2" y="34.1" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOUSER" value="" x="37.2" y="34.1" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DIGIKEY" value="P10.0KLCT-ND" x="37.2" y="34.1" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SEEED" value="301010047 " x="37.2" y="34.1" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="SW1" library="mylib" package="SW_TACTSW_FSM2JMTR" value="" x="60" y="45.1" smashed="yes" rot="R180">
 <attribute name="NAME" x="60" y="42" size="1.2" layer="25" font="vector" ratio="17" align="center"/>
@@ -1819,25 +1838,26 @@ design rules under a new name.</description>
 <attribute name="AKIZUKI" value="P-05650" x="28.7" y="28" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER" value="" x="28.7" y="28" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DIGIKEY" value="" x="28.7" y="28" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SEEED" value="" x="28.7" y="28" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="U$1" library="mylib" package="ICON_OSHW" value="" x="70.2" y="17.8">
 <attribute name="NOT_COMPONENT" value="YES" x="70.2" y="17.8" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R13" library="mylib" package="C0402" value="100/1005" x="37.8" y="38.3" smashed="yes" rot="R90">
-<attribute name="NAME" x="38.7" y="39.9" size="1" layer="25" font="vector" ratio="20" align="center"/>
-<attribute name="VALUE" x="39.7" y="37.7" size="1" layer="27" font="vector" ratio="20" rot="R90"/>
-<attribute name="AKIZUKI" value="" x="37.8" y="38.3" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MOUSER" value="" x="37.8" y="38.3" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DIGIKEY" value="P100LCT-ND" x="37.8" y="38.3" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="SEEED" value="301010028 " x="37.8" y="38.3" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="R13" library="mylib" package="C0402" value="100/1005" x="37.4" y="38.3" smashed="yes" rot="R90">
+<attribute name="NAME" x="38.3" y="39.9" size="1" layer="25" font="vector" ratio="20" align="center"/>
+<attribute name="VALUE" x="39.3" y="37.7" size="1" layer="27" font="vector" ratio="20" rot="R90"/>
+<attribute name="AKIZUKI" value="" x="37.4" y="38.3" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER" value="" x="37.4" y="38.3" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DIGIKEY" value="P100LCT-ND" x="37.4" y="38.3" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SEEED" value="301010028 " x="37.4" y="38.3" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R14" library="mylib" package="C0402" value="100/1005" x="35.9" y="38.3" smashed="yes" rot="R90">
-<attribute name="NAME" x="35.5" y="39.9" size="1" layer="25" font="vector" ratio="20" align="center"/>
-<attribute name="VALUE" x="37.8" y="37.7" size="1" layer="27" font="vector" ratio="20" rot="R90"/>
-<attribute name="AKIZUKI" value="" x="35.9" y="38.3" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MOUSER" value="" x="35.9" y="38.3" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DIGIKEY" value="P100LCT-ND" x="35.9" y="38.3" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="SEEED" value="301010028 " x="35.9" y="38.3" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="R14" library="mylib" package="C0402" value="100/1005" x="36.2" y="38.3" smashed="yes" rot="R90">
+<attribute name="NAME" x="35.8" y="39.9" size="1" layer="25" font="vector" ratio="20" align="center"/>
+<attribute name="VALUE" x="38.1" y="37.7" size="1" layer="27" font="vector" ratio="20" rot="R90"/>
+<attribute name="AKIZUKI" value="" x="36.2" y="38.3" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER" value="" x="36.2" y="38.3" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DIGIKEY" value="P100LCT-ND" x="36.2" y="38.3" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SEEED" value="301010028 " x="36.2" y="38.3" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="LED1" library="mylib" package="SOT105P300X130-3N" value="RD/GR" x="36.8" y="42.7" smashed="yes">
 <attribute name="NAME" x="33.5" y="42.7" size="1" layer="21" font="vector" ratio="20" align="center"/>
@@ -1937,8 +1957,8 @@ design rules under a new name.</description>
 <element name="TP13" library="mylib" package="TP_4020" value="" x="77" y="20" rot="R90">
 <attribute name="DIGIKEY" value="36-5019CT-ND" x="77" y="20" size="1" layer="27" ratio="20" rot="R90" display="off"/>
 </element>
-<element name="TP12" library="mylib" package="TP06RECT" value="" x="60.3" y="17.9" rot="R90">
-<attribute name="NOT_COMPONENT" value="YES" x="60.3" y="17.9" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="TP12" library="mylib" package="TP06RECT" value="" x="60.3" y="17.8" rot="R180">
+<attribute name="NOT_COMPONENT" value="YES" x="60.3" y="17.8" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="TP14" library="mylib" package="TP_4020" value="" x="13" y="20" rot="R90">
 <attribute name="DIGIKEY" value="36-5019CT-ND" x="13" y="20" size="1" layer="27" ratio="20" rot="R90" display="off"/>
@@ -1956,6 +1976,9 @@ design rules under a new name.</description>
 </element>
 <element name="ICON1" library="mylib" package="ICON_REVISION2.0" value="r0.2" x="70" y="14.2">
 <attribute name="NOT_COMPONENT" value="YES" x="70" y="14.2" size="1.778" layer="27" display="off"/>
+</element>
+<element name="GIT1" library="git-revision" package="GIT-REVISION" value="" x="0" y="0">
+<attribute name="NOT_COMPONENT" value="YES" x="0" y="0" size="1.778" layer="27" display="off"/>
 </element>
 </elements>
 <signals>
@@ -2054,11 +2077,6 @@ design rules under a new name.</description>
 <contactref element="IC1" pad="3"/>
 <wire x1="51" y1="21.5" x2="51" y2="20.9" width="0.8" layer="1"/>
 <wire x1="51" y1="20.9" x2="51" y2="20.2" width="0.6" layer="1"/>
-<via x="46.2" y="20.1" extent="1-16" drill="0.3"/>
-<wire x1="46.2" y1="20.1" x2="46.2" y2="20.5" width="0.8" layer="1"/>
-<wire x1="46.2" y1="20.5" x2="46.2" y2="21" width="0.6" layer="1"/>
-<via x="44.6" y="19.2" extent="1-16" drill="0.3"/>
-<wire x1="44.6" y1="19.2" x2="44.6" y2="20.4" width="0.8" layer="1"/>
 <wire x1="24.2" y1="29.2" x2="25" y2="29.2" width="0.6" layer="1"/>
 <wire x1="24.2" y1="32.8" x2="25" y2="32.8" width="0.6" layer="1"/>
 <via x="18.9" y="35.7" extent="1-16" drill="0.3"/>
@@ -2070,6 +2088,27 @@ design rules under a new name.</description>
 <wire x1="18" y1="39.7" x2="19.2" y2="39.7" width="0.6" layer="1"/>
 <wire x1="19.2" y1="39.7" x2="19.2" y2="40.5" width="0.6" layer="1"/>
 <wire x1="44.3" y1="40.5" x2="44.3" y2="39.5" width="0.6" layer="1"/>
+<wire x1="47.3" y1="21" x2="47.7" y2="21" width="0.8" layer="1"/>
+<wire x1="47.7" y1="21" x2="48" y2="20.7" width="0.8" layer="1"/>
+<wire x1="48" y1="20.7" x2="48.4" y2="20.7" width="0.8" layer="1"/>
+<wire x1="48.4" y1="20.7" x2="48.7" y2="21" width="0.8" layer="1"/>
+<wire x1="48.7" y1="21" x2="48.7" y2="21.5" width="0.8" layer="1"/>
+<wire x1="48.7" y1="21.5" x2="51" y2="21.5" width="0.8" layer="1"/>
+<wire x1="54.9" y1="19.9" x2="54.9" y2="21.3" width="0.6" layer="1"/>
+<wire x1="54.9" y1="21.3" x2="55.1" y2="21.5" width="0.6" layer="1"/>
+<wire x1="54.9" y1="19.9" x2="54.5" y2="19.9" width="0.6" layer="1"/>
+<wire x1="54.5" y1="19.9" x2="53.8" y2="19.9" width="0.6" layer="1"/>
+<wire x1="55.1" y1="21.5" x2="54.5" y2="21.5" width="0.6" layer="1"/>
+<wire x1="54.5" y1="21.5" x2="54.2" y2="21.5" width="0.6" layer="1"/>
+<wire x1="54.2" y1="21.5" x2="54.2" y2="20.3" width="0.6" layer="1"/>
+<wire x1="54.2" y1="20.3" x2="53.8" y2="19.9" width="0.6" layer="1"/>
+<wire x1="54.5" y1="19.9" x2="54.5" y2="21.5" width="0.6" layer="1"/>
+<wire x1="51" y1="20.2" x2="51" y2="19.3" width="0.6" layer="1"/>
+<via x="51.9" y="21.5" extent="1-16" drill="0.3"/>
+<via x="50.1" y="21.5" extent="1-16" drill="0.3"/>
+<via x="48.4" y="20.7" extent="1-16" drill="0.3"/>
+<via x="53.8" y="19.9" extent="1-16" drill="0.3"/>
+<via x="53.2" y="19.4" extent="1-16" drill="0.3"/>
 </signal>
 <signal name="D-">
 <contactref element="CON2" pad="2"/>
@@ -2230,7 +2269,7 @@ design rules under a new name.</description>
 <wire x1="40.6" y1="36" x2="40.2" y2="36.4" width="0.3" layer="1"/>
 <wire x1="45.75" y1="31.75" x2="45.8" y2="31.8" width="0.5" layer="1"/>
 <wire x1="45.8" y1="31.8" x2="46.1" y2="31.8" width="0.6" layer="1"/>
-<wire x1="37.8" y1="34.7" x2="37" y2="34.7" width="0.25" layer="1"/>
+<wire x1="37.2" y1="34.7" x2="36.4" y2="34.7" width="0.25" layer="1"/>
 <via x="41.1" y="36.1" extent="1-16" drill="0.3"/>
 <wire x1="41.1" y1="36.1" x2="40.8" y2="36.4" width="0.6" layer="1"/>
 <wire x1="40.8" y1="36.4" x2="40.2" y2="36.4" width="0.6" layer="1"/>
@@ -2250,8 +2289,8 @@ design rules under a new name.</description>
 <wire x1="30.7" y1="34.7" x2="32" y2="34.7" width="2" layer="16"/>
 <wire x1="32" y1="34.7" x2="33.4" y2="34.7" width="2" layer="16"/>
 <wire x1="33.4" y1="34.7" x2="34.8" y2="34.7" width="2" layer="16"/>
-<wire x1="34.8" y1="34.7" x2="37" y2="34.7" width="2" layer="16"/>
-<wire x1="37" y1="34.7" x2="41.1" y2="34.7" width="2" layer="16"/>
+<wire x1="34.8" y1="34.7" x2="36.4" y2="34.7" width="2" layer="16"/>
+<wire x1="36.4" y1="34.7" x2="41.1" y2="34.7" width="2" layer="16"/>
 <wire x1="23.7" y1="35.3" x2="24.4" y2="34.7" width="0.8" layer="16"/>
 <wire x1="41.1" y1="34.7" x2="45.8" y2="34.7" width="2" layer="16"/>
 <wire x1="45.8" y1="34.7" x2="46.8" y2="34.7" width="2" layer="16"/>
@@ -2283,7 +2322,7 @@ design rules under a new name.</description>
 <wire x1="40.6" y1="35.6" x2="41.1" y2="36.1" width="0.8" layer="16"/>
 <wire x1="23.7" y1="35.3" x2="24.4" y2="35.3" width="0.8" layer="16"/>
 <wire x1="23.7" y1="34.1" x2="24.4" y2="34.1" width="0.8" layer="16"/>
-<via x="37" y="34.7" extent="1-16" drill="0.3"/>
+<via x="36.4" y="34.7" extent="1-16" drill="0.3"/>
 <wire x1="45.75" y1="31.75" x2="45.5" y2="31.75" width="0.5" layer="1"/>
 <wire x1="44.65" y1="31.75" x2="45.5" y2="31.75" width="0.3" layer="1"/>
 <wire x1="46.1" y1="31.8" x2="46.9" y2="31.8" width="0.8" layer="1"/>
@@ -2431,18 +2470,20 @@ design rules under a new name.</description>
 <contactref element="D1" pad="K"/>
 <contactref element="C5" pad="1"/>
 <contactref element="R3" pad="2"/>
-<wire x1="52.9" y1="17.9" x2="55.5" y2="17.9" width="0.6" layer="1"/>
-<wire x1="55.5" y1="17.9" x2="56.8" y2="17.9" width="0.6" layer="1"/>
-<wire x1="56.8" y1="17.9" x2="58.3" y2="17.9" width="0.6" layer="1"/>
-<wire x1="56.8" y1="18.1" x2="56.8" y2="17.9" width="0.6" layer="1"/>
-<wire x1="55.5" y1="18.1" x2="55.5" y2="17.9" width="0.6" layer="1"/>
-<wire x1="58.3" y1="17.9" x2="60.3" y2="17.9" width="0.6" layer="1"/>
-<wire x1="60.3" y1="17.9" x2="60.4" y2="17.9" width="0.6" layer="1"/>
-<wire x1="60.4" y1="17.9" x2="60.9" y2="18.4" width="0.6" layer="1"/>
+<wire x1="60.3" y1="17.8" x2="60.9" y2="18.4" width="0.6" layer="1"/>
 <wire x1="60.9" y1="18.4" x2="60.9" y2="26" width="0.6" layer="1"/>
 <wire x1="60.9" y1="26" x2="61.9" y2="27" width="0.6" layer="1"/>
 <wire x1="61.9" y1="27" x2="63.6" y2="27" width="0.6" layer="1"/>
 <contactref element="TP12" pad="TP"/>
+<wire x1="52.4" y1="17.8" x2="54.9" y2="17.8" width="0.8" layer="1"/>
+<wire x1="54.9" y1="17.8" x2="56.3" y2="17.8" width="0.8" layer="1"/>
+<wire x1="56.3" y1="17.8" x2="60.3" y2="17.8" width="0.8" layer="1"/>
+<wire x1="54.9" y1="17.5" x2="54.9" y2="17.8" width="0.8" layer="1"/>
+<wire x1="55.1" y1="24.1" x2="55.1" y2="22.8" width="0.4" layer="1"/>
+<wire x1="55.1" y1="22.8" x2="55.5" y2="22.4" width="0.4" layer="1"/>
+<wire x1="55.5" y1="22.4" x2="55.9" y2="22.4" width="0.4" layer="1"/>
+<wire x1="55.9" y1="22.4" x2="56.3" y2="22" width="0.4" layer="1"/>
+<wire x1="56.3" y1="22" x2="56.3" y2="17.8" width="0.4" layer="1"/>
 </signal>
 <signal name="VIN">
 <contactref element="L1" pad="1"/>
@@ -2462,10 +2503,13 @@ design rules under a new name.</description>
 <contactref element="L1" pad="2"/>
 <contactref element="IC2" pad="1"/>
 <contactref element="D1" pad="A"/>
-<wire x1="50.05" y1="20.2" x2="48" y2="20.2" width="0.6" layer="1"/>
-<wire x1="48" y1="20.2" x2="47.9" y2="20.3" width="0.6" layer="1"/>
-<wire x1="50.05" y1="20.2" x2="50.05" y2="17.95" width="0.6" layer="1"/>
-<wire x1="50.05" y1="17.95" x2="50.1" y2="17.9" width="0.6" layer="1"/>
+<wire x1="45.2" y1="20.3" x2="45.2" y2="19.5" width="0.8" layer="1"/>
+<wire x1="45.2" y1="19.5" x2="48.5" y2="19.5" width="0.8" layer="1"/>
+<wire x1="50.05" y1="20.2" x2="50" y2="20.2" width="0.8" layer="1"/>
+<wire x1="50" y1="20.2" x2="50" y2="17.8" width="0.8" layer="1"/>
+<wire x1="50" y1="17.8" x2="49.6" y2="17.8" width="0.8" layer="1"/>
+<wire x1="50.05" y1="20.2" x2="49.2" y2="20.2" width="0.8" layer="1"/>
+<wire x1="49.2" y1="20.2" x2="48.5" y2="19.5" width="0.8" layer="1"/>
 </signal>
 <signal name="N$8">
 <contactref element="IC2" pad="4"/>
@@ -2478,11 +2522,11 @@ design rules under a new name.</description>
 <contactref element="R3" pad="1"/>
 <contactref element="R4" pad="2"/>
 <contactref element="C6" pad="2"/>
-<wire x1="51.95" y1="20.2" x2="53.8" y2="20.2" width="0.3" layer="1"/>
-<wire x1="53.8" y1="20.2" x2="54.1" y2="19.9" width="0.3" layer="1"/>
-<wire x1="54.1" y1="19.9" x2="54.3" y2="19.9" width="0.3" layer="1"/>
-<wire x1="54.3" y1="19.9" x2="55.5" y2="19.9" width="0.3" layer="1"/>
-<wire x1="55.5" y1="19.9" x2="56.8" y2="19.9" width="0.3" layer="1"/>
+<wire x1="53.3" y1="22.8" x2="53.3" y2="21.5" width="0.4" layer="1"/>
+<wire x1="53.3" y1="24.1" x2="53.3" y2="22.8" width="0.4" layer="1"/>
+<wire x1="53.3" y1="21.5" x2="53.3" y2="20.4" width="0.4" layer="1"/>
+<wire x1="53.3" y1="20.4" x2="53.1" y2="20.2" width="0.4" layer="1"/>
+<wire x1="53.1" y1="20.2" x2="51.95" y2="20.2" width="0.4" layer="1"/>
 </signal>
 <signal name="N$6">
 <contactref element="IC3" pad="31"/>
@@ -2596,7 +2640,7 @@ design rules under a new name.</description>
 <contactref element="TR1" pad="1"/>
 <contactref element="IC3" pad="15"/>
 <wire x1="39.35" y1="30.25" x2="38.25" y2="30.25" width="0.25" layer="1"/>
-<wire x1="32.5" y1="32.1" x2="34" y2="32.1" width="0.25" layer="1"/>
+<wire x1="32.6" y1="32.1" x2="34" y2="32.1" width="0.25" layer="1"/>
 <via x="34" y="32.1" extent="1-16" drill="0.3"/>
 <wire x1="34" y1="32.1" x2="36" y2="30.1" width="0.25" layer="16"/>
 <via x="36" y="30.1" extent="1-16" drill="0.3"/>
@@ -2606,8 +2650,8 @@ design rules under a new name.</description>
 <signal name="N$13">
 <contactref element="R12" pad="2"/>
 <contactref element="IC3" pad="9"/>
-<wire x1="39.35" y1="33.25" x2="38.05" y2="33.25" width="0.25" layer="1"/>
-<wire x1="38.05" y1="33.25" x2="37.8" y2="33.5" width="0.25" layer="1"/>
+<wire x1="39.35" y1="33.25" x2="37.45" y2="33.25" width="0.25" layer="1"/>
+<wire x1="37.45" y1="33.25" x2="37.2" y2="33.5" width="0.25" layer="1"/>
 </signal>
 <signal name="MOSI2">
 <contactref element="CON4" pad="CMD"/>
@@ -2668,7 +2712,7 @@ design rules under a new name.</description>
 <signal name="N$1">
 <contactref element="R14" pad="1"/>
 <contactref element="IC3" pad="8"/>
-<wire x1="35.9" y1="37.7" x2="39" y2="34.6" width="0.25" layer="1"/>
+<wire x1="36.2" y1="37.7" x2="39" y2="34.6" width="0.25" layer="1"/>
 <wire x1="39" y1="34.6" x2="40" y2="34.6" width="0.25" layer="1"/>
 <wire x1="40" y1="34.6" x2="40.25" y2="34.35" width="0.25" layer="1"/>
 <wire x1="40.25" y1="34.35" x2="40.25" y2="34.15" width="0.25" layer="1"/>
@@ -2677,7 +2721,7 @@ design rules under a new name.</description>
 <signal name="N$14">
 <contactref element="IC3" pad="7"/>
 <contactref element="R13" pad="1"/>
-<wire x1="37.8" y1="37.7" x2="37.8" y2="36.5" width="0.25" layer="1"/>
+<wire x1="37.4" y1="37.7" x2="37.8" y2="36.5" width="0.25" layer="1"/>
 <wire x1="37.8" y1="36.5" x2="38.9" y2="35.4" width="0.25" layer="1"/>
 <wire x1="40.75" y1="34.15" x2="40.75" y2="34.95" width="0.25" layer="1"/>
 <wire x1="40.75" y1="34.95" x2="40.3" y2="35.4" width="0.25" layer="1"/>
@@ -2686,12 +2730,14 @@ design rules under a new name.</description>
 <signal name="N$15">
 <contactref element="R13" pad="2"/>
 <contactref element="LED1" pad="2"/>
-<wire x1="37.8" y1="38.9" x2="37.8" y2="41.5" width="0.25" layer="1"/>
+<wire x1="37.4" y1="38.9" x2="37.4" y2="41.1" width="0.25" layer="1"/>
+<wire x1="37.4" y1="41.1" x2="37.8" y2="41.5" width="0.25" layer="1"/>
 </signal>
 <signal name="N$16">
 <contactref element="R14" pad="2"/>
 <contactref element="LED1" pad="1"/>
-<wire x1="35.9" y1="38.9" x2="35.9" y2="41.5" width="0.25" layer="1"/>
+<wire x1="36.2" y1="38.9" x2="36.2" y2="41.1" width="0.25" layer="1"/>
+<wire x1="36.2" y1="41.1" x2="35.8" y2="41.5" width="0.25" layer="1"/>
 </signal>
 <signal name="N$17">
 <contactref element="R16" pad="1"/>
