@@ -1240,6 +1240,16 @@ Source: Samtec TSW.pdf</description>
 </polygon>
 <smd name="1" x="-2.5" y="0" dx="3" dy="2" layer="1" cream="no"/>
 <smd name="2" x="2.5" y="0" dx="3" dy="2" layer="1" cream="no"/>
+<wire x1="-3.7" y1="0.7" x2="-1.3" y2="0.7" width="0.4" layer="31"/>
+<wire x1="-1.3" y1="0.7" x2="-1.3" y2="-0.7" width="0.4" layer="31"/>
+<wire x1="-1.3" y1="-0.7" x2="-3.7" y2="-0.7" width="0.4" layer="31"/>
+<wire x1="-3.7" y1="-0.7" x2="-3.7" y2="0.7" width="0.4" layer="31"/>
+<wire x1="1.3" y1="0.7" x2="3.7" y2="0.7" width="0.4" layer="31"/>
+<wire x1="3.7" y1="0.7" x2="3.7" y2="-0.7" width="0.4" layer="31"/>
+<wire x1="3.7" y1="-0.7" x2="1.3" y2="-0.7" width="0.4" layer="31"/>
+<wire x1="1.3" y1="-0.7" x2="1.3" y2="0.7" width="0.4" layer="31"/>
+<rectangle x1="-3.7" y1="-0.7" x2="-1.3" y2="0.7" layer="31"/>
+<rectangle x1="1.3" y1="-0.7" x2="3.7" y2="0.7" layer="31"/>
 </package>
 <package name="CON_USB_A_SHIELD">
 <description>&lt;b&gt;USB connector&lt;/b&gt; with shield&lt;p&gt;</description>
@@ -3150,6 +3160,39 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 </deviceset>
 </devicesets>
 </library>
+<library name="git-revision">
+<packages>
+<package name="GIT-REVISION">
+<text x="0" y="0" size="1.27" layer="51">&gt;GIT</text>
+<circle x="0" y="0" radius="0.2" width="0.2" layer="51"/>
+</package>
+</packages>
+<symbols>
+<symbol name="GIT-REVISION">
+<text x="0.254" y="0.254" size="2.54" layer="94">&gt;VALUE</text>
+<wire x1="-0.254" y1="-0.254" x2="17.78" y2="-0.254" width="0.254" layer="94"/>
+<wire x1="-0.254" y1="-0.254" x2="-0.254" y2="3.302" width="0.254" layer="94"/>
+<wire x1="17.78" y1="-0.254" x2="17.78" y2="3.302" width="0.254" layer="94"/>
+<wire x1="-0.254" y1="3.302" x2="17.78" y2="3.302" width="0.254" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="GIT-REVISION" prefix="GIT" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="GIT-REVISION" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="GIT-REVISION">
+<technologies>
+<technology name="">
+<attribute name="NOT_COMPONENT" value="YES" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -3230,6 +3273,7 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <part name="P3" library="mylib" deviceset="PCB_CORNER" device=""/>
 <part name="P4" library="mylib" deviceset="PCB_CORNER" device=""/>
 <part name="C13" library="mylib" deviceset="C_SMD_*" device="_1005" technology="0.1U" value="0.1u/1005"/>
+<part name="GIT1" library="git-revision" deviceset="GIT-REVISION" device="" value="f5fb546"/>
 </parts>
 <sheets>
 <sheet>
@@ -3242,7 +3286,7 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 TGT_RX -&gt; P0_1</text>
 <text x="233.68" y="139.7" size="1.778" layer="94">P0_0 -&gt; TGT_TX
 P0_1 &lt;- TGT_RX</text>
-<text x="162.56" y="20.32" size="2.54" layer="94">CC-BY-SA</text>
+<text x="236.22" y="20.32" size="2.54" layer="94">CC-BY-SA</text>
 <text x="147.32" y="5.08" size="1.778" layer="91">FIDUCIALS</text>
 <text x="22.86" y="33.02" size="1.778" layer="94" rot="MR0">P0_2/CS</text>
 <text x="22.86" y="30.48" size="1.778" layer="94" rot="MR0">P0_7/MOSI</text>
@@ -3353,6 +3397,7 @@ P0_1 &lt;- TGT_RX</text>
 <instance part="P3" gate="G$1" x="134.62" y="17.78" rot="R180"/>
 <instance part="P4" gate="G$1" x="134.62" y="10.16" rot="R270"/>
 <instance part="C13" gate="G$1" x="104.14" y="76.2"/>
+<instance part="GIT1" gate="G$1" x="195.58" y="20.32"/>
 </instances>
 <busses>
 </busses>
