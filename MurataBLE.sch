@@ -3312,6 +3312,8 @@ P0_1 &lt;- TGT_RX</text>
 <wire x1="170.18" y1="124.46" x2="132.08" y2="124.46" width="0.1524" layer="94"/>
 <wire x1="132.08" y1="124.46" x2="132.08" y2="127" width="0.1524" layer="94"/>
 <wire x1="132.08" y1="127" x2="149.86" y2="127" width="0.1524" layer="94"/>
+<wire x1="187.96" y1="53.34" x2="193.04" y2="53.34" width="0.1524" layer="94"/>
+<wire x1="193.04" y1="50.8" x2="187.96" y2="50.8" width="0.1524" layer="94"/>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
