@@ -2134,7 +2134,7 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="LBCA2HNZYZ-711" prefix="U">
+<deviceset name="LBCA2HNZYZ-711" prefix="U" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="IC_LBCA2HNZYZ-711_BLE" x="0" y="0"/>
 </gates>
@@ -2243,16 +2243,19 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <attribute name="AKIZUKI" value="" constant="no"/>
 <attribute name="DIGIKEY" value="" constant="no"/>
 <attribute name="MOUSER" value="" constant="no"/>
+<attribute name="SEEED" value="" constant="no"/>
 </technology>
 <technology name="0.1U">
 <attribute name="AKIZUKI" value="P-05650" constant="no"/>
 <attribute name="DIGIKEY" value="" constant="no"/>
 <attribute name="MOUSER" value="" constant="no"/>
+<attribute name="SEEED" value="" constant="no"/>
 </technology>
 <technology name="1.0U">
 <attribute name="AKIZUKI" value="" constant="no"/>
 <attribute name="DIGIKEY" value="" constant="no"/>
 <attribute name="MOUSER" value="" constant="no"/>
+<attribute name="SEEED" value="302010139" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -2718,9 +2721,11 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <technologies>
 <technology name="">
 <attribute name="AKIZUKI" value="" constant="no"/>
+<attribute name="DIGIKEY" value="" constant="no"/>
 </technology>
 <technology name="BSS84">
 <attribute name="AKIZUKI" value="I-04269/I-04270(reel)" constant="no"/>
+<attribute name="DIGIKEY" value="BSS84CT-ND" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -2793,7 +2798,7 @@ Source: Samtec TSW.pdf</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="AKIZUKI" value="" constant="no"/>
+<attribute name="AKIZUKI" value="C-04397" constant="no"/>
 <attribute name="DIGIKEY" value="" constant="no"/>
 <attribute name="MOUSER" value="" constant="no"/>
 </technology>
@@ -2952,7 +2957,7 @@ Source: Samtec TSW.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="IC_MEMORY_8P_*" prefix="IC">
+<deviceset name="IC_MEMORY_8P_*" prefix="IC" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="IC_SRAM_23K256" x="0" y="0"/>
 </gates>
