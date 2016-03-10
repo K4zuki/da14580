@@ -1793,6 +1793,15 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <wire x1="-0.6" y1="-1.3" x2="-0.7" y2="-1.3" width="0.2" layer="31"/>
 <wire x1="-0.7" y1="-1.3" x2="-0.7" y2="-0.9" width="0.2" layer="31"/>
 </package>
+<package name="PCB_CORNER_NH">
+<wire x1="5" y1="0" x2="0" y2="-5" width="2" layer="46" curve="-90"/>
+<wire x1="-5.1" y1="-5" x2="0" y2="-5" width="2" layer="46"/>
+<wire x1="5" y1="0" x2="5" y2="5.1" width="2" layer="46"/>
+<wire x1="-6.1" y1="-4" x2="0" y2="-4" width="0" layer="20"/>
+<wire x1="0" y1="-4" x2="4" y2="0" width="0" layer="20" curve="90"/>
+<wire x1="4" y1="0" x2="4" y2="6.1" width="0" layer="20"/>
+<circle x="0" y="0" radius="1.6" width="0.2" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="IC_LBCA2HNZYZ-711_BLE">
@@ -2125,7 +2134,7 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="LBCA2HNZYZ-711" prefix="U" uservalue="yes">
+<deviceset name="LBCA2HNZYZ-711" prefix="U">
 <gates>
 <gate name="G$1" symbol="IC_LBCA2HNZYZ-711_BLE" x="0" y="0"/>
 </gates>
@@ -2234,19 +2243,16 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <attribute name="AKIZUKI" value="" constant="no"/>
 <attribute name="DIGIKEY" value="" constant="no"/>
 <attribute name="MOUSER" value="" constant="no"/>
-<attribute name="SEEED" value="" constant="no"/>
 </technology>
 <technology name="0.1U">
 <attribute name="AKIZUKI" value="P-05650" constant="no"/>
 <attribute name="DIGIKEY" value="" constant="no"/>
 <attribute name="MOUSER" value="" constant="no"/>
-<attribute name="SEEED" value="" constant="no"/>
 </technology>
 <technology name="1.0U">
 <attribute name="AKIZUKI" value="" constant="no"/>
 <attribute name="DIGIKEY" value="" constant="no"/>
 <attribute name="MOUSER" value="" constant="no"/>
-<attribute name="SEEED" value="302010139" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -2712,11 +2718,9 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <technologies>
 <technology name="">
 <attribute name="AKIZUKI" value="" constant="no"/>
-<attribute name="DIGIKEY" value="" constant="no"/>
 </technology>
 <technology name="BSS84">
 <attribute name="AKIZUKI" value="I-04269/I-04270(reel)" constant="no"/>
-<attribute name="DIGIKEY" value="BSS84CT-ND" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -2789,7 +2793,7 @@ Source: Samtec TSW.pdf</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="AKIZUKI" value="C-04397" constant="no"/>
+<attribute name="AKIZUKI" value="" constant="no"/>
 <attribute name="DIGIKEY" value="" constant="no"/>
 <attribute name="MOUSER" value="" constant="no"/>
 </technology>
@@ -2948,7 +2952,7 @@ Source: Samtec TSW.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="IC_MEMORY_8P_*" prefix="IC" uservalue="yes">
+<deviceset name="IC_MEMORY_8P_*" prefix="IC">
 <gates>
 <gate name="G$1" symbol="IC_SRAM_23K256" x="0" y="0"/>
 </gates>
@@ -3117,6 +3121,11 @@ Source: Samtec TSW.pdf</description>
 </technology>
 </technologies>
 </device>
+<device name="_NH" package="PCB_CORNER_NH">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="IC_TTL_SINGLE_74_00" prefix="IC" uservalue="yes">
@@ -3237,14 +3246,14 @@ Source: Samtec TSW.pdf</description>
 <part name="C10" library="mylib" deviceset="C_SMD_*" device="_1005" technology="18P" value="18p/1005"/>
 <part name="SUPPLY14" library="mylib" deviceset="GND" device=""/>
 <part name="SUPPLY15" library="mylib" deviceset="GND" device=""/>
-<part name="TR1" library="mylib" deviceset="PMOS_*" device="_SOT23" technology="BSS84" value=""/>
+<part name="TR1" library="mylib" deviceset="PMOS_*" device="_SOT23" technology="BSS84" value="PMOS_BSS84_SOT23"/>
 <part name="R10" library="mylib" deviceset="R_US_*" device="_1005" technology="1.5K" value="1.5k/1005"/>
 <part name="R4" library="mylib" deviceset="R_US_*" device="_1005" technology="1.0K"/>
 <part name="R5" library="mylib" deviceset="R_US_*" device="_1005" technology="1.0K"/>
 <part name="R11" library="mylib" deviceset="R_US_*" device="_1005" technology="1.0K"/>
 <part name="SUPPLY16" library="mylib" deviceset="GND" device=""/>
 <part name="LED1" library="mylib" deviceset="LED_3SEG" device=""/>
-<part name="X1" library="mylib" deviceset="TSW-114-02-S-S" device="" value="">
+<part name="X1" library="mylib" deviceset="TSW-114-02-S-S" device="" value="TSW-114-02-S-S">
 <attribute name="NOT_COMPONENT" value="YES"/>
 </part>
 <part name="TP100" library="mylib" deviceset="TESTPAD" device="_F" value="TESTPAD_F"/>
@@ -3261,15 +3270,18 @@ Source: Samtec TSW.pdf</description>
 <part name="ICON1" library="mylib" deviceset="ICON_REVISION" device="_1.2" value="r0.4"/>
 <part name="ICON2" library="mylib" deviceset="ICON_OSHW" device=""/>
 <part name="CON1" library="mylib" deviceset="CON_USB" device="_UB"/>
-<part name="P1" library="mylib" deviceset="PCB_CORNER" device=""/>
-<part name="P2" library="mylib" deviceset="PCB_CORNER" device=""/>
-<part name="P3" library="mylib" deviceset="PCB_CORNER" device=""/>
-<part name="P4" library="mylib" deviceset="PCB_CORNER" device=""/>
+<part name="P1" library="mylib" deviceset="PCB_CORNER" device="_NH"/>
+<part name="P2" library="mylib" deviceset="PCB_CORNER" device="_NH"/>
+<part name="P3" library="mylib" deviceset="PCB_CORNER" device="_NH"/>
+<part name="P4" library="mylib" deviceset="PCB_CORNER" device="_NH"/>
 <part name="C13" library="mylib" deviceset="C_SMD_*" device="_1005" technology="0.1U" value="0.1u/1005"/>
 <part name="R12" library="mylib" deviceset="R_US_*" device="_1005SHORT"/>
 <part name="R13" library="mylib" deviceset="R_US_*" device="_1005SHORT"/>
 <part name="IC3" library="mylib" deviceset="IC_TTL_SINGLE_74_00" device="_SOT23"/>
 <part name="GIT1" library="git-revision" deviceset="GIT-REVISION" device=""/>
+<part name="X2" library="mylib" deviceset="TSW-114-02-S-S" device="" value="TSW-114-02-S-S">
+<attribute name="NOT_COMPONENT" value="YES"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -3427,6 +3439,22 @@ P0_1 &lt;- TGT_RX</text>
 <attribute name="DIGIKEY" x="83.82" y="144.78" size="1.778" layer="96" display="both"/>
 </instance>
 <instance part="GIT1" gate="G$1" x="195.58" y="20.32"/>
+<instance part="X2" gate="-1" x="271.78" y="93.98" rot="MR0">
+<attribute name="NOT_COMPONENT" x="271.78" y="93.98" size="1.778" layer="96" rot="MR0" display="off"/>
+</instance>
+<instance part="X2" gate="-2" x="271.78" y="91.44" rot="MR0"/>
+<instance part="X2" gate="-3" x="271.78" y="88.9" rot="MR0"/>
+<instance part="X2" gate="-4" x="271.78" y="86.36" rot="MR0"/>
+<instance part="X2" gate="-5" x="271.78" y="83.82" rot="MR0"/>
+<instance part="X2" gate="-6" x="271.78" y="81.28" rot="MR0"/>
+<instance part="X2" gate="-7" x="271.78" y="78.74" rot="MR0"/>
+<instance part="X2" gate="-8" x="271.78" y="76.2" rot="MR0"/>
+<instance part="X2" gate="-9" x="271.78" y="73.66" rot="MR0"/>
+<instance part="X2" gate="-10" x="271.78" y="71.12" rot="MR0"/>
+<instance part="X2" gate="-11" x="271.78" y="68.58" rot="MR0"/>
+<instance part="X2" gate="-12" x="271.78" y="66.04" rot="MR0"/>
+<instance part="X2" gate="-13" x="271.78" y="63.5" rot="MR0"/>
+<instance part="X2" gate="-14" x="271.78" y="60.96" rot="MR0"/>
 </instances>
 <busses>
 </busses>
