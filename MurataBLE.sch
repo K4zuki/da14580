@@ -3839,6 +3839,11 @@ P0_1 &lt;- TGT_RX</text>
 <wire x1="233.68" y1="93.98" x2="241.3" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="X1" gate="-1" pin="1"/>
 </segment>
+<segment>
+<wire x1="157.48" y1="71.12" x2="165.1" y2="71.12" width="0.1524" layer="91"/>
+<pinref part="IC2" gate="G$1" pin="P0_13/AD2"/>
+<label x="165.1" y="71.12" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="N$18" class="0">
 <segment>
@@ -3991,6 +3996,11 @@ P0_1 &lt;- TGT_RX</text>
 <label x="241.3" y="91.44" size="1.778" layer="95"/>
 <wire x1="233.68" y1="91.44" x2="241.3" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="X1" gate="-2" pin="1"/>
+</segment>
+<segment>
+<wire x1="157.48" y1="68.58" x2="165.1" y2="68.58" width="0.1524" layer="91"/>
+<pinref part="IC2" gate="G$1" pin="P0_14/AD3"/>
+<label x="165.1" y="68.58" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="580.P0_0" class="0">
