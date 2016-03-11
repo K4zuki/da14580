@@ -3289,6 +3289,8 @@ Source: Samtec TSW.pdf</description>
 <part name="X2" library="mylib" deviceset="TSW-114-02-S-S" device="" value="TSW-114-02-S-S">
 <attribute name="NOT_COMPONENT" value="YES"/>
 </part>
+<part name="R14" library="mylib" deviceset="R_US_*" device="_1005" technology="10K" value="10k/1005"/>
+<part name="R15" library="mylib" deviceset="R_US_*" device="_1005" technology="10K" value="10k/1005"/>
 </parts>
 <sheets>
 <sheet>
@@ -3462,6 +3464,8 @@ P0_1 &lt;- TGT_RX</text>
 <instance part="X2" gate="-12" x="271.78" y="66.04" rot="MR0"/>
 <instance part="X2" gate="-13" x="271.78" y="63.5" rot="MR0"/>
 <instance part="X2" gate="-14" x="271.78" y="60.96" rot="MR0"/>
+<instance part="R14" gate="G$1" x="182.88" y="78.74" rot="R90"/>
+<instance part="R15" gate="G$1" x="185.42" y="78.74" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -3722,6 +3726,14 @@ P0_1 &lt;- TGT_RX</text>
 <junction x="27.94" y="33.02"/>
 <label x="25.4" y="33.02" size="1.778" layer="95" rot="MR0"/>
 </segment>
+<segment>
+<label x="190.5" y="81.28" size="1.778" layer="95"/>
+<pinref part="R14" gate="G$1" pin="2"/>
+<wire x1="182.88" y1="81.28" x2="185.42" y2="81.28" width="0.1524" layer="91"/>
+<pinref part="R15" gate="G$1" pin="2"/>
+<wire x1="185.42" y1="81.28" x2="190.5" y2="81.28" width="0.1524" layer="91"/>
+<junction x="185.42" y="81.28"/>
+</segment>
 </net>
 <net name="RESET" class="0">
 <segment>
@@ -3875,9 +3887,11 @@ P0_1 &lt;- TGT_RX</text>
 <pinref part="X1" gate="-1" pin="1"/>
 </segment>
 <segment>
-<wire x1="157.48" y1="71.12" x2="165.1" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="G$1" pin="P0_13/AD2"/>
 <label x="165.1" y="71.12" size="1.778" layer="95"/>
+<pinref part="R14" gate="G$1" pin="1"/>
+<wire x1="157.48" y1="71.12" x2="182.88" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="71.12" x2="182.88" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$18" class="0">
@@ -4033,9 +4047,11 @@ P0_1 &lt;- TGT_RX</text>
 <pinref part="X1" gate="-2" pin="1"/>
 </segment>
 <segment>
-<wire x1="157.48" y1="68.58" x2="165.1" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="G$1" pin="P0_14/AD3"/>
 <label x="165.1" y="68.58" size="1.778" layer="95"/>
+<pinref part="R15" gate="G$1" pin="1"/>
+<wire x1="157.48" y1="68.58" x2="185.42" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="68.58" x2="185.42" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="580.P0_0" class="0">
