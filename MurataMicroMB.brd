@@ -1161,16 +1161,16 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/TDA988
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
 <package name="TSW-102-02-S-S">
-<description>&lt;b&gt;THROUGH-HOLE .025" SQ POST HEADER&lt;/b&gt;&lt;p&gt;
+<description>&lt;b&gt;THROUGH-HOLE .025inch SQ POST HEADER&lt;/b&gt;&lt;p&gt;
 Source: Samtec TSW.pdf</description>
-<wire x1="-2.669" y1="1.155" x2="2.669" y2="1.155" width="0.2" layer="21"/>
-<wire x1="2.669" y1="1.155" x2="2.669" y2="-1.155" width="0.2" layer="21"/>
-<wire x1="2.669" y1="-1.155" x2="-2.669" y2="-1.155" width="0.2" layer="21"/>
-<wire x1="-2.669" y1="-1.155" x2="-2.669" y2="1.155" width="0.2" layer="21"/>
+<wire x1="-2.6" y1="1.1" x2="2.6" y2="1.1" width="0.2" layer="21"/>
+<wire x1="2.6" y1="1.1" x2="2.6" y2="-1.1" width="0.2" layer="21"/>
+<wire x1="2.6" y1="-1.1" x2="-2.6" y2="-1.1" width="0.2" layer="21"/>
+<wire x1="-2.6" y1="-1.1" x2="-2.6" y2="1.1" width="0.2" layer="21"/>
 <pad name="1" x="1.27" y="0" drill="1" diameter="1.5" shape="octagon" rot="R180"/>
 <pad name="2" x="-1.27" y="0" drill="1" diameter="1.5" shape="octagon" rot="R180"/>
-<text x="-3.1" y="-1.2" size="1" layer="25" font="vector" ratio="20" rot="R90">&gt;NAME</text>
-<text x="4.4" y="-1.2" size="1" layer="27" font="vector" ratio="20" rot="R90">&gt;VALUE</text>
+<text x="0" y="0" size="1" layer="25" font="vector" ratio="20" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1" layer="27" font="vector" align="center">&gt;VALUE</text>
 <rectangle x1="-1.62" y1="-0.35" x2="-0.92" y2="0.35" layer="51"/>
 <rectangle x1="0.92" y1="-0.35" x2="1.62" y2="0.35" layer="51"/>
 <polygon width="0.2" layer="21">
@@ -1178,6 +1178,10 @@ Source: Samtec TSW.pdf</description>
 <vertex x="2" y="1.1"/>
 <vertex x="2.6" y="1.1"/>
 </polygon>
+<wire x1="-2.6" y1="1.1" x2="2.6" y2="1.1" width="0.2" layer="51"/>
+<wire x1="2.6" y1="1.1" x2="2.6" y2="-1.1" width="0.2" layer="51"/>
+<wire x1="2.6" y1="-1.1" x2="-2.6" y2="-1.1" width="0.2" layer="51"/>
+<wire x1="-2.6" y1="1.1" x2="-2.6" y2="-1.1" width="0.2" layer="51"/>
 </package>
 </packages>
 </library>
@@ -1585,7 +1589,7 @@ design rules under a new name.</description>
 <attribute name="MOUSER" value="" x="45.2" y="21.4" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DIGIKEY" value="445-7844-1-ND" x="45.2" y="21.4" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="IC2" library="mylib" package="SOT95P280X145-5N" value="" x="51" y="21.5" smashed="yes" rot="R90">
+<element name="IC2" library="mylib" package="SOT95P280X145-5N" value="LM27313" x="51" y="21.5" smashed="yes" rot="R90">
 <attribute name="NAME" x="47.8" y="19.6" size="1" layer="25" font="vector" ratio="20" align="center"/>
 <attribute name="VALUE" x="54.2" y="21.4" size="1.27" layer="27" font="vector" ratio="16" rot="R90" align="center"/>
 <attribute name="DIGIKEY" value="296-35164-1-ND" x="51" y="21.5" size="1.778" layer="27" rot="R90" display="off"/>
@@ -1638,11 +1642,13 @@ design rules under a new name.</description>
 <attribute name="MOUSER" value="" x="54.2" y="24.1" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DIGIKEY" value="" x="54.2" y="24.1" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SEEED" value="" x="54.2" y="24.1" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NOT_COMPONENT" value="YES" x="54.2" y="24.1" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="X1" library="con-samtec.local" package="TSW-102-02-S-S" value="TSW-102-02-S-S" x="41.1" y="21.9" smashed="yes" rot="R270">
 <attribute name="NAME" x="41.1" y="18.5" size="1" layer="25" font="vector" ratio="20" rot="R180" align="center"/>
 <attribute name="VALUE" x="39.83" y="17.455" size="1" layer="27" font="vector" ratio="20"/>
-<attribute name="AKIZUKI" value="1/10 C-08593" x="41.1" y="21.9" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SEEED" value="320020016" x="41.1" y="21.9" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DIGIKEY" value="S1011EC-02-ND" x="41.1" y="21.9" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C7" library="mylib" package="C0402" value="0.1u/1005" x="48.7" y="22.1" smashed="yes" rot="R270">
 <attribute name="NAME" x="48.7" y="24.5" size="1" layer="25" font="vector" ratio="20" rot="R90" align="center"/>

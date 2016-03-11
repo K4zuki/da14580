@@ -3369,16 +3369,16 @@ high speed (Philips)</description>
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
 <package name="TSW-102-02-S-S">
-<description>&lt;b&gt;THROUGH-HOLE .025" SQ POST HEADER&lt;/b&gt;&lt;p&gt;
+<description>&lt;b&gt;THROUGH-HOLE .025inch SQ POST HEADER&lt;/b&gt;&lt;p&gt;
 Source: Samtec TSW.pdf</description>
-<wire x1="-2.669" y1="1.155" x2="2.669" y2="1.155" width="0.2" layer="21"/>
-<wire x1="2.669" y1="1.155" x2="2.669" y2="-1.155" width="0.2" layer="21"/>
-<wire x1="2.669" y1="-1.155" x2="-2.669" y2="-1.155" width="0.2" layer="21"/>
-<wire x1="-2.669" y1="-1.155" x2="-2.669" y2="1.155" width="0.2" layer="21"/>
+<wire x1="-2.6" y1="1.1" x2="2.6" y2="1.1" width="0.2" layer="21"/>
+<wire x1="2.6" y1="1.1" x2="2.6" y2="-1.1" width="0.2" layer="21"/>
+<wire x1="2.6" y1="-1.1" x2="-2.6" y2="-1.1" width="0.2" layer="21"/>
+<wire x1="-2.6" y1="-1.1" x2="-2.6" y2="1.1" width="0.2" layer="21"/>
 <pad name="1" x="1.27" y="0" drill="1" diameter="1.5" shape="octagon" rot="R180"/>
 <pad name="2" x="-1.27" y="0" drill="1" diameter="1.5" shape="octagon" rot="R180"/>
-<text x="-3.1" y="-1.2" size="1" layer="25" font="vector" ratio="20" rot="R90">&gt;NAME</text>
-<text x="4.4" y="-1.2" size="1" layer="27" font="vector" ratio="20" rot="R90">&gt;VALUE</text>
+<text x="0" y="0" size="1" layer="25" font="vector" ratio="20" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1" layer="27" font="vector" align="center">&gt;VALUE</text>
 <rectangle x1="-1.62" y1="-0.35" x2="-0.92" y2="0.35" layer="51"/>
 <rectangle x1="0.92" y1="-0.35" x2="1.62" y2="0.35" layer="51"/>
 <polygon width="0.2" layer="21">
@@ -3386,9 +3386,13 @@ Source: Samtec TSW.pdf</description>
 <vertex x="2" y="1.1"/>
 <vertex x="2.6" y="1.1"/>
 </polygon>
+<wire x1="-2.6" y1="1.1" x2="2.6" y2="1.1" width="0.2" layer="51"/>
+<wire x1="2.6" y1="1.1" x2="2.6" y2="-1.1" width="0.2" layer="51"/>
+<wire x1="2.6" y1="-1.1" x2="-2.6" y2="-1.1" width="0.2" layer="51"/>
+<wire x1="-2.6" y1="1.1" x2="-2.6" y2="-1.1" width="0.2" layer="51"/>
 </package>
 <package name="TSW-102-02-S-S-RA">
-<description>&lt;b&gt;THROUGH-HOLE .025" SQ POST HEADER&lt;/b&gt;&lt;p&gt;
+<description>&lt;b&gt;THROUGH-HOLE .025inch SQ POST HEADER&lt;/b&gt;&lt;p&gt;
 Source: Samtec TSW.pdf</description>
 <wire x1="-2.669" y1="-2.046" x2="2.669" y2="-2.046" width="0.2032" layer="21"/>
 <wire x1="2.669" y1="-2.046" x2="2.669" y2="-0.106" width="0.2032" layer="21"/>
@@ -3424,7 +3428,7 @@ Source: Samtec TSW.pdf</description>
 </symbols>
 <devicesets>
 <deviceset name="TSW-102-02-S-S" prefix="X">
-<description>&lt;b&gt;THROUGH-HOLE .025" SQ POST HEADER&lt;/b&gt;&lt;p&gt;
+<description>&lt;b&gt;THROUGH-HOLE POST HEADER&lt;/b&gt;&lt;p&gt;
 Source: Samtec TSW.pdf</description>
 <gates>
 <gate name="-1" symbol="MPINV" x="0" y="0" addlevel="always"/>
@@ -3437,7 +3441,10 @@ Source: Samtec TSW.pdf</description>
 <connect gate="-2" pin="1" pad="2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DIGIKEY" value="S1011EC-02-ND" constant="no"/>
+<attribute name="SEEED" value="320020016" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="-RA" package="TSW-102-02-S-S-RA">
@@ -4885,19 +4892,19 @@ Source: Samtec TSW.pdf</description>
 <part name="SUPPLY7" library="mylib" deviceset="GND" device=""/>
 <part name="SUPPLY8" library="mylib" deviceset="GND" device=""/>
 <part name="L1" library="mylib" deviceset="INDUCTOR_" device="_2016" technology="4.7U" value="4.7u/2016"/>
-<part name="IC2" library="mylib" deviceset="IC_DCDC_LM27313" device="_SOT23"/>
+<part name="IC2" library="mylib" deviceset="IC_DCDC_LM27313" device="_SOT23" value="LM27313"/>
 <part name="D1" library="mylib" deviceset="DIODE2_*" device="_SOD123" technology="40V2A" value="40V2A"/>
 <part name="R2" library="mylib" deviceset="R_US_*" device="_1005" technology="10K" value="10k/1005"/>
 <part name="R3" library="mylib" deviceset="R_US_*" device="_1608" technology="60.4K" value="P60.4KHCT-ND"/>
 <part name="R4" library="mylib" deviceset="R_US_*" device="_1608" technology="13.3K" value="P13.3KHCT-ND"/>
 <part name="C4" library="mylib" deviceset="C_SMD_*" device="_2012" technology="4.7U" value="4.7u/2012"/>
 <part name="C5" library="mylib" deviceset="C_SMD_*" device="_2012" technology="4.7U" value="4.7u/2012"/>
-<part name="C6" library="mylib" deviceset="C_SMD_*" device="_1608" value="NM/1608"/>
+<part name="C6" library="mylib" deviceset="C_SMD_*" device="_1608" value="NM/1608">
+<attribute name="NOT_COMPONENT" value="YES"/>
+</part>
 <part name="SUPPLY10" library="mylib" deviceset="GND" device=""/>
 <part name="SUPPLY11" library="mylib" deviceset="GND" device=""/>
-<part name="X1" library="con-samtec.local" deviceset="TSW-102-02-S-S" device="">
-<attribute name="AKIZUKI" value="1/10 C-08593"/>
-</part>
+<part name="X1" library="con-samtec.local" deviceset="TSW-102-02-S-S" device=""/>
 <part name="C7" library="mylib" deviceset="C_SMD_*" device="_1005" technology="0.1U" value="0.1u/1005"/>
 <part name="IC3" library="mylib" deviceset="IC_LPC11U*_QFN33" device="_5X5" technology="35" value="IC_LPC11U35_QFN33_5X5"/>
 <part name="C8" library="mylib" deviceset="C_SMD_*" device="_2012" technology="4.7U" value="4.7u/2012"/>
@@ -5104,7 +5111,7 @@ P0_2
 <attribute name="DIGIKEY" x="71.12" y="43.18" size="0.8128" layer="96" align="top-center" display="both"/>
 </instance>
 <instance part="IC2" gate="G$1" x="71.12" y="22.86">
-<attribute name="DIGIKEY" x="71.12" y="15.24" size="0.8128" layer="96" align="top-center" display="both"/>
+<attribute name="DIGIKEY" x="71.12" y="12.7" size="0.8128" layer="96" align="top-center" display="both"/>
 </instance>
 <instance part="D1" gate="G$1" x="88.9" y="45.72">
 <attribute name="AKIZUKI" x="88.9" y="48.26" size="0.8128" layer="96" display="both"/>
@@ -5116,12 +5123,12 @@ P0_2
 <instance part="C5" gate="G$1" x="104.14" y="33.02">
 <attribute name="DIGIKEY" x="101.6" y="25.4" size="0.8128" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="C6" gate="G$1" x="93.98" y="35.56" rot="MR0"/>
+<instance part="C6" gate="G$1" x="93.98" y="35.56" rot="MR0">
+<attribute name="NOT_COMPONENT" x="93.98" y="35.56" size="1.778" layer="96" rot="MR0" display="off"/>
+</instance>
 <instance part="SUPPLY10" gate="GND" x="45.72" y="17.78"/>
 <instance part="SUPPLY11" gate="GND" x="99.06" y="7.62"/>
-<instance part="X1" gate="-1" x="40.64" y="50.8">
-<attribute name="AKIZUKI" x="58.42" y="55.88" size="0.8128" layer="96" rot="R180" display="both"/>
-</instance>
+<instance part="X1" gate="-1" x="40.64" y="50.8"/>
 <instance part="X1" gate="-2" x="38.1" y="45.72" rot="R180"/>
 <instance part="C7" gate="G$1" x="50.8" y="35.56"/>
 <instance part="SUPPLY25" gate="GND" x="83.82" y="12.7"/>
