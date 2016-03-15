@@ -888,7 +888,7 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/TDA988
 <text x="-0.2" y="-1.6" size="0.8" layer="21" ratio="15">R
 G
 B</text>
-<text x="1.2" y="2.1" size="1" layer="25" ratio="20">&gt;NAME</text>
+<text x="0" y="0" size="1" layer="25" ratio="20" align="center">&gt;NAME</text>
 <wire x1="-2.45" y1="1.6" x2="-1.35" y2="1.6" width="0.4" layer="31"/>
 <wire x1="-1.35" y1="1.6" x2="-1.35" y2="1.2" width="0.4" layer="31"/>
 <wire x1="-1.35" y1="1.2" x2="-2.45" y2="1.2" width="0.4" layer="31"/>
@@ -3216,11 +3216,11 @@ Source: Samtec TSW.pdf</description>
 </classes>
 <parts>
 <part name="FRAME1" library="frames" deviceset="A4L-LOC" device=""/>
-<part name="U1" library="mylib" deviceset="LBCA2HNZYZ-711" device=""/>
+<part name="U1" library="mylib" deviceset="LBCA2HNZYZ-711" device="" value="LBCA2HNZYZ"/>
 <part name="SUPPLY1" library="mylib" deviceset="GND" device=""/>
-<part name="Q1" library="mylib" deviceset="CRYSTAL2_*" device="_2012" technology="32.768K"/>
+<part name="Q1" library="mylib" deviceset="CRYSTAL2_*" device="_2012" technology="32.768K" value="32.768K/2012"/>
 <part name="C2" library="mylib" deviceset="C_SMD_*" device="_1005" technology="0.1U" value="0.1u/1005"/>
-<part name="SW1" library="mylib" deviceset="TACTSW2_*" device="FSM2JMTR"/>
+<part name="SW1" library="mylib" deviceset="TACTSW2_*" device="FSM2JMTR" value="FSM2JMTR"/>
 <part name="R1" library="mylib" deviceset="R_US_*" device="_1005" technology="10K" value="10k/1005"/>
 <part name="C1" library="mylib" deviceset="C_SMD_*" device="_1608" technology="1.0U" value="1u/1608"/>
 <part name="C3" library="mylib" deviceset="C_SMD_*" device="_1608" technology="1.0U" value="1u/1608"/>
@@ -3232,8 +3232,8 @@ Source: Samtec TSW.pdf</description>
 <part name="SUPPLY6" library="mylib" deviceset="GND" device=""/>
 <part name="R2" library="mylib" deviceset="R_US_*" device="_1005" technology="33R" value="33/1005"/>
 <part name="R3" library="mylib" deviceset="R_US_*" device="_1005" technology="33R" value="33/1005"/>
-<part name="SW2" library="mylib" deviceset="TACTSW2_*" device="FSM2JMTR"/>
-<part name="SW3" library="mylib" deviceset="TACTSW2_*" device="FSM2JMTR"/>
+<part name="SW2" library="mylib" deviceset="TACTSW2_*" device="FSM2JMTR" value="FSM2JMTR"/>
+<part name="SW3" library="mylib" deviceset="TACTSW2_*" device="FSM2JMTR" value="FSM2JMTR"/>
 <part name="SUPPLY8" library="mylib" deviceset="GND" device=""/>
 <part name="SUPPLY9" library="mylib" deviceset="GND" device=""/>
 <part name="R6" library="mylib" deviceset="R_US_*" device="_1005" technology="10K" value="10k/1005"/>
@@ -3253,39 +3253,39 @@ Source: Samtec TSW.pdf</description>
 <part name="C10" library="mylib" deviceset="C_SMD_*" device="_1005" technology="18P" value="18p/1005"/>
 <part name="SUPPLY14" library="mylib" deviceset="GND" device=""/>
 <part name="SUPPLY15" library="mylib" deviceset="GND" device=""/>
-<part name="TR1" library="mylib" deviceset="PMOS_*" device="_SOT23" technology="BSS84" value="PMOS_BSS84_SOT23"/>
+<part name="TR1" library="mylib" deviceset="PMOS_*" device="_SOT23" technology="BSS84" value="BSS84"/>
 <part name="R10" library="mylib" deviceset="R_US_*" device="_1005" technology="1.5K" value="1.5k/1005"/>
-<part name="R4" library="mylib" deviceset="R_US_*" device="_1005" technology="1.0K"/>
-<part name="R5" library="mylib" deviceset="R_US_*" device="_1005" technology="1.0K"/>
-<part name="R11" library="mylib" deviceset="R_US_*" device="_1005" technology="1.0K"/>
+<part name="R4" library="mylib" deviceset="R_US_*" device="_1005" technology="1.0K" value="1k/1005"/>
+<part name="R5" library="mylib" deviceset="R_US_*" device="_1005" technology="1.0K" value="1k/1005"/>
+<part name="R11" library="mylib" deviceset="R_US_*" device="_1005" technology="1.0K" value="1k/1005"/>
 <part name="SUPPLY16" library="mylib" deviceset="GND" device=""/>
 <part name="LED1" library="mylib" deviceset="LED_3SEG" device=""/>
 <part name="X1" library="mylib" deviceset="TSW-114-02-S-S" device="" value="TSW-114-02-S-S">
 <attribute name="NOT_COMPONENT" value="YES"/>
 </part>
-<part name="TP100" library="mylib" deviceset="TESTPAD" device="_F" value="TESTPAD_F"/>
-<part name="TP101" library="mylib" deviceset="TESTPAD" device="_F" value="TESTPAD_F"/>
-<part name="TP102" library="mylib" deviceset="TESTPAD" device="_F" value="TESTPAD_F"/>
-<part name="Q2" library="mylib" deviceset="CRYSTAL4_*" device="_3225" technology="12M"/>
-<part name="IC4" library="mylib" deviceset="IC_MEMORY_8P_*" device="_SOP" technology="AT25DN512C"/>
-<part name="IC5" library="mylib" deviceset="IC_MEMORY_8P_*" device="_SOP" technology="AT25XE011"/>
-<part name="IC2" library="mylib" deviceset="IC_LPC11U*_QFN33" device="_5X5" technology="35"/>
+<part name="TP100" library="mylib" deviceset="TESTPAD" device="_F" value="NC"/>
+<part name="TP101" library="mylib" deviceset="TESTPAD" device="_F" value="NC"/>
+<part name="TP102" library="mylib" deviceset="TESTPAD" device="_F" value="NC"/>
+<part name="Q2" library="mylib" deviceset="CRYSTAL4_*" device="_3225" technology="12M" value="12M/3225"/>
+<part name="IC4" library="mylib" deviceset="IC_MEMORY_8P_*" device="_SOP" technology="AT25DN512C" value="AT25DN512C"/>
+<part name="IC5" library="mylib" deviceset="IC_MEMORY_8P_*" device="_SOP" technology="AT25XE011" value="AT25XE011"/>
+<part name="IC2" library="mylib" deviceset="IC_LPC11U*_QFN33" device="_5X5" technology="35" value="LPC11U35_QFN33"/>
 <part name="SUPPLY17" library="mylib" deviceset="GND" device=""/>
 <part name="SUPPLY18" library="mylib" deviceset="GND" device=""/>
 <part name="C11" library="mylib" deviceset="C_SMD_*" device="_1005" technology="0.1U" value="0.1u/1005"/>
 <part name="C12" library="mylib" deviceset="C_SMD_*" device="_1005" technology="0.1U" value="0.1u/1005"/>
 <part name="ICON1" library="mylib" deviceset="ICON_REVISION" device="_1.2" value="r0.4"/>
-<part name="ICON2" library="mylib" deviceset="ICON_OSHW" device=""/>
-<part name="CON1" library="mylib" deviceset="CON_USB" device="_UB"/>
-<part name="P1" library="mylib" deviceset="PCB_CORNER" device="_NH"/>
-<part name="P2" library="mylib" deviceset="PCB_CORNER" device="_NH"/>
-<part name="P3" library="mylib" deviceset="PCB_CORNER" device="_NH"/>
-<part name="P4" library="mylib" deviceset="PCB_CORNER" device="_NH"/>
+<part name="ICON2" library="mylib" deviceset="ICON_OSHW" device="" value="NC"/>
+<part name="CON1" library="mylib" deviceset="CON_USB" device="_UB" value="47589-0001"/>
+<part name="P1" library="mylib" deviceset="PCB_CORNER" device="_NH" value="NC"/>
+<part name="P2" library="mylib" deviceset="PCB_CORNER" device="_NH" value="NC"/>
+<part name="P3" library="mylib" deviceset="PCB_CORNER" device="_NH" value="NC"/>
+<part name="P4" library="mylib" deviceset="PCB_CORNER" device="_NH" value="NC"/>
 <part name="C13" library="mylib" deviceset="C_SMD_*" device="_1005" technology="0.1U" value="0.1u/1005"/>
-<part name="R12" library="mylib" deviceset="R_US_*" device="_1005SHORT"/>
-<part name="R13" library="mylib" deviceset="R_US_*" device="_1005SHORT"/>
-<part name="IC3" library="mylib" deviceset="IC_TTL_SINGLE_74_00" device="_SOT23"/>
-<part name="GIT1" library="git-revision" deviceset="GIT-REVISION" device=""/>
+<part name="R12" library="mylib" deviceset="R_US_*" device="_1005SHORT" value="NC"/>
+<part name="R13" library="mylib" deviceset="R_US_*" device="_1005SHORT" value="NC"/>
+<part name="IC3" library="mylib" deviceset="IC_TTL_SINGLE_74_00" device="_SOT23" value="NC7SZ00"/>
+<part name="GIT1" library="git-revision" deviceset="GIT-REVISION" device="" value="688904b"/>
 <part name="X2" library="mylib" deviceset="TSW-114-02-S-S" device="" value="TSW-114-02-S-S">
 <attribute name="NOT_COMPONENT" value="YES"/>
 </part>
@@ -3445,7 +3445,7 @@ P0_1 &lt;- TGT_RX</text>
 <instance part="R12" gate="G$1" x="190.5" y="53.34"/>
 <instance part="R13" gate="G$1" x="190.5" y="50.8"/>
 <instance part="IC3" gate="G$1" x="99.06" y="157.48">
-<attribute name="DIGIKEY" x="83.82" y="144.78" size="1.778" layer="96" display="both"/>
+<attribute name="DIGIKEY" x="86.36" y="144.78" size="1.778" layer="96" display="both"/>
 </instance>
 <instance part="GIT1" gate="G$1" x="195.58" y="20.32"/>
 <instance part="X2" gate="-1" x="271.78" y="93.98" rot="MR0">
@@ -3986,21 +3986,15 @@ P0_1 &lt;- TGT_RX</text>
 <pinref part="IC2" gate="G$1" pin="P0_2/SSEL0"/>
 </segment>
 <segment>
-<wire x1="68.58" y1="152.4" x2="78.74" y2="152.4" width="0.1524" layer="91"/>
-<label x="60.96" y="152.4" size="1.778" layer="95"/>
+<wire x1="68.58" y1="154.94" x2="78.74" y2="154.94" width="0.1524" layer="91"/>
+<label x="60.96" y="154.94" size="1.778" layer="95"/>
 <pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="78.74" y1="152.4" x2="83.82" y2="152.4" width="0.1524" layer="91"/>
-<wire x1="78.74" y1="160.02" x2="78.74" y2="152.4" width="0.1524" layer="91"/>
-<junction x="78.74" y="152.4"/>
+<wire x1="78.74" y1="160.02" x2="78.74" y2="154.94" width="0.1524" layer="91"/>
+<junction x="78.74" y="154.94"/>
 <pinref part="SW1" gate="G$1" pin="S"/>
-<wire x1="78.74" y1="152.4" x2="78.74" y2="147.32" width="0.1524" layer="91"/>
-<wire x1="83.82" y1="149.86" x2="83.82" y2="152.4" width="0.1524" layer="91"/>
-<wire x1="83.82" y1="154.94" x2="83.82" y2="152.4" width="0.1524" layer="91"/>
-<junction x="83.82" y="152.4"/>
+<wire x1="78.74" y1="154.94" x2="78.74" y2="147.32" width="0.1524" layer="91"/>
 <pinref part="IC3" gate="G$1" pin="1A"/>
-<wire x1="83.82" y1="154.94" x2="88.9" y2="154.94" width="0.1524" layer="91"/>
-<pinref part="IC3" gate="G$1" pin="1B"/>
-<wire x1="88.9" y1="149.86" x2="83.82" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="154.94" x2="88.9" y2="154.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="FB_BL" class="0">
@@ -4086,6 +4080,14 @@ P0_1 &lt;- TGT_RX</text>
 <pinref part="R9" gate="G$1" pin="2"/>
 <wire x1="101.6" y1="106.68" x2="111.76" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="G$1" pin="!RESET!"/>
+<label x="106.68" y="106.68" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="83.82" y1="142.24" x2="96.52" y2="142.24" width="0.1524" layer="91"/>
+<pinref part="IC3" gate="G$1" pin="1B"/>
+<wire x1="88.9" y1="149.86" x2="83.82" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="149.86" x2="83.82" y2="142.24" width="0.1524" layer="91"/>
+<label x="91.44" y="142.24" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VPP" class="0">
