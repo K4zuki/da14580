@@ -288,11 +288,11 @@ BLE module breakout</text>
 <text x="27.3" y="30.4" size="1" layer="125" ratio="20" rot="R90" align="center">C10</text>
 <text x="26.3" y="25.9" size="1" layer="126" ratio="20" rot="SMR0" align="center">C11</text>
 <text x="17.3" y="25.9" size="1" layer="126" ratio="20" rot="SMR0" align="center">C12</text>
-<text x="24.3" y="28.8" size="1" layer="125" ratio="20" align="center">C13</text>
+<text x="21.9" y="30" size="1" layer="125" ratio="20" align="center">C13</text>
 <text x="29" y="15.9" size="1" layer="125" ratio="20" rot="R90" align="center">CON1</text>
 <text x="26.5" y="21.6" size="1.2" layer="125" ratio="17" align="center">IC1</text>
 <text x="32.8" y="35" size="1.2" layer="125" ratio="17" rot="R90" align="center">IC2</text>
-<text x="15.29999375" y="31.4000125" size="1.2" layer="125" ratio="17" rot="SR0" align="center">IC3</text>
+<text x="15.29999375" y="32.0000125" size="1.2" layer="125" ratio="17" rot="SR0" align="center">IC3</text>
 <text x="19.3" y="18.2" size="1.2" layer="126" ratio="17" rot="SMR0" align="center">IC4</text>
 <text x="28.6" y="18.2" size="1.2" layer="126" ratio="17" rot="MR180" align="center">IC5</text>
 <text x="16.2" y="11.4" size="1" layer="125" ratio="20" align="center">LED1</text>
@@ -1872,7 +1872,7 @@ design rules under a new name.</description>
 <attribute name="DIGIKEY" value="490-3261-1-ND" x="24.3" y="30" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER" value="" x="24.3" y="30" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="AKIZUKI" value="" x="24.3" y="30" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="24.3" y="28.8" size="1" layer="25" font="vector" ratio="20" align="center"/>
+<attribute name="NAME" x="21.9" y="30" size="1" layer="25" font="vector" ratio="20" align="center"/>
 <attribute name="VALUE" x="24.3" y="30" size="1" layer="27" font="vector" rot="R180" align="center"/>
 </element>
 <element name="R12" library="mylib" package="R0402SHORT" value="NC" x="24.8" y="43.2" smashed="yes" rot="R90">
@@ -1887,7 +1887,7 @@ design rules under a new name.</description>
 </element>
 <element name="IC3" library="mylib" package="SOT95P280X145-5N" value="NC7SZ00" x="18.7" y="32" smashed="yes" rot="R180">
 <attribute name="DIGIKEY" value="NC7SZ00M5XCT-ND" x="18.7" y="32" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="15.3" y="31.4" size="1.2" layer="25" font="vector" ratio="17" rot="SR0" align="center"/>
+<attribute name="NAME" x="15.3" y="32" size="1.2" layer="25" font="vector" ratio="17" rot="SR0" align="center"/>
 <attribute name="VALUE" x="18.7" y="32" size="1.2" layer="27" rot="SR180" align="center"/>
 </element>
 <element name="GIT1" library="git-revision" package="GIT-REVISION" value="688904b" x="0" y="0">
@@ -2611,11 +2611,7 @@ design rules under a new name.</description>
 <signal name="VUSB">
 <contactref element="C1" pad="1"/>
 <contactref element="CON1" pad="1"/>
-<wire x1="23.2" y1="15.05" x2="23.2" y2="16.3" width="0.4" layer="1"/>
-<wire x1="23.2" y1="16.3" x2="23.2" y2="16.9" width="0.4" layer="1"/>
-<wire x1="23.2" y1="16.9" x2="22.8" y2="17.3" width="0.4" layer="1"/>
-<wire x1="23.2" y1="16.9" x2="23.2" y2="17.6" width="0.4" layer="1"/>
-<wire x1="22.8" y1="16.7" x2="23.2" y2="16.3" width="0.4" layer="1"/>
+<wire x1="23.2" y1="15.05" x2="23.2" y2="16.6" width="0.4" layer="1"/>
 <contactref element="IC1" pad="4"/>
 <contactref element="IC1" pad="3"/>
 <contactref element="IC1" pad="2"/>
@@ -2631,14 +2627,20 @@ design rules under a new name.</description>
 <wire x1="24.2" y1="21.3" x2="23.8" y2="20.9" width="0.4" layer="1"/>
 <wire x1="23.2" y1="21.5" x2="23.8" y2="21.5" width="0.4" layer="1"/>
 <wire x1="23.8" y1="21.5" x2="24.4" y2="21.5" width="0.4" layer="1"/>
-<wire x1="23.8" y1="20.9" x2="23.8" y2="19.6" width="1.2" layer="1"/>
-<wire x1="23.8" y1="19.6" x2="22.8" y2="18.6" width="1.2" layer="1"/>
-<wire x1="22.8" y1="18.6" x2="22.8" y2="17.3" width="1.2" layer="1"/>
-<wire x1="22.8" y1="16.7" x2="22.4" y2="17.1" width="0.4" layer="1"/>
-<wire x1="22.4" y1="17.1" x2="22.4" y2="17.6" width="0.4" layer="1"/>
-<wire x1="22.8" y1="16.7" x2="22.8" y2="17.3" width="0.4" layer="1"/>
+<wire x1="23.8" y1="20.9" x2="23.8" y2="19.1" width="1.2" layer="1"/>
+<wire x1="23.8" y1="19.1" x2="23.6" y2="18.8" width="1.2" layer="1"/>
+<wire x1="23.6" y1="18.8" x2="23.6" y2="17.8" width="1.2" layer="1"/>
+<wire x1="23.2" y1="16.6" x2="23.6" y2="17" width="0.4" layer="1"/>
+<wire x1="23.6" y1="17" x2="23.8" y2="17.2" width="0.4" layer="1"/>
+<wire x1="23.8" y1="17.2" x2="24" y2="17.4" width="0.4" layer="1"/>
 <wire x1="23.4" y1="21.3" x2="23.4" y2="20.9" width="0.4" layer="1"/>
 <wire x1="24.2" y1="21.3" x2="24.2" y2="20.9" width="0.4" layer="1"/>
+<wire x1="24" y1="17.4" x2="24" y2="17.8" width="0.4" layer="1"/>
+<wire x1="23.6" y1="17.8" x2="24" y2="17.8" width="0.4" layer="1"/>
+<wire x1="23.6" y1="17.8" x2="23.6" y2="17" width="0.4" layer="1"/>
+<wire x1="23.2" y1="16.6" x2="23.2" y2="17.2" width="0.4" layer="1"/>
+<wire x1="23.2" y1="17.2" x2="23.2" y2="17.8" width="0.4" layer="1"/>
+<wire x1="23.2" y1="17.2" x2="23.8" y2="17.2" width="0.4" layer="1"/>
 </signal>
 <signal name="N$20">
 <contactref element="R3" pad="2"/>
@@ -2674,12 +2676,12 @@ design rules under a new name.</description>
 <contactref element="IC3" pad="1"/>
 <contactref element="IC3" pad="2"/>
 <wire x1="20" y1="32" x2="20" y2="31.9" width="0.25" layer="1"/>
-<wire x1="20" y1="31.05" x2="20" y2="31.1" width="0.25" layer="1"/>
-<wire x1="20" y1="31.1" x2="20.9" y2="31.1" width="0.25" layer="1"/>
-<wire x1="20.9" y1="31.1" x2="21" y2="31.2" width="0.25" layer="1"/>
-<wire x1="20" y1="31.9" x2="20.9" y2="31.9" width="0.25" layer="1"/>
-<wire x1="20.9" y1="31.9" x2="21" y2="31.8" width="0.25" layer="1"/>
-<wire x1="21" y1="31.8" x2="21" y2="31.4" width="0.25" layer="1"/>
+<wire x1="20" y1="31.05" x2="20" y2="31" width="0.25" layer="1"/>
+<wire x1="20" y1="31" x2="20.8" y2="31" width="0.25" layer="1"/>
+<wire x1="20.8" y1="31" x2="21" y2="31.2" width="0.25" layer="1"/>
+<wire x1="20" y1="31.9" x2="20.8" y2="31.9" width="0.25" layer="1"/>
+<wire x1="20.8" y1="31.9" x2="21" y2="31.7" width="0.25" layer="1"/>
+<wire x1="21" y1="31.7" x2="21" y2="31.4" width="0.25" layer="1"/>
 <wire x1="21" y1="31.4" x2="21" y2="31.2" width="0.25" layer="1"/>
 <wire x1="21" y1="31.2" x2="21.2" y2="31.2" width="0.25" layer="1"/>
 <wire x1="21.2" y1="31.2" x2="22.3" y2="31.2" width="0.25" layer="1"/>
@@ -2861,12 +2863,12 @@ design rules under a new name.</description>
 <signal name="N$9">
 <contactref element="R5" pad="1"/>
 <contactref element="IC2" pad="10"/>
-<via x="22.5" y="28.7" extent="1-16" drill="0.3"/>
+<via x="23.6" y="28.7" extent="1-16" drill="0.3"/>
 <wire x1="15.6" y1="28.3" x2="23.2" y2="28.3" width="0.25" layer="16"/>
-<wire x1="23.2" y1="28.3" x2="22.5" y2="28.7" width="0.25" layer="16"/>
+<wire x1="23.2" y1="28.3" x2="23.6" y2="28.7" width="0.25" layer="16"/>
 <wire x1="27.35" y1="32.35" x2="27.35" y2="31.85" width="0.25" layer="1"/>
 <wire x1="27.35" y1="31.85" x2="27.3" y2="31.8" width="0.25" layer="1"/>
-<wire x1="22.5" y1="28.7" x2="24.8" y2="28.7" width="0.25" layer="1"/>
+<wire x1="23.6" y1="28.7" x2="24.8" y2="28.7" width="0.25" layer="1"/>
 <wire x1="24.8" y1="28.7" x2="27.3" y2="31.2" width="0.25" layer="1"/>
 <wire x1="27.3" y1="31.2" x2="27.3" y2="31.8" width="0.25" layer="1"/>
 <wire x1="13.8" y1="26.5" x2="15.6" y2="28.3" width="0.25" layer="1"/>
