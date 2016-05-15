@@ -891,7 +891,7 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/TDA988
 <text x="-0.2" y="-1.6" size="0.8" layer="21" ratio="15">R
 G
 B</text>
-<text x="1.2" y="2.1" size="1" layer="25" ratio="20">&gt;NAME</text>
+<text x="0" y="0" size="1" layer="25" ratio="20" align="center">&gt;NAME</text>
 <wire x1="-2.45" y1="1.6" x2="-1.35" y2="1.6" width="0.4" layer="31"/>
 <wire x1="-1.35" y1="1.6" x2="-1.35" y2="1.2" width="0.4" layer="31"/>
 <wire x1="-1.35" y1="1.2" x2="-2.45" y2="1.2" width="0.4" layer="31"/>
@@ -3447,6 +3447,7 @@ Source: Samtec TSW.pdf</description>
 <package name="GIT-REVISION">
 <text x="0" y="0" size="1.27" layer="51">&gt;GIT</text>
 <circle x="0" y="0" radius="0.2" width="0.2" layer="51"/>
+<text x="0" y="0" size="1" layer="21" ratio="20" align="center">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
@@ -4023,6 +4024,11 @@ P0_1 &lt;- TGT_RX</text>
 <pinref part="R1" gate="G$1" pin="1"/>
 <wire x1="111.76" y1="71.12" x2="111.76" y2="66.04" width="0.1524" layer="91"/>
 <label x="111.76" y="71.12" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="317.5" y1="66.04" x2="330.2" y2="66.04" width="0.1524" layer="91"/>
+<pinref part="X2" gate="-1" pin="1"/>
+<label x="325.12" y="66.04" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="RESET" class="0">
