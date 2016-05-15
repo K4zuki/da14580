@@ -1013,7 +1013,7 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/TDA988
 <wire x1="1.5" y1="-0.7" x2="1.45" y2="-0.7" width="0.2" layer="21"/>
 <wire x1="-1.5" y1="0.7" x2="-0.65" y2="0.7" width="0.2" layer="21"/>
 <wire x1="1.5" y1="0.7" x2="0.55" y2="0.7" width="0.2" layer="21"/>
-<text x="0" y="0" size="1" layer="21" font="vector" ratio="20" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1" layer="25" font="vector" ratio="20" align="center">&gt;NAME</text>
 <text x="0" y="0" size="1" layer="27" font="vector" align="center">&gt;VALUE</text>
 <rectangle x1="-0.4" y1="0.65" x2="0.4" y2="1.75" layer="29"/>
 <rectangle x1="-1.3" y1="-1.75" x2="-0.5" y2="-0.65" layer="29"/>
@@ -2108,10 +2108,10 @@ SOT23-5&lt;br&gt;</description>
 <text x="-2.032" y="-4.318" size="1.524" layer="95">G/ADJ</text>
 <text x="-4.445" y="-0.635" size="1.524" layer="95">IN</text>
 <text x="0.635" y="-0.635" size="1.524" layer="95">OUT</text>
-<pin name="IN" x="-7.62" y="0" visible="off" length="short" direction="pwr"/>
-<pin name="ADJ" x="0" y="-7.62" visible="off" length="short" direction="pwr" rot="R90"/>
-<pin name="OUT" x="7.62" y="0" visible="off" length="short" direction="pwr" rot="R180"/>
-<pin name="OUT/EN/NC" x="0" y="5.08" visible="off" length="short" direction="hiz" rot="R270"/>
+<pin name="IN" x="-7.62" y="0" visible="pad" length="short" direction="pwr"/>
+<pin name="ADJ" x="0" y="-7.62" visible="pad" length="short" direction="pwr" rot="R90"/>
+<pin name="OUT" x="7.62" y="0" visible="pad" length="short" direction="pwr" rot="R180"/>
+<pin name="OUT/EN/NC" x="0" y="5.08" visible="pad" length="short" direction="hiz" rot="R270"/>
 </symbol>
 <symbol name="TR_PMOS_GDS">
 <wire x1="-1.778" y1="-0.762" x2="-1.778" y2="0" width="0.254" layer="94"/>
@@ -2236,9 +2236,9 @@ SOT23-5&lt;br&gt;</description>
 <text x="0" y="10.16" size="1.778" layer="95" align="bottom-center">&gt;Name</text>
 <text x="0" y="-10.16" size="1.778" layer="96" align="top-center">&gt;Value</text>
 <pin name="VCC" x="-10.16" y="7.62" length="short" direction="pwr"/>
-<pin name="1B" x="-10.16" y="-7.62" visible="pad" length="short" direction="in"/>
+<pin name="1B" x="-10.16" y="-7.62" visible="pad" length="short" direction="in" swaplevel="1"/>
 <pin name="GND" x="-10.16" y="2.54" length="short" direction="pwr"/>
-<pin name="1A" x="-10.16" y="-2.54" visible="pad" length="short" direction="in"/>
+<pin name="1A" x="-10.16" y="-2.54" visible="pad" length="short" direction="in" swaplevel="1"/>
 <pin name="1Y" x="10.16" y="-5.08" visible="pad" length="short" direction="out" rot="R180"/>
 </symbol>
 <symbol name="ICON_REVISION">
@@ -4840,6 +4840,7 @@ Source: Samtec TSW.pdf</description>
 <package name="GIT-REVISION">
 <text x="0" y="0" size="1.27" layer="51">&gt;GIT</text>
 <circle x="0" y="0" radius="0.2" width="0.2" layer="51"/>
+<text x="0" y="0" size="1" layer="21" ratio="20" align="center">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
