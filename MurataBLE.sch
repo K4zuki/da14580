@@ -3555,7 +3555,7 @@ Source: Samtec TSW.pdf</description>
 <part name="R12" library="mylib" deviceset="R_US_*" device="_1005SHORT" value="NC"/>
 <part name="R13" library="mylib" deviceset="R_US_*" device="_1005SHORT" value="NC"/>
 <part name="IC3" library="mylib" deviceset="IC_TTL_SINGLE_74_00" device="_SOT23" value="NC7SZ00"/>
-<part name="GIT1" library="git-revision" deviceset="GIT-REVISION" device="" value="688904b"/>
+<part name="GIT1" library="git-revision" deviceset="GIT-REVISION" device="" value="aef7891"/>
 <part name="X2" library="mylib" deviceset="TSW-114-02-S-S" device="" value="TSW-114-02-S-S">
 <attribute name="NOT_COMPONENT" value="YES"/>
 </part>
@@ -3567,7 +3567,7 @@ Source: Samtec TSW.pdf</description>
 <part name="R18" library="mylib" deviceset="R_US_*" device="_1005" technology="1.0K" value="1k/1005"/>
 <part name="SUPPLY7" library="mylib" deviceset="GND" device=""/>
 <part name="SUPPLY16" library="mylib" deviceset="GND" device=""/>
-<part name="IC1" library="mylib" deviceset="LDO4_*" device="_DRJ" technology="3.3"/>
+<part name="IC1" library="mylib" deviceset="LDO4_*" device="_DRJ" technology="3.3" value="TLV1117-33IDRJR"/>
 </parts>
 <sheets>
 <sheet>

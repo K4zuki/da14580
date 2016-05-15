@@ -1851,7 +1851,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="15.3" y="32" size="1.2" layer="25" font="vector" ratio="17" rot="SR0" align="center"/>
 <attribute name="VALUE" x="18.7" y="32" size="1.2" layer="27" rot="SR180" align="center"/>
 </element>
-<element name="GIT1" library="git-revision" package="GIT-REVISION" value="688904b" x="32.2" y="13.9" rot="R90">
+<element name="GIT1" library="git-revision" package="GIT-REVISION" value="aef7891" x="32.2" y="13.9" rot="R90">
 <attribute name="NOT_COMPONENT" value="YES" x="32.2" y="13.9" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="X2" library="mylib" package="TSW-114-07-F-S" value="TSW-114-02-S-S" x="11.8" y="35" locked="yes" smashed="yes" rot="R270">
@@ -1906,7 +1906,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="14.5" y="57.9" size="1" layer="25" font="vector" ratio="20" rot="R180" align="center"/>
 <attribute name="VALUE" x="11.9" y="53.9" size="1" layer="27" font="vector" rot="R180" align="center"/>
 </element>
-<element name="IC1" library="mylib" package="DFN80P410X410_8N" value="" x="23.4" y="24.6" smashed="yes">
+<element name="IC1" library="mylib" package="DFN80P410X410_8N" value="TLV1117-33IDRJR" x="23.4" y="24.6" smashed="yes">
 <attribute name="DIGIKEY" value="296-32364-1-ND" x="23.4" y="24.6" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER" value="" x="23.4" y="24.6" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="26.5" y="21.6" size="1.2" layer="25" ratio="17" align="center"/>
