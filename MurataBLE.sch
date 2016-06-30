@@ -2235,7 +2235,7 @@ Source: Samtec TSW.pdf</description>
 <pin name="P0_18/RXD&lt;-" x="22.86" y="-58.42" length="middle" rot="R180"/>
 <pin name="P0_17/!RTS!" x="22.86" y="-55.88" length="middle" rot="R180"/>
 <pin name="P1_15" x="22.86" y="-53.34" length="middle" rot="R180"/>
-<pin name="P0_32/AD7" x="22.86" y="-50.8" length="middle" rot="R180"/>
+<pin name="P0_23/AD7" x="22.86" y="-50.8" length="middle" rot="R180"/>
 <pin name="P0_16/AD5" x="22.86" y="-48.26" length="middle" rot="R180"/>
 <pin name="P0_15/SWDIO/AD4" x="22.86" y="-45.72" length="middle" rot="R180"/>
 <pin name="P0_14/AD3" x="22.86" y="-43.18" length="middle" rot="R180"/>
@@ -3211,7 +3211,7 @@ Source: Samtec TSW.pdf</description>
 <connect gate="G$1" pin="P0_20" pad="7"/>
 <connect gate="G$1" pin="P0_21/MOSI1" pad="12"/>
 <connect gate="G$1" pin="P0_22/MISO1" pad="20"/>
-<connect gate="G$1" pin="P0_32/AD7" pad="27"/>
+<connect gate="G$1" pin="P0_23/AD7" pad="27"/>
 <connect gate="G$1" pin="P0_4/SCL" pad="10"/>
 <connect gate="G$1" pin="P0_5/SDA" pad="11"/>
 <connect gate="G$1" pin="P0_7/CTS" pad="16"/>
@@ -3447,7 +3447,6 @@ Source: Samtec TSW.pdf</description>
 <package name="GIT-REVISION">
 <text x="0" y="0" size="1.27" layer="51">&gt;GIT</text>
 <circle x="0" y="0" radius="0.2" width="0.2" layer="51"/>
-<text x="0" y="0" size="1" layer="21" ratio="20" align="center">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
@@ -3602,6 +3601,10 @@ P0_1 &lt;- TGT_RX</text>
 <text x="337.82" y="175.26" size="1.778" layer="94">P0_2/CS</text>
 <text x="337.82" y="162.56" size="1.778" layer="94">P0_7/MOSI</text>
 <text x="337.82" y="165.1" size="1.778" layer="94">P0_6/SCK</text>
+<text x="256.54" y="210.82" size="1.778" layer="94">P0_21</text>
+<text x="256.54" y="208.28" size="1.778" layer="94">P0_9</text>
+<text x="256.54" y="205.74" size="1.778" layer="94">P0_8</text>
+<text x="337.82" y="203.2" size="1.778" layer="94">P0_7</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
@@ -4487,7 +4490,7 @@ P0_1 &lt;- TGT_RX</text>
 </net>
 <net name="P0_32" class="0">
 <segment>
-<pinref part="IC2" gate="G$1" pin="P0_32/AD7"/>
+<pinref part="IC2" gate="G$1" pin="P0_23/AD7"/>
 <wire x1="162.56" y1="116.84" x2="167.64" y2="116.84" width="0.1524" layer="91"/>
 <label x="167.64" y="116.84" size="1.778" layer="95"/>
 </segment>

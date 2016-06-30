@@ -1343,7 +1343,6 @@ Source: Samtec TSW.pdf</description>
 <package name="GIT-REVISION">
 <text x="0" y="0" size="1.27" layer="51">&gt;GIT</text>
 <circle x="0" y="0" radius="0.2" width="0.2" layer="51"/>
-<text x="0" y="0" size="1" layer="21" ratio="20" align="center">&gt;VALUE</text>
 </package>
 </packages>
 </library>
