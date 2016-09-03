@@ -7,3 +7,4 @@
 */*.zip
 *.pdf
 .*.lck
+.DS_Store
