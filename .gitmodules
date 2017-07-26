@@ -1,3 +1,6 @@
 [submodule "sdk"]
 	path = sdk
 	url = git@github.com:K4zuki/da14580sdk.git
+[submodule "sensor9dof"]
+	path = sensor9dof
+	url = git@github.com:K4zuki/sensor9dof.git
